@@ -8,7 +8,7 @@ import VKIcon from 'assets/vk.svg'
 import OKIcon from 'assets/ok.svg'
 import TelegramIcon from 'assets/telegram.svg'
 
-const ReviewModal = ({ messages, isOpen, onClose }) => {
+const UnlockModal = ({ messages, isOpen, onClose }) => {
   const showShareModal = Math.random() < 0.1
 
   const shareText = encodeURIComponent(
@@ -16,7 +16,7 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
   )
   const shareUrl = encodeURIComponent('https://1vpn.org')
 
-  const socialPlatforms = [
+  const sharePlatforms = [
     {
       name: 'X (Twitter)',
       url: `https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`,
@@ -56,7 +56,7 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
   ]
 
   const handleReviewClick = () => {
-    chrome.storage.local.set({ reviewed: true }).then(() => {
+    chrome.storage.local.set({ unlocked: true }).then(() => {
       onClose()
       const trustpilotUrl = 'https://trustpilot.com/evaluate/1vpn.org'
       const openTrustpilot = Math.random() < 0.02
@@ -64,8 +64,8 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
     })
   }
 
-  const handleSocialShare = (platform) => {
-    chrome.storage.local.set({ reviewed: true }).then(() => {
+  const handleShare = (platform) => {
+    chrome.storage.local.set({ unlocked: true }).then(() => {
       onClose()
       window.open(platform.url, '_blank')
     })
@@ -93,10 +93,10 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
             maxWidth: '200px',
           }}
         >
-          {socialPlatforms.map((platform) => (
+          {sharePlatforms.map((platform) => (
             <Button
               key={platform.name}
-              onClick={() => handleSocialShare(platform)}
+              onClick={() => handleShare(platform)}
               sx={{
                 width: '40px',
                 height: '40px',
@@ -137,4 +137,4 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
   )
 }
 
-export default ReviewModal
+export default UnlockModal

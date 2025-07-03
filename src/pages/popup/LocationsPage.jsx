@@ -4,7 +4,7 @@ import { isFirefox, websiteUrl } from 'utils/constants'
 import flags from 'utils/flags'
 import PageHeader from './PageHeader'
 import Toggle from './Toggle'
-import ReviewModal from './ReviewModal'
+import UnlockModal from './UnlockModal'
 
 const LocationsPage = ({
   locations,
@@ -13,7 +13,7 @@ const LocationsPage = ({
   installDate,
   messages,
 }) => {
-  const [isReviewModalOpen, setIsReviewModalOpen] = useState(false)
+  const [isUnlockModalOpen, setisUnlockModalOpen] = useState(false)
 
   return (
     <PageHeader
@@ -22,10 +22,10 @@ const LocationsPage = ({
         p: '0 0 0 24px',
       }}
     >
-      <ReviewModal
+      <UnlockModal
         messages={messages}
-        isOpen={isReviewModalOpen}
-        onClose={() => setIsReviewModalOpen(false)}
+        isOpen={isUnlockModalOpen}
+        onClose={() => setisUnlockModalOpen(false)}
       />
       <Flex
         sx={{
@@ -56,11 +56,11 @@ const LocationsPage = ({
                       url: `${websiteUrl}/select_plan`,
                     })
                   } else if (location.ratingLocked) {
-                    chrome.storage.local.get(['reviewed'], (result) => {
-                      if (result.reviewed === true) {
+                    chrome.storage.local.get(['unlocked'], (result) => {
+                      if (result.unlocked === true) {
                         handleLocationToggle(location)
                       } else {
-                        setIsReviewModalOpen(true)
+                        setisUnlockModalOpen(true)
                       }
                     })
                   } else {
