@@ -46,6 +46,18 @@
     "message": "Deixe uma avaliação de 5 estrelas para desbloquear este local"
   },
   "reviewModalButton": { "message": "Deixar avaliação" },
+  "shareModalTitle": {
+    "message": "Compartilhe o 1VPN para desbloquear esta localização"
+  },
+  "shareText": {
+    "message": "Acabei de experimentar o 1VPN, um VPN gratuito, simples e seguro com dados ilimitados e alta velocidade. Veja em https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": { "message": "Faça o upgrade para acessar este local" },
   "installSuccess": {
     "message": "1VPN foi instalado com sucesso"

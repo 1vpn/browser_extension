@@ -46,8 +46,18 @@
     "message": "Залиште 5-зірковий відгук, щоб розблокувати це місце"
   },
   "reviewModalButton": { "message": "Залишити відгук" },
-  "rateText1": { "message": "Якщо вам подобається 1VPN, будь ласка" },
-  "rateText2": { "message": "оцініть нас на 5 зірок" },
+  "shareModalTitle": {
+    "message": "Поділіться 1VPN, щоб розблокувати це місце"
+  },
+  "shareText": {
+    "message": "Я щойно спробував 1VPN — безкоштовний, простий і безпечний VPN з необмеженими даними та високою швидкістю. Перевірте на https://1vpn.org"
+  },
+  "x": { "message": "X (Твіттер)" },
+  "facebook": { "message": "Фейсбук" },
+  "linkedin": { "message": "Лінкедін" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Телеграм" },
   "upgradeLocation": {
     "message": "Перейдіть на преміум план підписки, щоб отримати доступ до цієї локації"
   },

@@ -48,8 +48,18 @@
     "message": "Zostaw recenzję 5-gwiazdkową, aby odblokować tę lokalizację"
   },
   "reviewModalButton": { "message": "Zostaw recenzję" },
-  "rateText1": { "message": "Jeśli podoba Ci się 1VPN," },
-  "rateText2": { "message": "oceń nas na 5 gwiazdek" },
+  "shareModalTitle": {
+    "message": "Udostępnij 1VPN, aby odblokować tę lokalizację"
+  },
+  "shareText": {
+    "message": "Właśnie wypróbowałem 1VPN – darmowy, prosty i bezpieczny VPN z nielimitowanym transferem danych i dużą prędkością. Sprawdź na https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": {
     "message": "Zaktualizuj, aby uzyskać dostęp do tej lokalizacji"
   },

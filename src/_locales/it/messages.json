@@ -46,8 +46,18 @@
     "message": "Lascia una recensione a 5 stelle per sbloccare questa posizione"
   },
   "reviewModalButton": { "message": "Lascia una recensione" },
-  "rateText1": { "message": "Se ti piace 1VPN, per favore" },
-  "rateText2": { "message": "votaci con 5 stelle" },
+  "shareModalTitle": {
+    "message": "Condividi 1VPN per sbloccare questa posizione"
+  },
+  "shareText": {
+    "message": "Ho appena provato 1VPN, una VPN gratuita, semplice e sicura con dati illimitati e velocità elevate. Scoprila su https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": {
     "message": "Effettua l'upgrade per accedere a questa località"
   },

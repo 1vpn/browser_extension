@@ -46,6 +46,18 @@
     "message": "Bu konumun kilidini açmak için 5 yıldızlı yorum bırakın"
   },
   "reviewModalButton": { "message": "İnceleme bırak" },
+  "shareModalTitle": {
+    "message": "Bu konumun kilidini açmak için 1VPN’i paylaşın"
+  },
+  "shareText": {
+    "message": "Az önce 1VPN’i denedim. Sınırsız veri ve yüksek hız sunan ücretsiz, basit ve güvenli bir VPN. https://1vpn.org adresine göz atın"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": { "message": "Bu konuma erişmek için planını yükselt" },
   "installSuccess": {
     "message": "1VPN başarıyla kuruldu"

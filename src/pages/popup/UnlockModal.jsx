@@ -11,44 +11,42 @@ import TelegramIcon from 'assets/telegram.svg'
 const UnlockModal = ({ messages, isOpen, onClose }) => {
   const showShareModal = Math.random() < 0.1
 
-  const shareText = encodeURIComponent(
-    'Check out 1VPN - Its a free, simple and secure VPN.'
-  )
+  const shareText = encodeURIComponent(messages.shareText)
   const shareUrl = encodeURIComponent('https://1vpn.org')
 
   const sharePlatforms = [
     {
-      name: 'X (Twitter)',
-      url: `https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`,
+      name: messages.x,
+      url: `https://twitter.com/intent/tweet?text=${shareText}`,
       color: '#1DA1F2',
       icon: XIcon,
     },
     {
-      name: 'Facebook',
-      url: `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}&quote=${shareText}`,
+      name: messages.facebook,
+      url: `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`,
       color: '#1877F2',
       icon: FacebookIcon,
     },
     {
-      name: 'LinkedIn',
-      url: `https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}&title=${shareText}`,
+      name: messages.linkedin,
+      url: `https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`,
       color: '#0077B5',
       icon: LinkedInIcon,
     },
     {
-      name: 'VK',
-      url: `https://vk.com/share.php?url=${shareUrl}&title=${shareText}`,
+      name: messages.vk,
+      url: `https://vk.com/share.php?url=${shareUrl}`,
       color: '#4C75A3',
       icon: VKIcon,
     },
     {
-      name: 'Odnoklassniki',
-      url: `https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=${shareUrl}&st.comments=${shareText}`,
+      name: messages.ok,
+      url: `https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=${shareUrl}`,
       color: '#FF6600',
       icon: OKIcon,
     },
     {
-      name: 'Telegram',
+      name: messages.telegram,
       url: `https://t.me/share/url?url=${shareUrl}&text=${shareText}`,
       color: '#0088CC',
       icon: TelegramIcon,
@@ -79,9 +77,7 @@ const UnlockModal = ({ messages, isOpen, onClose }) => {
           textAlign: 'center',
         }}
       >
-        {showShareModal
-          ? messages.shareModalTitle || 'Share 1VPN To Unlock This Location'
-          : messages.reviewModalTitle}
+        {showShareModal ? messages.shareModalTitle : messages.reviewModalTitle}
       </Box>
 
       {showShareModal ? (
@@ -112,7 +108,7 @@ const UnlockModal = ({ messages, isOpen, onClose }) => {
                   opacity: 0.8,
                 },
               }}
-              title={`Share on ${platform.name}`}
+              title={platform.name}
             >
               <Image
                 src={platform.icon}

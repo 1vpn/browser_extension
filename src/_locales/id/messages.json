@@ -48,6 +48,16 @@
     "message": "Tinggalkan ulasan 5 bintang untuk membuka lokasi ini"
   },
   "reviewModalButton": { "message": "Tinggalkan Ulasan" },
+  "shareModalTitle": { "message": "Bagikan 1VPN untuk Membuka Lokasi Ini" },
+  "shareText": {
+    "message": "Saya baru saja mencoba 1VPN, VPN gratis, sederhana, dan aman dengan data tak terbatas dan kecepatan tinggi. Cek di https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": { "message": "Upgrade untuk mengakses lokasi ini" },
   "installSuccess": {
     "message": "1VPN telah berhasil diinstal"

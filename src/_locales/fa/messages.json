@@ -46,8 +46,18 @@
     "message": "برای باز کردن این مکان، یک نظر ۵ ستاره بگذارید"
   },
   "reviewModalButton": { "message": "نوشتن بازبینی" },
-  "rateText1": { "message": "اگر از 1VPN لذت می‌برید، لطفاً" },
-  "rateText2": { "message": "۵ ستاره به ما بدهید" },
+  "shareModalTitle": {
+    "message": "برای باز کردن این مکان، 1VPN را به اشتراک بگذارید"
+  },
+  "shareText": {
+    "message": "من به‌تازگی 1VPN را امتحان کردم، یک VPN رایگان، ساده و امن با اینترنت نامحدود و سرعت بالا. در https://1vpn.org بررسی‌اش کنید"
+  },
+  "x": { "message": "X (توییتر)" },
+  "facebook": { "message": "فیس‌بوک" },
+  "linkedin": { "message": "لینکدین" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "تلگرام" },
   "upgradeLocation": {
     "message": "برای دسترسی به این موقعیت مکانی می‌بایست عضویت خود را ارتقا دهید"
   },

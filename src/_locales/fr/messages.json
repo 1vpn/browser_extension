@@ -48,6 +48,18 @@
     "message": "Laissez un avis 5 étoiles pour débloquer cet emplacement"
   },
   "reviewModalButton": { "message": "Laisser un avis" },
+  "shareModalTitle": {
+    "message": "Partagez 1VPN pour débloquer cet emplacement"
+  },
+  "shareText": {
+    "message": "Je viens d’essayer 1VPN, un VPN gratuit, simple et sécurisé avec des données illimitées et une grande vitesse. Découvrez-le sur https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": {
     "message": "Mettez à niveau pour accéder à cet emplacement"
   },

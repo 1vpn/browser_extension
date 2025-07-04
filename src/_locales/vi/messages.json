@@ -46,6 +46,16 @@
     "message": "Để lại đánh giá 5 sao để mở khóa vị trí này"
   },
   "reviewModalButton": { "message": "Để lại đánh giá" },
+  "shareModalTitle": { "message": "Chia sẻ 1VPN để mở khóa vị trí này" },
+  "shareText": {
+    "message": "Tôi vừa thử 1VPN, một VPN miễn phí, đơn giản và an toàn với dữ liệu không giới hạn và tốc độ nhanh. Hãy xem tại https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": { "message": "Hãy nâng cấp để truy cập địa điểm này" },
   "installSuccess": {
     "message": "1VPN đã được cài đặt thành công"

@@ -48,8 +48,16 @@
     "message": "กรุณาให้รีวิว 5 ดาวเพื่อปลดล็อกตำแหน่งนี้"
   },
   "reviewModalButton": { "message": "เขียนรีวิว" },
-  "rateText1": { "message": "หากคุณถูกใจ 1VPN โปรด" },
-  "rateText2": { "message": "ให้คะแนน 5 ดาวกับเรา" },
+  "shareModalTitle": { "message": "แชร์ 1VPN เพื่อปลดล็อกตำแหน่งนี้" },
+  "shareText": {
+    "message": "ฉันเพิ่งลองใช้ 1VPN ซึ่งเป็น VPN ฟรี ใช้งานง่าย และปลอดภัย พร้อมข้อมูลไม่จำกัดและความเร็วสูง ลองดูได้ที่ https://1vpn.org"
+  },
+  "x": { "message": "X (ทวิตเตอร์)" },
+  "facebook": { "message": "เฟซบุ๊ก" },
+  "linkedin": { "message": "ลิงก์อิน" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "โทรแกรม" },
   "upgradeLocation": { "message": "อัพเกรดเพื่อเข้าถึงสถานที่ตั้งดังนี้" },
   "tryOurAndroidApp": { "message": "ลองใช้แอป Android ของเรา" },
   "scanQrCodeOrClickButton": {

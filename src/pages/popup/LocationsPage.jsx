@@ -13,7 +13,7 @@ const LocationsPage = ({
   installDate,
   messages,
 }) => {
-  const [isUnlockModalOpen, setisUnlockModalOpen] = useState(false)
+  const [isUnlockModalOpen, setIsUnlockModalOpen] = useState(false)
 
   return (
     <PageHeader
@@ -25,7 +25,7 @@ const LocationsPage = ({
       <UnlockModal
         messages={messages}
         isOpen={isUnlockModalOpen}
-        onClose={() => setisUnlockModalOpen(false)}
+        onClose={() => setIsUnlockModalOpen(false)}
       />
       <Flex
         sx={{
@@ -60,7 +60,7 @@ const LocationsPage = ({
                       if (result.unlocked === true) {
                         handleLocationToggle(location)
                       } else {
-                        setisUnlockModalOpen(true)
+                        setIsUnlockModalOpen(true)
                       }
                     })
                   } else {

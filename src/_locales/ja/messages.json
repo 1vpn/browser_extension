@@ -44,6 +44,18 @@
     "message": "この場所をアンロックするには5つ星レビューを残してください"
   },
   "reviewModalButton": { "message": "レビューを残す" },
+  "shareModalTitle": {
+    "message": "この場所を解除するには1VPNを共有してください"
+  },
+  "shareText": {
+    "message": "私は先ほど1VPNを試しました。無料でシンプル、安全なVPNで、無制限のデータと高速通信が特徴です。https://1vpn.org をチェックしてみてください"
+  },
+  "x": { "message": "X（Twitter）" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": {
     "message": "この位置情報の利用にはアップグレードが必要です"
   },

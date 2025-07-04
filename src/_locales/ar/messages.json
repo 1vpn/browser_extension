@@ -44,6 +44,16 @@
     "message": "اترك مراجعة من 5 نجوم لفتح هذا الموقع"
   },
   "reviewModalButton": { "message": "اترك مراجعة" },
+  "shareModalTitle": { "message": "شارك 1VPN لفتح هذا الموقع" },
+  "shareText": {
+    "message": "لقد جربت للتو 1VPN، شبكة VPN مجانية وبسيطة وآمنة ببيانات غير محدودة وسرعات عالية. تحقق منه على https://1vpn.org"
+  },
+  "x": { "message": "X (تويتر)" },
+  "facebook": { "message": "فيسبوك" },
+  "linkedin": { "message": "لينكدإن" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "تيليجرام" },
   "upgradeLocation": { "message": "حدث البرنامج للوصول إلى هذا الموقع" },
   "installSuccess": {
     "message": "تم تثبيت 1VPN بنجاح"

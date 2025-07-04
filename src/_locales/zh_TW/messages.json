@@ -44,6 +44,16 @@
     "message": "留下五星好評以解鎖此位置"
   },
   "reviewModalButton": { "message": "留下評論" },
+  "shareModalTitle": { "message": "分享 1VPN 以解鎖此位置" },
+  "shareText": {
+    "message": "我剛剛試用了 1VPN，這是一個免費、簡單且安全的 VPN，提供無限數據和高速服務。請造訪 https://1vpn.org 查看"
+  },
+  "x": { "message": "X（推特）" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
   "upgradeLocation": { "message": "升級以存取此位置。" },
   "installSuccess": {
     "message": "1VPN已成功安裝"
