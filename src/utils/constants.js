@@ -9,7 +9,7 @@ export const websiteUrl =
     : 'https://1vpn.org'
 
 export const androidUrl =
-  'https://play.google.com/store/apps/details?id=com.vpn1.app' +
+  'https://play.google.com/store/apps/details?id=com.one.vpnapp' +
   `&hl=${chrome.i18n.getUILanguage()}`
 
 export const backupUrl = 'https://1vpn.website'
