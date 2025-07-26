@@ -4,7 +4,12 @@ import freeLocations from 'utils/freeLocations'
 const logout = () => {
   disconnect()
 
-  const keysToKeep = ['messages', 'unlocked']
+  const keysToKeep = [
+    'messages',
+    'unlocked',
+    'installDate',
+    'androidModalClicked',
+  ]
 
   chrome.storage.local.get(null, (items) => {
     const keysToRemove = Object.keys(items).filter(
