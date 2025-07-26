@@ -58,6 +58,7 @@ const App = () => {
             style={{
               borderRadius: '12px',
               width: '100%',
+              aspectRatio: '16/9',
               display: 'block',
               marginLeft: 'auto',
               marginRight: 'auto',
