@@ -5,7 +5,7 @@ const freeLocations = [
     hosts: [
       { hostname: 'netherlands-free-https-1.techdatacdn.com', port: 443 },
       { hostname: 'netherlands-free-2.cloudspacecdn.site', port: 443 },
-      { hostname: 'netherlands-https-3.networkcdn.site', port: 443 },
+      { hostname: 'netherlands-https-3.cloudnetcdn.com', port: 443 },
     ],
     latitude: 52.3878,
     longitude: 4.9302,
@@ -16,7 +16,7 @@ const freeLocations = [
     hosts: [
       { hostname: 'singapore-free-https-1.cloudspacecdn.site', port: 443 },
       { hostname: 'singapore-free-https-2.cloudnetcdn.site', port: 443 },
-      { hostname: 'singapore-free-https-3.networkcdn.site', port: 443 },
+      { hostname: 'singapore-free-https-3.cloudnetcdn.com', port: 443 },
     ],
     latitude: 1.3102,
     longitude: 103.6831,
@@ -28,7 +28,7 @@ const freeLocations = [
     hosts: [
       { hostname: 'usa-west-free-https-1.techdatacdn.com', port: 443 },
       { hostname: 'usa-west-free-2.cloudspacecdn.site', port: 443 },
-      { hostname: 'usa-west-free-https-3.networkcdn.site', port: 443 },
+      { hostname: 'usa-west-free-https-3.cloudnetcdn.com', port: 443 },
     ],
     latitude: 34.0541,
     longitude: -118.2441,
