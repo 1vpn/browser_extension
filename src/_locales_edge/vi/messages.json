@@ -1,0 +1,96 @@
+{
+  "extName": { "message": "VPN miễn phí" },
+  "extDesc": {
+    "message": "1VPN - VPN miễn phí, dữ liệu không giới hạn, tốc độ nhanh, mã hóa an toàn, không ghi nhật ký và dễ sử dụng."
+  },
+  "upgrade": { "message": "Nâng cấp" },
+  "signUp": { "message": "Đăng ký" },
+  "login": { "message": "Đăng nhập" },
+  "continueText": { "message": "Hoặc tiếp tục không cần tài khoản" },
+  "username": { "message": "Tên người dùng" },
+  "password": { "message": "Mật khẩu" },
+  "loading": { "message": "Đang tải..." },
+  "forgotPassword": { "message": "Quên mật khẩu?" },
+  "connected": { "message": "Đã kết nối" },
+  "disconnected": { "message": "Đã ngắt kết nối" },
+  "goToOptionsPage": { "message": "Đi tới Trang Tùy chọn" },
+  "goToLocationsPage": { "message": "Đi tới Trang Địa điểm" },
+  "upgradeText1": { "message": "Nâng cấp" },
+  "upgradeText2": {
+    "message": "để có thêm nhiều địa điểm và có tốc độ nhanh hơn"
+  },
+  "menu": { "message": "Menu" },
+  "account": { "message": "Tài khoản" },
+  "options": { "message": "Tùy chọn" },
+  "contactUs": { "message": "Liên hệ với chúng tôi" },
+  "email": { "message": "Email" },
+  "plan": { "message": "Gói" },
+  "premium": { "message": "Cao cấp" },
+  "free": { "message": "Miễn phí" },
+  "editInfo": { "message": "Chỉnh sửa thông tin" },
+  "logout": { "message": "Đăng xuất" },
+  "spoofGeolocation": { "message": "Giả mạo vị trí địa lý" },
+  "disableWebRtc": { "message": "Tắt WebRTC" },
+  "disableAddressAutofill": { "message": "Tắt tự động điền địa chỉ" },
+  "spoofGeolocationSubTitle": {
+    "message": "Giả mạo API định vị địa lý HTML5 để khớp với vị trí VPN hiện tại của bạn."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Tắt tự động điền địa chỉ trong biểu mẫu để bảo vệ vị trí của bạn."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Tắt WebRTC để ngăn địa chỉ IP thực của bạn bị rò rỉ."
+  },
+  "locations": { "message": "Địa điểm" },
+  "reviewModalTitle": {
+    "message": "Để lại đánh giá 5 sao để mở khóa vị trí này"
+  },
+  "reviewModalButton": { "message": "Để lại đánh giá" },
+  "shareModalTitle": { "message": "Chia sẻ 1VPN để mở khóa vị trí này" },
+  "shareText": {
+    "message": "Tôi vừa thử 1VPN, một VPN miễn phí, đơn giản và an toàn với dữ liệu không giới hạn và tốc độ nhanh. Hãy xem tại https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
+  "upgradeLocation": { "message": "Hãy nâng cấp để truy cập địa điểm này" },
+  "installSuccess": {
+    "message": "1VPN đã được cài đặt thành công"
+  },
+  "installInstructions": {
+    "message": "Nhấp vào biểu tượng mảnh ghép bên cạnh thanh địa chỉ. Sau đó, nhấp vào biểu tượng ghim để ghim tiện ích."
+  },
+  "tryOurAndroidApp": { "message": "Thử app Android" },
+  "scanQrCodeOrClickButton": {
+    "message": "Quét mã QR hoặc nhấp vào nút bên dưới để tải ứng dụng Android của chúng tôi."
+  },
+  "scanOrClickQRCode": { "message": "Quét hoặc nhấp vào mã QR" },
+  "downloadApp": { "message": "Tải ứng dụng" },
+  "au": { "message": "Úc" },
+  "br": { "message": "Brazil" },
+  "ca": { "message": "Canada" },
+  "cl": { "message": "Chile" },
+  "de": { "message": "Đức" },
+  "es": { "message": "Tây Ban Nha" },
+  "fr": { "message": "Pháp" },
+  "in": { "message": "Ấn Độ" },
+  "jp": { "message": "Nhật Bản" },
+  "kr": { "message": "Hàn Quốc" },
+  "mx": { "message": "Mexico" },
+  "nl": { "message": "Hà Lan" },
+  "pl": { "message": "Ba Lan" },
+  "ro": { "message": "Rumani" },
+  "se": { "message": "Thụy Điển" },
+  "sg": { "message": "Singapore" },
+  "uk": { "message": "Vương quốc Anh" },
+  "ue": { "message": "Đông Hoa Kỳ" },
+  "us": { "message": "Nam Hoa Kỳ" },
+  "uw": { "message": "Tây Hoa Kỳ" },
+  "use": { "message": "Đông Hoa Kỳ" },
+  "uss": { "message": "Nam Hoa Kỳ" },
+  "usw": { "message": "Tây Hoa Kỳ" },
+  "za": { "message": "Nam Phi" }
+}

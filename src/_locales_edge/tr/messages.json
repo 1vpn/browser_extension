@@ -1,0 +1,98 @@
+{
+  "extName": { "message": "Ücretsiz VPN" },
+  "extDesc": {
+    "message": "1VPN - Ücretsiz VPN, sınırsız veri, hızlı bağlantı, güvenli şifreleme, kayıt yok politikası ve kullanımı kolay."
+  },
+  "upgrade": { "message": "Yükselt" },
+  "signUp": { "message": "Kaydol" },
+  "login": { "message": "Giriş Yap" },
+  "continueText": { "message": "Veya hesapsız devam et" },
+  "username": { "message": "Kullanıcı Adı" },
+  "password": { "message": "Şifre" },
+  "loading": { "message": "Yükleniyor..." },
+  "forgotPassword": { "message": "Şifreni mi unuttun?" },
+  "connected": { "message": "Bağlandı" },
+  "disconnected": { "message": "Bağlantı Kesildi" },
+  "goToOptionsPage": { "message": "Seçenekler Sayfasına Git" },
+  "goToLocationsPage": { "message": "Konumlar Sayfasına Git" },
+  "upgradeText1": { "message": "Yükselt" },
+  "upgradeText2": { "message": "daha fazla konum ve daha yüksek hızlar için" },
+  "menu": { "message": "Menü" },
+  "account": { "message": "Hesap" },
+  "options": { "message": "Seçenekler" },
+  "contactUs": { "message": "Bize Ulaş" },
+  "email": { "message": "E-posta" },
+  "plan": { "message": "Plan" },
+  "premium": { "message": "Premium" },
+  "free": { "message": "Ücretsiz" },
+  "editInfo": { "message": "Bilgileri Düzenle" },
+  "logout": { "message": "Oturumu Kapat" },
+  "spoofGeolocation": { "message": "Geolokasyon sahtekarlığı" },
+  "disableWebRtc": { "message": "WebRTC'yi devre dışı bırak" },
+  "disableAddressAutofill": {
+    "message": "Oto Adres Doldurmayı Devre Dışı Bırak"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "Mevcut VPN konumunuzu eşleştirmek için HTML5 Coğrafi Konum API'sini sahteleyin."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Konumunuzu korumak için formlarda otomatik adres doldurmayı devre dışı bırakın."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Gerçek IP adresinizin sızmasını önlemek için WebRTC'yi devre dışı bırakın."
+  },
+  "locations": { "message": "Konumlar" },
+  "reviewModalTitle": {
+    "message": "Bu konumun kilidini açmak için 5 yıldızlı yorum bırakın"
+  },
+  "reviewModalButton": { "message": "İnceleme bırak" },
+  "shareModalTitle": {
+    "message": "Bu konumun kilidini açmak için 1VPN’i paylaşın"
+  },
+  "shareText": {
+    "message": "Az önce 1VPN’i denedim. Sınırsız veri ve yüksek hız sunan ücretsiz, basit ve güvenli bir VPN. https://1vpn.org adresine göz atın"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
+  "upgradeLocation": { "message": "Bu konuma erişmek için planını yükselt" },
+  "installSuccess": {
+    "message": "1VPN başarıyla kuruldu"
+  },
+  "installInstructions": {
+    "message": "Adres çubuğunun yanındaki puzzle simgesine tıklayın. Ardından uzantıyı sabitlemek için raptiye simgesine tıklayın."
+  },
+  "tryOurAndroidApp": { "message": "Android Uygulamamızı Deneyin" },
+  "scanQrCodeOrClickButton": {
+    "message": "Android uygulamamızı indirmek için QR kodunu tarayın veya aşağıdaki butona tıklayın."
+  },
+  "scanOrClickQRCode": { "message": "QR kodunu tarayın veya tıklayın" },
+  "downloadApp": { "message": "Uygulamayı indir" },
+  "au": { "message": "Avustralya" },
+  "br": { "message": "Brezilya" },
+  "ca": { "message": "Kanada" },
+  "cl": { "message": "Şili" },
+  "de": { "message": "Almanya" },
+  "es": { "message": "İspanya" },
+  "fr": { "message": "Fransa" },
+  "in": { "message": "Hindistan" },
+  "jp": { "message": "Japonya" },
+  "kr": { "message": "Güney Kore" },
+  "mx": { "message": "Meksika" },
+  "nl": { "message": "Hollanda" },
+  "pl": { "message": "Polonya" },
+  "ro": { "message": "Romanya" },
+  "se": { "message": "İsveç" },
+  "sg": { "message": "Singapur" },
+  "uk": { "message": "Birleşik Krallık" },
+  "ue": { "message": "Doğu ABD" },
+  "us": { "message": "Güney ABD" },
+  "uw": { "message": "Bat ABD" },
+  "use": { "message": "Doğu ABD" },
+  "uss": { "message": "Güney ABD" },
+  "usw": { "message": "Bat ABD" },
+  "za": { "message": "Güney Afrika" }
+}

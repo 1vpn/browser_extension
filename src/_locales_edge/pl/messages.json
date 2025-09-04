@@ -1,0 +1,96 @@
+{
+  "extName": { "message": "Darmowy VPN" },
+  "extDesc": {
+    "message": "1VPN - Darmowy VPN, nieograniczone dane, szybkie prędkości, bezpieczne szyfrowanie, brak logów i łatwy w użyciu."
+  },
+  "upgrade": { "message": "Uaktualnij" },
+  "signUp": { "message": "Zarejestruj się" },
+  "login": { "message": "Zaloguj" },
+  "continueText": { "message": "Lub kontynuuj bez konta" },
+  "username": { "message": "Nazwa użytkownika" },
+  "password": { "message": "Hasło" },
+  "loading": { "message": "Ładowanie..." },
+  "forgotPassword": { "message": "Nie pamiętasz hasła?" },
+  "connected": { "message": "Połączono" },
+  "disconnected": { "message": "Rozłączono" },
+  "goToOptionsPage": { "message": "Przejdź do Strony Opcji" },
+  "goToLocationsPage": { "message": "Przejdź do Strony Lokalizacji" },
+  "upgradeText1": { "message": "Aktualizuj" },
+  "upgradeText2": {
+    "message": "dla większej liczby lokalizacji i szybszych prędkości"
+  },
+  "menu": { "message": "Menu" },
+  "account": { "message": "Konto" },
+  "options": { "message": "Opcje" },
+  "contactUs": { "message": "Skontaktuj się z nami" },
+  "email": { "message": "Email" },
+  "plan": { "message": "Plan" },
+  "premium": { "message": "Premium" },
+  "free": { "message": "Darmowy" },
+  "editInfo": { "message": "Edytuj informacje" },
+  "logout": { "message": "Wyloguj się" },
+  "spoofGeolocation": { "message": "Fałszowanie geolokalizacji" },
+  "disableWebRtc": { "message": "Wyłącz WebRTC" },
+  "disableAddressAutofill": {
+    "message": "Wyłącz Automatyczne Wypełnianie Adresów"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "Fałszuj API geolokalizacji HTML5, aby dopasować do swojej bieżącej lokalizacji VPN."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Wyłącz automatyczne wypełnianie adresów w formularzach, aby chronić swoją lokalizację."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Wyłącz WebRTC, aby zapobiec wyciekowi Twojego prawdziwego adresu IP."
+  },
+  "locations": { "message": "Lokalizacje" },
+  "reviewModalTitle": {
+    "message": "Zostaw recenzję 5-gwiazdkową, aby odblokować tę lokalizację"
+  },
+  "reviewModalButton": { "message": "Zostaw recenzję" },
+  "shareModalTitle": {
+    "message": "Udostępnij 1VPN, aby odblokować tę lokalizację"
+  },
+  "shareText": {
+    "message": "Właśnie wypróbowałem 1VPN – darmowy, prosty i bezpieczny VPN z nielimitowanym transferem danych i dużą prędkością. Sprawdź na https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
+  "upgradeLocation": {
+    "message": "Zaktualizuj, aby uzyskać dostęp do tej lokalizacji"
+  },
+  "tryOurAndroidApp": { "message": "Wypróbuj apkę na Androida" },
+  "scanQrCodeOrClickButton": {
+    "message": "Zeskanuj kod QR lub kliknij przycisk poniżej, aby pobrać naszą aplikację na Androida."
+  },
+  "scanOrClickQRCode": { "message": "Zeskanuj lub kliknij kod QR" },
+  "downloadApp": { "message": "Pobierz aplikację" },
+  "au": { "message": "Australia" },
+  "br": { "message": "Brazylia" },
+  "ca": { "message": "Kanada" },
+  "cl": { "message": "Chile" },
+  "de": { "message": "Niemcy" },
+  "es": { "message": "Hiszpania" },
+  "fr": { "message": "Francja" },
+  "in": { "message": "Indie" },
+  "jp": { "message": "Japonia" },
+  "kr": { "message": "Korea Południowa" },
+  "mx": { "message": "Meksyk" },
+  "nl": { "message": "Holandia" },
+  "pl": { "message": "Polska" },
+  "ro": { "message": "Rumunia" },
+  "se": { "message": "Szwecja" },
+  "sg": { "message": "Singapur" },
+  "uk": { "message": "Wielka Brytania" },
+  "ue": { "message": "Wschodnie USA" },
+  "us": { "message": "Południowe USA" },
+  "uw": { "message": "Zachodnie USA" },
+  "use": { "message": "Wschodnie USA" },
+  "uss": { "message": "Południowe USA" },
+  "usw": { "message": "Zachodnie USA" },
+  "za": { "message": "RPA" }
+}

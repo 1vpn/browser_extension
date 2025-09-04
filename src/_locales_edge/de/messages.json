@@ -1,0 +1,102 @@
+{
+  "extName": { "message": "Kostenloses VPN" },
+  "extDesc": {
+    "message": "1VPN - Kostenloser VPN, unbegrenzte Daten, schnelle Geschwindigkeiten, sichere Verschlüsselung, keine Protokollierung."
+  },
+  "upgrade": { "message": "Aktualisieren" },
+  "signUp": { "message": "Registrieren" },
+  "login": { "message": "Anmelden" },
+  "continueText": { "message": "Oder ohne Konto fortfahren" },
+  "username": { "message": "Benutzername" },
+  "password": { "message": "Passwort" },
+  "loading": { "message": "Lädt..." },
+  "forgotPassword": { "message": "Passwort vergessen?" },
+  "connected": { "message": "Verbunden" },
+  "disconnected": { "message": "Getrennt" },
+  "goToOptionsPage": { "message": "Zur Einstellungsseite gehen" },
+  "goToLocationsPage": { "message": "Zur Standortseite gehen" },
+  "upgradeText1": { "message": "Upgraden" },
+  "upgradeText2": {
+    "message": "für mehr Standorte und schnellere Geschwindigkeiten"
+  },
+  "menu": { "message": "Menü" },
+  "account": { "message": "Konto" },
+  "options": { "message": "Einstellungen" },
+  "contactUs": { "message": "Kontaktieren Sie uns" },
+  "email": { "message": "E-Mail" },
+  "plan": { "message": "Tarif" },
+  "premium": { "message": "Premium" },
+  "free": { "message": "Kostenlos" },
+  "editInfo": { "message": "Info bearbeiten" },
+  "logout": { "message": "Abmelden" },
+  "spoofGeolocation": { "message": "Geolocation fälschen" },
+  "disableWebRtc": { "message": "WebRTC deaktivieren" },
+  "disableAddressAutofill": {
+    "message": "Automatisches Ausfüllen der Adresse deaktivieren"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "Spoof HTML5-Geolocation-API, um deinen aktuellen VPN-Standort zu entsprechen."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Deaktiviere das automatische Ausfüllen von Adressen in Formularen, um deinen Standort zu schützen."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Deaktiviere WebRTC, um das Lecken deiner realen IP-Adresse zu verhindern."
+  },
+
+  "locations": { "message": "Standorte" },
+  "reviewModalTitle": {
+    "message": "Hinterlasse eine 5-Sterne-Bewertung, um diesen Standort freizuschalten"
+  },
+  "reviewModalButton": { "message": "Bewertung hinterlassen" },
+
+  "shareModalTitle": { "message": "Teile 1VPN, um diesen Ort freizuschalten" },
+  "shareText": {
+    "message": "Ich habe gerade 1VPN ausprobiert – ein kostenloses, einfaches und sicheres VPN mit unbegrenztem Datenvolumen und hoher Geschwindigkeit. Schau es dir an unter https://1vpn.org"
+  },
+  "x": { "message": "X (Twitter)" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
+  "upgradeLocation": {
+    "message": "Upgraden, um diesen Standort zu erreichen"
+  },
+  "installSuccess": {
+    "message": "1VPN wurde erfolgreich installiert"
+  },
+  "installInstructions": {
+    "message": "Klicken Sie auf das Puzzle-Symbol neben der Adressleiste. Klicken Sie dann auf das Stecknadel-Symbol, um die Erweiterung anzuheften."
+  },
+  "tryOurAndroidApp": { "message": "Probiere unsere Android-App aus" },
+  "scanQrCodeOrClickButton": {
+    "message": "Scanne den QR-Code oder klicke auf den Button, um die App herunterzuladen."
+  },
+  "scanOrClickQRCode": { "message": "QR-Code scannen oder anklicken" },
+  "downloadApp": { "message": "App herunterladen" },
+  "au": { "message": "Australien" },
+  "br": { "message": "Brasilien" },
+  "ca": { "message": "Kanada" },
+  "cl": { "message": "Chile" },
+  "de": { "message": "Deutschland" },
+  "es": { "message": "Spanien" },
+  "fr": { "message": "Frankreich" },
+  "in": { "message": "Indien" },
+  "jp": { "message": "Japan" },
+  "kr": { "message": "Südkorea" },
+  "mx": { "message": "Mexiko" },
+  "nl": { "message": "Niederlande" },
+  "pl": { "message": "Polen" },
+  "ro": { "message": "Rumänien" },
+  "se": { "message": "Schweden" },
+  "sg": { "message": "Singapur" },
+  "uk": { "message": "Vereinigtes Königreich" },
+  "ue": { "message": "USA Ost" },
+  "us": { "message": "USA Süd" },
+  "uw": { "message": "USA West" },
+  "use": { "message": "USA Ost" },
+  "uss": { "message": "USA Süd" },
+  "usw": { "message": "USA West" },
+  "za": { "message": "Südafrika" }
+}

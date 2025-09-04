@@ -1,0 +1,94 @@
+{
+  "extName": { "message": "免費VPN" },
+  "extDesc": {
+    "message": "1VPN - 免費VPN，無限數據，快速速度，安全加密，無日誌政策，且容易使用。"
+  },
+  "upgrade": { "message": "升級" },
+  "signUp": { "message": "註冊" },
+  "login": { "message": "登入" },
+  "continueText": { "message": "或繼續無帳號登入" },
+  "username": { "message": "使用者名稱" },
+  "password": { "message": "密碼" },
+  "loading": { "message": "載入中..." },
+  "forgotPassword": { "message": "忘記密碼？" },
+  "connected": { "message": "已連線" },
+  "disconnected": { "message": "未連線" },
+  "goToOptionsPage": { "message": "前往選項頁面" },
+  "goToLocationsPage": { "message": "前往位置頁面" },
+  "upgradeText1": { "message": "升級" },
+  "upgradeText2": { "message": "以獲得更多位置和更快速度。" },
+  "menu": { "message": "選單" },
+  "account": { "message": "帳號" },
+  "options": { "message": "選項" },
+  "contactUs": { "message": "聯絡我們" },
+  "email": { "message": "電子郵件" },
+  "plan": { "message": "計畫" },
+  "premium": { "message": "進階版" },
+  "free": { "message": "免費版" },
+  "editInfo": { "message": "編輯信息" },
+  "logout": { "message": "退出" },
+  "spoofGeolocation": { "message": "偽造地理定位" },
+  "disableWebRtc": { "message": "停用WebRTC" },
+  "disableAddressAutofill": { "message": "停用地址自動填入" },
+  "spoofGeolocationSubTitle": {
+    "message": "偽造HTML5地理位置API以匹配您當前的VPN位置。"
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "禁用表單中的自動地址填充以保護您的位置。"
+  },
+  "disableWebRtcSubTitle": {
+    "message": "禁用WebRTC以防止洩露您的真實IP地址。"
+  },
+  "locations": { "message": "位置" },
+  "reviewModalTitle": {
+    "message": "留下五星好評以解鎖此位置"
+  },
+  "reviewModalButton": { "message": "留下評論" },
+  "shareModalTitle": { "message": "分享 1VPN 以解鎖此位置" },
+  "shareText": {
+    "message": "我剛剛試用了 1VPN，這是一個免費、簡單且安全的 VPN，提供無限數據和高速服務。請造訪 https://1vpn.org 查看"
+  },
+  "x": { "message": "X（推特）" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
+  "upgradeLocation": { "message": "升級以存取此位置。" },
+  "installSuccess": {
+    "message": "1VPN已成功安裝"
+  },
+  "installInstructions": {
+    "message": "點擊位於地址列旁的拼圖圖示。然後點擊圖釘圖示以固定擴充功能。"
+  },
+  "tryOurAndroidApp": { "message": "試用我們的安卓應用程式" },
+  "scanQrCodeOrClickButton": {
+    "message": "掃描 QR 碼或點擊下方按鈕下載我們的安卓應用程式。"
+  },
+  "scanOrClickQRCode": { "message": "掃描或點擊 QR 碼" },
+  "downloadApp": { "message": "下載應用程式" },
+  "au": { "message": "澳洲" },
+  "br": { "message": "巴西" },
+  "ca": { "message": "加拿大" },
+  "cl": { "message": "智利" },
+  "de": { "message": "德國" },
+  "es": { "message": "西班牙" },
+  "fr": { "message": "法國" },
+  "in": { "message": "印度" },
+  "jp": { "message": "日本" },
+  "kr": { "message": "韓國" },
+  "mx": { "message": "墨西哥" },
+  "nl": { "message": "荷蘭" },
+  "pl": { "message": "波蘭" },
+  "ro": { "message": "羅馬尼亞" },
+  "se": { "message": "瑞典" },
+  "sg": { "message": "新加坡" },
+  "uk": { "message": "英國" },
+  "ue": { "message": "美國東部" },
+  "us": { "message": "美國南部" },
+  "uw": { "message": "美國西部" },
+  "use": { "message": "美國東部" },
+  "uss": { "message": "美國南部" },
+  "usw": { "message": "美國西部" },
+  "za": { "message": "南非" }
+}

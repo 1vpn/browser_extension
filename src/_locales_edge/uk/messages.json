@@ -1,0 +1,94 @@
+{
+  "extName": { "message": "Безкоштовний VPN" },
+  "extDesc": {
+    "message": "1VPN - Безкоштовний ВПН / VPN, необмежені дані, висока швидкість, безпечне шифрування, відсутність логів і легкість у використанні."
+  },
+  "upgrade": { "message": "Nâng cấp" },
+  "signUp": { "message": "Реєстрація" },
+  "login": { "message": "Увійти" },
+  "continueText": { "message": "Або продовжити без акаунту" },
+  "username": { "message": "Ім'я користувача" },
+  "password": { "message": "Пароль" },
+  "loading": { "message": "Завантаження..." },
+  "forgotPassword": { "message": "Забули пароль?" },
+  "connected": { "message": "Підключено" },
+  "disconnected": { "message": "Відключено" },
+  "goToOptionsPage": { "message": "Перейти до сторінки налаштувань" },
+  "goToLocationsPage": { "message": "Перейти до сторінки локацій" },
+  "upgradeText1": { "message": "Перейти на преміум-версію" },
+  "upgradeText2": {
+    "message": "для більшої кількості локацій та кращої швидкості"
+  },
+  "menu": { "message": "Меню" },
+  "account": { "message": "Акаунт" },
+  "options": { "message": "Опції" },
+  "contactUs": { "message": "Зв'язатися з нами" },
+  "email": { "message": "Електронна пошта" },
+  "plan": { "message": "План підписки" },
+  "premium": { "message": "Преміум" },
+  "free": { "message": "Безкоштовно" },
+  "editInfo": { "message": "Редагувати інформацію" },
+  "logout": { "message": "Вийти" },
+  "spoofGeolocation": { "message": "Підробка геолокації" },
+  "disableWebRtc": { "message": "Вимкнути WebRTC" },
+  "disableAddressAutofill": { "message": "Вимкнути автозаповнення адрес" },
+  "spoofGeolocationSubTitle": {
+    "message": "Підробіть API геолокації HTML5, щоб відповідати вашому поточному розташуванню VPN."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Вимкніть автоматичне заповнення адрес у формах, щоб захистити своє місцезнаходження."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Вимкніть WebRTC, щоб запобігти витоку вашої реальної IP-адреси."
+  },
+  "locations": { "message": "Локації" },
+  "reviewModalTitle": {
+    "message": "Залиште 5-зірковий відгук, щоб розблокувати це місце"
+  },
+  "reviewModalButton": { "message": "Залишити відгук" },
+  "shareModalTitle": {
+    "message": "Поділіться 1VPN, щоб розблокувати це місце"
+  },
+  "shareText": {
+    "message": "Я щойно спробував 1VPN — безкоштовний, простий і безпечний VPN з необмеженими даними та високою швидкістю. Перевірте на https://1vpn.org"
+  },
+  "x": { "message": "X (Твіттер)" },
+  "facebook": { "message": "Фейсбук" },
+  "linkedin": { "message": "Лінкедін" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Телеграм" },
+  "upgradeLocation": {
+    "message": "Перейдіть на преміум план підписки, щоб отримати доступ до цієї локації"
+  },
+  "tryOurAndroidApp": { "message": "Спробуйте Android-додаток" },
+  "scanQrCodeOrClickButton": {
+    "message": "Скануйте QR або натисніть кнопку, щоб завантажити додаток."
+  },
+  "scanOrClickQRCode": { "message": "Скануйте або натисніть на QR-код" },
+  "downloadApp": { "message": "Завантажити додаток" },
+  "au": { "message": "Австралія" },
+  "br": { "message": "Бразилія" },
+  "ca": { "message": "Канада" },
+  "cl": { "message": "Чилі" },
+  "de": { "message": "Німеччина" },
+  "es": { "message": "Іспанія" },
+  "fr": { "message": "Франція" },
+  "in": { "message": "Індія" },
+  "jp": { "message": "Японія" },
+  "kr": { "message": "Південна Корея" },
+  "mx": { "message": "Мексика" },
+  "nl": { "message": "Нідерланди" },
+  "pl": { "message": "Польща" },
+  "ro": { "message": "Румунія" },
+  "se": { "message": "Швеція" },
+  "sg": { "message": "Сінгапур" },
+  "uk": { "message": "Велика Британія" },
+  "ue": { "message": "Схід США" },
+  "us": { "message": "Güney ABD" },
+  "uw": { "message": "Захід США" },
+  "use": { "message": "Схід США" },
+  "uss": { "message": "Güney ABD" },
+  "usw": { "message": "Захід США" },
+  "za": { "message": "Південна Африка" }
+}

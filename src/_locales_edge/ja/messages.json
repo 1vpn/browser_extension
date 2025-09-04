@@ -1,0 +1,98 @@
+{
+  "extName": { "message": "無料VPN" },
+  "extDesc": {
+    "message": "1VPN - 無料VPN、無制限のデータ、高速、セキュアな暗号化、ログなしポリシー、簡単に使用可能。"
+  },
+  "upgrade": { "message": "アップグレード" },
+  "signUp": { "message": "サインアップ" },
+  "login": { "message": "ログイン" },
+  "continueText": { "message": "またはアカウントなしで続行" },
+  "username": { "message": "ユーザー名" },
+  "password": { "message": "パスワード" },
+  "loading": { "message": "読み込み中..." },
+  "forgotPassword": { "message": "パスワードを忘れた場合" },
+  "connected": { "message": "接続中" },
+  "disconnected": { "message": "接続解除" },
+  "goToOptionsPage": { "message": "設定ページへ" },
+  "goToLocationsPage": { "message": "位置情報ページへ" },
+  "upgradeText1": { "message": "アップグレード" },
+  "upgradeText2": { "message": "位置情報の選択肢を増やし速度を向上" },
+  "menu": { "message": "メニュー" },
+  "account": { "message": "アカウント" },
+  "options": { "message": "設定" },
+  "contactUs": { "message": "お問い合わせ" },
+  "email": { "message": "メール" },
+  "plan": { "message": "プラン" },
+  "premium": { "message": "プレミアム" },
+  "free": { "message": "無料" },
+  "editInfo": { "message": "情報を編集" },
+  "logout": { "message": "ログアウト" },
+  "spoofGeolocation": { "message": "ジオロケーションを偽装" },
+  "disableWebRtc": { "message": "WebRTCを無効化" },
+  "disableAddressAutofill": { "message": "住所の自動入力を無効化" },
+  "spoofGeolocationSubTitle": {
+    "message": "HTML5ジオロケーションAPIを偽装して、現在のVPN位置に一致させます。"
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "フォーム内の住所の自動入力を無効にして、位置情報を保護します。"
+  },
+  "disableWebRtcSubTitle": {
+    "message": "実際のIPアドレスの漏洩を防ぐためにWebRTCを無効にします。"
+  },
+  "locations": { "message": "位置情報" },
+  "reviewModalTitle": {
+    "message": "この場所をアンロックするには5つ星レビューを残してください"
+  },
+  "reviewModalButton": { "message": "レビューを残す" },
+  "shareModalTitle": {
+    "message": "この場所を解除するには1VPNを共有してください"
+  },
+  "shareText": {
+    "message": "私は先ほど1VPNを試しました。無料でシンプル、安全なVPNで、無制限のデータと高速通信が特徴です。https://1vpn.org をチェックしてみてください"
+  },
+  "x": { "message": "X（Twitter）" },
+  "facebook": { "message": "Facebook" },
+  "linkedin": { "message": "LinkedIn" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "Telegram" },
+  "upgradeLocation": {
+    "message": "この位置情報の利用にはアップグレードが必要です"
+  },
+  "installSuccess": {
+    "message": "1VPNが正常にインストールされました"
+  },
+  "installInstructions": {
+    "message": "アドレスバーの横にあるパズルアイコンをクリックしてください。次にピンアイコンをクリックして拡張機能を固定してください。"
+  },
+  "tryOurAndroidApp": { "message": "Androidアプリを試す" },
+  "scanQrCodeOrClickButton": {
+    "message": "QRコードをスキャンするか、ボタンを押してアプリをダウンロード。"
+  },
+  "scanOrClickQRCode": { "message": "QRコードをスキャンまたはクリック" },
+  "downloadApp": { "message": "アプリをダウンロード" },
+  "au": { "message": "オーストラリア" },
+  "br": { "message": "ブラジル" },
+  "ca": { "message": "カナダ" },
+  "cl": { "message": "チリ" },
+  "de": { "message": "ドイツ" },
+  "es": { "message": "スペイン" },
+  "fr": { "message": "フランス" },
+  "in": { "message": "インド" },
+  "jp": { "message": "日本" },
+  "kr": { "message": "韓国" },
+  "mx": { "message": "メキシコ" },
+  "nl": { "message": "オランダ" },
+  "pl": { "message": "ポーランド" },
+  "ro": { "message": "ルーマニア" },
+  "se": { "message": "スウェーデン" },
+  "sg": { "message": "シンガポール" },
+  "uk": { "message": "イギリス" },
+  "ue": { "message": "アメリカ東部" },
+  "us": { "message": "アメリカ南部" },
+  "uw": { "message": "アメリカ西部" },
+  "use": { "message": "アメリカ東部" },
+  "uss": { "message": "アメリカ南部" },
+  "usw": { "message": "アメリカ西部" },
+  "za": { "message": "南アフリカ" }
+}

@@ -1,0 +1,92 @@
+{
+  "extName": { "message": "VPN ฟรี" },
+  "extDesc": {
+    "message": "1VPN - VPN ฟรี, ข้อมูลไม่จำกัด, ความเร็วสูง, การเข้ารหัสที่ปลอดภัย, ไม่มีนโยบายบันทึกข้อมูล และใช้งานง่าย."
+  },
+  "upgrade": { "message": "อัปเกรด" },
+  "signUp": { "message": "สมัครสมาชิก" },
+  "login": { "message": "เข้าสู่ระบบ" },
+  "continueText": { "message": "หรือดำเนินการต่อโดยไม่มีบัญชี" },
+  "username": { "message": "ชื่อผู้ใช้" },
+  "password": { "message": "รหัสผ่าน" },
+  "loading": { "message": "กำลังโหลด..." },
+  "forgotPassword": { "message": "ลืมรหัสผ่าน?" },
+  "connected": { "message": "เชื่อมต่อแล้ว" },
+  "disconnected": { "message": "ยังไม่ได้เชื่อมต่อ" },
+  "goToOptionsPage": { "message": "ไปที่หน้าตัวเลือก" },
+  "goToLocationsPage": { "message": "ไปที่หน้าสถานที่" },
+  "upgradeText1": { "message": "อัพเกรด" },
+  "upgradeText2": {
+    "message": "เพื่อตัวเลือกสถานที่ตั้งที่มากขึ้นและความเร็วที่เร็วที่มากขึ้น"
+  },
+  "menu": { "message": "เมนู" },
+  "account": { "message": "บัญชี" },
+  "options": { "message": "ตัวเลือก" },
+  "contactUs": { "message": "ติดต่อเรา" },
+  "email": { "message": "อีเมล" },
+  "plan": { "message": "แผน" },
+  "premium": { "message": "พรีเมียม" },
+  "free": { "message": "ฟรี" },
+  "editInfo": { "message": "แก้ไขข้อมูล" },
+  "logout": { "message": "ออกจากระบบ" },
+  "spoofGeolocation": { "message": "ปลอมแปลง Geolocation" },
+  "disableWebRtc": { "message": "ปิดใช้งาน WebRTC" },
+  "disableAddressAutofill": {
+    "message": "ปิดใช้งานการเติมช่องที่อยู่อัตโนมัติ"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "ปลอมแปลง API การระบุตำแหน่งทางภูมิศาสตร์ HTML5 ให้ตรงกับตำแหน่ง VPN ปัจจุบันของคุณ"
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "ปิดใช้งานการเติมที่อยู่โดยอัตโนมัติในแบบฟอร์มเพื่อปกป้องตำแหน่งของคุณ"
+  },
+  "disableWebRtcSubTitle": {
+    "message": "ปิดใช้งาน WebRTC เพื่อป้องกันไม่ให้ที่อยู่ IP จริงของคุณรั่วไหล"
+  },
+  "locations": { "message": "สถานที่ตั้ง" },
+  "reviewModalTitle": {
+    "message": "กรุณาให้รีวิว 5 ดาวเพื่อปลดล็อกตำแหน่งนี้"
+  },
+  "reviewModalButton": { "message": "เขียนรีวิว" },
+  "shareModalTitle": { "message": "แชร์ 1VPN เพื่อปลดล็อกตำแหน่งนี้" },
+  "shareText": {
+    "message": "ฉันเพิ่งลองใช้ 1VPN ซึ่งเป็น VPN ฟรี ใช้งานง่าย และปลอดภัย พร้อมข้อมูลไม่จำกัดและความเร็วสูง ลองดูได้ที่ https://1vpn.org"
+  },
+  "x": { "message": "X (ทวิตเตอร์)" },
+  "facebook": { "message": "เฟซบุ๊ก" },
+  "linkedin": { "message": "ลิงก์อิน" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "โทรแกรม" },
+  "upgradeLocation": { "message": "อัพเกรดเพื่อเข้าถึงสถานที่ตั้งดังนี้" },
+  "tryOurAndroidApp": { "message": "ลองใช้แอป Android ของเรา" },
+  "scanQrCodeOrClickButton": {
+    "message": "สแกนรหัส QR หรือคลิกปุ่มด้านล่างเพื่อดาวน์โหลดแอป Android ของเรา"
+  },
+  "scanOrClickQRCode": { "message": "สแกนหรือคลิกที่รหัส QR" },
+  "downloadApp": { "message": "ดาวน์โหลดแอป" },
+  "au": { "message": "ออสเตรเลีย" },
+  "br": { "message": "บราซิล" },
+  "ca": { "message": "แคนาดา" },
+  "cl": { "message": "ชิลี" },
+  "de": { "message": "เยอรมนี" },
+  "es": { "message": "สเปน" },
+  "fr": { "message": "ฝรั่งเศส" },
+  "in": { "message": "อินเดีย" },
+  "jp": { "message": "ญี่ปุ่น" },
+  "kr": { "message": "เกาหลีใต้" },
+  "mx": { "message": "เม็กซิโก" },
+  "nl": { "message": "เนเธอร์แลนด์" },
+  "pl": { "message": "โปแลนด์" },
+  "ro": { "message": "โรมาเนีย" },
+  "se": { "message": "สวีเดน" },
+  "sg": { "message": "สิงคโปร์" },
+  "uk": { "message": "สหราชอาณาจักร" },
+  "ue": { "message": "อเมริกาตะวันออก" },
+  "us": { "message": "อเมริกาตอนใต้" },
+  "uw": { "message": "อเมริกาตะวันตก" },
+  "use": { "message": "อเมริกาตะวันออก" },
+  "uss": { "message": "อเมริกาตอนใต้" },
+  "usw": { "message": "อเมริกาตะวันตก" },
+  "za": { "message": "แอฟริกาใต้" }
+}

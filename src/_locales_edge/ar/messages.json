@@ -1,0 +1,94 @@
+{
+  "extName": { "message": "في بي إن مجاني" },
+  "extDesc": {
+    "message": "1VPN - VPN مجاني، بيانات غير محدودة، سرعات عالية، تشفير آمن، سياسة عدم الاحتفاظ بالسجلات، وسهل الاستخدام."
+  },
+  "upgrade": { "message": "ترقية" },
+  "signUp": { "message": "التسجيل" },
+  "login": { "message": "تسجيل الدخول" },
+  "continueText": { "message": "أو الاستمرار بدون حساب" },
+  "username": { "message": "اسم المستخدم" },
+  "password": { "message": "كلمة المرور" },
+  "loading": { "message": "جاري التحميل..." },
+  "forgotPassword": { "message": "هل نسيت كلمة المرور؟" },
+  "connected": { "message": "متصل" },
+  "disconnected": { "message": "غير متصل" },
+  "goToOptionsPage": { "message": "انتقل إلى صفحة الخيارات" },
+  "goToLocationsPage": { "message": "انتقل إلى صفحة المواقع" },
+  "upgradeText1": { "message": "تحديث" },
+  "upgradeText2": { "message": "لعرض المزيد من المواقع وسرعات أعلى" },
+  "menu": { "message": "القائمة" },
+  "account": { "message": "الحساب" },
+  "options": { "message": "الخيارات" },
+  "contactUs": { "message": "تواصل معنا" },
+  "email": { "message": "البريد الإلكتروني" },
+  "plan": { "message": "الخطة" },
+  "premium": { "message": "المميزة" },
+  "free": { "message": "المجانية" },
+  "editInfo": { "message": "تعديل المعلومات" },
+  "logout": { "message": "تسجيل الخروج" },
+  "spoofGeolocation": { "message": "انتحال الموقع الجغرافي" },
+  "disableWebRtc": { "message": "تعطيل WebRTC" },
+  "disableAddressAutofill": { "message": "تعطيل التعبئة التلقائية للعنوان" },
+  "spoofGeolocationSubTitle": {
+    "message": "تزييف واجهة برمجة تطبيقات تحديد الموقع الجغرافي HTML5 لتطابق موقع VPN الخاص بك الحالي."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "تعطيل تعبئة العنوان التلقائية في النماذج لحماية موقعك."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "تعطيل WebRTC لمنع تسرب عنوان IP الحقيقي الخاص بك."
+  },
+  "locations": { "message": "المواقع" },
+  "reviewModalTitle": {
+    "message": "اترك مراجعة من 5 نجوم لفتح هذا الموقع"
+  },
+  "reviewModalButton": { "message": "اترك مراجعة" },
+  "shareModalTitle": { "message": "شارك 1VPN لفتح هذا الموقع" },
+  "shareText": {
+    "message": "لقد جربت للتو 1VPN، شبكة VPN مجانية وبسيطة وآمنة ببيانات غير محدودة وسرعات عالية. تحقق منه على https://1vpn.org"
+  },
+  "x": { "message": "X (تويتر)" },
+  "facebook": { "message": "فيسبوك" },
+  "linkedin": { "message": "لينكدإن" },
+  "vk": { "message": "VK" },
+  "ok": { "message": "Odnoklassniki" },
+  "telegram": { "message": "تيليجرام" },
+  "upgradeLocation": { "message": "حدث البرنامج للوصول إلى هذا الموقع" },
+  "installSuccess": {
+    "message": "تم تثبيت 1VPN بنجاح"
+  },
+  "installInstructions": {
+    "message": "انقر على أيقونة اللغز بجانب شريط العنوان. ثم انقر على أيقونة الدبوس لتثبيت الإضافة."
+  },
+  "tryOurAndroidApp": { "message": "جرّب تطبيق أندرويد الخاص بنا" },
+  "scanQrCodeOrClickButton": {
+    "message": "امسح رمز الاستجابة السريعة أو انقر على الزر أدناه لتنزيل تطبيق أندرويد الخاص بنا."
+  },
+  "scanOrClickQRCode": { "message": "امسح أو انقر على رمز الاستجابة السريعة" },
+  "downloadApp": { "message": "تحميل التطبيق" },
+  "au": { "message": "أستراليا" },
+  "br": { "message": "البرازيل" },
+  "ca": { "message": "كندا" },
+  "cl": { "message": "تشيلي" },
+  "de": { "message": "ألمانيا" },
+  "es": { "message": "إسبانيا" },
+  "fr": { "message": "فرنسا" },
+  "in": { "message": "الهند" },
+  "jp": { "message": "اليابان" },
+  "kr": { "message": "كوريا الجنوبية" },
+  "mx": { "message": "المكسيك" },
+  "nl": { "message": "هولندا" },
+  "pl": { "message": "بولندا" },
+  "ro": { "message": "رومانيا" },
+  "se": { "message": "السويد" },
+  "sg": { "message": "سنغافورا" },
+  "uk": { "message": "المملكة المتحدة" },
+  "ue": { "message": "شرق الولايات المتحدة" },
+  "us": { "message": "جنوب الولايات المتحدة" },
+  "uw": { "message": "غرب الولايات المتحدة" },
+  "use": { "message": "شرق الولايات المتحدة" },
+  "uss": { "message": "جنوب الولايات المتحدة" },
+  "usw": { "message": "غرب الولايات المتحدة" },
+  "za": { "message": "جنوب أفريقيا" }
+}
