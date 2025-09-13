@@ -146,11 +146,6 @@ var options = {
           force: true,
         },
         {
-          from: 'src/offscreen',
-          to: path.join(__dirname, 'build'),
-          force: true,
-        },
-        {
           from: 'src/_locales',
           to: path.join(__dirname, 'build/_locales'),
           force: true,

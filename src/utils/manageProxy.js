@@ -62,17 +62,27 @@ const connect = async (hosts) => {
 
     const pacScript = getPacScript(randomizedHosts)
 
-    chrome.proxy.settings.set({
-      value: {
-        mode: 'pac_script',
-        pacScript: {
-          data: pacScript,
-          mandatory: true,
+    chrome.proxy.settings
+      .set({
+        value: {
+          mode: 'pac_script',
+          pacScript: {
+            data: pacScript,
+            mandatory: true,
+          },
         },
-      },
-      scope: 'regular',
-    })
-    await createOffscreenDocument()
+        scope: 'regular',
+      })
+      .then(() => {
+        fetch('https://1vpn.org/ip_lookup/')
+        // .then((res) => res.json())
+        // .then((data) => {
+        //   console.log('IP lookup response:', data)
+        // })
+        // .catch((err) => {
+        //   console.error('IP lookup error', err)
+        // })
+      })
   }
 
   setBadge()
@@ -89,18 +99,6 @@ const disconnect = () => {
     isConnected: false,
   })
   chrome.action.setBadgeText({ text: '' })
-}
-
-const createOffscreenDocument = async () => {
-  if (await chrome.offscreen.hasDocument()) {
-    await chrome.offscreen.closeDocument()
-  }
-
-  await chrome.offscreen.createDocument({
-    url: 'offscreen.html',
-    reasons: [chrome.offscreen.Reason.WORKERS],
-    justification: 'Proxy authentication',
-  })
 }
 
 export { handleProxyRequest, connect, disconnect }

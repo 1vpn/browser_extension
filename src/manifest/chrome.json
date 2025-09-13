@@ -1,5 +1,5 @@
 {
-  "permissions": ["webRequestAuthProvider", "offscreen"],
+  "permissions": ["webRequestAuthProvider"],
   "background": {
     "service_worker": "background.bundle.js",
     "type": "module"
