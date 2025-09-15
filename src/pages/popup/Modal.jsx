@@ -1,6 +1,6 @@
 import { Box, Flex } from 'theme-ui'
 
-const Modal = ({ isOpen, onClose, children }) => {
+const Modal = ({ isOpen, onClose, children, width }) => {
   if (!isOpen) return null
 
   return (
@@ -28,7 +28,7 @@ const Modal = ({ isOpen, onClose, children }) => {
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          width: '220px',
+          width: width || '220px',
           background: 'white',
           borderRadius: '6px',
           p: '24px',

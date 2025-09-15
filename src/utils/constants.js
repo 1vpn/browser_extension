@@ -5,7 +5,7 @@ export const action = isFirefox ? chrome.browserAction : chrome.action
 
 export const websiteUrl =
   process.env.NODE_ENV === 'development'
-    ? 'https://1vpn.online'
+    ? 'https://1vpn.org'
     : 'https://1vpn.org'
 
 export const androidUrl =
@@ -79,6 +79,14 @@ export const localeMessageKeys = [
   'scanQrCodeOrClickButton',
   'scanOrClickQRCode',
   'downloadApp',
+  'specialOffer',
+  'sixtyPercentOff',
+  'onAnnualPlan',
+  'moreServerLocations',
+  'fasterSpeeds',
+  'moneyBackGuarantee',
+  'claimOffer',
+  'until',
   'au',
   'br',
   'ca',

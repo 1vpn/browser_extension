@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from 'react'
 import { PageContext } from 'context/PageContext'
 import { Box, Flex, Button, Image, Link, Text } from 'theme-ui'
 import { isFirefox, websiteUrl } from 'utils/constants'
-import AndroidModal from './AndroidModal'
+import UpgradeModal from './UpgradeModal'
 import flags from 'utils/flags'
 import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
@@ -17,32 +17,54 @@ const MainPage = ({
   messages,
 }) => {
   const { setCurrentPage } = useContext(PageContext)
-  const [isAndroidModalOpen, setIsAndroidModalOpen] = useState(false)
+  const [isUpgradeModalOpen, setIsUpgradeModalOpen] = useState(false)
 
   useEffect(() => {
-    const checkAndroidModal = async () => {
-      chrome.storage.local.get(['androidModalClicked'], (result) => {
-        if (
-          !result.androidModalClicked &&
-          (!installDate ||
-            Date.now() - new Date(installDate).getTime() > 60 * 60 * 1000)
-        ) {
-          setIsAndroidModalOpen(true)
-          chrome.storage.local.set({ androidModalClicked: true })
+    const checkUpgradeModal = async () => {
+      if (isPremium) return
+      chrome.storage.local.get(
+        ['upgradeModalClicked', 'upgradeModalLastShown'],
+        (result) => {
+          const now = Date.now()
+          const installTime = installDate ? new Date(installDate).getTime() : 0
+          const lastShown = result.upgradeModalLastShown || 0
+
+          if (!result.upgradeModalClicked) {
+            if (installDate && now - installTime < 60 * 60 * 1000) {
+              return
+            }
+            if (!installDate || now - installTime >= 60 * 60 * 1000) {
+              setIsUpgradeModalOpen(true)
+              chrome.storage.local.set({
+                upgradeModalClicked: true,
+                upgradeModalLastShown: now,
+              })
+              return
+            }
+          }
+
+          if (
+            result.upgradeModalClicked &&
+            now - lastShown > 48 * 60 * 60 * 1000
+          ) {
+            setIsUpgradeModalOpen(true)
+            chrome.storage.local.set({ upgradeModalLastShown: now })
+          }
         }
-      })
+      )
     }
+
     if (!isFirefox) {
-      checkAndroidModal()
+      checkUpgradeModal()
     }
-  }, [installDate])
+  }, [installDate, isPremium])
 
   return (
     <>
-      <AndroidModal
+      <UpgradeModal
         messages={messages}
-        isOpen={isAndroidModalOpen}
-        onClose={() => setIsAndroidModalOpen(false)}
+        isOpen={isUpgradeModalOpen}
+        onClose={() => setIsUpgradeModalOpen(false)}
       />
       <Flex
         sx={{

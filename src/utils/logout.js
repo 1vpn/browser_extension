@@ -8,7 +8,8 @@ const logout = () => {
     'messages',
     'unlocked',
     'installDate',
-    'androidModalClicked',
+    'upgradeModalClicked',
+    'upgradeModalLastShown',
   ]
 
   chrome.storage.local.get(null, (items) => {
