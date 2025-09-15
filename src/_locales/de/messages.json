@@ -76,11 +76,10 @@
   "scanOrClickQRCode": { "message": "QR-Code scannen oder anklicken" },
   "downloadApp": { "message": "App herunterladen" },
   "specialOffer": { "message": "Sonderangebot" },
-  "sixtyPercentOff": { "message": "60% RABATT" },
-  "onAnnualPlan": { "message": "auf Jahresplan" },
-  "moreServerLocations": { "message": "Mehr Serverstandorte" },
-  "fasterSpeeds": { "message": "Schnellere Geschwindigkeiten" },
-  "moneyBackGuarantee": { "message": "Geld-zurück-Garantie" },
+  "saveSixtyPercent": { "message": "60% sparen" },
+  "upgradeModalText": {
+    "message": "im Jahresplan. Schalte mehr Standorte und höhere Geschwindigkeiten mit 10-Tage Geld-zurück-Garantie frei."
+  },
   "claimOffer": { "message": "Angebot sichern" },
   "until": { "message": "Bis" },
   "au": { "message": "Australien" },

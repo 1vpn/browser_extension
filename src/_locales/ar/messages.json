@@ -68,11 +68,10 @@
   "scanOrClickQRCode": { "message": "امسح أو انقر على رمز الاستجابة السريعة" },
   "downloadApp": { "message": "تحميل التطبيق" },
   "specialOffer": { "message": "عرض خاص" },
-  "sixtyPercentOff": { "message": "خصم 60%" },
-  "onAnnualPlan": { "message": "على الخطة السنوية" },
-  "moreServerLocations": { "message": "مزيد من مواقع الخوادم" },
-  "fasterSpeeds": { "message": "سرعات أسرع" },
-  "moneyBackGuarantee": { "message": "ضمان استعادة الأموال" },
+  "saveSixtyPercent": { "message": "وفر 60%" },
+  "upgradeModalText": {
+    "message": "على الخطة السنوية. افتح المزيد من المواقع وسرعات أسرع مع ضمان استرداد لمدة 10 أيام."
+  },
   "claimOffer": { "message": "احصل على العرض" },
   "until": { "message": "حتى" },
   "au": { "message": "أستراليا" },

@@ -68,11 +68,10 @@
   "scanOrClickQRCode": { "message": "Скануйте або натисніть на QR-код" },
   "downloadApp": { "message": "Завантажити додаток" },
   "specialOffer": { "message": "Спеціальна пропозиція" },
-  "sixtyPercentOff": { "message": "-60%" },
-  "onAnnualPlan": { "message": "річний план" },
-  "moreServerLocations": { "message": "Більше серверів" },
-  "fasterSpeeds": { "message": "Швидше з’єднання" },
-  "moneyBackGuarantee": { "message": "Гарантія повернення" },
+  "saveSixtyPercent": { "message": "Заощадь 60%" },
+  "upgradeModalText": {
+    "message": "на річному плані. Відкрий більше локацій та швидше з’єднання з 10-денною гарантією повернення коштів."
+  },
   "claimOffer": { "message": "Отримати пропозицію" },
   "until": { "message": "До" },
   "au": { "message": "Австралія" },

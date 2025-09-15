@@ -72,11 +72,10 @@
   "scanOrClickQRCode": { "message": "QRコードをスキャンまたはクリック" },
   "downloadApp": { "message": "アプリをダウンロード" },
   "specialOffer": { "message": "特別オファー" },
-  "sixtyPercentOff": { "message": "60%割引" },
-  "onAnnualPlan": { "message": "年間プランで" },
-  "moreServerLocations": { "message": "より多くのサーバーロケーション" },
-  "fasterSpeeds": { "message": "より速い速度" },
-  "moneyBackGuarantee": { "message": "返金保証" },
+  "saveSixtyPercent": { "message": "60%お得" },
+  "upgradeModalText": {
+    "message": "年間プランで。より多くのロケーションと高速通信を10日間返金保証付きで利用可能。"
+  },
   "claimOffer": { "message": "オファーを受け取る" },
   "until": { "message": "まで" },
   "au": { "message": "オーストラリア" },

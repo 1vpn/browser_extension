@@ -75,11 +75,10 @@
   },
   "downloadApp": { "message": "Download App" },
   "specialOffer": { "message": "Special Offer" },
-  "sixtyPercentOff": { "message": "60% OFF" },
-  "onAnnualPlan": { "message": "on Annual Plan" },
-  "moreServerLocations": { "message": "More Server Locations" },
-  "fasterSpeeds": { "message": "Faster Speeds" },
-  "moneyBackGuarantee": { "message": "Money-Back Guarantee" },
+  "saveSixtyPercent": { "message": "Save 60%" },
+  "upgradeModalText": {
+    "message": "on the annual Plan. Unlock more locations and faster speeds with 10 day money-back guarantee."
+  },
   "claimOffer": { "message": "Claim Offer" },
   "until": { "message": "Until" },
   "au": { "message": "Australia" },

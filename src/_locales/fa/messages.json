@@ -68,11 +68,10 @@
   "scanOrClickQRCode": { "message": "کد QR را اسکن یا کلیک کنید" },
   "downloadApp": { "message": "دانلود برنامه" },
   "specialOffer": { "message": "پیشنهاد ویژه" },
-  "sixtyPercentOff": { "message": "۶۰٪ تخفیف" },
-  "onAnnualPlan": { "message": "بر روی طرح سالانه" },
-  "moreServerLocations": { "message": "مکان‌های بیشتر سرور" },
-  "fasterSpeeds": { "message": "سرعت‌های بیشتر" },
-  "moneyBackGuarantee": { "message": "تضمین بازگشت وجه" },
+  "saveSixtyPercent": { "message": "۶۰٪ صرفه‌جویی" },
+  "upgradeModalText": {
+    "message": "روی طرح سالانه. مکان‌های بیشتر و سرعت بالاتر با ضمانت بازگشت ۱۰ روزه."
+  },
   "claimOffer": { "message": "دریافت پیشنهاد" },
   "until": { "message": "تا" },
   "au": { "message": "استرالیا" },

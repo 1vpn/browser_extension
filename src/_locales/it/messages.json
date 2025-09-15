@@ -67,12 +67,11 @@
   },
   "scanOrClickQRCode": { "message": "Scansiona o clicca sul codice QR" },
   "downloadApp": { "message": "Scarica l'app" },
-  "specialOffer": { "message": "Offerta Speciale" },
-  "sixtyPercentOff": { "message": "-60%" },
-  "onAnnualPlan": { "message": "piano annuale" },
-  "moreServerLocations": { "message": "Più sedi server" },
-  "fasterSpeeds": { "message": "Velocità più elevate" },
-  "moneyBackGuarantee": { "message": "Garanzia di rimborso" },
+  "specialOffer": { "message": "Offerta speciale" },
+  "saveSixtyPercent": { "message": "Risparmia 60%" },
+  "upgradeModalText": {
+    "message": "con il piano annuale. Sblocca più sedi e velocità più alte con garanzia di rimborso di 10 giorni."
+  },
   "claimOffer": { "message": "Richiedi offerta" },
   "until": { "message": "Fino al" },
   "au": { "message": "Australia" },

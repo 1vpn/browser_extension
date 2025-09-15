@@ -69,12 +69,11 @@
   },
   "scanOrClickQRCode": { "message": "Quét hoặc nhấp vào mã QR" },
   "downloadApp": { "message": "Tải ứng dụng" },
-  "specialOffer": { "message": "Ưu Đãi Đặc Biệt" },
-  "sixtyPercentOff": { "message": "GIẢM 60%" },
-  "onAnnualPlan": { "message": "cho gói hàng năm" },
-  "moreServerLocations": { "message": "Nhiều máy chủ hơn" },
-  "fasterSpeeds": { "message": "Tốc độ nhanh hơn" },
-  "moneyBackGuarantee": { "message": "Đảm bảo hoàn tiền" },
+  "specialOffer": { "message": "Ưu đãi đặc biệt" },
+  "saveSixtyPercent": { "message": "Tiết kiệm 60%" },
+  "upgradeModalText": {
+    "message": "trong gói năm. Mở khóa nhiều vị trí và tốc độ nhanh hơn với đảm bảo hoàn tiền 10 ngày."
+  },
   "claimOffer": { "message": "Nhận ưu đãi" },
   "until": { "message": "Đến" },
   "au": { "message": "Úc" },

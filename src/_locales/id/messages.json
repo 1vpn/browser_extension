@@ -71,12 +71,12 @@
   },
   "scanOrClickQRCode": { "message": "Pindai atau klik kode QR" },
   "downloadApp": { "message": "Unduh Aplikasi" },
+
   "specialOffer": { "message": "Penawaran Spesial" },
-  "sixtyPercentOff": { "message": "Diskon 60%" },
-  "onAnnualPlan": { "message": "Paket Tahunan" },
-  "moreServerLocations": { "message": "Lebih Banyak Lokasi Server" },
-  "fasterSpeeds": { "message": "Kecepatan Lebih Cepat" },
-  "moneyBackGuarantee": { "message": "Garansi Uang Kembali" },
+  "saveSixtyPercent": { "message": "Hemat 60%" },
+  "upgradeModalText": {
+    "message": "di paket tahunan. Buka lebih banyak lokasi & kecepatan lebih cepat dengan garansi 10 hari uang kembali."
+  },
   "claimOffer": { "message": "Klaim Penawaran" },
   "until": { "message": "Hingga" },
   "au": { "message": "Australia" },

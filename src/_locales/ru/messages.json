@@ -74,11 +74,10 @@
   "scanOrClickQRCode": { "message": "Сканируйте или нажмите на QR-код" },
   "downloadApp": { "message": "Скачать приложение" },
   "specialOffer": { "message": "Специальное предложение" },
-  "sixtyPercentOff": { "message": "-60%" },
-  "onAnnualPlan": { "message": "годовой план" },
-  "moreServerLocations": { "message": "Больше серверных локаций" },
-  "fasterSpeeds": { "message": "Более высокая скорость" },
-  "moneyBackGuarantee": { "message": "Гарантия возврата денег" },
+  "saveSixtyPercent": { "message": "Экономьте 60%" },
+  "upgradeModalText": {
+    "message": "на годовом плане. Разблокируйте больше локаций и более высокую скорость с 10-дневной гарантией возврата."
+  },
   "claimOffer": { "message": "Получить предложение" },
   "until": { "message": "До" },
   "au": { "message": "Австралия" },

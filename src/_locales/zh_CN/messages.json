@@ -68,11 +68,10 @@
   "scanOrClickQRCode": { "message": "扫描或点击二维码" },
   "downloadApp": { "message": "下载应用" },
   "specialOffer": { "message": "特别优惠" },
-  "sixtyPercentOff": { "message": "立减60%" },
-  "onAnnualPlan": { "message": "年计划" },
-  "moreServerLocations": { "message": "更多服务器位置" },
-  "fasterSpeeds": { "message": "更快速度" },
-  "moneyBackGuarantee": { "message": "退款保证" },
+  "saveSixtyPercent": { "message": "立省60%" },
+  "upgradeModalText": {
+    "message": "在年计划中。解锁更多节点和更快速度，享受10天退款保证。"
+  },
   "claimOffer": { "message": "领取优惠" },
   "until": { "message": "截止" },
   "au": { "message": "澳大利亚" },
