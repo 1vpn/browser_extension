@@ -17,70 +17,21 @@ const UpgradeModal = ({ messages, isOpen, onClose }) => {
       <Box
         sx={{
           fontSize: '20px',
-          mb: '12px',
+          mb: '6px',
           textAlign: 'center',
         }}
       >
         {messages.specialOffer}
       </Box>
       <Box
-        as="ul"
         sx={{
-          listStyle: 'none',
-          p: 0,
-          textAlign: 'left',
+          textAlign: 'center',
           fontSize: '13px',
           mb: '12px',
         }}
       >
-        <Box
-          as="li"
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            mb: '14px',
-          }}
-        >
-          <Box sx={{ color: 'green', fontWeight: 600, marginRight: '8px' }}>
-            ✓
-          </Box>
-          <Text sx={{ color: 'blue', mr: '4px' }}>
-            {messages.sixtyPercentOff}
-          </Text>{' '}
-          {messages.onAnnualPlan}
-        </Box>
-        <Box
-          as="li"
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            mb: '14px',
-          }}
-        >
-          <Box sx={{ color: 'green', fontWeight: 600, marginRight: '8px' }}>
-            ✓
-          </Box>
-          {messages.moreServerLocations}
-        </Box>
-        <Box
-          as="li"
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            mb: '12px',
-          }}
-        >
-          <Box sx={{ color: 'green', fontWeight: 600, marginRight: '8px' }}>
-            ✓
-          </Box>
-          {messages.fasterSpeeds}
-        </Box>
-        <Box as="li" sx={{ display: 'flex', alignItems: 'center' }}>
-          <Box sx={{ color: 'green', fontWeight: 600, marginRight: '8px' }}>
-            ✓
-          </Box>
-          {messages.moneyBackGuarantee}
-        </Box>
+        <Text sx={{ color: 'blue' }}>{messages.saveSixtyPercent}</Text>{' '}
+        {messages.upgradeModalText}
       </Box>
       <Button
         onClick={handleClick}
@@ -100,7 +51,7 @@ const UpgradeModal = ({ messages, isOpen, onClose }) => {
         }}
       >
         {`${messages.until} ${new Date(
-          Date.now() + 7 * 24 * 60 * 60 * 1000
+          Date.now() + 5 * 24 * 60 * 60 * 1000
         ).toLocaleDateString(undefined, {
           year: 'numeric',
           month: 'long',
