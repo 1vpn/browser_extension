@@ -78,6 +78,11 @@
   },
   "claimOffer": { "message": "Teklifi al" },
   "until": { "message": "Kadar" },
+  "installModalText": {
+    "message": "Bu konumu açmak için başka bir kullanıcıdan bu bağlantıyla uzantıyı yüklemesini isteyin:"
+  },
+  "copyLink": { "message": "Bağlantıyı kopyala" },
+  "linkCopied": { "message": "Bağlantı kopyalandı!" },
   "au": { "message": "Avustralya" },
   "br": { "message": "Brezilya" },
   "ca": { "message": "Kanada" },

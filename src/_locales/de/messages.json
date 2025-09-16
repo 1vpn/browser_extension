@@ -82,6 +82,11 @@
   },
   "claimOffer": { "message": "Angebot sichern" },
   "until": { "message": "Bis" },
+  "installModalText": {
+    "message": "Schalte diesen Standort frei, indem du einen anderen Nutzer dazu bringst, die Erweiterung über diesen Link zu installieren:"
+  },
+  "copyLink": { "message": "Link kopieren" },
+  "linkCopied": { "message": "Link kopiert!" },
   "au": { "message": "Australien" },
   "br": { "message": "Brasilien" },
   "ca": { "message": "Kanada" },

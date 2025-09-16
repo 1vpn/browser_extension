@@ -78,6 +78,11 @@
   },
   "claimOffer": { "message": "혜택 받기" },
   "until": { "message": "까지" },
+  "installModalText": {
+    "message": "다른 사용자가 이 링크로 확장 프로그램을 설치하도록 하여 이 위치를 잠금 해제하세요:"
+  },
+  "copyLink": { "message": "링크 복사" },
+  "linkCopied": { "message": "링크 복사됨!" },
   "au": { "message": "호주" },
   "br": { "message": "브라질" },
   "ca": { "message": "캐나다" },

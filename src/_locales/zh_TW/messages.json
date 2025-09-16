@@ -74,6 +74,11 @@
   },
   "claimOffer": { "message": "領取優惠" },
   "until": { "message": "截止" },
+  "installModalText": {
+    "message": "透過讓其他使用者使用此連結安裝擴充功能來解鎖此位置："
+  },
+  "copyLink": { "message": "複製連結" },
+  "linkCopied": { "message": "連結已複製！" },
   "au": { "message": "澳洲" },
   "br": { "message": "巴西" },
   "ca": { "message": "加拿大" },

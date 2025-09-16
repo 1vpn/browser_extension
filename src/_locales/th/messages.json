@@ -72,6 +72,11 @@
   },
   "claimOffer": { "message": "รับข้อเสนอ" },
   "until": { "message": "ถึง" },
+  "installModalText": {
+    "message": "ปลดล็อกตำแหน่งนี้โดยให้ผู้ใช้อีกคนติดตั้งส่วนขยายผ่านลิงก์นี้:"
+  },
+  "copyLink": { "message": "คัดลอกลิงก์" },
+  "linkCopied": { "message": "คัดลอกลิงก์แล้ว!" },
   "au": { "message": "ออสเตรเลีย" },
   "br": { "message": "บราซิล" },
   "ca": { "message": "แคนาดา" },

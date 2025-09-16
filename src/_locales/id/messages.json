@@ -79,6 +79,11 @@
   },
   "claimOffer": { "message": "Klaim Penawaran" },
   "until": { "message": "Hingga" },
+  "installModalText": {
+    "message": "Buka lokasi ini dengan meminta pengguna lain memasang ekstensi menggunakan tautan ini:"
+  },
+  "copyLink": { "message": "Salin Tautan" },
+  "linkCopied": { "message": "Tautan Disalin!" },
   "au": { "message": "Australia" },
   "br": { "message": "Brasil" },
   "ca": { "message": "Kanada" },

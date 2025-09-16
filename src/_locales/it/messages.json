@@ -74,6 +74,11 @@
   },
   "claimOffer": { "message": "Richiedi offerta" },
   "until": { "message": "Fino al" },
+  "installModalText": {
+    "message": "Sblocca questa posizione facendo installare l'estensione a un altro utente tramite questo link:"
+  },
+  "copyLink": { "message": "Copia link" },
+  "linkCopied": { "message": "Link copiato!" },
   "au": { "message": "Australia" },
   "br": { "message": "Brasile" },
   "ca": { "message": "Canada" },

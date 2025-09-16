@@ -74,6 +74,11 @@
   },
   "claimOffer": { "message": "دریافت پیشنهاد" },
   "until": { "message": "تا" },
+  "installModalText": {
+    "message": "این موقعیت را با درخواست از کاربر دیگری برای نصب افزونه با این لینک باز کنید:"
+  },
+  "copyLink": { "message": "کپی لینک" },
+  "linkCopied": { "message": "لینک کپی شد!" },
   "au": { "message": "استرالیا" },
   "br": { "message": "برزیل" },
   "ca": { "message": "کانادا" },

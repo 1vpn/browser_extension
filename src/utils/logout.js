@@ -6,10 +6,12 @@ const logout = () => {
 
   const keysToKeep = [
     'messages',
-    'unlocked',
     'installDate',
+    'locationUnlocked',
     'upgradeModalClicked',
     'upgradeModalLastShown',
+    'installModalCopiedTime',
+    'userModalType',
   ]
 
   chrome.storage.local.get(null, (items) => {

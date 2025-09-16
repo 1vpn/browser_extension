@@ -78,6 +78,11 @@
   },
   "claimOffer": { "message": "オファーを受け取る" },
   "until": { "message": "まで" },
+  "installModalText": {
+    "message": "別のユーザーにこのリンクを使って拡張機能をインストールしてもらうことで、この場所をアンロックできます:"
+  },
+  "copyLink": { "message": "リンクをコピー" },
+  "linkCopied": { "message": "リンクをコピーしました！" },
   "au": { "message": "オーストラリア" },
   "br": { "message": "ブラジル" },
   "ca": { "message": "カナダ" },

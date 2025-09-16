@@ -76,6 +76,11 @@
   },
   "claimOffer": { "message": "Nhận ưu đãi" },
   "until": { "message": "Đến" },
+  "installModalText": {
+    "message": "Mở khóa vị trí này bằng cách nhờ người dùng khác cài tiện ích bằng liên kết này:"
+  },
+  "copyLink": { "message": "Sao chép liên kết" },
+  "linkCopied": { "message": "Đã sao chép liên kết!" },
   "au": { "message": "Úc" },
   "br": { "message": "Brazil" },
   "ca": { "message": "Canada" },

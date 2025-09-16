@@ -80,6 +80,11 @@
   },
   "claimOffer": { "message": "Reclamar oferta" },
   "until": { "message": "Hasta" },
+  "installModalText": {
+    "message": "Desbloquea esta ubicación haciendo que otro usuario instale la extensión con este enlace:"
+  },
+  "copyLink": { "message": "Copiar enlace" },
+  "linkCopied": { "message": "¡Enlace copiado!" },
   "au": { "message": "Australia" },
   "br": { "message": "Brasil" },
   "ca": { "message": "Canadá" },

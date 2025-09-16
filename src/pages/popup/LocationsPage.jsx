@@ -4,7 +4,9 @@ import { isFirefox, websiteUrl } from 'utils/constants'
 import flags from 'utils/flags'
 import PageHeader from './PageHeader'
 import Toggle from './Toggle'
-import UnlockModal from './UnlockModal'
+import ReviewModal from './ReviewModal'
+import ShareModal from './ShareModal'
+import InstallModal from './InstallModal'
 
 const LocationsPage = ({
   locations,
@@ -13,7 +15,9 @@ const LocationsPage = ({
   installDate,
   messages,
 }) => {
-  const [isUnlockModalOpen, setIsUnlockModalOpen] = useState(false)
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false)
+  const [isInstallModalOpen, setIsInstallModalOpen] = useState(false)
+  const [isReviewModalOpen, setIsReviewModalOpen] = useState(false)
 
   return (
     <PageHeader
@@ -22,10 +26,20 @@ const LocationsPage = ({
         p: '0 0 0 24px',
       }}
     >
-      <UnlockModal
+      <InstallModal
         messages={messages}
-        isOpen={isUnlockModalOpen}
-        onClose={() => setIsUnlockModalOpen(false)}
+        isOpen={isInstallModalOpen}
+        onClose={() => setIsInstallModalOpen(false)}
+      />
+      <ShareModal
+        messages={messages}
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+      />
+      <ReviewModal
+        messages={messages}
+        isOpen={isReviewModalOpen}
+        onClose={() => setIsReviewModalOpen(false)}
       />
       <Flex
         sx={{
@@ -38,13 +52,6 @@ const LocationsPage = ({
       >
         <Flex sx={{ pt: '24px', gap: '24px', flexDirection: 'column' }}>
           {locations.map((location) => {
-            if (
-              location.ratingLocked &&
-              installDate &&
-              Date.now() - new Date(installDate).getTime() < 24 * 60 * 60 * 1000
-            ) {
-              return null
-            }
             return (
               <Toggle
                 title={messages[location.countryCode]}
@@ -56,13 +63,55 @@ const LocationsPage = ({
                       url: `${websiteUrl}/select_plan`,
                     })
                   } else if (location.ratingLocked) {
-                    chrome.storage.local.get(['unlocked'], (result) => {
-                      if (result.unlocked === true) {
-                        handleLocationToggle(location)
-                      } else {
-                        setIsUnlockModalOpen(true)
+                    chrome.storage.local.get(
+                      ['locationUnlocked', 'installModalCopiedTime'],
+                      (result) => {
+                        if (result.locationUnlocked === true) {
+                          handleLocationToggle(location)
+                        } else {
+                          const now = Date.now()
+                          const installModalCopiedTime =
+                            result.installModalCopiedTime || 0
+                          if (
+                            installModalCopiedTime &&
+                            now - installModalCopiedTime > 2 * 60 * 1000
+                          ) {
+                            handleLocationToggle(location)
+                            return
+                          }
+                          // Only allow review modal after 24h from install
+                          const installTime = installDate
+                            ? new Date(installDate).getTime()
+                            : 0
+                          if (
+                            installDate &&
+                            now - installTime > 24 * 60 * 60 * 1000
+                          ) {
+                            setIsReviewModalOpen(true)
+                            return
+                          }
+                          // Only one of install/share modal per user
+                          chrome.storage.local.get(
+                            ['userModalType'],
+                            (modalResult) => {
+                              let modalType = modalResult.userModalType
+                              if (!modalType) {
+                                modalType =
+                                  Math.random() < 0.5 ? 'install' : 'share'
+                                chrome.storage.local.set({
+                                  userModalType: modalType,
+                                })
+                              }
+                              if (modalType === 'install') {
+                                setIsInstallModalOpen(true)
+                              } else {
+                                setIsShareModalOpen(true)
+                              }
+                            }
+                          )
+                        }
                       }
-                    })
+                    )
                   } else {
                     handleLocationToggle(location)
                   }

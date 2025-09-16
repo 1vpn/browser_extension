@@ -74,6 +74,11 @@
   },
   "claimOffer": { "message": "احصل على العرض" },
   "until": { "message": "حتى" },
+  "installModalText": {
+    "message": "افتح هذا الموقع من خلال جعل مستخدم آخر يثبت الامتداد باستخدام هذا الرابط:"
+  },
+  "copyLink": { "message": "نسخ الرابط" },
+  "linkCopied": { "message": "تم نسخ الرابط!" },
   "au": { "message": "أستراليا" },
   "br": { "message": "البرازيل" },
   "ca": { "message": "كندا" },

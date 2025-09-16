@@ -76,6 +76,11 @@
   },
   "claimOffer": { "message": "Skorzystaj z oferty" },
   "until": { "message": "Do" },
+  "installModalText": {
+    "message": "Odblokuj tę lokalizację, prosząc innego użytkownika o zainstalowanie rozszerzenia za pomocą tego linku:"
+  },
+  "copyLink": { "message": "Kopiuj link" },
+  "linkCopied": { "message": "Link skopiowany!" },
   "au": { "message": "Australia" },
   "br": { "message": "Brazylia" },
   "ca": { "message": "Kanada" },
