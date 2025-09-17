@@ -5,7 +5,7 @@
   "short_name": "Free VPN - 1VPN",
   "author": "Free VPN - 1VPN",
   "homepage_url": "https://1vpn.org",
-  "version": "3.6.15.1",
+  "version": "3.6.16",
   "default_locale": "en",
   "action": {
     "default_popup": "popup.html"
