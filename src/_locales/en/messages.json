@@ -82,10 +82,10 @@
   "claimOffer": { "message": "Claim Offer" },
   "until": { "message": "Until" },
   "installModalText": {
-    "message": "透過讓其他使用者使用此連結安裝擴充功能來解鎖此位置："
+    "message": "Unlock this location by getting another user to install the extension using this link:"
   },
-  "copyLink": { "message": "複製連結" },
-  "linkCopied": { "message": "連結已複製！" },
+  "copyLink": { "message": "Copy Link" },
+  "linkCopied": { "message": "Link Copied!" },
   "au": { "message": "Australia" },
   "br": { "message": "Brazil" },
   "ca": { "message": "Canada" },
