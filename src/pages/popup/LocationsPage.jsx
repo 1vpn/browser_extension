@@ -79,7 +79,6 @@ const LocationsPage = ({
                             handleLocationToggle(location)
                             return
                           }
-                          // Only allow review modal after 24h from install
                           const installTime = installDate
                             ? new Date(installDate).getTime()
                             : 0
@@ -90,7 +89,6 @@ const LocationsPage = ({
                             setIsReviewModalOpen(true)
                             return
                           }
-                          // Only one of install/share modal per user
                           chrome.storage.local.get(
                             ['userModalType'],
                             (modalResult) => {
