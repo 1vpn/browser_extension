@@ -7,7 +7,7 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
     chrome.storage.local.set({ locationUnlocked: true }).then(() => {
       onClose()
       const trustpilotUrl = 'https://trustpilot.com/evaluate/1vpn.org'
-      const openTrustpilot = Math.random() < 0.5
+      const openTrustpilot = Math.random() < 0.4
       window.open(openTrustpilot ? trustpilotUrl : reviewUrl, '_blank')
     })
   }
