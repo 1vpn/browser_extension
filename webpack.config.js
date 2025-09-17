@@ -29,9 +29,19 @@ var fileExtensions = [
 
 function combineManifests(commonConfigPath, browserSpecificConfigPath) {
   const commonConfig = JSON.parse(fs.readFileSync(commonConfigPath, 'utf8'))
+
   const browserSpecificConfig = JSON.parse(
     fs.readFileSync(browserSpecificConfigPath, 'utf8')
   )
+
+  if (process.env.BROWSER === 'edge') {
+    commonConfig.name = 'VPN'
+    commonConfig.short_name = '1VPN'
+    if (commonConfig.description) {
+      commonConfig.description = '1VPN - ' + commonConfig.description
+    }
+  }
+
   return JSON.stringify(merge.merge(commonConfig, browserSpecificConfig))
 }
 
