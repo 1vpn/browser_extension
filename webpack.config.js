@@ -37,9 +37,6 @@ function combineManifests(commonConfigPath, browserSpecificConfigPath) {
   if (process.env.BROWSER === 'edge') {
     commonConfig.name = 'VPN'
     commonConfig.short_name = '1VPN'
-    if (commonConfig.description) {
-      commonConfig.description = '1VPN - ' + commonConfig.description
-    }
   }
 
   return JSON.stringify(merge.merge(commonConfig, browserSpecificConfig))
@@ -159,6 +156,27 @@ var options = {
           from: 'src/_locales',
           to: path.join(__dirname, 'build/_locales'),
           force: true,
+          transform: function (content, absoluteFrom) {
+            if (
+              process.env.BROWSER === 'edge' &&
+              absoluteFrom.endsWith('messages.json')
+            ) {
+              try {
+                const json = JSON.parse(content.toString())
+                if (
+                  json.extDesc &&
+                  json.extDesc.message &&
+                  !json.extDesc.message.startsWith('1VPN - ')
+                ) {
+                  json.extDesc.message = '1VPN - ' + json.extDesc.message
+                  return Buffer.from(JSON.stringify(json, null, 2))
+                }
+              } catch (e) {
+                return content
+              }
+            }
+            return content
+          },
         },
       ],
     }),
