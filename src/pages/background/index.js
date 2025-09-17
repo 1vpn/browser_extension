@@ -17,7 +17,14 @@ chrome.runtime.onInstalled.addListener((details) => {
   }
 })
 
-chrome.runtime.onStartup.addListener(setBadge)
+chrome.runtime.onStartup.addListener(() => {
+  setBadge()
+  chrome.storage.local.get(['isConnected'], (storage) => {
+    if (storage.isConnected) {
+      fetch('https://1vpn.org/proxy_auth/')
+    }
+  })
+})
 
 chrome.runtime.setUninstallURL(androidUrl)
 

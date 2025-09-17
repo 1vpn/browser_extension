@@ -74,14 +74,7 @@ const connect = async (hosts) => {
         scope: 'regular',
       })
       .then(() => {
-        fetch('https://1vpn.org/ip_lookup/')
-        // .then((res) => res.json())
-        // .then((data) => {
-        //   console.log('IP lookup response:', data)
-        // })
-        // .catch((err) => {
-        //   console.error('IP lookup error', err)
-        // })
+        fetch('https://1vpn.org/proxy_auth/')
       })
   }
 
