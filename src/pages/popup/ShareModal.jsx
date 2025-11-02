@@ -9,7 +9,7 @@ import TelegramIcon from 'assets/telegram.svg'
 
 const ShareModal = ({ messages, isOpen, onClose }) => {
   const shareText = encodeURIComponent(messages.shareText)
-  const shareUrl = encodeURIComponent('https://1vpn.org')
+  const shareUrl = encodeURIComponent('https://1vpn.org?from=share')
 
   const sharePlatforms = [
     {
