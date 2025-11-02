@@ -14,6 +14,8 @@ export const androidUrl =
 
 export const backupUrl = 'https://1vpn.website'
 
+export const ipCheckUrl = 'https://weathernetapp.com/'
+
 export const freeCredentials = {
   username: process.env.FREE_USERNAME,
   password: process.env.FREE_PASSWORD,

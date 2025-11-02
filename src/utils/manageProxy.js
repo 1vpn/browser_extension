@@ -1,12 +1,13 @@
 import setBadge from './setBadge'
-import { isFirefox } from './constants'
+import { isFirefox, websiteUrl, ipCheckUrl } from './constants'
+import apiFetch from './apiFetch'
 
 const handleProxyRequest = (details) => {
   return new Promise((resolve, reject) => {
     const url = new URL(details.url)
     const hostname = url.hostname
 
-    const whitelistDomains = ['localhost', '127.0.0.1']
+    const whitelistDomains = ['localhost', '127.0.0.1', '1vpn.website']
 
     if (whitelistDomains.includes(hostname)) {
       resolve({ type: 'direct' })
@@ -37,7 +38,7 @@ const getPacScript = (hosts) => {
 
   return `
     function FindProxyForURL(url, host) {
-      if (dnsDomainIs(host, "1vpn.website" )) {
+      if (dnsDomainIs(host, "1vpn.website")) {
         return "DIRECT";
       }
       // For all other cases use the specified proxy settings
@@ -47,6 +48,15 @@ const getPacScript = (hosts) => {
 }
 
 const connect = async (hosts) => {
+  let storedIp = null
+  const ipResponse = await fetch(ipCheckUrl)
+  if (ipResponse.ok) {
+    const ipData = await ipResponse.json()
+    storedIp = ipData.ip || null
+  }
+
+  console.log('storedIp', storedIp)
+
   if (!isFirefox) {
     chrome.management.getAll((extensions) => {
       extensions.forEach((extension) => {
@@ -59,6 +69,8 @@ const connect = async (hosts) => {
     })
 
     const randomizedHosts = [...hosts].sort(() => Math.random() - 0.5)
+    const selectedHost = randomizedHosts[0]
+    const hostname = selectedHost ? selectedHost.hostname : null
 
     const pacScript = getPacScript(randomizedHosts)
 
@@ -73,8 +85,26 @@ const connect = async (hosts) => {
         },
         scope: 'regular',
       })
-      .then(() => {
-        fetch('https://1vpn.org/proxy_auth/')
+      .then(async () => {
+        try {
+          const authResponse = await fetch(`${websiteUrl}/proxy_auth/`)
+          if (!authResponse.ok) {
+            throw new Error('Proxy auth failed')
+          }
+        } catch (error) {
+          if (storedIp) {
+            await apiFetch('api/report_server_issue', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                ip_address: storedIp,
+                https_host: hostname,
+              }),
+            })
+          }
+        }
       })
   }
 
