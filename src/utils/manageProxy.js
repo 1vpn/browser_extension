@@ -1,6 +1,5 @@
 import setBadge from './setBadge'
-import { isFirefox, websiteUrl, ipCheckUrl } from './constants'
-import apiFetch from './apiFetch'
+import { isFirefox, websiteUrl } from './constants'
 
 const handleProxyRequest = (details) => {
   return new Promise((resolve, reject) => {
@@ -48,15 +47,6 @@ const getPacScript = (hosts) => {
 }
 
 const connect = async (hosts) => {
-  let storedIp = null
-  const ipResponse = await fetch(ipCheckUrl)
-  if (ipResponse.ok) {
-    const ipData = await ipResponse.json()
-    storedIp = ipData.ip || null
-  }
-
-  console.log('storedIp', storedIp)
-
   if (!isFirefox) {
     chrome.management.getAll((extensions) => {
       extensions.forEach((extension) => {
@@ -69,9 +59,6 @@ const connect = async (hosts) => {
     })
 
     const randomizedHosts = [...hosts].sort(() => Math.random() - 0.5)
-    const selectedHost = randomizedHosts[0]
-    const hostname = selectedHost ? selectedHost.hostname : null
-
     const pacScript = getPacScript(randomizedHosts)
 
     chrome.proxy.settings
@@ -86,25 +73,7 @@ const connect = async (hosts) => {
         scope: 'regular',
       })
       .then(async () => {
-        try {
-          const authResponse = await fetch(`${websiteUrl}/proxy_auth/`)
-          if (!authResponse.ok) {
-            throw new Error('Proxy auth failed')
-          }
-        } catch (error) {
-          if (storedIp) {
-            await apiFetch('api/report_server_issue', {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                ip_address: storedIp,
-                https_host: hostname,
-              }),
-            })
-          }
-        }
+        fetch(`${websiteUrl}/proxy_auth/`)
       })
   }
 
