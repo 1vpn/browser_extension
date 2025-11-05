@@ -84,7 +84,7 @@ const LocationsPage = ({
                             : 0
                           if (
                             installDate &&
-                            now - installTime > 24 * 60 * 60 * 1000
+                            now - installTime > 48 * 60 * 60 * 1000
                           ) {
                             setIsReviewModalOpen(true)
                             return
