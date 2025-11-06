@@ -50,7 +50,7 @@
   "reviewModalButton": { "message": "Tinggalkan Ulasan" },
   "shareModalTitle": { "message": "Bagikan 1VPN untuk Membuka Lokasi Ini" },
   "shareText": {
-    "message": "Saya baru saja mencoba 1VPN, VPN gratis, sederhana, dan aman dengan data tak terbatas dan kecepatan tinggi. Cek di https://1vpn.org"
+    "message": "Saya baru saja mencoba 1VPN, VPN gratis, sederhana, dan aman dengan data tak terbatas dan kecepatan tinggi. Cek di https://1vpn.org?from=share"
   },
   "x": { "message": "X (Twitter)" },
   "facebook": { "message": "Facebook" },

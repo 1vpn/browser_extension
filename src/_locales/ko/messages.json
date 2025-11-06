@@ -48,7 +48,7 @@
     "message": "이 위치를 잠금 해제하려면 1VPN을 공유하세요"
   },
   "shareText": {
-    "message": "방금 1VPN을 사용해봤어요. 무제한 데이터와 빠른 속도를 제공하는 무료, 간단, 안전한 VPN입니다. https://1vpn.org 에서 확인해보세요"
+    "message": "방금 1VPN을 사용해봤어요. 무제한 데이터와 빠른 속도를 제공하는 무료, 간단, 안전한 VPN입니다. https://1vpn.org?from=share 에서 확인해보세요"
   },
   "x": { "message": "X (트위터)" },
   "facebook": { "message": "페이스북" },

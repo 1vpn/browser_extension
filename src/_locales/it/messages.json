@@ -50,7 +50,7 @@
     "message": "Condividi 1VPN per sbloccare questa posizione"
   },
   "shareText": {
-    "message": "Ho appena provato 1VPN, una VPN gratuita, semplice e sicura con dati illimitati e velocità elevate. Scoprila su https://1vpn.org"
+    "message": "Ho appena provato 1VPN, una VPN gratuita, semplice e sicura con dati illimitati e velocità elevate. Scoprila su https://1vpn.org?from=share"
   },
   "x": { "message": "X (Twitter)" },
   "facebook": { "message": "Facebook" },

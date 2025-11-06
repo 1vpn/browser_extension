@@ -50,7 +50,7 @@
     "message": "Compartilhe o 1VPN para desbloquear esta localização"
   },
   "shareText": {
-    "message": "Acabei de experimentar o 1VPN, um VPN gratuito, simples e seguro com dados ilimitados e alta velocidade. Veja em https://1vpn.org"
+    "message": "Acabei de experimentar o 1VPN, um VPN gratuito, simples e seguro com dados ilimitados e alta velocidade. Veja em https://1vpn.org?from=share"
   },
   "x": { "message": "X (Twitter)" },
   "facebook": { "message": "Facebook" },

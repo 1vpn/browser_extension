@@ -46,7 +46,7 @@
   "reviewModalButton": { "message": "留下评价" },
   "shareModalTitle": { "message": "分享 1VPN 解锁此位置" },
   "shareText": {
-    "message": "我刚刚试用了 1VPN，这是一个免费、简单且安全的 VPN，提供无限数据和高速。请访问 https://1vpn.org 了解更多"
+    "message": "我刚刚试用了 1VPN，这是一个免费、简单且安全的 VPN，提供无限数据和高速。请访问 https://1vpn.org?from=share 了解更多"
   },
   "x": { "message": "X（推特）" },
   "facebook": { "message": "Facebook" },

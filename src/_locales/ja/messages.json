@@ -48,7 +48,7 @@
     "message": "この場所を解除するには1VPNを共有してください"
   },
   "shareText": {
-    "message": "私は先ほど1VPNを試しました。無料でシンプル、安全なVPNで、無制限のデータと高速通信が特徴です。https://1vpn.org をチェックしてみてください"
+    "message": "私は先ほど1VPNを試しました。無料でシンプル、安全なVPNで、無制限のデータと高速通信が特徴です。https://1vpn.org?from=share をチェックしてみてください"
   },
   "x": { "message": "X（Twitter）" },
   "facebook": { "message": "Facebook" },

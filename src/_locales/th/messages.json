@@ -50,7 +50,7 @@
   "reviewModalButton": { "message": "เขียนรีวิว" },
   "shareModalTitle": { "message": "แชร์ 1VPN เพื่อปลดล็อกตำแหน่งนี้" },
   "shareText": {
-    "message": "ฉันเพิ่งลองใช้ 1VPN ซึ่งเป็น VPN ฟรี ใช้งานง่าย และปลอดภัย พร้อมข้อมูลไม่จำกัดและความเร็วสูง ลองดูได้ที่ https://1vpn.org"
+    "message": "ฉันเพิ่งลองใช้ 1VPN ซึ่งเป็น VPN ฟรี ใช้งานง่าย และปลอดภัย พร้อมข้อมูลไม่จำกัดและความเร็วสูง ลองดูได้ที่ https://1vpn.org?from=share"
   },
   "x": { "message": "X (ทวิตเตอร์)" },
   "facebook": { "message": "เฟซบุ๊ก" },

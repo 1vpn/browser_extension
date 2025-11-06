@@ -52,7 +52,7 @@
 
   "shareModalTitle": { "message": "Teile 1VPN, um diesen Ort freizuschalten" },
   "shareText": {
-    "message": "Ich habe gerade 1VPN ausprobiert – ein kostenloses, einfaches und sicheres VPN mit unbegrenztem Datenvolumen und hoher Geschwindigkeit. Schau es dir an unter https://1vpn.org"
+    "message": "Ich habe gerade 1VPN ausprobiert – ein kostenloses, einfaches und sicheres VPN mit unbegrenztem Datenvolumen und hoher Geschwindigkeit. Schau es dir an unter https://1vpn.org?from=share"
   },
   "x": { "message": "X (Twitter)" },
   "facebook": { "message": "Facebook" },

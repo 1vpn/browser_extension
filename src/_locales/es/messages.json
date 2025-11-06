@@ -52,7 +52,7 @@
     "message": "Comparte 1VPN para desbloquear esta ubicación"
   },
   "shareText": {
-    "message": "Acabo de probar 1VPN, una VPN gratuita, simple y segura con datos ilimitados y velocidades rápidas. Échale un vistazo en https://1vpn.org"
+    "message": "Acabo de probar 1VPN, una VPN gratuita, simple y segura con datos ilimitados y velocidades rápidas. Échale un vistazo en https://1vpn.org?from=share"
   },
   "x": { "message": "X (Twitter)" },
   "facebook": { "message": "Facebook" },

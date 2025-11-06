@@ -49,7 +49,7 @@
     "message": "Share 1VPN to Unlock This Location"
   },
   "shareText": {
-    "message": "I just tried 1VPN, a free, simple, and secure VPN with unlimited data and fast speeds. Check it out at https://1vpn.org"
+    "message": "I just tried 1VPN, a free, simple, and secure VPN with unlimited data and fast speeds. Check it out at https://1vpn.org?from=share"
   },
   "x": {
     "message": "X (Twitter)"

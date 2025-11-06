@@ -50,7 +50,7 @@
     "message": "Bu konumun kilidini açmak için 1VPN’i paylaşın"
   },
   "shareText": {
-    "message": "Az önce 1VPN’i denedim. Sınırsız veri ve yüksek hız sunan ücretsiz, basit ve güvenli bir VPN. https://1vpn.org adresine göz atın"
+    "message": "Az önce 1VPN’i denedim. Sınırsız veri ve yüksek hız sunan ücretsiz, basit ve güvenli bir VPN. https://1vpn.org?from=share adresine göz atın"
   },
   "x": { "message": "X (Twitter)" },
   "facebook": { "message": "Facebook" },
