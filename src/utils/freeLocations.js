@@ -3,6 +3,8 @@ const freeLocations = [
     country: 'Netherlands',
     countryCode: 'nl',
     hosts: [
+      { hostname: 'netherlands-free-https-1.weathercloudapp.com', port: 443 },
+      { hostname: 'netherlands-free-https-2.cloudquickcdn.com', port: 443 },
       { hostname: 'netherlands-free-https-1.techdatacdn.com', port: 443 },
       { hostname: 'netherlands-free-https-2.cloudnetcdn.com', port: 443 },
       { hostname: 'netherlands-free-https-3.cloudnetcdn.com', port: 443 },
@@ -15,6 +17,8 @@ const freeLocations = [
     country: 'Singapore',
     countryCode: 'sg',
     hosts: [
+      { hostname: 'singapore-free-https-1.weathercloudapp.com', port: 443 },
+      { hostname: 'singapore-free-https-2.cloudquickcdn.com', port: 443 },
       { hostname: 'singapore-free-https-1.cloudspacecdn.site', port: 443 },
       { hostname: 'singapore-free-https-2.cloudnetcdn.site', port: 443 },
       { hostname: 'singapore-free-https-3.cloudnetcdn.com', port: 443 },
@@ -27,6 +31,8 @@ const freeLocations = [
     country: 'USA West',
     countryCode: 'usw',
     hosts: [
+      { hostname: 'usa-west-free-https-1.weathercloudapp.com', port: 443 },
+      { hostname: 'usa-west-free-https-2.cloudquickcdn.com', port: 443 },
       { hostname: 'usa-west-free-https-1.techdatacdn.com', port: 443 },
       { hostname: 'usa-west-free-https-2.cloudnetcdn.com', port: 443 },
       { hostname: 'usa-west-free-https-3.cloudnetcdn.com', port: 443 },
