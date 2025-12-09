@@ -76,7 +76,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
   chrome.storage.local.get(['sessionAuthToken'], (storage) => {
     if (!storage.sessionAuthToken) return
     if (alarm.name === 'fetchUserData') {
-      apiFetch('api/refresh_token', {
+      apiFetch('refresh_token', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -141,7 +141,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         ? 'Token ' + storage.sessionAuthToken
         : null
 
-      apiFetch('get_user_data', {
+      apiFetch('get_user_data_web', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
