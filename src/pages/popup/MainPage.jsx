@@ -127,7 +127,7 @@ const MainPage = ({
           }}
         >
           <Flex
-            sx={{ height: '68px', width: '120px', justifyContent: 'center' }}
+            sx={{ height: '90px', width: '175px', justifyContent: 'center' }}
           >
             <Button
               id="proxyToggle"
@@ -136,21 +136,21 @@ const MainPage = ({
               sx={{
                 appearance: 'none',
                 cursor: 'pointer',
-                p: '8px',
+                p: '8px 10px',
                 height: '100%',
                 width: '100%',
-                borderRadius: '68px',
+                borderRadius: '70px',
                 backgroundColor: isConnected ? 'blue' : 'darkGrey',
                 transition: 'all 0.2s ease-in-out',
               }}
             >
               <Box
                 sx={{
-                  height: '52px',
-                  width: '52px',
+                  height: '70px',
+                  width: '70px',
                   backgroundColor: '#fff',
-                  borderRadius: '50px',
-                  transform: `translateX(${isConnected ? '100%' : '0%'})`,
+                  borderRadius: '100%',
+                  transform: `translateX(${isConnected ? '85px' : '0px'})`,
                   transition: 'all 0.2s ease-in-out',
                 }}
               />
