@@ -70,7 +70,6 @@ const MainPage = ({
         sx={{
           flexDirection: 'column',
           color: 'black',
-          gap: '40px',
           overflow: 'hidden',
         }}
       >
@@ -124,6 +123,8 @@ const MainPage = ({
             alignItems: 'center',
             justifyContent: 'center',
             flexDirection: 'column',
+            pt: '64px',
+            pb: '52px',
           }}
         >
           <Flex
@@ -140,7 +141,7 @@ const MainPage = ({
                 height: '100%',
                 width: '100%',
                 borderRadius: '70px',
-                backgroundColor: isConnected ? 'blue' : 'darkGrey',
+                backgroundColor: isConnected ? 'blue' : 'backgroundGrey',
                 transition: 'all 0.2s ease-in-out',
               }}
             >
@@ -158,9 +159,8 @@ const MainPage = ({
           </Flex>
           <Box
             sx={{
-              mt: '8px',
-              fontSize: '16px',
-              height: '20px',
+              mt: '16px',
+              fontSize: '18px',
             }}
           >
             {isConnected ? messages.connected : messages.disconnected}
