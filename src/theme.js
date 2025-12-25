@@ -11,6 +11,8 @@ export const theme = {
     white: '#fff',
     green: '#20bf6b',
     red: '#eb3b5a',
+
+    borderGrey: '#e5e5e5',
   },
   link: {
     color: 'black',

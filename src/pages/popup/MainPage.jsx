@@ -71,7 +71,6 @@ const MainPage = ({
           flexDirection: 'column',
           color: 'black',
           gap: '40px',
-          p: '24px',
           overflow: 'hidden',
         }}
       >
@@ -79,6 +78,10 @@ const MainPage = ({
           sx={{
             justifyContent: 'space-between',
             alignItems: 'center',
+            px: '21px',
+            height: '60px',
+            borderBottom: '1px solid',
+            borderColor: 'borderGrey',
           }}
         >
           <Link
@@ -87,13 +90,14 @@ const MainPage = ({
             sx={{
               all: 'unset',
               cursor: 'pointer',
-              height: '32px',
+              height: '28px',
+              display: 'block',
             }}
           >
             <Image
               src={Logo}
               sx={{
-                height: '32px',
+                height: '28px',
               }}
             />
           </Link>
@@ -110,6 +114,7 @@ const MainPage = ({
               src={MenuIcon}
               sx={{
                 height: '24px',
+                display: 'block',
               }}
             />
           </Button>
