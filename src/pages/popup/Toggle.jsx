@@ -16,11 +16,11 @@ const Toggle = ({
     <Flex
       sx={{
         flexDirection: 'column',
+        p: '22px',
         gap: '8px',
         ...(showBorder && {
-          pb: '20px',
           borderBottom: '1px solid',
-          borderColor: 'darkGrey',
+          borderColor: 'borderGrey',
         }),
       }}
     >

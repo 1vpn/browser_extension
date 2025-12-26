@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import { Flex, Link, Button } from 'theme-ui'
+import { useState, useContext } from 'react'
+import { Flex, Link, Button, Box, Text } from 'theme-ui'
 import { isFirefox, websiteUrl } from 'utils/constants'
+import { PageContext } from 'context/PageContext'
 import PageHeader from './PageHeader'
 import Toggle from './Toggle'
 import AndroidModal from './AndroidModal'
+import ChevronRight from 'assets/chevronRight.svg'
 
 const OptionsPage = ({
   sessionAuthToken,
@@ -14,6 +16,7 @@ const OptionsPage = ({
   setDisableWebRtc,
   messages,
 }) => {
+  const { goBackPage } = useContext(PageContext)
   const [isAndroidModalOpen, setIsAndroidModalOpen] = useState(false)
 
   const handleSpoofGeolocationToggle = () => {
@@ -41,11 +44,11 @@ const OptionsPage = ({
   }
 
   return (
-    <PageHeader title={messages.options}>
-      <AndroidModal
-        messages={messages}
-        isOpen={isAndroidModalOpen}
-        onClose={() => setIsAndroidModalOpen(false)}
+    <>
+      <PageHeader
+        left={<Text sx={{ fontSize: '20px' }}>{messages.options}</Text>}
+        rightIcon={ChevronRight}
+        onRightClick={goBackPage}
       />
       <Flex
         sx={{
@@ -54,13 +57,18 @@ const OptionsPage = ({
           justifyContent: 'space-between',
         }}
       >
+        {/* <AndroidModal
+        messages={messages}
+        isOpen={isAndroidModalOpen}
+        onClose={() => setIsAndroidModalOpen(false)}
+        /> */}
         {!(sessionAuthToken && isPremium) && (
           <Flex
             sx={{
-              gap: '20px',
-              py: '20px',
+              gap: '16px',
+              p: '22px',
               borderBottom: '1px solid',
-              borderColor: 'darkGrey',
+              borderColor: 'borderGrey',
             }}
           >
             {sessionAuthToken && !isPremium ? (
@@ -87,8 +95,13 @@ const OptionsPage = ({
                   target="_blank"
                   variant="styles.baseButton"
                   sx={{
-                    bg: 'transparent',
-                    color: 'darkBlue',
+                    bg: 'white',
+                    color: 'black',
+                    border: '1px solid',
+                    borderColor: 'darkBorderGrey',
+                    ':hover': {
+                      bg: 'borderGrey50',
+                    },
                   }}
                 >
                   {messages.login}
@@ -100,8 +113,8 @@ const OptionsPage = ({
         <Flex
           sx={{
             flexDirection: 'column',
-            gap: '20px',
-            pt: '20px',
+            // gap: '20px',
+            // pt: '20px',
           }}
         >
           <Toggle
@@ -120,15 +133,15 @@ const OptionsPage = ({
             onToggle={() => handleDisableWebRtcToggle()}
             showBorder
           />
-          <Button
+          {/* <Button
             onClick={() => setIsAndroidModalOpen(true)}
             variant="styles.baseButton"
           >
             {messages.tryOurAndroidApp}
-          </Button>
+          </Button> */}
         </Flex>
       </Flex>
-    </PageHeader>
+    </>
   )
 }
 

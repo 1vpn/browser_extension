@@ -8,6 +8,7 @@ import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
 import Star from 'assets/star.svg'
 import ChevronRight from 'assets/chevronRight.svg'
+import PageHeader from './PageHeader'
 
 const MainPage = ({
   isPremium,
@@ -74,67 +75,30 @@ const MainPage = ({
           overflow: 'hidden',
         }}
       >
-        <Flex
-          sx={{
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            px: '22px',
-            height: '60px',
-            borderBottom: '1px solid',
-            borderColor: 'borderGrey',
-          }}
-        >
-          <Link
-            href={websiteUrl}
-            target="_blank"
-            sx={{
-              all: 'unset',
-              cursor: 'pointer',
-              height: '28px',
-              display: 'block',
-            }}
-          >
-            <Box
-              as={Logo}
+        <PageHeader
+          left={
+            <Link
+              href={websiteUrl}
+              target="_blank"
               sx={{
+                all: 'unset',
+                cursor: 'pointer',
                 height: '28px',
-                width: 'auto',
-              }}
-            />
-          </Link>
-          <Button
-            id="optionsPageButton"
-            onClick={() => setCurrentPage('options')}
-            title={messages.goToOptionsPage}
-            sx={{
-              all: 'unset',
-              cursor: 'pointer',
-            }}
-          >
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '36px',
-                width: '36px',
-                borderRadius: '6px',
-                transition: 'background-color 0.2s ease-in-out',
-                ':hover': {
-                  backgroundColor: 'borderGrey50',
-                },
+                display: 'block',
               }}
             >
               <Box
-                as={MenuIcon}
+                as={Logo}
                 sx={{
-                  height: '24px',
-                  display: 'block',
+                  height: '28px',
+                  width: 'auto',
                 }}
               />
-            </Box>
-          </Button>
-        </Flex>
+            </Link>
+          }
+          rightIcon={MenuIcon}
+          onRightClick={() => setCurrentPage('options')}
+        />
         <Flex
           sx={{
             alignItems: 'center',
@@ -243,15 +207,7 @@ const MainPage = ({
                 United States
               </Text>
             </Flex>
-            <Box
-              as={ChevronRight}
-              sx={{
-                height: '12px',
-                width: '12px',
-                mr: '4px',
-                color: 'inherit',
-              }}
-            />
+            <Box as={ChevronRight} />
           </Button>
 
           {!isPremium && (
@@ -319,9 +275,6 @@ const MainPage = ({
                 <Box
                   as={ChevronRight}
                   sx={{
-                    height: '12px',
-                    width: '12px',
-                    mr: '4px',
                     color: 'white',
                   }}
                 />

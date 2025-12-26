@@ -1,60 +1,46 @@
-import { useContext } from 'react'
-import { PageContext } from 'context/PageContext'
-import { Box, Flex, Button, Image } from 'theme-ui'
-import ChevronRight from 'assets/chevronRight.svg'
+import { Box, Flex, Button } from 'theme-ui'
 
-const PageHeader = ({ title, children, styles }) => {
-  const { goBackPage } = useContext(PageContext)
-
+const PageHeader = ({ left, rightIcon, onRightClick }) => {
   return (
-    <Box
+    <Flex
       sx={{
-        overflow: 'hidden',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        px: '22px',
+        height: '60px',
+        borderBottom: '1px solid',
+        borderColor: 'borderGrey',
       }}
     >
-      <Flex
-        title={`Go to previous page`}
-        sx={{
-          fontSize: '20px',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          mt: '24px',
-          mx: '24px',
-          pb: '22px',
-          borderBottom: '1px solid',
-          borderColor: 'darkGrey',
-        }}
-      >
-        <Box>{title}</Box>
+      {left && <Box>{left}</Box>}
+      {rightIcon && (
         <Button
-          onClick={goBackPage}
+          onClick={onRightClick}
           sx={{
             all: 'unset',
             cursor: 'pointer',
-            height: '24px',
-            width: '24px',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'right',
+            justifyContent: 'center',
+            height: '36px',
+            width: '36px',
+            borderRadius: '6px',
+            transition: 'background-color 0.2s ease-in-out',
+            ':hover': {
+              backgroundColor: 'borderGrey50',
+            },
           }}
         >
-          <Image
-            src={ChevronRight}
+          <Box
+            as={rightIcon}
             sx={{
-              height: '20px',
+              height: '24px',
+              width: '24px',
             }}
           />
         </Button>
-      </Flex>
-      <Box
-        sx={{
-          padding: '0 24px 24px 24px',
-          ...styles,
-        }}
-      >
-        {children}
-      </Box>
-    </Box>
+      )}
+    </Flex>
   )
 }
 
