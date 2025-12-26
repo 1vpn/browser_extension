@@ -112,12 +112,27 @@ const MainPage = ({
             }}
           >
             <Box
-              as={MenuIcon}
               sx={{
-                height: '24px',
-                display: 'block',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                height: '36px',
+                width: '36px',
+                borderRadius: '6px',
+                transition: 'background-color 0.2s ease-in-out',
+                ':hover': {
+                  backgroundColor: 'borderGrey50',
+                },
               }}
-            />
+            >
+              <Box
+                as={MenuIcon}
+                sx={{
+                  height: '24px',
+                  display: 'block',
+                }}
+              />
+            </Box>
           </Button>
         </Flex>
         <Flex
@@ -197,6 +212,9 @@ const MainPage = ({
               border: '1px solid',
               borderColor: 'darkBorderGrey',
               transition: 'all 0.2s ease-in-out',
+              ':hover': {
+                backgroundColor: 'borderGrey50',
+              },
             }}
           >
             <Box
@@ -257,6 +275,9 @@ const MainPage = ({
                   transition: 'all 0.2s ease-in-out',
                   mt: '16px',
                   textDecoration: 'none',
+                  ':hover': {
+                    backgroundColor: 'darkBlue',
+                  },
                 }}
               >
                 <Box
@@ -264,18 +285,18 @@ const MainPage = ({
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    height: '36px',
-                    width: '36px',
+                    height: '34px',
+                    width: '34px',
                     borderRadius: '6px',
-                    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                    backgroundColor: 'white20',
                     overflow: 'visible',
                   }}
                 >
                   <Box
                     as={Star}
                     sx={{
-                      height: '20px',
-                      width: '20px',
+                      height: '18px',
+                      width: '18px',
                       overflow: 'visible',
                     }}
                   />

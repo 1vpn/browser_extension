@@ -9,11 +9,13 @@ export const theme = {
     textGrey: '#808080',
     // backgroundGrey: '#f0f4f9',
     white: '#fff',
+    white20: 'rgba(255, 255, 255, 0.2)',
     green: '#20bf6b',
     red: '#eb3b5a',
 
     borderGrey: '#e5e5e5',
-    darkBorderGrey: '#dedede',
+    borderGrey50: 'rgba(229, 229, 229, 0.5)',
+    darkBorderGrey: '#dcdcdc',
     backgroundGrey: '#cbd5e1',
   },
   link: {
