@@ -109,7 +109,7 @@ const Popup = () => {
     <Flex
       sx={{
         width: '100%',
-        minWidth: '400px',
+        minWidth: '375px',
         flexDirection: 'column',
         backgroundColor: 'white',
       }}

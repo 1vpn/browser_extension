@@ -72,7 +72,14 @@ var options = {
         ],
       },
       {
-        test: new RegExp('.(' + fileExtensions.join('|') + ')$'),
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+        exclude: /node_modules/,
+      },
+      {
+        test: new RegExp(
+          '.(' + fileExtensions.filter((ext) => ext !== 'svg').join('|') + ')$'
+        ),
         type: 'asset/resource',
         exclude: /node_modules/,
       },

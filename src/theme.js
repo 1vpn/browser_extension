@@ -13,6 +13,7 @@ export const theme = {
     red: '#eb3b5a',
 
     borderGrey: '#e5e5e5',
+    darkBorderGrey: '#dedede',
     backgroundGrey: '#cbd5e1',
   },
   link: {

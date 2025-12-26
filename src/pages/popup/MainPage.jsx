@@ -1,11 +1,12 @@
 import { useState, useEffect, useContext } from 'react'
 import { PageContext } from 'context/PageContext'
-import { Box, Flex, Button, Image, Link, Text } from 'theme-ui'
+import { Box, Flex, Button, Link, Text } from 'theme-ui'
 import { isFirefox, websiteUrl } from 'utils/constants'
 import UpgradeModal from './UpgradeModal'
 import flags from 'utils/flags'
 import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
+import Star from 'assets/star.svg'
 import ChevronRight from 'assets/chevronRight.svg'
 
 const MainPage = ({
@@ -77,7 +78,7 @@ const MainPage = ({
           sx={{
             justifyContent: 'space-between',
             alignItems: 'center',
-            px: '21px',
+            px: '22px',
             height: '60px',
             borderBottom: '1px solid',
             borderColor: 'borderGrey',
@@ -93,10 +94,11 @@ const MainPage = ({
               display: 'block',
             }}
           >
-            <Image
-              src={Logo}
+            <Box
+              as={Logo}
               sx={{
                 height: '28px',
+                width: 'auto',
               }}
             />
           </Link>
@@ -109,8 +111,8 @@ const MainPage = ({
               cursor: 'pointer',
             }}
           >
-            <Image
-              src={MenuIcon}
+            <Box
+              as={MenuIcon}
               sx={{
                 height: '24px',
                 display: 'block',
@@ -123,12 +125,16 @@ const MainPage = ({
             alignItems: 'center',
             justifyContent: 'center',
             flexDirection: 'column',
-            pt: '64px',
-            pb: '52px',
+            pt: '60px',
+            pb: '48px',
           }}
         >
           <Flex
-            sx={{ height: '90px', width: '175px', justifyContent: 'center' }}
+            sx={{
+              height: '90px',
+              width: '175px',
+              justifyContent: 'center',
+            }}
           >
             <Button
               id="proxyToggle"
@@ -169,6 +175,8 @@ const MainPage = ({
         <Flex
           sx={{
             flexDirection: 'column',
+            px: '22px',
+            pb: '24px',
           }}
         >
           <Button
@@ -180,35 +188,127 @@ const MainPage = ({
               alignItems: 'center',
               justifyContent: 'space-between',
               cursor: 'pointer',
-              px: '20px',
-              height: '48px',
+              p: '16px 18px',
               width: '100%',
-              borderRadius: '6px',
+              borderRadius: '8px',
               fontSize: '16px',
               color: 'black',
-              backgroundColor: 'grey',
+              backgroundColor: 'white',
+              border: '1px solid',
+              borderColor: 'darkBorderGrey',
               transition: 'all 0.2s ease-in-out',
             }}
           >
-            <Image
-              src={flags[currentLocation.countryCode]}
+            <Box
+              as={flags[currentLocation.countryCode]}
               sx={{
-                height: '20px',
-                width: '20px',
+                height: '30px',
+                width: '30px',
                 borderRadius: '6px',
-                backgroundColor: 'darkGrey',
+                backgroundColor: 'backgroundGrey',
               }}
             />
-            {messages[currentLocation.countryCode]}
-            <Image
-              src={ChevronRight}
+            <Flex
               sx={{
-                height: '18px',
+                flexDirection: 'column',
+                alignItems: 'flex-start',
+                flex: 1,
+                ml: '18px',
+              }}
+            >
+              <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
+                {/* {messages[currentLocation.countryCode]} */}
+                New York
+              </Text>
+              <Text sx={{ fontSize: '12px', color: 'textGrey' }}>
+                {/* {currentLocation.countryCode} */}
+                United States
+              </Text>
+            </Flex>
+            <Box
+              as={ChevronRight}
+              sx={{
+                height: '12px',
+                width: '12px',
+                mr: '4px',
+                color: 'inherit',
               }}
             />
           </Button>
 
           {!isPremium && (
+            <>
+              <Link
+                id="upgradeLink"
+                href={`${websiteUrl}/select_plan`}
+                target="_blank"
+                title="Upgrade to Premium"
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  cursor: 'pointer',
+                  p: '16px 18px',
+                  width: '100%',
+                  borderRadius: '8px',
+                  fontSize: '16px',
+                  color: 'white',
+                  backgroundColor: 'blue',
+                  transition: 'all 0.2s ease-in-out',
+                  mt: '16px',
+                  textDecoration: 'none',
+                }}
+              >
+                <Box
+                  sx={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    height: '36px',
+                    width: '36px',
+                    borderRadius: '6px',
+                    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                    overflow: 'visible',
+                  }}
+                >
+                  <Box
+                    as={Star}
+                    sx={{
+                      height: '20px',
+                      width: '20px',
+                      overflow: 'visible',
+                    }}
+                  />
+                </Box>
+                <Flex
+                  sx={{
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    flex: 1,
+                    ml: '18px',
+                  }}
+                >
+                  <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
+                    Upgrade to Premium
+                  </Text>
+                  <Text sx={{ fontSize: '12px', opacity: 0.8 }}>
+                    More locations, faster speeds, & more
+                  </Text>
+                </Flex>
+                <Box
+                  as={ChevronRight}
+                  sx={{
+                    height: '12px',
+                    width: '12px',
+                    mr: '4px',
+                    color: 'white',
+                  }}
+                />
+              </Link>
+            </>
+          )}
+
+          {/* {!isPremium && (
             <>
               {chrome.i18n.getUILanguage().startsWith('ru') ? (
                 <Text
@@ -249,7 +349,7 @@ const MainPage = ({
                 </Link>
               )}
             </>
-          )}
+          )} */}
         </Flex>
       </Flex>
     </>

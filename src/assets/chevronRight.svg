@@ -14,12 +14,12 @@
    transform="translate(-81.938,5e-4)">
 	<g
    id="g4"
-   style="stroke-width:0.999925;stroke-miterlimit:4;stroke-dasharray:none;opacity:1;fill:#333333;fill-opacity:1"
+   style="stroke-width:0.999925;stroke-miterlimit:4;stroke-dasharray:none;opacity:1;fill:currentColor;fill-opacity:1"
    transform="rotate(-90,174.60962,51.701876)">
 		<path
    d="m 40.968497,51.707247 c 0,-2.741 1.044,-5.493 3.149,-7.593 4.194,-4.194 10.981,-4.194 15.175,0 l 74.347003,74.352003 74.352,-74.352003 c 4.194,-4.194 10.987,-4.194 15.175,0 4.194,4.194 4.194,10.987 0,15.180003 l -81.934,81.934 c -4.194,4.194 -10.987,4.194 -15.175,0 l -81.939003,-81.934 c -2.1,-2.093003 -3.15,-4.840003 -3.15,-7.587003 z"
    id="path2"
-   style="opacity:1;fill:#333333;fill-opacity:1;stroke-width:0.999925;stroke-miterlimit:4;stroke-dasharray:none" />
+   style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.999925;stroke-miterlimit:4;stroke-dasharray:none" />
 	</g>
 </g>
 </svg>
