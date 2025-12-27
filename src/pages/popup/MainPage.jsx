@@ -126,7 +126,7 @@ const MainPage = ({
                 height: '100%',
                 width: '100%',
                 borderRadius: '70px',
-                backgroundColor: isConnected ? 'blue' : 'backgroundGrey',
+                backgroundColor: isConnected ? 'blue' : 'toggleGrey',
                 transition: 'all 0.2s ease-in-out',
               }}
             >
@@ -187,7 +187,7 @@ const MainPage = ({
                 height: '30px',
                 width: '30px',
                 borderRadius: '6px',
-                backgroundColor: 'backgroundGrey',
+                backgroundColor: 'toggleGrey',
               }}
             />
             <Flex
@@ -202,7 +202,7 @@ const MainPage = ({
                 {/* {messages[currentLocation.countryCode]} */}
                 New York
               </Text>
-              <Text sx={{ fontSize: '12px', color: 'textGrey' }}>
+              <Text sx={{ fontSize: '13px', color: 'grey', fontWeight: 300 }}>
                 {/* {currentLocation.countryCode} */}
                 United States
               </Text>
@@ -268,8 +268,8 @@ const MainPage = ({
                   <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
                     Upgrade to Premium
                   </Text>
-                  <Text sx={{ fontSize: '12px', opacity: 0.8 }}>
-                    More locations, faster speeds, & more
+                  <Text sx={{ fontSize: '13px', fontWeight: 300 }}>
+                    More locations & faster speeds
                   </Text>
                 </Flex>
                 <Box

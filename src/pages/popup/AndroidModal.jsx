@@ -15,7 +15,7 @@ const AndroidModal = ({ messages, isOpen, onClose }) => {
       <Box
         sx={{
           fontSize: '12px',
-          color: 'textGrey',
+          color: 'grey',
           mb: '8px',
         }}
       >

@@ -47,7 +47,7 @@ const UpgradeModal = ({ messages, isOpen, onClose }) => {
           textAlign: 'center',
           mt: '6px',
           fontSize: '11px',
-          color: 'textGrey',
+          color: 'grey',
         }}
       >
         {`${messages.until} ${new Date(

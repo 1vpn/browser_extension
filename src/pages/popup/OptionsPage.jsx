@@ -1,9 +1,9 @@
 import { useState, useContext } from 'react'
 import { Flex, Link, Button, Box, Text } from 'theme-ui'
-import { isFirefox, websiteUrl } from 'utils/constants'
+import { isFirefox, websiteUrl, androidUrl } from 'utils/constants'
 import { PageContext } from 'context/PageContext'
 import PageHeader from './PageHeader'
-import Toggle from './Toggle'
+import Option from './Option'
 import AndroidModal from './AndroidModal'
 import ChevronRight from 'assets/chevronRight.svg'
 
@@ -117,7 +117,7 @@ const OptionsPage = ({
             // pt: '20px',
           }}
         >
-          <Toggle
+          <Option
             title={messages.spoofGeolocation}
             subTitle={messages.spoofGeolocationSubTitle}
             id="spoofGeolocationToggle"
@@ -125,7 +125,7 @@ const OptionsPage = ({
             onToggle={() => handleSpoofGeolocationToggle()}
             showBorder
           />
-          <Toggle
+          <Option
             title={messages.disableWebRtc}
             subTitle={messages.disableWebRtcSubTitle}
             id="disableWebRtcToggle"
@@ -133,12 +133,29 @@ const OptionsPage = ({
             onToggle={() => handleDisableWebRtcToggle()}
             showBorder
           />
-          {/* <Button
-            onClick={() => setIsAndroidModalOpen(true)}
-            variant="styles.baseButton"
+          <Option
+            title={'Try Android App'}
+            subTitle={'Get 1VPN for Android'}
+            id="tryAndroidApp"
+            link={androidUrl}
+            showBorder
+          />
+          <Box
+            sx={{
+              p: '18px',
+              textAlign: 'center',
+            }}
           >
-            {messages.tryOurAndroidApp}
-          </Button> */}
+            <Text
+              sx={{
+                fontSize: '12px',
+                color: 'grey',
+                fontWeight: 300,
+              }}
+            >
+              v{chrome.runtime.getManifest().version}
+            </Text>
+          </Box>
         </Flex>
       </Flex>
     </>

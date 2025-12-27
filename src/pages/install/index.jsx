@@ -48,7 +48,7 @@ const App = () => {
           <Box
             sx={{
               fontSize: '16px',
-              color: 'textGrey',
+              color: 'grey',
               mb: '16px',
             }}
           >
@@ -104,7 +104,7 @@ const App = () => {
             <Box
               sx={{
                 fontSize: '15px',
-                color: 'textGrey',
+                color: 'grey',
                 mb: '8px',
               }}
             >

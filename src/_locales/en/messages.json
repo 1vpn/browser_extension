@@ -32,13 +32,13 @@
   "disableWebRtc": { "message": "Disable WebRTC" },
   "disableAddressAutofill": { "message": "Disable Address Autofill" },
   "spoofGeolocationSubTitle": {
-    "message": "Spoof HTML5 Geolocation API to match your current VPN location."
+    "message": "Match HTML5 geolocation to VPN location"
   },
   "disableAddressAutofillSubTitle": {
     "message": "Disable address autofill in forms to protect your location."
   },
   "disableWebRtcSubTitle": {
-    "message": "Disable WebRTC to prevent your real IP address from leaking."
+    "message": "Prevent IP address leaks through WebRTC"
   },
   "locations": { "message": "Locations" },
   "reviewModalTitle": {
