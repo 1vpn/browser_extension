@@ -137,7 +137,7 @@ const OptionsPage = ({
           />
           <Box
             sx={{
-              p: '18px',
+              p: '12px',
               textAlign: 'center',
             }}
           >
