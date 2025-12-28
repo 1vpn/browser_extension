@@ -29,17 +29,18 @@ const Option = ({
         cursor: 'pointer',
         p: '22px',
         gap: '48px',
-        ...(showBorder && {
-          borderBottom: '1px solid',
-          borderColor: 'borderGrey',
-        }),
+        borderBottom: '1px solid',
+        borderColor: 'borderGrey',
+        transition: 'all 0.2s ease-in-out',
+        ':hover': {
+          bg: 'borderGrey50',
+        },
       }}
     >
       <Box
         title={title}
         sx={{
           flex: 1,
-          cursor: 'pointer',
         }}
       >
         <Box sx={{ fontSize: '14px', mb: '4px' }}>{title}</Box>

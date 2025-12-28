@@ -113,8 +113,6 @@ const OptionsPage = ({
         <Flex
           sx={{
             flexDirection: 'column',
-            // gap: '20px',
-            // pt: '20px',
           }}
         >
           <Option
@@ -123,7 +121,6 @@ const OptionsPage = ({
             id="spoofGeolocationToggle"
             checked={spoofGeolocation}
             onToggle={() => handleSpoofGeolocationToggle()}
-            showBorder
           />
           <Option
             title={messages.disableWebRtc}
@@ -131,14 +128,12 @@ const OptionsPage = ({
             id="disableWebRtcToggle"
             checked={disableWebRtc}
             onToggle={() => handleDisableWebRtcToggle()}
-            showBorder
           />
           <Option
             title={'Try Android App'}
             subTitle={'Get 1VPN for Android'}
             id="tryAndroidApp"
             link={androidUrl}
-            showBorder
           />
           <Box
             sx={{
