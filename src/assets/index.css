@@ -41,6 +41,6 @@ select {
 
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb {
-  background: var(--theme-ui-colors-darkGrey);
-  border-radius: 4px;
+  background: var(--theme-ui-colors-toggleGrey);
+  border-radius: 2px;
 }

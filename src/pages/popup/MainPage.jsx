@@ -207,7 +207,14 @@ const MainPage = ({
                 United States
               </Text>
             </Flex>
-            <Box as={ChevronRight} />
+            <Box
+              as={ChevronRight}
+              sx={{
+                color: 'grey',
+                height: '24px',
+                width: '24px',
+              }}
+            />
           </Button>
 
           {!isPremium && (
@@ -251,8 +258,6 @@ const MainPage = ({
                   <Box
                     as={Star}
                     sx={{
-                      height: '18px',
-                      width: '18px',
                       overflow: 'visible',
                     }}
                   />

@@ -1,11 +1,11 @@
 import { useState, useContext } from 'react'
-import { Flex, Link, Button, Box, Text } from 'theme-ui'
+import { Flex, Link, Box, Text } from 'theme-ui'
 import { isFirefox, websiteUrl, androidUrl } from 'utils/constants'
 import { PageContext } from 'context/PageContext'
 import PageHeader from './PageHeader'
 import Option from './Option'
 import AndroidModal from './AndroidModal'
-import ChevronRight from 'assets/chevronRight.svg'
+import Arrow from 'assets/arrow.svg'
 
 const OptionsPage = ({
   sessionAuthToken,
@@ -47,7 +47,7 @@ const OptionsPage = ({
     <>
       <PageHeader
         left={<Text sx={{ fontSize: '20px' }}>{messages.options}</Text>}
-        rightIcon={ChevronRight}
+        rightIcon={Arrow}
         onRightClick={goBackPage}
       />
       <Flex

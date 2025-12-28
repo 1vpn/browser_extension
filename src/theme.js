@@ -22,9 +22,10 @@ export const theme = {
     darkBorderGrey: '#dcdcdc',
     toggleGrey: '#cbd5e1',
     bgGrey: '#f9f9fa',
-    green: '#008236',
+    green: '#00c950',
     lightGreen: '#f0fdf4',
     red: '#eb3b5a',
+    yellow: '#fed330',
   },
   link: {
     color: 'black',

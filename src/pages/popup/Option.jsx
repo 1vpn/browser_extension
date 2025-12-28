@@ -1,16 +1,7 @@
 import { Flex, Box, Button } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
 
-const Option = ({
-  title,
-  subTitle,
-  id,
-  checked,
-  onToggle,
-  link,
-  showBorder,
-  messages,
-}) => {
+const Option = ({ title, subTitle, id, checked, onToggle, link, messages }) => {
   const handleClick = () => {
     if (link) {
       window.open(link, '_blank')
@@ -60,7 +51,7 @@ const Option = ({
           sx={{
             height: '24px',
             width: '24px',
-            color: 'inherit',
+            color: 'grey',
           }}
         />
       ) : (
@@ -75,7 +66,6 @@ const Option = ({
               width: '100%',
               borderRadius: '68px',
               cursor: 'pointer',
-
               backgroundColor: checked ? 'blue' : 'toggleGrey',
               transition: 'all 0.2s ease-in-out',
             }}
@@ -84,7 +74,7 @@ const Option = ({
               sx={{
                 height: '16px',
                 width: '16px',
-                backgroundColor: '#fff',
+                backgroundColor: 'white',
                 borderRadius: '50%',
                 transform: `translateX(${checked ? '100%' : '0%'})`,
                 transition: 'all 0.2s ease-in-out',
