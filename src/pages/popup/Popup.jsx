@@ -9,6 +9,7 @@ import { localeMessageKeys } from 'utils/constants'
 import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
+import UpgradePage from './UpgradePage'
 
 const Popup = () => {
   const { currentPage, setCurrentPage } = useContext(PageContext)
@@ -85,6 +86,8 @@ const Popup = () => {
             messages={messages}
           />
         )
+      case 'upgrade':
+        return <UpgradePage messages={messages} />
       case 'main':
       default:
         return (

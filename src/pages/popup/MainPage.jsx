@@ -219,10 +219,11 @@ const MainPage = ({
 
           {!isPremium && (
             <>
-              <Link
+              <Button
                 id="upgradeLink"
-                href={`${websiteUrl}/select_plan`}
-                target="_blank"
+                // href={`${websiteUrl}/select_plan`}
+                // target="_blank"
+                onClick={() => setCurrentPage('upgrade')}
                 title="Upgrade to Premium"
                 sx={{
                   display: 'flex',
@@ -248,8 +249,8 @@ const MainPage = ({
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    height: '34px',
-                    width: '34px',
+                    height: '32px',
+                    width: '32px',
                     borderRadius: '6px',
                     backgroundColor: 'white20',
                     overflow: 'visible',
@@ -259,6 +260,8 @@ const MainPage = ({
                     as={Star}
                     sx={{
                       overflow: 'visible',
+                      height: '18px',
+                      width: '18px',
                     }}
                   />
                 </Box>
@@ -283,7 +286,7 @@ const MainPage = ({
                     color: 'white',
                   }}
                 />
-              </Link>
+              </Button>
             </>
           )}
 
