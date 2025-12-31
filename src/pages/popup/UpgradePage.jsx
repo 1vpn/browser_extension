@@ -132,11 +132,14 @@ const UpgradePage = ({ messages }) => {
         <Flex sx={{ flexDirection: 'column', gap: '12px' }}>
           <Link
             id="upgradeButton"
-            href={`${websiteUrl}/select_plan`}
+            href={
+              websiteUrl +
+              '/referral_redirect?from=upgrade_page&url=https://1vpn.org/select_plan/'
+            }
             target="_blank"
             variant="styles.baseButton"
           >
-            {messages.upgrade}
+            Get Premium
           </Link>
           <Button
             onClick={() => setCurrentPage('main')}
