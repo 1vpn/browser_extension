@@ -85,7 +85,7 @@ const Location = ({
         justifyContent: 'space-between',
         alignItems: 'center',
         cursor: 'pointer',
-        p: '22px',
+        p: '16px 22px',
         gap: '48px',
         borderBottom: '1px solid',
         borderColor: 'borderGrey',
