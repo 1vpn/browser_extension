@@ -10,6 +10,7 @@ import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
 import UpgradePage from './UpgradePage'
+import AndroidPage from './AndroidPage'
 
 const Popup = () => {
   const { currentPage, setCurrentPage } = useContext(PageContext)
@@ -88,6 +89,8 @@ const Popup = () => {
         )
       case 'upgrade':
         return <UpgradePage messages={messages} />
+      case 'android':
+        return <AndroidPage messages={messages} />
       case 'main':
       default:
         return (

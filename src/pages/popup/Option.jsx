@@ -1,10 +1,18 @@
 import { Flex, Box, Button } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
 
-const Option = ({ title, subTitle, id, checked, onToggle, link, messages }) => {
+const Option = ({
+  title,
+  subTitle,
+  id,
+  checked,
+  onToggle,
+  onClick,
+  messages,
+}) => {
   const handleClick = () => {
-    if (link) {
-      window.open(link, '_blank')
+    if (onClick) {
+      onClick()
     } else if (onToggle) {
       onToggle()
     }
@@ -45,7 +53,7 @@ const Option = ({ title, subTitle, id, checked, onToggle, link, messages }) => {
           {subTitle}
         </Box>
       </Box>
-      {link ? (
+      {onClick ? (
         <Box
           as={ChevronRight}
           sx={{

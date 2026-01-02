@@ -1,10 +1,9 @@
-import { useState, useContext } from 'react'
+import { useContext } from 'react'
 import { Flex, Link, Box, Text } from 'theme-ui'
-import { isFirefox, websiteUrl, androidUrl } from 'utils/constants'
+import { isFirefox, websiteUrl } from 'utils/constants'
 import { PageContext } from 'context/PageContext'
 import PageHeader from './PageHeader'
 import Option from './Option'
-import AndroidModal from './AndroidModal'
 import Arrow from 'assets/arrow.svg'
 
 const OptionsPage = ({
@@ -16,8 +15,7 @@ const OptionsPage = ({
   setDisableWebRtc,
   messages,
 }) => {
-  const { goBackPage } = useContext(PageContext)
-  const [isAndroidModalOpen, setIsAndroidModalOpen] = useState(false)
+  const { goBackPage, setCurrentPage } = useContext(PageContext)
 
   const handleSpoofGeolocationToggle = () => {
     chrome.storage.local.set({
@@ -57,11 +55,6 @@ const OptionsPage = ({
           justifyContent: 'space-between',
         }}
       >
-        {/* <AndroidModal
-        messages={messages}
-        isOpen={isAndroidModalOpen}
-        onClose={() => setIsAndroidModalOpen(false)}
-        /> */}
         {!(sessionAuthToken && isPremium) && (
           <Flex
             sx={{
@@ -130,10 +123,10 @@ const OptionsPage = ({
             onToggle={() => handleDisableWebRtcToggle()}
           />
           <Option
-            title={'Try Android App'}
-            subTitle={'Get 1VPN for Android'}
+            title={messages.tryOurAndroidApp || 'Try Android App'}
+            subTitle={messages.get1VPNForAndroid || 'Get 1VPN for Android'}
             id="tryAndroidApp"
-            link={androidUrl}
+            onClick={() => setCurrentPage('android')}
           />
           <Box
             sx={{
