@@ -50,7 +50,7 @@ const Location = ({
             const installTime = installDate
               ? new Date(installDate).getTime()
               : 0
-            if (installDate && now - installTime > 48 * 60 * 60 * 1000) {
+            if (installDate && now - installTime > 72 * 60 * 60 * 1000) {
               setIsReviewModalOpen(true)
               return
             }

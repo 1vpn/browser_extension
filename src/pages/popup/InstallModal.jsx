@@ -36,7 +36,7 @@ const InstallModal = ({ messages, isOpen, onClose }) => {
             color: 'black',
           }}
         >
-          Refer to Unlock
+          Refer To Unlock
         </Box>
         <Box
           sx={{

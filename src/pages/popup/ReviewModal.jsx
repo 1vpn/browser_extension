@@ -13,23 +13,42 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
   }
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose}>
+    <Modal isOpen={isOpen} onClose={onClose} width="300px">
       <Box
         sx={{
-          mb: '12px',
-          textAlign: 'center',
+          width: '100%',
         }}
       >
-        {messages.reviewModalTitle}
+        <Box
+          sx={{
+            mb: '12px',
+            textAlign: 'center',
+            fontSize: '16px',
+            fontWeight: 400,
+            color: 'black',
+          }}
+        >
+          Review To Unlock
+        </Box>
+        <Box
+          sx={{
+            mb: '20px',
+            textAlign: 'center',
+            fontSize: '14px',
+            fontWeight: 300,
+            color: 'grey',
+          }}
+        >
+          Leave a 5-star review to unlock this location
+        </Box>
+        <Button
+          onClick={handleReviewClick}
+          variant="styles.baseButton"
+          sx={{ height: '40px' }}
+        >
+          {messages.reviewModalButton}
+        </Button>
       </Box>
-
-      <Button
-        onClick={handleReviewClick}
-        variant="styles.baseButton"
-        sx={{ height: '40px' }}
-      >
-        {messages.reviewModalButton}
-      </Button>
     </Modal>
   )
 }
