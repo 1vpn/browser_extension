@@ -17,7 +17,6 @@ const Location = ({
   installDate,
   setIsReviewModalOpen,
   setIsInstallModalOpen,
-  setIsShareModalOpen,
   messages,
 }) => {
   const handleClick = async () => {
@@ -55,20 +54,7 @@ const Location = ({
               setIsReviewModalOpen(true)
               return
             }
-            chrome.storage.local.get(['userModalType'], (modalResult) => {
-              let modalType = modalResult.userModalType
-              if (!modalType) {
-                modalType = Math.random() < 0.5 ? 'install' : 'share'
-                chrome.storage.local.set({
-                  userModalType: modalType,
-                })
-              }
-              if (modalType === 'install') {
-                setIsInstallModalOpen(true)
-              } else {
-                setIsShareModalOpen(true)
-              }
-            })
+            setIsInstallModalOpen(true)
           }
         }
       )

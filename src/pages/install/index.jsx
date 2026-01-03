@@ -18,7 +18,7 @@ const App = () => {
           justifyContent: 'center',
           alignItems: 'center',
           minHeight: '100vh',
-          maxWidth: '854px',
+          maxWidth: '1000px',
           mx: 'auto',
           py: '48px',
           gap: '48px',

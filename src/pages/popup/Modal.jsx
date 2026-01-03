@@ -33,7 +33,6 @@ const Modal = ({ isOpen, onClose, children, width }) => {
           borderRadius: '6px',
           p: '24px',
           textAlign: 'center',
-          gap: '8px',
           position: 'relative',
           cursor: 'default',
         }}

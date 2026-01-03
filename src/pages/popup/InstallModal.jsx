@@ -6,52 +6,79 @@ const InstallModal = ({ messages, isOpen, onClose }) => {
   const installUrl = 'https://1vpn.org/?from=zv45k6'
   const [copied, setCopied] = useState(false)
 
+  const handleModalClick = () => {
+    console.log('handleModalClick')
+    chrome.storage.local.set({ installModalCopiedTime: Date.now() })
+  }
+
   const handleCopy = () => {
     navigator.clipboard.writeText(installUrl).then(() => {
       setCopied(true)
-      chrome.storage.local.set({ installModalCopiedTime: Date.now() })
+      handleModalClick()
       setTimeout(() => setCopied(false), 1200)
     })
   }
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} width="250px">
+    <Modal isOpen={isOpen} onClose={onClose} width="300px">
       <Box
-        sx={{
-          mb: '12px',
-          textAlign: 'center',
-        }}
-      >
-        {messages.installModalText}
-      </Box>
-      <Input
-        readOnly
-        value={installUrl}
+        onClick={handleModalClick}
         sx={{
           width: '100%',
-          mb: '12px',
-          textAlign: 'center',
-          fontSize: '14px',
-          px: '8px',
-          py: '10px',
-          borderRadius: '6px',
-          border: '1px solid',
-          borderColor: 'lightGrey',
-          color: 'black',
-          backgroundColor: 'white',
-          '&:focus': {
-            outline: 'none',
-          },
         }}
-      />
-      <Button
-        onClick={handleCopy}
-        variant="styles.baseButton"
-        sx={{ height: '40px' }}
-        disabled={copied}
       >
-        {copied ? messages.linkCopied : messages.copyLink}
-      </Button>
+        <Box
+          sx={{
+            mb: '12px',
+            textAlign: 'center',
+            fontSize: '16px',
+            fontWeight: 400,
+            color: 'black',
+          }}
+        >
+          Refer to Unlock
+        </Box>
+        <Box
+          sx={{
+            mb: '20px',
+            textAlign: 'center',
+            fontSize: '14px',
+            fontWeight: 300,
+            color: 'grey',
+          }}
+        >
+          To unlock this location, get another user to install the extension
+          using this link:
+        </Box>
+        <Input
+          readOnly
+          value={installUrl}
+          sx={{
+            width: '100%',
+            mb: '20px',
+            textAlign: 'center',
+            fontSize: '14px',
+            px: '8px',
+            py: '10px',
+            borderRadius: '6px',
+            border: '1px solid',
+            borderColor: 'lightGrey',
+            color: 'black',
+            backgroundColor: 'white',
+            '&:focus': {
+              outline: 'none',
+            },
+          }}
+        />
+        <Button
+          onClick={handleCopy}
+          variant="styles.baseButton"
+          sx={{ height: '40px' }}
+          disabled={copied}
+        >
+          {copied ? messages.linkCopied : messages.copyLink}
+        </Button>
+      </Box>
     </Modal>
   )
 }
