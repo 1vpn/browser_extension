@@ -19,7 +19,7 @@ const UpgradePage = ({ messages }) => {
     },
     {
       title: 'Fastest Speeds',
-      subTitle: 'Optimized for streaming & browsing',
+      subTitle: 'Consistent and fast internet speeds',
       icon: Lightning,
     },
     {
@@ -29,7 +29,7 @@ const UpgradePage = ({ messages }) => {
     },
     {
       title: '10-Day Money-Back Guarantee',
-      subTitle: 'Risk-free trial period',
+      subTitle: 'Full refund if not satisfied',
       icon: Check,
     },
   ]
