@@ -1,18 +1,13 @@
-import { websiteUrl, backupUrl } from 'utils/constants'
+import { websiteUrl } from 'utils/constants'
 
 const apiFetch = async (endpoint, options) => {
-  const fetchWithRetry = async (apiUrl, isRetry = false) => {
+  const fetchWithRetry = async (apiUrl) => {
     try {
       const response = await fetch(`${apiUrl}/api/${endpoint}/`, options)
       return response
     } catch (error) {
       console.log(error)
-
-      if (!isRetry) {
-        return await fetchWithRetry(backupUrl, true)
-      } else {
-        throw error
-      }
+      throw error
     }
   }
 

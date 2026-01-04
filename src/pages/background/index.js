@@ -1,4 +1,10 @@
-import { isFirefox, androidUrl, freeCredentials } from 'utils/constants'
+import {
+  isFirefox,
+  androidUrl,
+  freeCredentials,
+  backupUrl,
+  websiteUrl,
+} from 'utils/constants'
 import setBadge from 'utils/setBadge'
 import apiFetch from 'utils/apiFetch'
 import { handleProxyRequest } from 'utils/manageProxy'
@@ -21,7 +27,7 @@ chrome.runtime.onStartup.addListener(() => {
   setBadge()
   chrome.storage.local.get(['isConnected'], (storage) => {
     if (storage.isConnected) {
-      fetch('https://1vpn.org/proxy_auth/')
+      fetch(`${websiteUrl}/proxy_auth/`)
     }
   })
 })
@@ -148,7 +154,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           ...(authToken && { Authorization: authToken }),
         },
       })
-        .then((response) => response.json())
+        .then(async (response) => {
+          if (!response.ok) {
+            throw new Error('get_user_data_web failed')
+          }
+          return response.json()
+        })
         .then((data) => {
           if (data.username) {
             chrome.storage.local.set(data)
@@ -157,7 +168,30 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           }
         })
         .catch((error) => {
-          console.error('Error fetching user data:', error)
+          console.error('Error fetching user data from web:', error)
+          fetch(`${backupUrl}/api/get_user_data_api/`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              ...(authToken && { Authorization: authToken }),
+            },
+          })
+            .then(async (response) => {
+              if (!response.ok) {
+                throw new Error('get_user_data_api failed')
+              }
+              return response.json()
+            })
+            .then((data) => {
+              if (data.username) {
+                chrome.storage.local.set(data)
+              } else if (storage.username) {
+                logout()
+              }
+            })
+            .catch((apiError) => {
+              console.error('Error fetching user data from API:', apiError)
+            })
         })
     })
     return true
