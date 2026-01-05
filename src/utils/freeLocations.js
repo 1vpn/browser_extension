@@ -8,7 +8,6 @@ const freeLocations = [
       { hostname: 'netherlands-free-https-1.techdatacdn.com', port: 443 },
       { hostname: 'netherlands-free-https-2.cloudnetcdn.com', port: 443 },
       { hostname: 'netherlands-free-https-3.cloudnetcdn.com', port: 443 },
-      { hostname: 'netherlands-https-3.cloudnetcdn.com', port: 443 },
     ],
     latitude: 52.3878,
     longitude: 4.9302,
