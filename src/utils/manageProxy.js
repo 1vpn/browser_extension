@@ -1,5 +1,10 @@
 import setBadge from './setBadge'
 import { isFirefox, websiteUrl } from './constants'
+import freeLocations from './freeLocations'
+
+const getLocationByCode = (countryCode, locations) => {
+  return locations.find((loc) => loc.countryCode === countryCode)
+}
 
 const handleProxyRequest = (details) => {
   return new Promise((resolve, reject) => {
@@ -13,18 +18,27 @@ const handleProxyRequest = (details) => {
       return
     }
 
-    chrome.storage.local.get(['isConnected', 'currentLocation'], (storage) => {
-      if (storage.isConnected) {
-        const host = storage.currentLocation.hosts[0]
-        resolve({
-          type: 'https',
-          host: host.hostname,
-          port: host.port,
-        })
-      } else {
-        resolve({ type: 'direct' })
+    chrome.storage.local.get(
+      ['isConnected', 'currentLocation', 'locations'],
+      (storage) => {
+        if (storage.isConnected && storage.currentLocation) {
+          const locations = storage.locations || freeLocations
+          const location = getLocationByCode(storage.currentLocation, locations)
+          if (location && location.hosts) {
+            const host = location.hosts[0]
+            resolve({
+              type: 'https',
+              host: host.hostname,
+              port: host.port,
+            })
+          } else {
+            resolve({ type: 'direct' })
+          }
+        } else {
+          resolve({ type: 'direct' })
+        }
       }
-    })
+    )
   })
 }
 
@@ -46,38 +60,56 @@ const getPacScript = (hosts) => {
   `
 }
 
-const connect = async (hosts) => {
-  if (!isFirefox) {
-    chrome.management.getAll((extensions) => {
-      extensions.forEach((extension) => {
-        if (extension.permissions && extension.permissions.includes('proxy')) {
-          if (extension.id !== chrome.runtime.id) {
-            chrome.management.setEnabled(extension.id, false)
-          }
-        }
-      })
-    })
+const connect = async () => {
+  chrome.storage.local.get(
+    ['currentLocation', 'locations', 'isPremium'],
+    (storage) => {
+      if (!storage.currentLocation) return
 
-    const randomizedHosts = [...hosts].sort(() => Math.random() - 0.5)
-    const pacScript = getPacScript(randomizedHosts)
+      const locations = storage.locations || freeLocations
+      const location = getLocationByCode(storage.currentLocation, locations)
 
-    chrome.proxy.settings
-      .set({
-        value: {
-          mode: 'pac_script',
-          pacScript: {
-            data: pacScript,
-            mandatory: true,
-          },
-        },
-        scope: 'regular',
-      })
-      .then(async () => {
-        fetch(`${websiteUrl}/proxy_auth/`)
-      })
-  }
+      if (!location || !location.hosts) return
 
-  setBadge()
+      if (!isFirefox) {
+        chrome.management.getAll((extensions) => {
+          extensions.forEach((extension) => {
+            if (
+              extension.permissions &&
+              extension.permissions.includes('proxy')
+            ) {
+              if (extension.id !== chrome.runtime.id) {
+                chrome.management.setEnabled(extension.id, false)
+              }
+            }
+          })
+        })
+
+        const randomizedHosts = [...location.hosts].sort(
+          () => Math.random() - 0.5
+        )
+        const pacScript = getPacScript(randomizedHosts)
+
+        chrome.proxy.settings
+          .set({
+            value: {
+              mode: 'pac_script',
+              pacScript: {
+                data: pacScript,
+                mandatory: true,
+              },
+            },
+            scope: 'regular',
+          })
+          .then(async () => {
+            fetch(`${websiteUrl}/proxy_auth/`)
+          })
+      }
+
+      chrome.storage.local.set({ isConnected: true })
+      setBadge()
+    }
+  )
 }
 
 const disconnect = () => {

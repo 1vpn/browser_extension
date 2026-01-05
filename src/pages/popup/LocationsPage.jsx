@@ -5,19 +5,17 @@ import flags from 'utils/flags'
 import PageHeader from './PageHeader'
 import Location from './Location'
 import ReviewModal from './ReviewModal'
-import ShareModal from './ShareModal'
 import InstallModal from './InstallModal'
 import Arrow from 'assets/arrow.svg'
 
 const LocationsPage = ({
   locations,
-  currentLocation,
+  currentLocationCode,
   handleLocationToggle,
   installDate,
   messages,
 }) => {
   const { goBackPage } = useContext(PageContext)
-  const [isShareModalOpen, setIsShareModalOpen] = useState(false)
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false)
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false)
 
@@ -32,11 +30,6 @@ const LocationsPage = ({
         messages={messages}
         isOpen={isInstallModalOpen}
         onClose={() => setIsInstallModalOpen(false)}
-      />
-      <ShareModal
-        messages={messages}
-        isOpen={isShareModalOpen}
-        onClose={() => setIsShareModalOpen(false)}
       />
       <ReviewModal
         messages={messages}
@@ -62,13 +55,12 @@ const LocationsPage = ({
                   location.countryCode + ' ' + messages[location.countryCode]
                 }
                 id={location.countryCode}
-                checked={currentLocation.country === location.country}
+                checked={currentLocationCode === location.countryCode}
                 location={location}
                 handleLocationToggle={handleLocationToggle}
                 installDate={installDate}
                 setIsReviewModalOpen={setIsReviewModalOpen}
                 setIsInstallModalOpen={setIsInstallModalOpen}
-                setIsShareModalOpen={setIsShareModalOpen}
                 icon={flags[location.countryCode]}
                 isPremium={location.isPremium}
                 messages={messages}

@@ -23,9 +23,9 @@ const Popup = () => {
   const [locations] = useChromeStorage('locations', freeLocations)
   const [isPremium] = useChromeStorage('isPremium', false)
   const [isConnected, setIsConnected] = useChromeStorage('isConnected', false)
-  const [currentLocation, setCurrentLocation] = useChromeStorage(
+  const [currentLocationCode, setCurrentLocationCode] = useChromeStorage(
     'currentLocation',
-    {}
+    ''
   )
   const [spoofGeolocation, setSpoofGeolocation] = useChromeStorage(
     'spoofGeolocation',
@@ -40,8 +40,8 @@ const Popup = () => {
     chrome.runtime.sendMessage({ type: 'popupOpened' })
 
     chrome.storage.local.get(['currentLocation'], (storage) => {
-      if (!storage.currentLocation) {
-        setCurrentLocation(locations[0])
+      if (!storage.currentLocation && locations[0]) {
+        setCurrentLocationCode(locations[0].countryCode)
       }
       setIsLoaded(true)
     })
@@ -52,15 +52,15 @@ const Popup = () => {
     if (isConnected) {
       disconnect()
     } else {
-      connect(currentLocation.hosts)
+      connect()
     }
   }
 
   const handleLocationToggle = (location) => {
     setCurrentPage('main')
-    setCurrentLocation(location)
+    setCurrentLocationCode(location.countryCode)
     setIsConnected(true)
-    connect(location.hosts)
+    connect()
   }
 
   const renderCurrentPage = () => {
@@ -69,7 +69,7 @@ const Popup = () => {
         return (
           <LocationsPage
             locations={isPremium ? locations : freeLocations}
-            currentLocation={currentLocation || freeLocations[0]}
+            currentLocationCode={currentLocationCode}
             handleLocationToggle={handleLocationToggle}
             installDate={installDate}
             messages={messages}
@@ -97,7 +97,7 @@ const Popup = () => {
           <MainPage
             isPremium={isPremium}
             isConnected={isConnected}
-            currentLocation={currentLocation || freeLocations[0]}
+            currentLocationCode={currentLocationCode}
             locations={isPremium ? locations : freeLocations}
             handleConnectionToggle={handleConnectionToggle}
             installDate={installDate}

@@ -12,7 +12,8 @@ import PageHeader from './PageHeader'
 const MainPage = ({
   isPremium,
   isConnected,
-  currentLocation,
+  currentLocationCode,
+  locations,
   handleConnectionToggle,
   messages,
 }) => {
@@ -132,32 +133,36 @@ const MainPage = ({
             },
           }}
         >
-          <Box
-            as={flags[currentLocation.countryCode]}
-            sx={{
-              height: '30px',
-              width: '30px',
-              borderRadius: '6px',
-              backgroundColor: 'toggleGrey',
-            }}
-          />
-          <Flex
-            sx={{
-              flexDirection: 'column',
-              alignItems: 'flex-start',
-              flex: 1,
-              ml: '18px',
-            }}
-          >
-            <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
-              {/* {messages[currentLocation.countryCode]} */}
-              New York
-            </Text>
-            <Text sx={{ fontSize: '13px', color: 'grey', fontWeight: 300 }}>
-              {/* {currentLocation.countryCode} */}
-              United States
-            </Text>
-          </Flex>
+          {currentLocationCode && (
+            <>
+              <Box
+                as={flags[currentLocationCode]}
+                sx={{
+                  height: '30px',
+                  width: '30px',
+                  borderRadius: '6px',
+                  backgroundColor: 'toggleGrey',
+                }}
+              />
+              <Flex
+                sx={{
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  flex: 1,
+                  ml: '18px',
+                }}
+              >
+                <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
+                  {/* {messages[currentLocationCode]} */}
+                  New York
+                </Text>
+                <Text sx={{ fontSize: '13px', color: 'grey', fontWeight: 300 }}>
+                  {/* {currentLocationCode} */}
+                  United States
+                </Text>
+              </Flex>
+            </>
+          )}
           <Box
             as={ChevronRight}
             sx={{
