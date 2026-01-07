@@ -21,13 +21,13 @@ export const PageProvider = ({ children }) => {
         if (!storage.isPremium) {
           const now = Date.now()
           const upgradeModalLastShown = storage.upgradeModalLastShown || 0
-          const twentyFourHours = 24 * 60 * 60 * 1000
+          const twelveHours = 12 * 60 * 60 * 1000
           const upgradeButtonClicked = storage.upgradeButtonClicked || false
           let upgradePageType = storage.upgradePageType
 
           if (
             upgradeModalLastShown > 0 &&
-            now - upgradeModalLastShown >= twentyFourHours
+            now - upgradeModalLastShown >= twelveHours
           ) {
             chrome.storage.local.set({ upgradeButtonClicked: false })
             upgradePageType = null
@@ -47,7 +47,7 @@ export const PageProvider = ({ children }) => {
 
             if (
               upgradeModalLastShown === 0 ||
-              now - upgradeModalLastShown >= twentyFourHours
+              now - upgradeModalLastShown >= twelveHours
             ) {
               chrome.storage.local.set({ upgradeModalLastShown: now })
             }
