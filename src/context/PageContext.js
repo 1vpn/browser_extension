@@ -21,7 +21,7 @@ export const PageProvider = ({ children }) => {
         if (!storage.isPremium) {
           const now = Date.now()
           const upgradeModalLastShown = storage.upgradeModalLastShown || 0
-          const twentyFourHours = 1 * 1000
+          const twentyFourHours = 24 * 60 * 60 * 1000
           const upgradeButtonClicked = storage.upgradeButtonClicked || false
           let upgradePageType = storage.upgradePageType
 
