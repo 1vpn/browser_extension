@@ -1,0 +1,59 @@
+import { useContext } from 'react'
+import { PageContext } from 'context/PageContext'
+import { Flex, Button, Link } from 'theme-ui'
+import { websiteUrl } from 'utils/constants'
+
+const UpgradeButtons = ({ primaryButtonText, from = 'upgrade_page' }) => {
+  const { setCurrentPage } = useContext(PageContext)
+
+  const handleUpgradeClick = () => {
+    chrome.storage.local.set({
+      upgradeButtonClicked: true,
+      upgradePageType: null,
+    })
+  }
+
+  const handleContinueFree = () => {
+    chrome.storage.local.set({
+      upgradeButtonClicked: true,
+      upgradePageType: null,
+    })
+    setCurrentPage('main')
+  }
+
+  return (
+    <Flex sx={{ flexDirection: 'column', gap: '16px' }}>
+      <Link
+        id="upgradeButton"
+        href={
+          websiteUrl +
+          `/referral_redirect?from=${from}&url=https://1vpn.org/select_plan/`
+        }
+        target="_blank"
+        variant="styles.baseButton"
+        sx={{ height: '42px' }}
+        onClick={handleUpgradeClick}
+      >
+        {primaryButtonText || 'Get Premium'}
+      </Link>
+      <Button
+        onClick={handleContinueFree}
+        variant="styles.baseButton"
+        sx={{
+          height: '42px',
+          bg: 'white',
+          color: 'black',
+          border: '1px solid',
+          borderColor: 'darkBorderGrey',
+          ':hover': {
+            bg: 'borderGrey50',
+          },
+        }}
+      >
+        Continue Free
+      </Button>
+    </Flex>
+  )
+}
+
+export default UpgradeButtons

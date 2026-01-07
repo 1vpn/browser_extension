@@ -1,39 +1,9 @@
-import { useContext } from 'react'
-import { PageContext } from 'context/PageContext'
-import { Box, Flex, Button, Link, Text } from 'theme-ui'
-import { websiteUrl } from 'utils/constants'
+import { Box, Flex, Text } from 'theme-ui'
 import Star from 'assets/star.svg'
-import Globe from 'assets/globe.svg'
-import Lightning from 'assets/lightning.svg'
-import Support from 'assets/support.svg'
-import Check from 'assets/check.svg'
+import UpgradeFeatures from './UpgradeFeatures'
+import UpgradeButtons from './UpgradeButtons'
 
 const UpgradePage = ({ messages }) => {
-  const { setCurrentPage } = useContext(PageContext)
-
-  const features = [
-    {
-      title: 'Unlock All Server Locations',
-      subTitle: 'Access servers worldwide',
-      icon: Globe,
-    },
-    {
-      title: 'Fastest Speeds',
-      subTitle: 'Consistent and fast internet speeds',
-      icon: Lightning,
-    },
-    {
-      title: '24/7 Customer Support',
-      subTitle: 'Get help whenever you need it',
-      icon: Support,
-    },
-    {
-      title: '10-Day Money-Back Guarantee',
-      subTitle: 'Full refund if not satisfied',
-      icon: Check,
-    },
-  ]
-
   return (
     <Flex
       sx={{
@@ -74,90 +44,10 @@ const UpgradePage = ({ messages }) => {
         <Text sx={{ fontSize: '24px', mb: '12px' }}>Choose Your Plan</Text>
         <Text sx={{ fontWeight: 300 }}>Unlock all features with premium</Text>
       </Flex>
-      <Flex
-        sx={{
-          flexDirection: 'column',
-          p: '24px',
-          gap: '21px',
-        }}
-      >
-        {features.map((feature, index) => (
-          <Flex
-            key={index}
-            sx={{
-              alignItems: 'flex-start',
-              gap: '18px',
-            }}
-          >
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '36px',
-                width: '36px',
-                borderRadius: '6px',
-                backgroundColor: 'blue10',
-                flexShrink: 0,
-              }}
-            >
-              <Box
-                as={feature.icon}
-                sx={{
-                  height: '20px',
-                  width: '20px',
-                  color: 'blue',
-                }}
-              />
-            </Box>
-            <Flex
-              sx={{
-                flex: 1,
-                flexDirection: 'column',
-              }}
-            >
-              <Text sx={{ fontSize: '14px' }}>{feature.title}</Text>
-              <Text
-                sx={{
-                  fontSize: '13px',
-                  color: 'grey',
-                  fontWeight: 300,
-                }}
-              >
-                {feature.subTitle}
-              </Text>
-            </Flex>
-          </Flex>
-        ))}
-        <Flex sx={{ flexDirection: 'column', gap: '12px' }}>
-          <Link
-            id="upgradeButton"
-            href={
-              websiteUrl +
-              '/referral_redirect?from=upgrade_page&url=https://1vpn.org/select_plan/'
-            }
-            target="_blank"
-            variant="styles.baseButton"
-          >
-            Get Premium
-          </Link>
-          <Button
-            onClick={() => setCurrentPage('main')}
-            variant="styles.baseButton"
-            sx={{
-              bg: 'white',
-              color: 'black',
-              border: '1px solid',
-              borderColor: 'darkBorderGrey',
-              ':hover': {
-                bg: 'borderGrey50',
-              },
-            }}
-          >
-            Continue Free
-          </Button>
-        </Flex>
-      </Flex>
+      <UpgradeFeatures />
+      <Box sx={{ px: '24px', pb: '24px' }}>
+        <UpgradeButtons />
+      </Box>
     </Flex>
   )
 }

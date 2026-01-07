@@ -10,6 +10,7 @@ import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
 import UpgradePage from './UpgradePage'
+import SpecialOfferPage from './SpecialOfferPage'
 import AndroidPage from './AndroidPage'
 
 const Popup = () => {
@@ -89,6 +90,8 @@ const Popup = () => {
         )
       case 'upgrade':
         return <UpgradePage messages={messages} />
+      case 'specialOffer':
+        return <SpecialOfferPage messages={messages} />
       case 'android':
         return <AndroidPage messages={messages} />
       case 'main':

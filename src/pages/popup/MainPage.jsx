@@ -157,8 +157,7 @@ const MainPage = ({
                   New York
                 </Text>
                 <Text sx={{ fontSize: '13px', color: 'grey', fontWeight: 300 }}>
-                  {/* {currentLocationCode} */}
-                  United States
+                  {messages[currentLocationCode]}
                 </Text>
               </Flex>
             </>
@@ -179,7 +178,7 @@ const MainPage = ({
               id="upgradeLink"
               // href={`${websiteUrl}/select_plan`}
               // target="_blank"
-              onClick={() => setCurrentPage('upgrade')}
+              onClick={() => setCurrentPage('specialOffer')}
               title="Upgrade to Premium"
               sx={{
                 display: 'flex',

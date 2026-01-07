@@ -7,21 +7,50 @@ export const PageProvider = ({ children }) => {
 
   useEffect(() => {
     chrome.storage.local.get(
-      ['noAccount', 'sessionAuthToken', 'isPremium', 'upgradeModalLastShown'],
+      [
+        'noAccount',
+        'sessionAuthToken',
+        'isPremium',
+        'upgradeModalLastShown',
+        'upgradeButtonClicked',
+        'upgradePageType',
+      ],
       (storage) => {
         let initialPage = 'main'
 
         if (!storage.isPremium) {
           const now = Date.now()
           const upgradeModalLastShown = storage.upgradeModalLastShown || 0
-          const twentyFourHours = 24 * 60 * 60 * 1000
+          const twentyFourHours = 1 * 1000
+          const upgradeButtonClicked = storage.upgradeButtonClicked || false
+          let upgradePageType = storage.upgradePageType
 
           if (
-            upgradeModalLastShown === 0 ||
+            upgradeModalLastShown > 0 &&
             now - upgradeModalLastShown >= twentyFourHours
           ) {
-            initialPage = 'upgrade'
-            chrome.storage.local.set({ upgradeModalLastShown: now })
+            chrome.storage.local.set({ upgradeButtonClicked: false })
+            upgradePageType = null
+          }
+
+          if (!upgradeButtonClicked) {
+            if (!upgradePageType) {
+              if (upgradeModalLastShown === 0) {
+                upgradePageType = 'upgrade'
+              } else {
+                upgradePageType =
+                  Math.random() < 0.5 ? 'upgrade' : 'specialOffer'
+              }
+              chrome.storage.local.set({ upgradePageType })
+            }
+            initialPage = upgradePageType
+
+            if (
+              upgradeModalLastShown === 0 ||
+              now - upgradeModalLastShown >= twentyFourHours
+            ) {
+              chrome.storage.local.set({ upgradeModalLastShown: now })
+            }
           }
         }
 
