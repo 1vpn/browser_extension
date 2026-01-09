@@ -8,7 +8,21 @@ export const handleUserData = (data, wasLoggedIn) => {
     chrome.storage.local.get(['isPremium', 'isConnected'], (prevStorage) => {
       const wasPremium = prevStorage.isPremium || false
       const isConnected = prevStorage.isConnected || false
-      chrome.storage.local.set(data, () => {
+
+      const processedData = { ...data }
+      if (Array.isArray(processedData.locations)) {
+        processedData.locations = processedData.locations.reduce(
+          (acc, location) => {
+            if (location && location.countryCode) {
+              acc[location.countryCode] = location
+            }
+            return acc
+          },
+          {}
+        )
+      }
+
+      chrome.storage.local.set(processedData, () => {
         if (data.isPremium !== wasPremium && isConnected) {
           connect()
         }

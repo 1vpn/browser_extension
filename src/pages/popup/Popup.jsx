@@ -41,8 +41,11 @@ const Popup = () => {
     chrome.runtime.sendMessage({ type: 'popupOpened' })
 
     chrome.storage.local.get(['currentLocation'], (storage) => {
-      if (!storage.currentLocation && locations[0]) {
-        setCurrentLocationCode(locations[0].countryCode)
+      if (!storage.currentLocation) {
+        const firstLocation = Object.values(locations)[0]
+        if (firstLocation) {
+          setCurrentLocationCode(firstLocation.countryCode)
+        }
       }
       setIsLoaded(true)
     })

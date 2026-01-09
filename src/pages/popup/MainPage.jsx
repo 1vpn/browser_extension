@@ -133,7 +133,7 @@ const MainPage = ({
             },
           }}
         >
-          {currentLocationCode && (
+          {currentLocationCode && locations[currentLocationCode] && (
             <>
               <Box
                 as={flags[currentLocationCode]}
@@ -153,11 +153,11 @@ const MainPage = ({
                 }}
               >
                 <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
-                  {/* {messages[currentLocationCode]} */}
-                  New York
+                  {locations[currentLocationCode].city ||
+                    messages[currentLocationCode]}
                 </Text>
                 <Text sx={{ fontSize: '13px', color: 'grey', fontWeight: 300 }}>
-                  {messages[currentLocationCode]}
+                  {locations[currentLocationCode].country}
                 </Text>
               </Flex>
             </>
@@ -178,7 +178,7 @@ const MainPage = ({
               id="upgradeLink"
               // href={`${websiteUrl}/select_plan`}
               // target="_blank"
-              onClick={() => setCurrentPage('specialOffer')}
+              onClick={() => setCurrentPage('upgrade')}
               title="Upgrade to Premium"
               sx={{
                 display: 'flex',

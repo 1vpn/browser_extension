@@ -2,10 +2,6 @@ import setBadge from './setBadge'
 import { isFirefox, websiteUrl } from './constants'
 import freeLocations from './freeLocations'
 
-const getLocationByCode = (countryCode, locations) => {
-  return locations.find((loc) => loc.countryCode === countryCode)
-}
-
 const handleProxyRequest = (details) => {
   return new Promise((resolve, reject) => {
     const url = new URL(details.url)
@@ -23,7 +19,7 @@ const handleProxyRequest = (details) => {
       (storage) => {
         if (storage.isConnected && storage.currentLocation) {
           const locations = storage.locations || freeLocations
-          const location = getLocationByCode(storage.currentLocation, locations)
+          const location = locations[storage.currentLocation]
           if (location && location.hosts) {
             const host = location.hosts[0]
             resolve({
@@ -67,7 +63,7 @@ const connect = async () => {
       if (!storage.currentLocation) return
 
       const locations = storage.locations || freeLocations
-      const location = getLocationByCode(storage.currentLocation, locations)
+      const location = locations[storage.currentLocation]
 
       if (!location || !location.hosts) return
 

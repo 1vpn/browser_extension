@@ -43,7 +43,7 @@ export const theme = {
       px: '16px',
       border: '1px solid',
       borderColor: 'borderGrey',
-      borderRadius: '6px',
+      borderRadius: '8px',
       transition: 'border-color 0.2s ease-in-out',
       ':focus': {
         outline: 'none',
@@ -56,7 +56,7 @@ export const theme = {
     },
     select: {
       cursor: 'pointer',
-      borderRadius: '6px',
+      borderRadius: '8px',
       background: 'transparent',
       border: '1px solid',
       borderColor: 'borderGrey',

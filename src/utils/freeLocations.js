@@ -1,5 +1,6 @@
-const freeLocations = [
-  {
+const freeLocations = {
+  nl: {
+    city: 'Amsterdam',
     country: 'Netherlands',
     countryCode: 'nl',
     hosts: [
@@ -12,7 +13,8 @@ const freeLocations = [
     latitude: 52.3878,
     longitude: 4.9302,
   },
-  {
+  sg: {
+    city: 'Singapore',
     country: 'Singapore',
     countryCode: 'sg',
     hosts: [
@@ -26,8 +28,9 @@ const freeLocations = [
     longitude: 103.6831,
     ratingLocked: true,
   },
-  {
-    country: 'USA West',
+  usw: {
+    city: 'Los Angeles',
+    country: 'United States',
     countryCode: 'usw',
     hosts: [
       { hostname: 'usa-west-free-https-1.weathercloudapp.com', port: 443 },
@@ -39,91 +42,108 @@ const freeLocations = [
     latitude: 34.0541,
     longitude: -118.2441,
   },
-  {
+  au: {
+    city: 'Sydney',
     country: 'Australia',
     countryCode: 'au',
     isPremium: true,
   },
-  {
+  br: {
+    city: 'São Paulo',
     country: 'Brazil',
     countryCode: 'br',
     isPremium: true,
   },
-  {
+  ca: {
+    city: 'Toronto',
     country: 'Canada',
     countryCode: 'ca',
     isPremium: true,
   },
-  {
+  cl: {
+    city: 'Santiago',
     country: 'Chile',
     countryCode: 'cl',
     isPremium: true,
   },
-  {
+  fr: {
+    city: 'Paris',
     country: 'France',
     countryCode: 'fr',
     isPremium: true,
   },
-  {
+  de: {
+    city: 'Frankfurt',
     country: 'Germany',
     countryCode: 'de',
     isPremium: true,
   },
-  {
+  in: {
+    city: 'Mumbai',
     country: 'India',
     countryCode: 'in',
     isPremium: true,
   },
-  {
+  jp: {
+    city: 'Tokyo',
     country: 'Japan',
     countryCode: 'jp',
     isPremium: true,
   },
-  {
+  kr: {
+    city: 'Seoul',
     country: 'South Korea',
     countryCode: 'kr',
     isPremium: true,
   },
-  {
+  mx: {
+    city: 'Mexico City',
     country: 'Mexico',
     countryCode: 'mx',
     isPremium: true,
   },
-  {
+  pl: {
+    city: 'Warsaw',
     country: 'Poland',
     countryCode: 'pl',
     isPremium: true,
   },
-  {
+  za: {
+    city: 'Johannesburg',
     country: 'South Africa',
     countryCode: 'za',
     isPremium: true,
   },
-  {
+  es: {
+    city: 'Madrid',
     country: 'Spain',
     countryCode: 'es',
     isPremium: true,
   },
-  {
+  se: {
+    city: 'Stockholm',
     country: 'Sweden',
     countryCode: 'se',
     isPremium: true,
   },
-  {
+  uk: {
+    city: 'London',
     country: 'United Kingdom',
     countryCode: 'uk',
     isPremium: true,
   },
-  {
-    country: 'USA East',
+  use: {
+    city: 'New York',
+    country: 'United States',
     countryCode: 'use',
     isPremium: true,
   },
-  {
-    country: 'USA South',
+  uss: {
+    city: 'Atlanta',
+    country: 'United States',
     countryCode: 'uss',
     isPremium: true,
   },
-]
+}
 
 export default freeLocations

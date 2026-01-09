@@ -7,7 +7,6 @@ const InstallModal = ({ messages, isOpen, onClose }) => {
   const [copied, setCopied] = useState(false)
 
   const handleModalClick = () => {
-    console.log('handleModalClick')
     chrome.storage.local.set({ installModalCopiedTime: Date.now() })
   }
 
@@ -60,7 +59,7 @@ const InstallModal = ({ messages, isOpen, onClose }) => {
             fontSize: '14px',
             px: '8px',
             py: '10px',
-            borderRadius: '6px',
+            borderRadius: '8px',
             border: '1px solid',
             borderColor: 'lightGrey',
             color: 'black',

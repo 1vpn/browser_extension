@@ -47,13 +47,11 @@ const LocationsPage = ({
         }}
       >
         <Flex sx={{ flexDirection: 'column' }}>
-          {locations.map((location) => {
+          {Object.values(locations).map((location) => {
             return (
               <Location
-                title={messages[location.countryCode]}
-                subTitle={
-                  location.countryCode + ' ' + messages[location.countryCode]
-                }
+                title={location.city || messages[location.countryCode]}
+                subTitle={location.country}
                 id={location.countryCode}
                 checked={currentLocationCode === location.countryCode}
                 location={location}

@@ -30,7 +30,7 @@ const Modal = ({ isOpen, onClose, children, width }) => {
           alignItems: 'center',
           width: width || '220px',
           background: 'white',
-          borderRadius: '6px',
+          borderRadius: '8px',
           p: '24px',
           textAlign: 'center',
           position: 'relative',

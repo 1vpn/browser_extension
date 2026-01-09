@@ -126,9 +126,7 @@ chrome.webNavigation.onCommitted.addListener((details) => {
         storage.currentLocation
       ) {
         const locations = storage.locations || freeLocations
-        const location = locations.find(
-          (loc) => loc.countryCode === storage.currentLocation
-        )
+        const location = locations[storage.currentLocation]
         if (location) {
           chrome.scripting.executeScript({
             target: { tabId: details.tabId, allFrames: true },

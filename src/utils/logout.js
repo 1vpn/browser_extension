@@ -21,7 +21,10 @@ const logout = () => {
     if (keysToRemove.length) {
       chrome.storage.local.remove(keysToRemove)
     }
-    chrome.storage.local.set({ currentLocation: freeLocations[0].countryCode })
+    const firstLocation = Object.values(freeLocations)[0]
+    if (firstLocation) {
+      chrome.storage.local.set({ currentLocation: firstLocation.countryCode })
+    }
   })
 }
 
