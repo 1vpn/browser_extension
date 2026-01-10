@@ -32,6 +32,8 @@ chrome.runtime.onStartup.addListener(() => {
       fetch(`${websiteUrl}/proxy_auth/`)
     }
   })
+
+  fetchUserData()
 })
 
 chrome.runtime.setUninstallURL(androidUrl)
