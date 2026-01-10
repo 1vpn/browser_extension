@@ -77,6 +77,7 @@ const Popup = () => {
             handleLocationToggle={handleLocationToggle}
             installDate={installDate}
             messages={messages}
+            isPremium={isPremium}
           />
         )
       case 'options':

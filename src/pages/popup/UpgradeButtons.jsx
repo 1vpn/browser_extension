@@ -31,7 +31,6 @@ const UpgradeButtons = ({ primaryButtonText, from = 'upgrade_page' }) => {
         }
         target="_blank"
         variant="styles.baseButton"
-        sx={{ height: '42px' }}
         onClick={handleUpgradeClick}
       >
         {primaryButtonText || 'Get Premium'}
@@ -40,7 +39,6 @@ const UpgradeButtons = ({ primaryButtonText, from = 'upgrade_page' }) => {
         onClick={handleContinueFree}
         variant="styles.baseButton"
         sx={{
-          height: '42px',
           bg: 'white',
           color: 'black',
           border: '1px solid',

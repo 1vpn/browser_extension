@@ -14,10 +14,22 @@ const LocationsPage = ({
   handleLocationToggle,
   installDate,
   messages,
+  isPremium,
 }) => {
   const { goBackPage } = useContext(PageContext)
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false)
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false)
+
+  const sortedLocations = Object.values(locations).sort((a, b) => {
+    if (!isPremium) {
+      const aIsPremium = a.isPremium ? 1 : 0
+      const bIsPremium = b.isPremium ? 1 : 0
+      if (aIsPremium !== bIsPremium) return aIsPremium - bIsPremium
+    }
+    const countryCompare = (a.country || '').localeCompare(b.country || '')
+    if (countryCompare !== 0) return countryCompare
+    return (a.city || '').localeCompare(b.city || '')
+  })
 
   return (
     <>
@@ -47,7 +59,7 @@ const LocationsPage = ({
         }}
       >
         <Flex sx={{ flexDirection: 'column' }}>
-          {Object.values(locations).map((location) => {
+          {sortedLocations.map((location) => {
             return (
               <Location
                 title={location.city || messages[location.countryCode]}

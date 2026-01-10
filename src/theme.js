@@ -73,6 +73,7 @@ export const theme = {
   styles: {
     baseButton: {
       width: '100%',
+      minHeight: '42px',
       display: 'flex',
       boxSizing: 'border-box',
       cursor: 'pointer',
