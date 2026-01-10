@@ -245,48 +245,25 @@ const MainPage = ({
           </>
         )}
 
-        {/* {!isPremium && (
-            <>
-              {chrome.i18n.getUILanguage().startsWith('ru') ? (
-                <Text
-                  sx={{
-                    fontSize: '12px',
-                    textAlign: 'center',
-                    mt: '24px',
-                  }}
-                >
-                  Серверы могут блокироваться в России из-за ограничений со
-                  стороны правительства. Мы работаем над их обходом. Спасибо.
-                </Text>
-              ) : (
-                <Link
-                  id="upgradeLink"
-                  href={`${websiteUrl}/select_plan`}
-                  target="_blank"
-                  sx={{
-                    all: 'unset',
-                    cursor: 'pointer',
-                    fontSize: '12px',
-                    textAlign: 'center',
-                    mt: '24px',
-                    ':hover': {
-                      textDecoration: 'underline',
-                    },
-                  }}
-                >
-                  <Text
-                    sx={{
-                      color: 'darkBlue',
-                      textDecoration: 'underline',
-                    }}
-                  >
-                    {messages.upgradeText1}
-                  </Text>{' '}
-                  {messages.upgradeText2}
-                </Link>
-              )}
-            </>
-          )} */}
+        {chrome.i18n.getUILanguage().startsWith('ru') && !isPremium && (
+          <Box
+            sx={{
+              fontSize: '12px',
+              textAlign: 'center',
+              mt: '16px',
+              p: '16px 18px',
+              borderRadius: '8px',
+              backgroundColor: 'white',
+              border: '1px solid',
+              borderColor: 'darkBorderGrey',
+              color: 'grey',
+              fontWeight: 300,
+            }}
+          >
+            Серверы могут блокироваться в России из-за ограничений со стороны
+            правительства. Мы работаем над их обходом. Спасибо.
+          </Box>
+        )}
       </Flex>
     </Flex>
   )
