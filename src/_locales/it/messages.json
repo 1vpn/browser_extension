@@ -73,12 +73,47 @@
     "message": "con il piano annuale. Sblocca più sedi e velocità più alte con garanzia di rimborso di 10 giorni."
   },
   "claimOffer": { "message": "Richiedi offerta" },
-  "until": { "message": "Fino al" },
+  "until": { "message": "fino al" },
   "installModalText": {
     "message": "Sblocca questa posizione facendo installare l'estensione a un altro utente tramite questo link:"
   },
   "copyLink": { "message": "Copia link" },
   "linkCopied": { "message": "Link copiato!" },
+  "getAndroidApp": { "message": "Scarica app Android" },
+  "referToUnlock": { "message": "Invita per sbloccare" },
+  "toUnlockThisLocation": {
+    "message": "Per sbloccare questa posizione fai installare 1VPN a un altro utente usando questo link:"
+  },
+  "upgradeToPremium": { "message": "Passa a Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Più posizioni e maggiore velocità"
+  },
+  "tryAndroidApp": { "message": "Prova l’app Android" },
+  "get1VPNForAndroid": { "message": "Ottieni 1VPN per Android" },
+  "reviewToUnlock": { "message": "Recensione per sbloccare" },
+  "leaveReviewToUnlock": {
+    "message": "Lascia una recensione a 5 stelle per sbloccare questa posizione"
+  },
+  "continueFree": { "message": "Continua gratis" },
+  "getPremium": { "message": "Ottieni Premium" },
+  "unlockAllServerLocations": {
+    "message": "Sblocca tutte le posizioni server"
+  },
+  "accessServersWorldwide": { "message": "Accedi a server in tutto il mondo" },
+  "fastestSpeeds": { "message": "Velocità più elevate" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Velocità internet rapide e stabili"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "Garanzia di rimborso di 10 giorni"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Rimborso completo se non sei soddisfatto"
+  },
+  "chooseYourPlan": { "message": "Scegli il tuo piano" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Sblocca tutte le funzioni con Premium"
+  },
   "au": { "message": "Australia" },
   "br": { "message": "Brasile" },
   "ca": { "message": "Canada" },

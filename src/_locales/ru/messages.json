@@ -85,6 +85,39 @@
   },
   "copyLink": { "message": "Скопировать ссылку" },
   "linkCopied": { "message": "Ссылка скопирована!" },
+  "getAndroidApp": { "message": "Android приложение" },
+  "referToUnlock": { "message": "Пригласите чтобы разблокировать" },
+  "toUnlockThisLocation": {
+    "message": "Чтобы разблокировать этот регион, пригласите пользователя установить 1VPN по этой ссылке:"
+  },
+  "upgradeToPremium": { "message": "Перейти на Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Больше локаций и выше скорость"
+  },
+  "tryAndroidApp": { "message": "Попробовать приложение для Android" },
+  "get1VPNForAndroid": { "message": "Скачать 1VPN для Android" },
+  "reviewToUnlock": { "message": "Отзыв для разблокировки" },
+  "leaveReviewToUnlock": {
+    "message": "Оставьте 5 звезд чтобы разблокировать этот регион"
+  },
+  "continueFree": { "message": "Продолжить бесплатно" },
+  "getPremium": { "message": "Купить Premium" },
+  "unlockAllServerLocations": { "message": "Разблокировать все серверы" },
+  "accessServersWorldwide": { "message": "Доступ к серверам по всему миру" },
+  "fastestSpeeds": { "message": "Максимальная скорость" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Стабильная и быстрая скорость интернета"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10 дней возврата ден"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Полный возврат если не понравится"
+  },
+  "chooseYourPlan": { "message": "Выберите план" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Разблокируйте все функции с Premium"
+  },
   "au": { "message": "Австралия" },
   "br": { "message": "Бразилия" },
   "ca": { "message": "Канада" },

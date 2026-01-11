@@ -79,6 +79,39 @@
   },
   "copyLink": { "message": "کپی لینک" },
   "linkCopied": { "message": "لینک کپی شد!" },
+  "getAndroidApp": { "message": "دریافت اپ اندروید" },
+  "referToUnlock": { "message": "دعوت برای باز کردن" },
+  "toUnlockThisLocation": {
+    "message": "برای باز کردن این موقعیت یک کاربر دیگر را دعوت کنید تا 1VPN را از این لینک نصب کند:"
+  },
+  "upgradeToPremium": { "message": "ارتقا به پرمیوم" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "موقعیت‌های بیشتر و سرعت‌های بالاتر"
+  },
+  "tryAndroidApp": { "message": "امتحان اپ اندروید" },
+  "get1VPNForAndroid": { "message": "دریافت 1VPN برای اندروید" },
+  "reviewToUnlock": { "message": "نظر برای باز کردن" },
+  "leaveReviewToUnlock": {
+    "message": "برای باز کردن این موقعیت یک نظر ۵ ستاره ثبت کنید"
+  },
+  "continueFree": { "message": "ادامه رایگان" },
+  "getPremium": { "message": "دریافت پرمیوم" },
+  "unlockAllServerLocations": { "message": "باز کردن همه موقعیت‌های سرور" },
+  "accessServersWorldwide": { "message": "دسترسی به سرورها در سراسر جهان" },
+  "fastestSpeeds": { "message": "بیشترین سرعت" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "سرعت اینترنت پایدار و سریع"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "ضمانت ۱۰ روزه بازگشت وجه"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "در صورت نارضایتی بازگشت کامل وجه"
+  },
+  "chooseYourPlan": { "message": "طرح خود را انتخاب کنید" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "باز کردن همه قابلیت‌ها با پرمیوم"
+  },
   "au": { "message": "استرالیا" },
   "br": { "message": "برزیل" },
   "ca": { "message": "کانادا" },

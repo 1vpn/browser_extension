@@ -77,6 +77,39 @@
   },
   "copyLink": { "message": "คัดลอกลิงก์" },
   "linkCopied": { "message": "คัดลอกลิงก์แล้ว!" },
+  "getAndroidApp": { "message": "รับแอป Android" },
+  "referToUnlock": { "message": "ชวนเพื่อนเพื่อปลดล็อก" },
+  "toUnlockThisLocation": {
+    "message": "หากต้องการปลดล็อกตำแหน่งนี้ ให้ให้ผู้ใช้อีกคนติดตั้ง 1VPN ผ่านลิงก์นี้:"
+  },
+  "upgradeToPremium": { "message": "อัปเกรดเป็นพรีเมียม" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "ตำแหน่งมากขึ้นและเร็วขึ้น"
+  },
+  "tryAndroidApp": { "message": "ลองใช้แอป Android" },
+  "get1VPNForAndroid": { "message": "รับ 1VPN สำหรับ Android" },
+  "reviewToUnlock": { "message": "ให้รีวิวเพื่อปลดล็อก" },
+  "leaveReviewToUnlock": {
+    "message": "ให้รีวิว 5 ดาวเพื่อปลดล็อกตำแหน่งนี้"
+  },
+  "continueFree": { "message": "ใช้แบบฟรีต่อไป" },
+  "getPremium": { "message": "รับพรีเมียม" },
+  "unlockAllServerLocations": { "message": "ปลดล็อกตำแหน่งเซิร์ฟเวอร์ทั้งหมด" },
+  "accessServersWorldwide": { "message": "เข้าถึงเซิร์ฟเวอร์ทั่วโลก" },
+  "fastestSpeeds": { "message": "ความเร็วสูงสุด" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "อินเทอร์เน็ตเร็วและเสถียร"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "รับประกันคืนเงิน 10 วัน"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "คืนเงินเต็มจำนวนหากไม่พอใจ"
+  },
+  "chooseYourPlan": { "message": "เลือกแพ็กเกจของคุณ" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "ปลดล็อกทุกฟีเจอร์ด้วยพรีเมียม"
+  },
   "au": { "message": "ออสเตรเลีย" },
   "br": { "message": "บราซิล" },
   "ca": { "message": "แคนาดา" },

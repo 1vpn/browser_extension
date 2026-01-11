@@ -81,6 +81,41 @@
   },
   "copyLink": { "message": "Sao chép liên kết" },
   "linkCopied": { "message": "Đã sao chép liên kết!" },
+  "getAndroidApp": { "message": "Tải ứng dụng Android" },
+  "referToUnlock": { "message": "Giới thiệu để mở khóa" },
+  "toUnlockThisLocation": {
+    "message": "Để mở khóa vị trí này hãy nhờ người dùng khác cài đặt 1VPN bằng liên kết này:"
+  },
+  "upgradeToPremium": { "message": "Nâng cấp lên Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Nhiều vị trí hơn và tốc độ nhanh hơn"
+  },
+  "tryAndroidApp": { "message": "Thử ứng dụng Android" },
+  "get1VPNForAndroid": { "message": "Tải 1VPN cho Android" },
+  "reviewToUnlock": { "message": "Đánh giá để mở khóa" },
+  "leaveReviewToUnlock": {
+    "message": "Để lại đánh giá 5 sao để mở khóa vị trí này"
+  },
+  "continueFree": { "message": "Tiếp tục miễn phí" },
+  "getPremium": { "message": "Nhận Premium" },
+  "unlockAllServerLocations": { "message": "Mở khóa tất cả vị trí máy chủ" },
+  "accessServersWorldwide": {
+    "message": "Truy cập máy chủ trên toàn thế giới"
+  },
+  "fastestSpeeds": { "message": "Tốc độ nhanh nhất" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Tốc độ internet ổn định và nhanh"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "Đảm bảo hoàn tiền trong 10 ngày"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Hoàn tiền đầy đủ nếu không hài lòng"
+  },
+  "chooseYourPlan": { "message": "Chọn gói của bạn" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Mở khóa mọi tính năng với Premium"
+  },
   "au": { "message": "Úc" },
   "br": { "message": "Brazil" },
   "ca": { "message": "Canada" },

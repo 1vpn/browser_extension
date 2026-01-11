@@ -79,6 +79,39 @@
   },
   "copyLink": { "message": "复制链接" },
   "linkCopied": { "message": "链接已复制！" },
+  "getAndroidApp": { "message": "获取 Android 应用" },
+  "referToUnlock": { "message": "邀请好友解锁" },
+  "toUnlockThisLocation": {
+    "message": "要解锁此位置 请让其他用户通过此链接安装 1VPN："
+  },
+  "upgradeToPremium": { "message": "升级到高级版" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "更多节点 更快速度"
+  },
+  "tryAndroidApp": { "message": "试用 Android 应用" },
+  "get1VPNForAndroid": { "message": "获取 Android 版 1VPN" },
+  "reviewToUnlock": { "message": "评价即可解锁" },
+  "leaveReviewToUnlock": {
+    "message": "留下五星好评即可解锁此位置"
+  },
+  "continueFree": { "message": "继续免费使用" },
+  "getPremium": { "message": "获取高级版" },
+  "unlockAllServerLocations": { "message": "解锁所有服务器节点" },
+  "accessServersWorldwide": { "message": "访问全球服务器" },
+  "fastestSpeeds": { "message": "最快速度" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "稳定且快速的网络速度"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10 天退款保证"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "不满意可全额退款"
+  },
+  "chooseYourPlan": { "message": "选择你的套餐" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "使用高级版解锁全部功能"
+  },
   "au": { "message": "澳大利亚" },
   "br": { "message": "巴西" },
   "ca": { "message": "加拿大" },

@@ -77,12 +77,49 @@
     "message": "no plano anual. Desbloqueie mais localizações e maior velocidade com garantia de devolução de 10 dias."
   },
   "claimOffer": { "message": "Reclamar oferta" },
-  "until": { "message": "Até" },
+  "until": { "message": "até" },
   "installModalText": {
     "message": "Desbloqueie esta localização pedindo a outro utilizador para instalar a extensão através deste link:"
   },
   "copyLink": { "message": "Copiar ligação" },
   "linkCopied": { "message": "Ligação copiada!" },
+  "getAndroidApp": { "message": "Obter app para Android" },
+  "referToUnlock": { "message": "Convidar para desbloquear" },
+  "toUnlockThisLocation": {
+    "message": "Para desbloquear esta localização peça a outro utilizador para instalar o 1VPN usando esta ligação:"
+  },
+  "upgradeToPremium": { "message": "Atualizar para Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Mais localizações e maior velocidade"
+  },
+  "tryAndroidApp": { "message": "Experimentar app Android" },
+  "get1VPNForAndroid": { "message": "Obter 1VPN para Android" },
+  "reviewToUnlock": { "message": "Avaliar para desbloquear" },
+  "leaveReviewToUnlock": {
+    "message": "Deixe uma avaliação de 5 estrelas para desbloquear esta localização"
+  },
+  "continueFree": { "message": "Continuar grátis" },
+  "getPremium": { "message": "Obter Premium" },
+  "unlockAllServerLocations": {
+    "message": "Desbloquear todas as localizações"
+  },
+  "accessServersWorldwide": {
+    "message": "Aceder a servidores em todo o mundo"
+  },
+  "fastestSpeeds": { "message": "Velocidades mais rápidas" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Velocidades de internet rápidas e estáveis"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "Garantia de reembolso de 10 dias"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Reembolso total se não ficar satisfeito"
+  },
+  "chooseYourPlan": { "message": "Escolha o seu plano" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Desbloqueie todas as funcionalidades"
+  },
   "au": { "message": "Austrália" },
   "br": { "message": "Brasil" },
   "ca": { "message": "Canadá" },

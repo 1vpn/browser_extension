@@ -79,6 +79,41 @@
   },
   "copyLink": { "message": "Копіювати посилання" },
   "linkCopied": { "message": "Посилання скопійовано!" },
+  "getAndroidApp": { "message": "Для Android" },
+  "referToUnlock": { "message": "Запросити щоб розблокувати" },
+  "toUnlockThisLocation": {
+    "message": "Щоб розблокувати цю локацію попросіть іншого користувача встановити 1VPN за цим посиланням:"
+  },
+  "upgradeToPremium": { "message": "Перейти на Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Більше локацій та вища швидкість"
+  },
+  "tryAndroidApp": { "message": "Спробувати додаток для Android" },
+  "get1VPNForAndroid": { "message": "Отримати 1VPN для Android" },
+  "reviewToUnlock": { "message": "Відгук для розблокування" },
+  "leaveReviewToUnlock": {
+    "message": "Залиште оцінку 5 зірок щоб розблокувати цю локацію"
+  },
+  "continueFree": { "message": "Продовжити безкоштовно" },
+  "getPremium": { "message": "Отримати Premium" },
+  "unlockAllServerLocations": {
+    "message": "Розблокувати всі серверні локації"
+  },
+  "accessServersWorldwide": { "message": "Доступ до серверів по всьому світу" },
+  "fastestSpeeds": { "message": "Найвищі швидкості" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Стабільний та швидкий інтернет"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10-денна гарантія повернення грошей"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Повне повернення коштів"
+  },
+  "chooseYourPlan": { "message": "Обрати тариф" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Розблокуйте всі функції з Premium"
+  },
   "au": { "message": "Австралія" },
   "br": { "message": "Бразилія" },
   "ca": { "message": "Канада" },

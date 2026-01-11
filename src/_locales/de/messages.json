@@ -81,12 +81,47 @@
     "message": "im Jahresplan. Schalte mehr Standorte und höhere Geschwindigkeiten mit 10-Tage Geld-zurück-Garantie frei."
   },
   "claimOffer": { "message": "Angebot sichern" },
-  "until": { "message": "Bis" },
+  "until": { "message": "bis" },
   "installModalText": {
     "message": "Schalte diesen Standort frei, indem du einen anderen Nutzer dazu bringst, die Erweiterung über diesen Link zu installieren:"
   },
   "copyLink": { "message": "Link kopieren" },
   "linkCopied": { "message": "Link kopiert!" },
+  "getAndroidApp": { "message": "Android-App erhalten" },
+  "referToUnlock": { "message": "Einladen zum Freischalten" },
+  "toUnlockThisLocation": {
+    "message": "Um diesen Standort freizuschalten bitte einen Nutzer bitten 1VPN über diesen Link zu installieren:"
+  },
+  "upgradeToPremium": { "message": "Auf Premium upgraden" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Mehr Standorte und schneller"
+  },
+  "tryAndroidApp": { "message": "Android-App ausprobieren" },
+  "get1VPNForAndroid": { "message": "1VPN für Android erhalten" },
+  "reviewToUnlock": { "message": "Bewertung zum Freischalten" },
+  "leaveReviewToUnlock": {
+    "message": "5-Sterne-Bewertung hinterlassen um diesen Standort freizuschalten"
+  },
+  "continueFree": { "message": "Kostenlos fortfahren" },
+  "getPremium": { "message": "Premium erhalten" },
+  "unlockAllServerLocations": {
+    "message": "Alle Serverstandorte freischalten"
+  },
+  "accessServersWorldwide": { "message": "Zugriff auf Server weltweit" },
+  "fastestSpeeds": { "message": "Höchste Geschwindigkeiten" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Stabile und schnelle Internetgeschwindigkeit"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10-Tage-Geld-zurück-Garantie"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Vollständige Rückerstattung"
+  },
+  "chooseYourPlan": { "message": "Wähle deinen Tarif" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Alle Funktionen mit Premium freischalten"
+  },
   "au": { "message": "Australien" },
   "br": { "message": "Brasilien" },
   "ca": { "message": "Kanada" },

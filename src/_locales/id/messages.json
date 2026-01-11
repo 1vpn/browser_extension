@@ -78,12 +78,45 @@
     "message": "di paket tahunan. Buka lebih banyak lokasi & kecepatan lebih cepat dengan garansi 10 hari uang kembali."
   },
   "claimOffer": { "message": "Klaim Penawaran" },
-  "until": { "message": "Hingga" },
+  "until": { "message": "hingga" },
   "installModalText": {
     "message": "Buka lokasi ini dengan meminta pengguna lain memasang ekstensi menggunakan tautan ini:"
   },
   "copyLink": { "message": "Salin Tautan" },
   "linkCopied": { "message": "Tautan Disalin!" },
+  "getAndroidApp": { "message": "Dapatkan Aplikasi Android" },
+  "referToUnlock": { "message": "Ajak untuk membuka" },
+  "toUnlockThisLocation": {
+    "message": "Untuk membuka lokasi ini ajak pengguna lain memasang 1VPN melalui tautan ini:"
+  },
+  "upgradeToPremium": { "message": "Upgrade ke Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Lebih banyak lokasi & lebih cepat"
+  },
+  "tryAndroidApp": { "message": "Coba Aplikasi Android" },
+  "get1VPNForAndroid": { "message": "Dapatkan 1VPN untuk Android" },
+  "reviewToUnlock": { "message": "Ulasan untuk membuka" },
+  "leaveReviewToUnlock": {
+    "message": "Tinggalkan ulasan 5 bintang untuk membuka lokasi ini"
+  },
+  "continueFree": { "message": "Lanjutkan gratis" },
+  "getPremium": { "message": "Dapatkan Premium" },
+  "unlockAllServerLocations": { "message": "Buka semua lokasi server" },
+  "accessServersWorldwide": { "message": "Akses server di seluruh dunia" },
+  "fastestSpeeds": { "message": "Kecepatan tertinggi" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Kecepatan internet cepat dan stabil"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "Garansi uang kembali 10 hari"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Pengembalian penuh jika tidak puas"
+  },
+  "chooseYourPlan": { "message": "Pilih paket Anda" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Buka semua fitur dengan Premium"
+  },
   "au": { "message": "Australia" },
   "br": { "message": "Brasil" },
   "ca": { "message": "Kanada" },

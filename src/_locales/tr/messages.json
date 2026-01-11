@@ -77,12 +77,45 @@
     "message": "yıllık planda. Daha fazla konum ve daha yüksek hız 10 gün para iade garantisiyle."
   },
   "claimOffer": { "message": "Teklifi al" },
-  "until": { "message": "Kadar" },
+  "until": { "message": "kadar" },
   "installModalText": {
     "message": "Bu konumu açmak için başka bir kullanıcıdan bu bağlantıyla uzantıyı yüklemesini isteyin:"
   },
   "copyLink": { "message": "Bağlantıyı kopyala" },
   "linkCopied": { "message": "Bağlantı kopyalandı!" },
+  "getAndroidApp": { "message": "Android uygulamasını indir" },
+  "referToUnlock": { "message": "Davet ederek aç" },
+  "toUnlockThisLocation": {
+    "message": "Bu konumu açmak için başka bir kullanıcıdan bu linkle 1VPN yüklemesini isteyin:"
+  },
+  "upgradeToPremium": { "message": "Premium’a yükselt" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Daha fazla konum ve daha yüksek hız"
+  },
+  "tryAndroidApp": { "message": "Android uygulamasını dene" },
+  "get1VPNForAndroid": { "message": "Android için 1VPN al" },
+  "reviewToUnlock": { "message": "Yorum yaparak aç" },
+  "leaveReviewToUnlock": {
+    "message": "Bu konumu açmak için 5 yıldızlı yorum bırakın"
+  },
+  "continueFree": { "message": "Ücretsiz devam et" },
+  "getPremium": { "message": "Premium al" },
+  "unlockAllServerLocations": { "message": "Tüm sunucu konumlarını aç" },
+  "accessServersWorldwide": { "message": "Dünya çapındaki sunuculara erişim" },
+  "fastestSpeeds": { "message": "En yüksek hızlar" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Kararlı ve hızlı internet"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10 gün para iadesi garantisi"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Memnun kalmazsanız tam geri ödeme"
+  },
+  "chooseYourPlan": { "message": "Paketini seç" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Tüm özellikleri Premium ile aç"
+  },
   "au": { "message": "Avustralya" },
   "br": { "message": "Brezilya" },
   "ca": { "message": "Kanada" },

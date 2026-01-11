@@ -79,6 +79,39 @@
   },
   "copyLink": { "message": "複製連結" },
   "linkCopied": { "message": "連結已複製！" },
+  "getAndroidApp": { "message": "取得 Android 應用程式" },
+  "referToUnlock": { "message": "邀請朋友解鎖" },
+  "toUnlockThisLocation": {
+    "message": "若要解鎖此位置 請讓其他使用者透過此連結安裝 1VPN："
+  },
+  "upgradeToPremium": { "message": "升級為 Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "更多節點與更快速度"
+  },
+  "tryAndroidApp": { "message": "試用 Android 應用程式" },
+  "get1VPNForAndroid": { "message": "取得 Android 版 1VPN" },
+  "reviewToUnlock": { "message": "評論即可解鎖" },
+  "leaveReviewToUnlock": {
+    "message": "留下 5 星評論即可解鎖此位置"
+  },
+  "continueFree": { "message": "繼續免費使用" },
+  "getPremium": { "message": "取得 Premium" },
+  "unlockAllServerLocations": { "message": "解鎖所有伺服器位置" },
+  "accessServersWorldwide": { "message": "存取全球伺服器" },
+  "fastestSpeeds": { "message": "最高速度" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "穩定且快速的網路速度"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10 天退款保證"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "若不滿意可全額退費"
+  },
+  "chooseYourPlan": { "message": "選擇你的方案" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "使用 Premium 解鎖全部功能"
+  },
   "au": { "message": "澳洲" },
   "br": { "message": "巴西" },
   "ca": { "message": "加拿大" },

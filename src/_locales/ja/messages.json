@@ -83,6 +83,41 @@
   },
   "copyLink": { "message": "リンクをコピー" },
   "linkCopied": { "message": "リンクをコピーしました！" },
+  "getAndroidApp": { "message": "Androidアプリを入手" },
+  "referToUnlock": { "message": "招待して解除" },
+  "toUnlockThisLocation": {
+    "message": "このロケーションを解除するにはこのリンクから他のユーザーに1VPNをインストールしてもらってください:"
+  },
+  "upgradeToPremium": { "message": "プレミアムにアップグレード" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "ロケーション追加と高速通信"
+  },
+  "tryAndroidApp": { "message": "Androidアプリを試す" },
+  "get1VPNForAndroid": { "message": "Android版1VPNを入手" },
+  "reviewToUnlock": { "message": "レビューで解除" },
+  "leaveReviewToUnlock": {
+    "message": "星5のレビューを残してこのロケーションを解除してください"
+  },
+  "continueFree": { "message": "無料のまま続行" },
+  "getPremium": { "message": "プレミアムを入手" },
+  "unlockAllServerLocations": {
+    "message": "すべてのサーバーロケーションを解除"
+  },
+  "accessServersWorldwide": { "message": "世界中のサーバーにアクセス" },
+  "fastestSpeeds": { "message": "最高速度" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "安定した高速インターネット"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10日間返金保証"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "ご満足いただけない場合は全額返金"
+  },
+  "chooseYourPlan": { "message": "プランを選択" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "プレミアムですべての機能を解除"
+  },
   "au": { "message": "オーストラリア" },
   "br": { "message": "ブラジル" },
   "ca": { "message": "カナダ" },

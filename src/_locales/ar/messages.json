@@ -79,6 +79,39 @@
   },
   "copyLink": { "message": "نسخ الرابط" },
   "linkCopied": { "message": "تم نسخ الرابط!" },
+  "getAndroidApp": { "message": "احصل على تطبيق أندرويد" },
+  "referToUnlock": { "message": "ادعُ للفتح" },
+  "toUnlockThisLocation": {
+    "message": "لفتح هذا الموقع اطلب من مستخدم آخر تثبيت 1VPN عبر هذا الرابط:"
+  },
+  "upgradeToPremium": { "message": "الترقية إلى بريميوم" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "مواقع أكثر وسرعات أعلى"
+  },
+  "tryAndroidApp": { "message": "جرّب تطبيق أندرويد" },
+  "get1VPNForAndroid": { "message": "احصل على 1VPN لأندرويد" },
+  "reviewToUnlock": { "message": "تقييم للفتح" },
+  "leaveReviewToUnlock": {
+    "message": "اترك تقييم 5 نجوم لفتح هذا الموقع"
+  },
+  "continueFree": { "message": "استمر مجانًا" },
+  "getPremium": { "message": "احصل على بريميوم" },
+  "unlockAllServerLocations": { "message": "افتح جميع مواقع الخوادم" },
+  "accessServersWorldwide": { "message": "وصول إلى الخوادم حول العالم" },
+  "fastestSpeeds": { "message": "أعلى السرعات" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "سرعات إنترنت ثابتة وسريعة"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "ضمان استعادة المال لمدة 10 أيام"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "استرداد كامل إذا لم تكن راضيًا"
+  },
+  "chooseYourPlan": { "message": "اختر خطتك" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "افتح جميع الميزات مع بريميوم"
+  },
   "au": { "message": "أستراليا" },
   "br": { "message": "البرازيل" },
   "ca": { "message": "كندا" },
