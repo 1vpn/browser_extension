@@ -80,12 +80,45 @@
     "message": "on the annual Plan. Unlock more locations and faster speeds with 10 day money-back guarantee."
   },
   "claimOffer": { "message": "Claim Offer" },
-  "until": { "message": "Until" },
+  "until": { "message": "until" },
   "installModalText": {
     "message": "Unlock this location by getting another user to install the extension using this link:"
   },
   "copyLink": { "message": "Copy Link" },
   "linkCopied": { "message": "Link Copied!" },
+  "getAndroidApp": { "message": "Get Android App" },
+  "referToUnlock": { "message": "Refer To Unlock" },
+  "toUnlockThisLocation": {
+    "message": "To unlock this location, get another user to install 1VPN using this link:"
+  },
+  "upgradeToPremium": { "message": "Upgrade to Premium" },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "More locations & faster speeds"
+  },
+  "tryAndroidApp": { "message": "Try Android App" },
+  "get1VPNForAndroid": { "message": "Get 1VPN for Android" },
+  "reviewToUnlock": { "message": "Review To Unlock" },
+  "leaveReviewToUnlock": {
+    "message": "Leave a 5-star review to unlock this location"
+  },
+  "continueFree": { "message": "Continue Free" },
+  "getPremium": { "message": "Get Premium" },
+  "unlockAllServerLocations": { "message": "Unlock All Server Locations" },
+  "accessServersWorldwide": { "message": "Access servers worldwide" },
+  "fastestSpeeds": { "message": "Fastest Speeds" },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Consistent and fast internet speeds"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10-Day Money-Back Guarantee"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Full refund if not satisfied"
+  },
+  "chooseYourPlan": { "message": "Choose Your Plan" },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Unlock all features with premium"
+  },
   "au": { "message": "Australia" },
   "br": { "message": "Brazil" },
   "ca": { "message": "Canada" },

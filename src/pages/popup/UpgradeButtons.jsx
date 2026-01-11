@@ -3,7 +3,11 @@ import { PageContext } from 'context/PageContext'
 import { Flex, Button, Link } from 'theme-ui'
 import { websiteUrl } from 'utils/constants'
 
-const UpgradeButtons = ({ primaryButtonText, from = 'upgrade_page' }) => {
+const UpgradeButtons = ({
+  primaryButtonText,
+  from = 'upgrade_page',
+  messages,
+}) => {
   const { setCurrentPage } = useContext(PageContext)
 
   const handleUpgradeClick = () => {
@@ -33,7 +37,7 @@ const UpgradeButtons = ({ primaryButtonText, from = 'upgrade_page' }) => {
         variant="styles.baseButton"
         onClick={handleUpgradeClick}
       >
-        {primaryButtonText || 'Get Premium'}
+        {primaryButtonText}
       </Link>
       <Button
         onClick={handleContinueFree}
@@ -48,7 +52,7 @@ const UpgradeButtons = ({ primaryButtonText, from = 'upgrade_page' }) => {
           },
         }}
       >
-        Continue Free
+        {messages.continueFree}
       </Button>
     </Flex>
   )

@@ -17,7 +17,7 @@ const AndroidPage = ({ messages }) => {
       }}
     >
       <PageHeader
-        left={<Text sx={{ fontSize: '20px' }}>Get Android App</Text>}
+        left={<Text sx={{ fontSize: '20px' }}>{messages.getAndroidApp}</Text>}
         rightIcon={Arrow}
         onRightClick={goBackPage}
       />

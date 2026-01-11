@@ -36,7 +36,7 @@ const InstallModal = ({ messages, isOpen, onClose }) => {
             color: 'black',
           }}
         >
-          Refer To Unlock
+          {messages.referToUnlock}
         </Box>
         <Box
           sx={{
@@ -47,8 +47,7 @@ const InstallModal = ({ messages, isOpen, onClose }) => {
             color: 'grey',
           }}
         >
-          To unlock this location, get another user to install the extension
-          using this link:
+          {messages.toUnlockThisLocation}
         </Box>
         <Input
           readOnly

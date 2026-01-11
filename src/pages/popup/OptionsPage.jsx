@@ -123,8 +123,8 @@ const OptionsPage = ({
             onToggle={() => handleDisableWebRtcToggle()}
           />
           <Option
-            title={messages.tryOurAndroidApp || 'Try Android App'}
-            subTitle={messages.get1VPNForAndroid || 'Get 1VPN for Android'}
+            title={messages.tryAndroidApp}
+            subTitle={messages.getAndroidApp}
             id="tryAndroidApp"
             onClick={() => setCurrentPage('android')}
           />

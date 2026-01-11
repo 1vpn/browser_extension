@@ -110,10 +110,7 @@ const SpecialOfferPage = ({ messages }) => {
               >
                 {messages.saveSixtyPercent}
               </Box>
-              <Box sx={{ fontSize: '14px' }}>
-                {/* {messages.until} */}
-                until
-              </Box>
+              <Box sx={{ fontSize: '14px' }}>{messages.until}</Box>
               <Box
                 sx={{
                   px: '16px',
@@ -130,11 +127,12 @@ const SpecialOfferPage = ({ messages }) => {
           )}
         </Flex>
       </Flex>
-      <UpgradeFeatures />
+      <UpgradeFeatures messages={messages} />
       <Box sx={{ px: '24px', pb: '24px' }}>
         <UpgradeButtons
           primaryButtonText={messages.claimOffer}
           from="special_offer"
+          messages={messages}
         />
       </Box>
     </Flex>

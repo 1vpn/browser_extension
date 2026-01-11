@@ -28,7 +28,7 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
             color: 'black',
           }}
         >
-          Review To Unlock
+          {messages.reviewToUnlock}
         </Box>
         <Box
           sx={{
@@ -39,7 +39,7 @@ const ReviewModal = ({ messages, isOpen, onClose }) => {
             color: 'grey',
           }}
         >
-          Leave a 5-star review to unlock this location
+          {messages.leaveReviewToUnlock}
         </Box>
         <Button
           onClick={handleReviewClick}

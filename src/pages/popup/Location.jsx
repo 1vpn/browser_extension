@@ -17,7 +17,6 @@ const Location = ({
   installDate,
   setIsReviewModalOpen,
   setIsInstallModalOpen,
-  messages,
 }) => {
   const handleClick = async () => {
     if (link) {

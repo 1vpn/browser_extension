@@ -41,12 +41,19 @@ const UpgradePage = ({ messages }) => {
             }}
           />
         </Box>
-        <Text sx={{ fontSize: '24px', mb: '12px' }}>Choose Your Plan</Text>
-        <Text sx={{ fontWeight: 300 }}>Unlock all features with premium</Text>
+        <Text sx={{ fontSize: '24px', mb: '12px' }}>
+          {messages.chooseYourPlan}
+        </Text>
+        <Text sx={{ fontWeight: 300 }}>
+          {messages.unlockAllFeaturesWithPremium}
+        </Text>
       </Flex>
-      <UpgradeFeatures />
+      <UpgradeFeatures messages={messages} />
       <Box sx={{ px: '24px', pb: '24px' }}>
-        <UpgradeButtons />
+        <UpgradeButtons
+          primaryButtonText={messages.getPremium}
+          messages={messages}
+        />
       </Box>
     </Flex>
   )

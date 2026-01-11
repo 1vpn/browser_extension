@@ -3,30 +3,25 @@ import Globe from 'assets/globe.svg'
 import Lightning from 'assets/lightning.svg'
 import Check from 'assets/check.svg'
 
-export const upgradeFeatures = [
-  {
-    title: 'Unlock All Server Locations',
-    subTitle: 'Access servers worldwide',
-    icon: Globe,
-  },
-  {
-    title: 'Fastest Speeds',
-    subTitle: 'Consistent and fast internet speeds',
-    icon: Lightning,
-  },
-  // {
-  //   title: '24/7 Customer Support',
-  //   subTitle: 'Get help whenever you need it',
-  //   icon: Support,
-  // },
-  {
-    title: '10-Day Money-Back Guarantee',
-    subTitle: 'Full refund if not satisfied',
-    icon: Check,
-  },
-]
+const UpgradeFeatures = ({ messages }) => {
+  const upgradeFeatures = [
+    {
+      title: messages.unlockAllServerLocations,
+      subTitle: messages.accessServersWorldwide,
+      icon: Globe,
+    },
+    {
+      title: messages.fastestSpeeds,
+      subTitle: messages.consistentAndFastInternetSpeeds,
+      icon: Lightning,
+    },
+    {
+      title: messages.tenDayMoneyBackGuarantee,
+      subTitle: messages.fullRefundIfNotSatisfied,
+      icon: Check,
+    },
+  ]
 
-const UpgradeFeatures = () => {
   return (
     <Flex
       sx={{

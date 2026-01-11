@@ -73,7 +73,6 @@ const LocationsPage = ({
                 setIsInstallModalOpen={setIsInstallModalOpen}
                 icon={flags[location.countryCode]}
                 isPremium={location.isPremium}
-                messages={messages}
                 key={location.countryCode}
               />
             )

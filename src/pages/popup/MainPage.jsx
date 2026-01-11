@@ -178,7 +178,9 @@ const MainPage = ({
               id="upgradeLink"
               // href={`${websiteUrl}/select_plan`}
               // target="_blank"
-              onClick={() => setCurrentPage('upgrade')}
+              onClick={() =>
+                setCurrentPage(Math.random() < 0.5 ? 'upgrade' : 'specialOffer')
+              }
               title="Upgrade to Premium"
               sx={{
                 display: 'flex',
@@ -229,10 +231,10 @@ const MainPage = ({
                 }}
               >
                 <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
-                  Upgrade to Premium
+                  {messages.upgradeToPremium}
                 </Text>
                 <Text sx={{ fontSize: '13px', fontWeight: 300 }}>
-                  More locations & faster speeds
+                  {messages.moreLocationsAndFasterSpeeds}
                 </Text>
               </Flex>
               <Box
