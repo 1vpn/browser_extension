@@ -10,11 +10,12 @@ export const handleUserData = (data, wasLoggedIn) => {
       const isConnected = prevStorage.isConnected || false
 
       const processedData = { ...data }
+
       if (Array.isArray(processedData.locations)) {
         processedData.locations = processedData.locations.reduce(
           (acc, location) => {
-            if (location && location.countryCode) {
-              acc[location.countryCode] = location
+            if (location && location.cityCode) {
+              acc[location.cityCode] = location
             }
             return acc
           },

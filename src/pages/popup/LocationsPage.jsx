@@ -10,7 +10,7 @@ import Arrow from 'assets/arrow.svg'
 
 const LocationsPage = ({
   locations,
-  currentLocationCode,
+  currentCityCode,
   handleLocationToggle,
   installDate,
   messages,
@@ -62,18 +62,18 @@ const LocationsPage = ({
           {sortedLocations.map((location) => {
             return (
               <Location
-                title={location.city || messages[location.countryCode]}
-                subTitle={location.country}
-                id={location.countryCode}
-                checked={currentLocationCode === location.countryCode}
+                title={messages[location.cityCode]}
+                subTitle={messages[location.countryCode]}
+                id={location.cityCode}
+                checked={currentCityCode === location.cityCode}
                 location={location}
                 handleLocationToggle={handleLocationToggle}
                 installDate={installDate}
                 setIsReviewModalOpen={setIsReviewModalOpen}
                 setIsInstallModalOpen={setIsInstallModalOpen}
-                icon={flags[location.countryCode]}
+                icon={flags[location.cityCode]}
                 isPremium={location.isPremium}
-                key={location.countryCode}
+                key={location.cityCode}
               />
             )
           })}

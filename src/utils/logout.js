@@ -23,7 +23,7 @@ const logout = () => {
     }
     const firstLocation = Object.values(freeLocations)[0]
     if (firstLocation) {
-      chrome.storage.local.set({ currentLocation: firstLocation.countryCode })
+      chrome.storage.local.set({ currentLocation: firstLocation.cityCode })
     }
   })
 }

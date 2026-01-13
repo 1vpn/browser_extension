@@ -12,7 +12,7 @@ import PageHeader from './PageHeader'
 const MainPage = ({
   isPremium,
   isConnected,
-  currentLocationCode,
+  currentCityCode,
   locations,
   handleConnectionToggle,
   messages,
@@ -133,10 +133,10 @@ const MainPage = ({
             },
           }}
         >
-          {currentLocationCode && locations[currentLocationCode] && (
+          {currentCityCode && locations[currentCityCode] && (
             <>
               <Box
-                as={flags[currentLocationCode]}
+                as={flags[currentCityCode]}
                 sx={{
                   height: '30px',
                   width: '30px',
@@ -153,11 +153,10 @@ const MainPage = ({
                 }}
               >
                 <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
-                  {locations[currentLocationCode].city ||
-                    messages[currentLocationCode]}
+                  {messages[locations[currentCityCode].cityCode]}
                 </Text>
                 <Text sx={{ fontSize: '13px', color: 'grey', fontWeight: 300 }}>
-                  {locations[currentLocationCode].country}
+                  {messages[locations[currentCityCode].countryCode]}
                 </Text>
               </Flex>
             </>

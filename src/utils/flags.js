@@ -17,6 +17,7 @@ import SeFlag from 'assets/flags/se.svg'
 import UkFlag from 'assets/flags/uk.svg'
 import UsFlag from 'assets/flags/us.svg'
 import ZaFlag from 'assets/flags/za.svg'
+import IlFlag from 'assets/flags/il.svg'
 
 const flags = {
   au: AuFlag,
@@ -26,6 +27,7 @@ const flags = {
   de: DeFlag,
   es: EsFlag,
   fr: FrFlag,
+  il: IlFlag,
   in: InFlag,
   jp: JpFlag,
   kr: KrFlag,
@@ -39,10 +41,40 @@ const flags = {
   use: UsFlag,
   uss: UsFlag,
   usw: UsFlag,
-  ue: UsFlag,
   us: UsFlag,
-  uw: UsFlag,
   za: ZaFlag,
+  ams: NlFlag,
+  sgp: SgFlag,
+  lax: UsFlag,
+  syd: AuFlag,
+  sao: BrFlag,
+  yto: CaFlag,
+  scl: ClFlag,
+  cdg: FrFlag,
+  fra: DeFlag,
+  bom: InFlag,
+  nrt: JpFlag,
+  icn: KrFlag,
+  mex: MxFlag,
+  waw: PlFlag,
+  jnb: ZaFlag,
+  mad: EsFlag,
+  sto: SeFlag,
+  lhr: UkFlag,
+  ewr: UsFlag,
+  atl: UsFlag,
+  blr: InFlag,
+  del: InFlag,
+  dfw: UsFlag,
+  hnl: UsFlag,
+  itm: JpFlag,
+  man: UkFlag,
+  mel: AuFlag,
+  mia: UsFlag,
+  ord: UsFlag,
+  sea: UsFlag,
+  sjc: UsFlag,
+  tlv: IlFlag,
 }
 
 export default flags

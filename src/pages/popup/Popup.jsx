@@ -24,7 +24,7 @@ const Popup = () => {
   const [locations] = useChromeStorage('locations', freeLocations)
   const [isPremium] = useChromeStorage('isPremium', false)
   const [isConnected, setIsConnected] = useChromeStorage('isConnected', false)
-  const [currentLocationCode, setCurrentLocationCode] = useChromeStorage(
+  const [currentCityCode, setCurrentCityCode] = useChromeStorage(
     'currentLocation',
     ''
   )
@@ -44,7 +44,7 @@ const Popup = () => {
       if (!storage.currentLocation) {
         const firstLocation = Object.values(locations)[0]
         if (firstLocation) {
-          setCurrentLocationCode(firstLocation.countryCode)
+          setCurrentCityCode(firstLocation.cityCode)
         }
       }
       setIsLoaded(true)
@@ -62,7 +62,7 @@ const Popup = () => {
 
   const handleLocationToggle = (location) => {
     setCurrentPage('main')
-    setCurrentLocationCode(location.countryCode)
+    setCurrentCityCode(location.cityCode)
     setIsConnected(true)
     connect()
   }
@@ -73,7 +73,7 @@ const Popup = () => {
         return (
           <LocationsPage
             locations={isPremium ? locations : freeLocations}
-            currentLocationCode={currentLocationCode}
+            currentCityCode={currentCityCode}
             handleLocationToggle={handleLocationToggle}
             installDate={installDate}
             messages={messages}
@@ -104,7 +104,7 @@ const Popup = () => {
           <MainPage
             isPremium={isPremium}
             isConnected={isConnected}
-            currentLocationCode={currentLocationCode}
+            currentCityCode={currentCityCode}
             locations={isPremium ? locations : freeLocations}
             handleConnectionToggle={handleConnectionToggle}
             installDate={installDate}
