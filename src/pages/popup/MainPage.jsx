@@ -173,13 +173,13 @@ const MainPage = ({
 
         {!isPremium && (
           <>
-            <Button
+            <Link
               id="upgradeLink"
-              // href={`${websiteUrl}/select_plan`}
-              // target="_blank"
-              onClick={() =>
-                setCurrentPage(Math.random() < 0.5 ? 'upgrade' : 'specialOffer')
-              }
+              href={`${websiteUrl}/select_plan`}
+              target="_blank"
+              // onClick={() =>
+              //   setCurrentPage(Math.random() < 0.5 ? 'upgrade' : 'specialOffer')
+              // }
               title="Upgrade to Premium"
               sx={{
                 display: 'flex',
@@ -242,7 +242,7 @@ const MainPage = ({
                   color: 'white',
                 }}
               />
-            </Button>
+            </Link>
           </>
         )}
 
