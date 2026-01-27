@@ -3,6 +3,13 @@ process.env.BABEL_ENV = 'development'
 process.env.NODE_ENV = 'development'
 process.env.ASSET_PATH = '/'
 
+const { execSync } = require('child_process')
+try {
+  execSync('node scripts/fetchFreeServers.js', { stdio: 'inherit', timeout: 5000 })
+} catch (error) {
+  console.log('Continuing server start...')
+}
+
 const port = 3000
 
 var WebpackDevServer = require('webpack-dev-server'),

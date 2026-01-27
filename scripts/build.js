@@ -3,6 +3,13 @@ process.env.BABEL_ENV = 'production'
 process.env.NODE_ENV = 'production'
 process.env.ASSET_PATH = '/'
 
+const { execSync } = require('child_process')
+try {
+  execSync('node scripts/fetchFreeServers.js', { stdio: 'inherit', timeout: 5000 })
+} catch (error) {
+  console.log('Continuing build...')
+}
+
 var webpack = require('webpack'),
   path = require('path'),
   fs = require('fs'),
