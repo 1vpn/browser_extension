@@ -64,42 +64,35 @@ const OptionsPage = ({
               borderColor: 'borderGrey',
             }}
           >
-            {sessionAuthToken && !isPremium ? (
+            <Link
+              id="upgradeButton"
+              href={
+                websiteUrl +
+                `/referral_redirect?from=options_page&url=https://1vpn.org/select_plan/`
+              }
+              target="_blank"
+              variant="styles.baseButton"
+            >
+              {messages.upgrade}
+            </Link>
+            {!sessionAuthToken && (
               <Link
-                href={`${websiteUrl}/select_plan`}
+                id="loginButton"
+                href={`${websiteUrl}/login`}
                 target="_blank"
                 variant="styles.baseButton"
+                sx={{
+                  bg: 'white',
+                  color: 'black',
+                  border: '1px solid',
+                  borderColor: 'darkBorderGrey',
+                  ':hover': {
+                    bg: 'borderGrey50',
+                  },
+                }}
               >
-                {messages.upgrade}
+                {messages.login}
               </Link>
-            ) : (
-              <>
-                <Link
-                  id="upgradeButton"
-                  href={`${websiteUrl}/select_plan`}
-                  target="_blank"
-                  variant="styles.baseButton"
-                >
-                  {messages.upgrade}
-                </Link>
-                <Link
-                  id="loginButton"
-                  href={`${websiteUrl}/login`}
-                  target="_blank"
-                  variant="styles.baseButton"
-                  sx={{
-                    bg: 'white',
-                    color: 'black',
-                    border: '1px solid',
-                    borderColor: 'darkBorderGrey',
-                    ':hover': {
-                      bg: 'borderGrey50',
-                    },
-                  }}
-                >
-                  {messages.login}
-                </Link>
-              </>
             )}
           </Flex>
         )}

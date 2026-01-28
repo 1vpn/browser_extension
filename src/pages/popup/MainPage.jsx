@@ -175,7 +175,10 @@ const MainPage = ({
           <>
             <Link
               id="upgradeLink"
-              href={`${websiteUrl}/select_plan`}
+              href={
+                websiteUrl +
+                `/referral_redirect?from=main_page&url=https://1vpn.org/select_plan/`
+              }
               target="_blank"
               // onClick={() =>
               //   setCurrentPage(Math.random() < 0.5 ? 'upgrade' : 'specialOffer')
