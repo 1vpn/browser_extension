@@ -2,7 +2,7 @@ import { Flex, Box } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
 import Check from 'assets/check.svg'
 import Star from 'assets/star.svg'
-import { websiteUrl } from 'utils/constants'
+import { websiteUrl, SEVENTY_TWO_HOURS } from 'utils/constants'
 
 const Location = ({
   title,
@@ -49,7 +49,7 @@ const Location = ({
             const installTime = installDate
               ? new Date(installDate).getTime()
               : 0
-            if (installDate && now - installTime > 72 * 60 * 60 * 1000) {
+            if (installDate && now - installTime > SEVENTY_TWO_HOURS) {
               setIsReviewModalOpen(true)
               return
             }

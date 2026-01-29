@@ -2,10 +2,12 @@ import { useContext } from 'react'
 import { PageContext } from 'context/PageContext'
 import { Box, Flex, Button, Link, Text } from 'theme-ui'
 import { websiteUrl } from 'utils/constants'
+import { getCurrentMonthDeal } from 'utils/specialOffer'
 import flags from 'utils/flags'
 import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
 import Star from 'assets/star.svg'
+import Gift from 'assets/gift.svg'
 import ChevronRight from 'assets/chevronRight.svg'
 import PageHeader from './PageHeader'
 
@@ -16,6 +18,8 @@ const MainPage = ({
   locations,
   handleConnectionToggle,
   messages,
+  isSpecialOfferActive,
+  timeRemaining,
 }) => {
   const { setCurrentPage } = useContext(PageContext)
 
@@ -173,17 +177,17 @@ const MainPage = ({
 
         {!isPremium && (
           <>
-            <Link
+            <Button
               id="upgradeLink"
-              href={
-                websiteUrl +
-                `/referral_redirect?from=main_page&url=https://1vpn.org/select_plan/`
-              }
-              target="_blank"
-              // onClick={() =>
-              //   setCurrentPage(Math.random() < 0.5 ? 'upgrade' : 'specialOffer')
-              // }
-              title="Upgrade to Premium"
+              onClick={() => {
+                if (isSpecialOfferActive) {
+                  setCurrentPage('specialOffer')
+                } else {
+                  window.open(websiteUrl +
+                    `/referral_redirect?from=main_page&url=https://1vpn.org/select_plan/`, '_blank')
+                }
+              }}
+              title={isSpecialOfferActive ? getCurrentMonthDeal(messages) : 'Upgrade to Premium'}
               sx={{
                 display: 'flex',
                 alignItems: 'center',
@@ -216,11 +220,11 @@ const MainPage = ({
                 }}
               >
                 <Box
-                  as={Star}
+                  as={isSpecialOfferActive ? Gift : Star}
                   sx={{
                     overflow: 'visible',
-                    height: '18px',
-                    width: '18px',
+                    height: '20px',
+                    width: '20px',
                   }}
                 />
               </Box>
@@ -233,10 +237,12 @@ const MainPage = ({
                 }}
               >
                 <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
-                  {messages.upgradeToPremium}
+                  {isSpecialOfferActive ? getCurrentMonthDeal(messages) : messages.upgradeToPremium}
                 </Text>
                 <Text sx={{ fontSize: '13px', fontWeight: 300 }}>
-                  {messages.moreLocationsAndFasterSpeeds}
+                  {isSpecialOfferActive && timeRemaining
+                    ? `${messages.saveSixtyPercent} ${messages.until} ${timeRemaining}`
+                    : messages.moreLocationsAndFasterSpeeds}
                 </Text>
               </Flex>
               <Box
@@ -245,7 +251,7 @@ const MainPage = ({
                   color: 'white',
                 }}
               />
-            </Link>
+            </Button>
           </>
         )}
 

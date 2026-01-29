@@ -74,6 +74,19 @@
 
   "specialOffer": { "message": "Penawaran Spesial" },
   "saveSixtyPercent": { "message": "Hemat 60%" },
+  "deal": { "message": "Penawaran" },
+  "january": { "message": "Januari" },
+  "february": { "message": "Februari" },
+  "march": { "message": "Maret" },
+  "april": { "message": "April" },
+  "may": { "message": "Mei" },
+  "june": { "message": "Juni" },
+  "july": { "message": "Juli" },
+  "august": { "message": "Agustus" },
+  "september": { "message": "September" },
+  "october": { "message": "Oktober" },
+  "november": { "message": "November" },
+  "december": { "message": "Desember" },
   "upgradeModalText": {
     "message": "di paket tahunan. Buka lebih banyak lokasi & kecepatan lebih cepat dengan garansi 10 hari uang kembali."
   },

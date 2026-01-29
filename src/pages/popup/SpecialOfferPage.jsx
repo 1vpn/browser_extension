@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Box, Flex } from 'theme-ui'
-import Star from 'assets/star.svg'
+import Gift from 'assets/gift.svg'
+import { checkAndManageSpecialOffer, formatTimeRemaining, getCurrentMonthDeal } from 'utils/specialOffer'
 import UpgradeFeatures from './UpgradeFeatures'
 import UpgradeButtons from './UpgradeButtons'
 
@@ -8,31 +9,43 @@ const SpecialOfferPage = ({ messages }) => {
   const [timeRemaining, setTimeRemaining] = useState(null)
 
   useEffect(() => {
-    const expirationTime = Date.now() + 24 * 60 * 60 * 1000
     let interval
 
-    const updateTimer = () => {
+    const initializeTimer = () => {
+      chrome.storage.local.get(['specialOfferExpirationTime'], (storage) => {
       const now = Date.now()
-      const remaining = Math.max(0, expirationTime - now)
+        
+        const specialOffer = checkAndManageSpecialOffer(
+          storage.specialOfferExpirationTime,
+          now
+        )
+
+        if (specialOffer.expirationTime !== storage.specialOfferExpirationTime) {
+          chrome.storage.local.set({
+            specialOfferExpirationTime: specialOffer.expirationTime,
+          })
+        }
+
+        const expirationTime = specialOffer.expirationTime
+
+        const updateTimer = () => {
+          const currentTime = Date.now()
+          const remaining = Math.max(0, expirationTime - currentTime)
 
       if (remaining === 0) {
         setTimeRemaining(null)
         return
       }
 
-      const hours = Math.floor(remaining / (1000 * 60 * 60))
-      const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60))
-      const seconds = Math.floor((remaining % (1000 * 60)) / 1000)
-
-      setTimeRemaining(
-        `${hours.toString().padStart(2, '0')}:${minutes
-          .toString()
-          .padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`
-      )
+          setTimeRemaining(formatTimeRemaining(remaining))
     }
 
     updateTimer()
     interval = setInterval(updateTimer, 1000)
+      })
+    }
+
+    initializeTimer()
 
     return () => {
       if (interval) clearInterval(interval)
@@ -69,7 +82,7 @@ const SpecialOfferPage = ({ messages }) => {
           }}
         >
           <Box
-            as={Star}
+            as={Gift}
             sx={{
               height: '40px',
               width: '40px',
@@ -85,7 +98,7 @@ const SpecialOfferPage = ({ messages }) => {
             height: 'auto',
           }}
         >
-          {messages.specialOffer}
+          {getCurrentMonthDeal(messages)}
         </Box>
         <Flex
           sx={{

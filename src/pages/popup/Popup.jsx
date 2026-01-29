@@ -6,6 +6,7 @@ import { Flex, Box } from 'theme-ui'
 import freeLocations from 'utils/freeLocations'
 import { connect, disconnect } from 'utils/manageProxy'
 import { localeMessageKeys } from 'utils/constants'
+import { checkAndManageSpecialOffer, formatTimeRemaining } from 'utils/specialOffer'
 import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
@@ -18,6 +19,8 @@ const Popup = () => {
   const messages = useLocalization(localeMessageKeys)
 
   const [isLoaded, setIsLoaded] = useState(false)
+  const [isSpecialOfferActive, setIsSpecialOfferActive] = useState(false)
+  const [timeRemaining, setTimeRemaining] = useState(null)
 
   const [sessionAuthToken] = useChromeStorage('sessionAuthToken', '')
   const [installDate] = useChromeStorage('installDate', 0)
@@ -40,15 +43,60 @@ const Popup = () => {
   useEffect(() => {
     chrome.runtime.sendMessage({ type: 'popupOpened' })
 
-    chrome.storage.local.get(['currentLocation'], (storage) => {
-      if (!storage.currentLocation) {
-        const firstLocation = Object.values(locations)[0]
-        if (firstLocation) {
-          setCurrentCityCode(firstLocation.cityCode)
+    let interval
+
+    const checkSpecialOfferStatus = () => {
+      chrome.storage.local.get(['specialOfferExpirationTime', 'currentLocation'], (storage) => {
+        const now = Date.now()
+        
+        // Check and manage special offer expiration/reactivation
+        const specialOffer = checkAndManageSpecialOffer(
+          storage.specialOfferExpirationTime,
+          now
+        )
+
+        // Update storage if expiration time changed
+        if (specialOffer.expirationTime !== storage.specialOfferExpirationTime) {
+          chrome.storage.local.set({
+            specialOfferExpirationTime: specialOffer.expirationTime,
+          })
         }
-      }
-      setIsLoaded(true)
-    })
+
+        const expirationTime = specialOffer.expirationTime
+        const isActive = specialOffer.isActive
+        setIsSpecialOfferActive(isActive)
+
+        if (isActive && expirationTime) {
+          const remaining = Math.max(0, expirationTime - now)
+          
+          if (remaining === 0) {
+            setTimeRemaining(null)
+            setIsSpecialOfferActive(false)
+          } else {
+            setTimeRemaining(formatTimeRemaining(remaining))
+          }
+        } else {
+          setTimeRemaining(null)
+        }
+
+        if (!storage.currentLocation) {
+          const firstLocation = Object.values(locations)[0]
+          if (firstLocation) {
+            setCurrentCityCode(firstLocation.cityCode)
+          }
+        }
+        setIsLoaded(true)
+      })
+    }
+
+    checkSpecialOfferStatus()
+
+    // Check periodically to update when timer expires
+    interval = setInterval(checkSpecialOfferStatus, 1000)
+
+    return () => {
+      if (interval) clearInterval(interval)
+    }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleConnectionToggle = () => {
@@ -109,6 +157,8 @@ const Popup = () => {
             handleConnectionToggle={handleConnectionToggle}
             installDate={installDate}
             messages={messages}
+            isSpecialOfferActive={isSpecialOfferActive}
+            timeRemaining={timeRemaining}
           />
         )
     }

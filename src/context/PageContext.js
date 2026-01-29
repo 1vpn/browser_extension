@@ -1,4 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react'
+import { TWELVE_HOURS } from 'utils/constants'
+import { checkAndManageSpecialOffer } from 'utils/specialOffer'
 
 export const PageContext = createContext()
 
@@ -13,42 +15,54 @@ export const PageProvider = ({ children }) => {
         'isPremium',
         'upgradeModalLastShown',
         'upgradeButtonClicked',
-        'upgradePageType',
+        'specialOfferExpirationTime',
       ],
       (storage) => {
         let initialPage = 'main'
+        const now = Date.now()
 
         if (!storage.isPremium) {
-          const now = Date.now()
-          const upgradeModalLastShown = storage.upgradeModalLastShown || 0
-          const twelveHours = 12 * 60 * 60 * 1000
-          const upgradeButtonClicked = storage.upgradeButtonClicked || false
-          let upgradePageType = storage.upgradePageType
+          // Check and manage special offer expiration/reactivation
+          const specialOffer = checkAndManageSpecialOffer(
+            storage.specialOfferExpirationTime,
+            now
+          )
 
-          if (
-            upgradeModalLastShown > 0 &&
-            now - upgradeModalLastShown >= twelveHours
-          ) {
-            chrome.storage.local.set({ upgradeButtonClicked: false })
-            upgradePageType = null
+          // Update storage if expiration time changed
+          if (specialOffer.expirationTime !== storage.specialOfferExpirationTime) {
+            chrome.storage.local.set({
+              specialOfferExpirationTime: specialOffer.expirationTime,
+            })
           }
 
-          if (!upgradeButtonClicked) {
-            if (!upgradePageType) {
-              if (upgradeModalLastShown === 0) {
-                upgradePageType = 'upgrade'
-              } else {
-                upgradePageType =
-                  Math.random() < 0.5 ? 'upgrade' : 'specialOffer'
-              }
-              chrome.storage.local.set({ upgradePageType })
-            }
-            initialPage = upgradePageType
+          const isSpecialOfferActive = specialOffer.isActive
 
-            if (
+          const upgradeModalLastShown = storage.upgradeModalLastShown || 0
+          const upgradeButtonClicked = storage.upgradeButtonClicked || false
+
+          // Reset button clicked status after 12 hours
+          if (
+            upgradeModalLastShown > 0 &&
+            now - upgradeModalLastShown >= TWELVE_HOURS
+          ) {
+            chrome.storage.local.set({ upgradeButtonClicked: false })
+          }
+
+          // Show upgrade or special offer page every 12 hours
+          if (!upgradeButtonClicked) {
+            const shouldShowModal =
               upgradeModalLastShown === 0 ||
-              now - upgradeModalLastShown >= twelveHours
-            ) {
+              now - upgradeModalLastShown >= TWELVE_HOURS
+
+            if (shouldShowModal) {
+              // On first open, show upgrade page
+              if (upgradeModalLastShown === 0) {
+                initialPage = 'upgrade'
+              } else {
+                // After first open, show special offer if active, otherwise upgrade
+                initialPage = isSpecialOfferActive ? 'specialOffer' : 'upgrade'
+              }
+
               chrome.storage.local.set({ upgradeModalLastShown: now })
             }
           }
@@ -79,3 +93,4 @@ export const PageProvider = ({ children }) => {
     </PageContext.Provider>
   )
 }
+

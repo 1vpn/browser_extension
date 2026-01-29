@@ -19,6 +19,11 @@ export const freeCredentials = {
   password: process.env.FREE_PASSWORD,
 }
 
+export const TWELVE_HOURS = 12 * 60 * 60 * 1000
+export const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000
+export const FIVE_DAYS = 5 * 24 * 60 * 60 * 1000
+export const SEVENTY_TWO_HOURS = 72 * 60 * 60 * 1000
+
 export const errorCodes = { invalidToken: 1001 }
 
 export const reviewUrl =
@@ -81,6 +86,19 @@ export const localeMessageKeys = [
   'downloadApp',
   'specialOffer',
   'saveSixtyPercent',
+  'deal',
+  'january',
+  'february',
+  'march',
+  'april',
+  'may',
+  'june',
+  'july',
+  'august',
+  'september',
+  'october',
+  'november',
+  'december',
   'upgradeModalText',
   'claimOffer',
   'until',
