@@ -1,6 +1,5 @@
 import {
   isFirefox,
-  androidUrl,
   freeCredentials,
   websiteUrl,
 } from 'utils/constants'
