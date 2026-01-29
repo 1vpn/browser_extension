@@ -36,7 +36,8 @@ chrome.runtime.onStartup.addListener(() => {
   fetchUserData()
 })
 
-chrome.runtime.setUninstallURL(androidUrl)
+chrome.runtime.setUninstallURL(websiteUrl +
+  `/referral_redirect?from=uninstall&url=https://1vpn.org/select_plan/`)
 
 chrome.webRequest.onAuthRequired.addListener(
   (details, callbackFn) => {
