@@ -33,7 +33,8 @@ const freeLocations = {
       }
     ],
     "latitude": 1.314,
-    "longitude": 103.6831
+    "longitude": 103.6831,
+    "ratingLocked": true
   },
   "lax": {
     "city": "Los Angeles",
@@ -104,6 +105,13 @@ const freeLocations = {
     "cityCode": "bom",
     "country": "India",
     "countryCode": "in",
+    "isPremium": true
+  },
+  "tlv": {
+    "city": "Tel Aviv",
+    "cityCode": "tlv",
+    "country": "Israel",
+    "countryCode": "il",
     "isPremium": true
   },
   "nrt": {

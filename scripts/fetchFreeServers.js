@@ -18,11 +18,20 @@ function fetchFreeServers() {
   })
 }
 
+const FREE_LOCATIONS_OVERRIDES = {
+  sgp: { ratingLocked: true }
+}
+
 async function updateFreeLocations() {
   const freeLocationsPath = path.join(__dirname, '../src/utils/freeLocations.js')
 
   try {
     const apiData = await fetchFreeServers()
+    for (const [code, overrides] of Object.entries(FREE_LOCATIONS_OVERRIDES)) {
+      if (apiData[code]) {
+        Object.assign(apiData[code], overrides)
+      }
+    }
     const fileContent = `const freeLocations = ${JSON.stringify(apiData, null, 2)}\n\nexport default freeLocations\n`
     fs.writeFileSync(freeLocationsPath, fileContent, 'utf-8')
   } catch (error) {
