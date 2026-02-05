@@ -6,6 +6,10 @@ const freeLocations = {
     "countryCode": "nl",
     "hosts": [
       {
+        "hostname": "free-amsterdam-https-1.cloudburstcdn.com",
+        "port": 443
+      },
+      {
         "hostname": "netherlands-free-https-1.weathercloudapp.com",
         "port": 443
       },
@@ -43,6 +47,10 @@ const freeLocations = {
       },
       {
         "hostname": "usa-west-free-https-2.cloudquickcdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-los-angeles-https-1.cloudburstcdn.com",
         "port": 443
       }
     ],
