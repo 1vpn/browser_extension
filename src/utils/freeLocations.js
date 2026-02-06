@@ -30,6 +30,10 @@ const freeLocations = {
       {
         "hostname": "singapore-free-https-1.weathercloudapp.com",
         "port": 443
+      },
+      {
+        "hostname": "free-singapore-https-1.cloudburstcdn.com",
+        "port": 443
       }
     ],
     "latitude": 1.314,
@@ -61,6 +65,13 @@ const freeLocations = {
   "syd": {
     "city": "Sydney",
     "cityCode": "syd",
+    "country": "Australia",
+    "countryCode": "au",
+    "isPremium": true
+  },
+  "mel": {
+    "city": "Melbourne",
+    "cityCode": "mel",
     "country": "Australia",
     "countryCode": "au",
     "isPremium": true
@@ -100,9 +111,23 @@ const freeLocations = {
     "countryCode": "de",
     "isPremium": true
   },
+  "del": {
+    "city": "Delhi",
+    "cityCode": "del",
+    "country": "India",
+    "countryCode": "in",
+    "isPremium": true
+  },
   "bom": {
     "city": "Mumbai",
     "cityCode": "bom",
+    "country": "India",
+    "countryCode": "in",
+    "isPremium": true
+  },
+  "blr": {
+    "city": "Bangalore",
+    "cityCode": "blr",
     "country": "India",
     "countryCode": "in",
     "isPremium": true
@@ -112,6 +137,13 @@ const freeLocations = {
     "cityCode": "tlv",
     "country": "Israel",
     "countryCode": "il",
+    "isPremium": true
+  },
+  "itm": {
+    "city": "Osaka",
+    "cityCode": "itm",
+    "country": "Japan",
+    "countryCode": "jp",
     "isPremium": true
   },
   "nrt": {
@@ -163,11 +195,60 @@ const freeLocations = {
     "countryCode": "se",
     "isPremium": true
   },
+  "man": {
+    "city": "Manchester",
+    "cityCode": "man",
+    "country": "United Kingdom",
+    "countryCode": "uk",
+    "isPremium": true
+  },
   "lhr": {
     "city": "London",
     "cityCode": "lhr",
     "country": "United Kingdom",
     "countryCode": "uk",
+    "isPremium": true
+  },
+  "ord": {
+    "city": "Chicago",
+    "cityCode": "ord",
+    "country": "United States",
+    "countryCode": "us",
+    "isPremium": true
+  },
+  "dfw": {
+    "city": "Dallas",
+    "cityCode": "dfw",
+    "country": "United States",
+    "countryCode": "us",
+    "isPremium": true
+  },
+  "sea": {
+    "city": "Seattle",
+    "cityCode": "sea",
+    "country": "United States",
+    "countryCode": "us",
+    "isPremium": true
+  },
+  "sjc": {
+    "city": "San Francisco",
+    "cityCode": "sjc",
+    "country": "United States",
+    "countryCode": "us",
+    "isPremium": true
+  },
+  "mia": {
+    "city": "Miami",
+    "cityCode": "mia",
+    "country": "United States",
+    "countryCode": "us",
+    "isPremium": true
+  },
+  "hnl": {
+    "city": "Honolulu",
+    "cityCode": "hnl",
+    "country": "United States",
+    "countryCode": "us",
     "isPremium": true
   },
   "ewr": {
