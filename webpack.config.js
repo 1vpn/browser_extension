@@ -67,7 +67,7 @@ var options = {
           { loader: 'css-loader' },
           {
             loader: 'sass-loader',
-            options: { sourceMap: true },
+            options: { sourceMap: true, api: 'modern' },
           },
         ],
       },
