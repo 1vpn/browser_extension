@@ -10,6 +10,10 @@ const freeLocations = {
         "port": 443
       },
       {
+        "hostname": "free-amsterdam-https-2.cloudtimecdn.com",
+        "port": 443
+      },
+      {
         "hostname": "netherlands-free-https-1.weathercloudapp.com",
         "port": 443
       },
@@ -27,6 +31,10 @@ const freeLocations = {
     "country": "Singapore",
     "countryCode": "sg",
     "hosts": [
+      {
+        "hostname": "free-singapore-https-2.cloudtimecdn.com",
+        "port": 443
+      },
       {
         "hostname": "singapore-free-https-1.weathercloudapp.com",
         "port": 443
@@ -56,6 +64,10 @@ const freeLocations = {
       },
       {
         "hostname": "free-los-angeles-https-1.cloudburstcdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-los-angeles-https-2.cloudtimecdn.com",
         "port": 443
       }
     ],
