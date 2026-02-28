@@ -1,9 +1,29 @@
+import { useState, useEffect } from 'react'
 import { Box, Flex, Text } from 'theme-ui'
 import Star from 'assets/star.svg'
+import { formatTimeRemaining } from 'utils/formatTime'
+import { FORTY_EIGHT_HOURS } from 'utils/constants'
 import UpgradeFeatures from './UpgradeFeatures'
 import UpgradeButtons from './UpgradeButtons'
 
-const UpgradePage = ({ messages }) => {
+const UpgradePage = ({ messages, installDate = 0 }) => {
+  const [tick, setTick] = useState(() => Date.now())
+
+  const expirationTime = installDate
+    ? installDate + FORTY_EIGHT_HOURS
+    : 0
+  const now = tick
+  const showCountdown = expirationTime > 0 && now < expirationTime
+  const timeRemaining = showCountdown
+    ? formatTimeRemaining(Math.max(0, expirationTime - now))
+    : null
+
+  useEffect(() => {
+    if (!showCountdown) return
+    const intervalId = setInterval(() => setTick(Date.now()), 1000)
+    return () => clearInterval(intervalId)
+  }, [showCountdown])
+
   return (
     <Flex
       sx={{
@@ -41,12 +61,23 @@ const UpgradePage = ({ messages }) => {
             }}
           />
         </Box>
-        <Text sx={{ fontSize: '24px', mb: '12px' }}>
+        <Text sx={{ fontSize: '24px', mb: '20px', fontWeight: 400 }}>
           {messages.chooseYourPlan}
         </Text>
-        <Text sx={{ fontWeight: 300 }}>
-          {messages.unlockAllFeaturesWithPremium}
-        </Text>
+        <Box
+          sx={{
+            px: '16px',
+            py: '6px',
+            borderRadius: '8px',
+            backgroundColor: 'white20',
+            fontSize: '15px',
+            fontWeight: 400,
+          }}
+        >
+          {showCountdown
+            ? `${messages.save33OnPremiumUntil} ${timeRemaining}`
+            : messages.save33OnPremium}
+        </Box>
       </Flex>
       <UpgradeFeatures messages={messages} />
       <Box sx={{ px: '24px', pb: '24px' }}>

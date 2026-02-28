@@ -2,12 +2,10 @@ import { useContext } from 'react'
 import { PageContext } from 'context/PageContext'
 import { Box, Flex, Button, Link, Text } from 'theme-ui'
 import { websiteUrl } from 'utils/constants'
-import { getCurrentMonthDeal } from 'utils/specialOffer'
 import flags from 'utils/flags'
 import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
 import Star from 'assets/star.svg'
-import Gift from 'assets/gift.svg'
 import ChevronRight from 'assets/chevronRight.svg'
 import PageHeader from './PageHeader'
 
@@ -179,15 +177,8 @@ const MainPage = ({
           <>
             <Button
               id="upgradeLink"
-              onClick={() => {
-                if (isSpecialOfferActive) {
-                  setCurrentPage('specialOffer')
-                } else {
-                  window.open(websiteUrl +
-                    `/referral_redirect?from=main_page&url=https://1vpn.org/select_plan/`, '_blank')
-                }
-              }}
-              title={isSpecialOfferActive ? getCurrentMonthDeal(messages) : 'Upgrade to Premium'}
+              onClick={() => setCurrentPage('upgrade')}
+              title={messages.upgradeToPremium}
               sx={{
                 display: 'flex',
                 alignItems: 'center',
@@ -220,11 +211,11 @@ const MainPage = ({
                 }}
               >
                 <Box
-                  as={isSpecialOfferActive ? Gift : Star}
+                  as={Star}
                   sx={{
                     overflow: 'visible',
-                    height: '20px',
-                    width: '20px',
+                    height: '18px',
+                    width: '18px',
                   }}
                 />
               </Box>
@@ -237,12 +228,12 @@ const MainPage = ({
                 }}
               >
                 <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
-                  {isSpecialOfferActive ? getCurrentMonthDeal(messages) : messages.upgradeToPremium}
+                  {messages.upgradeToPremium}
                 </Text>
                 <Text sx={{ fontSize: '13px', fontWeight: 300 }}>
                   {isSpecialOfferActive && timeRemaining
                     ? `${messages.saveSixtyPercent} ${messages.until} ${timeRemaining}`
-                    : messages.moreLocationsAndFasterSpeeds}
+                    : messages.save33OnPremium}
                 </Text>
               </Flex>
               <Box

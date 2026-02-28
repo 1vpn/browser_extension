@@ -74,8 +74,7 @@
     "message": "Scan or click the QR code"
   },
   "downloadApp": { "message": "Download App" },
-  "specialOffer": { "message": "Special Offer" },
-  "saveSixtyPercent": { "message": "Save 60%" },
+  "saveSixtyPercent": { "message": "Save 33%" },
   "deal": { "message": "Deal" },
   "january": { "message": "January" },
   "february": { "message": "February" },
@@ -94,6 +93,8 @@
   },
   "claimOffer": { "message": "Claim Offer" },
   "until": { "message": "until" },
+  "save33OnPremiumUntil": { "message": "Save 33% on premium until" },
+  "save33OnPremium": { "message": "Save 33% on Premium" },
   "installModalText": {
     "message": "Unlock this location by getting another user to install the extension using this link:"
   },

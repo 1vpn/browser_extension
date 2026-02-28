@@ -5,13 +5,12 @@ import useChromeStorage from 'hooks/useChromeStorage'
 import { Flex, Box } from 'theme-ui'
 import freeLocations from 'utils/freeLocations'
 import { connect, disconnect } from 'utils/manageProxy'
-import { localeMessageKeys } from 'utils/constants'
-import { checkAndManageSpecialOffer, formatTimeRemaining } from 'utils/specialOffer'
+import { localeMessageKeys, FORTY_EIGHT_HOURS } from 'utils/constants'
+import { formatTimeRemaining } from 'utils/formatTime'
 import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
 import UpgradePage from './UpgradePage'
-import SpecialOfferPage from './SpecialOfferPage'
 import AndroidPage from './AndroidPage'
 
 const Popup = () => {
@@ -43,59 +42,37 @@ const Popup = () => {
   useEffect(() => {
     chrome.runtime.sendMessage({ type: 'popupOpened' })
 
-    let interval
+    let intervalId
 
-    const checkSpecialOfferStatus = () => {
-      chrome.storage.local.get(['specialOfferExpirationTime', 'currentLocation'], (storage) => {
-        const now = Date.now()
-        
-        // Check and manage special offer expiration/reactivation
-        const specialOffer = checkAndManageSpecialOffer(
-          storage.specialOfferExpirationTime,
-          now
-        )
-
-        // Update storage if expiration time changed
-        if (specialOffer.expirationTime !== storage.specialOfferExpirationTime) {
-          chrome.storage.local.set({
-            specialOfferExpirationTime: specialOffer.expirationTime,
-          })
+    chrome.storage.local.get(['currentLocation', 'installDate'], (storage) => {
+      if (!storage.currentLocation) {
+        const firstLocation = Object.values(locations)[0]
+        if (firstLocation) {
+          setCurrentCityCode(firstLocation.cityCode)
         }
+      }
+      setIsLoaded(true)
 
-        const expirationTime = specialOffer.expirationTime
-        const isActive = specialOffer.isActive
-        setIsSpecialOfferActive(isActive)
-
-        if (isActive && expirationTime) {
-          const remaining = Math.max(0, expirationTime - now)
-          
-          if (remaining === 0) {
-            setTimeRemaining(null)
-            setIsSpecialOfferActive(false)
+      const install = storage.installDate || 0
+      if (install) {
+        const expirationTime = install + FORTY_EIGHT_HOURS
+        const update = () => {
+          const now = Date.now()
+          if (now < expirationTime) {
+            setIsSpecialOfferActive(true)
+            setTimeRemaining(formatTimeRemaining(Math.max(0, expirationTime - now)))
           } else {
-            setTimeRemaining(formatTimeRemaining(remaining))
-          }
-        } else {
-          setTimeRemaining(null)
-        }
-
-        if (!storage.currentLocation) {
-          const firstLocation = Object.values(locations)[0]
-          if (firstLocation) {
-            setCurrentCityCode(firstLocation.cityCode)
+            setIsSpecialOfferActive(false)
+            setTimeRemaining(null)
           }
         }
-        setIsLoaded(true)
-      })
-    }
-
-    checkSpecialOfferStatus()
-
-    // Check periodically to update when timer expires
-    interval = setInterval(checkSpecialOfferStatus, 1000)
+        update()
+        intervalId = setInterval(update, 1000)
+      }
+    })
 
     return () => {
-      if (interval) clearInterval(interval)
+      if (intervalId) clearInterval(intervalId)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -141,9 +118,7 @@ const Popup = () => {
           />
         )
       case 'upgrade':
-        return <UpgradePage messages={messages} />
-      case 'specialOffer':
-        return <SpecialOfferPage messages={messages} />
+        return <UpgradePage messages={messages} installDate={installDate} />
       case 'android':
         return <AndroidPage messages={messages} />
       case 'main':
