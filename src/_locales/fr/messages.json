@@ -112,6 +112,7 @@
   "toUnlockThisLocation": {
     "message": "Pour débloquer cet emplacement, faites installer 1VPN à un autre utilisateur via ce lien :"
   },
+  "installAndroidToUnlock": { "message": "Installez l'app Android pour débloquer" },
   "upgradeToPremium": { "message": "Passer au Premium" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Plus d'emplacements, plus rapide"

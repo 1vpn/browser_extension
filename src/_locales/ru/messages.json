@@ -105,6 +105,7 @@
   "toUnlockThisLocation": {
     "message": "Чтобы разблокировать этот регион, пригласите пользователя установить 1VPN по этой ссылке:"
   },
+  "installAndroidToUnlock": { "message": "Установите приложение Android для разблокировки" },
   "upgradeToPremium": { "message": "Перейти на Премиум" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Больше локаций и выше скорость"

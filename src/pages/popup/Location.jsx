@@ -2,7 +2,7 @@ import { Flex, Box } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
 import Check from 'assets/check.svg'
 import Star from 'assets/star.svg'
-import { websiteUrl, SEVENTY_TWO_HOURS } from 'utils/constants'
+import { websiteUrl, SEVENTY_TWO_HOURS, TWO_MINUTES } from 'utils/constants'
 
 const Location = ({
   title,
@@ -16,7 +16,7 @@ const Location = ({
   handleLocationToggle,
   installDate,
   setIsReviewModalOpen,
-  setIsInstallModalOpen,
+  setIsAndroidModalOpen,
 }) => {
   const handleClick = async () => {
     if (link) {
@@ -32,16 +32,17 @@ const Location = ({
       })
     } else if (location.ratingLocked) {
       chrome.storage.local.get(
-        ['locationUnlocked', 'installModalCopiedTime'],
+        ['locationUnlocked', 'AndroidModalOpenedAt'],
         (result) => {
           if (result.locationUnlocked === true) {
             handleLocationToggle(location)
           } else {
             const now = Date.now()
-            const installModalCopiedTime = result.installModalCopiedTime || 0
+            const AndroidModalOpenedAt =
+              result.AndroidModalOpenedAt || 0
             if (
-              installModalCopiedTime &&
-              now - installModalCopiedTime > 2 * 60 * 1000
+              AndroidModalOpenedAt &&
+              now - AndroidModalOpenedAt > TWO_MINUTES
             ) {
               handleLocationToggle(location)
               return
@@ -53,7 +54,7 @@ const Location = ({
               setIsReviewModalOpen(true)
               return
             }
-            setIsInstallModalOpen(true)
+            setIsAndroidModalOpen(true)
           }
         }
       )

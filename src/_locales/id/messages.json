@@ -104,6 +104,7 @@
   "toUnlockThisLocation": {
     "message": "Untuk membuka lokasi ini ajak pengguna lain memasang 1VPN melalui tautan ini:"
   },
+  "installAndroidToUnlock": { "message": "Instal Aplikasi Android untuk Membuka" },
   "upgradeToPremium": { "message": "Upgrade ke Premium" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Lebih banyak lokasi & lebih cepat"

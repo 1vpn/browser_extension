@@ -99,6 +99,7 @@
   "toUnlockThisLocation": {
     "message": "برای باز کردن این موقعیت یک کاربر دیگر را دعوت کنید تا 1VPN را از این لینک نصب کند:"
   },
+  "installAndroidToUnlock": { "message": "نصب اپ اندروید برای باز کردن" },
   "upgradeToPremium": { "message": "ارتقا به پرمیوم" },
   "moreLocationsAndFasterSpeeds": {
     "message": "موقعیت‌های بیشتر و سرعت‌های بالاتر"

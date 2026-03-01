@@ -103,6 +103,7 @@
   "toUnlockThisLocation": {
     "message": "Para desbloquear este local peça para outro usuário instalar o 1VPN usando este link:"
   },
+  "installAndroidToUnlock": { "message": "Instale o app Android para desbloquear" },
   "upgradeToPremium": { "message": "Atualizar para Premium" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Mais locais e mais velocidade"

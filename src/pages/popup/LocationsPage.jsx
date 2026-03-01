@@ -1,11 +1,11 @@
-import { useState, useContext } from 'react'
+import { useState, useContext, useEffect } from 'react'
 import { Flex, Text } from 'theme-ui'
 import { PageContext } from 'context/PageContext'
 import flags from 'utils/flags'
 import PageHeader from './PageHeader'
 import Location from './Location'
 import ReviewModal from './ReviewModal'
-import InstallModal from './InstallModal'
+import AndroidModal from './AndroidModal'
 import Arrow from 'assets/arrow.svg'
 
 const LocationsPage = ({
@@ -17,8 +17,14 @@ const LocationsPage = ({
   isPremium,
 }) => {
   const { goBackPage } = useContext(PageContext)
-  const [isInstallModalOpen, setIsInstallModalOpen] = useState(false)
+  const [isAndroidModalOpen, setIsAndroidModalOpen] = useState(false)
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false)
+
+  useEffect(() => {
+    if (isAndroidModalOpen) {
+      chrome.storage.local.set({ AndroidModalOpenedAt: Date.now() })
+    }
+  }, [isAndroidModalOpen])
 
   const sortedLocations = Object.values(locations).sort((a, b) => {
     if (!isPremium) {
@@ -38,10 +44,10 @@ const LocationsPage = ({
         rightIcon={Arrow}
         onRightClick={goBackPage}
       />
-      <InstallModal
+      <AndroidModal
         messages={messages}
-        isOpen={isInstallModalOpen}
-        onClose={() => setIsInstallModalOpen(false)}
+        isOpen={isAndroidModalOpen}
+        onClose={() => setIsAndroidModalOpen(false)}
       />
       <ReviewModal
         messages={messages}
@@ -70,7 +76,7 @@ const LocationsPage = ({
                 handleLocationToggle={handleLocationToggle}
                 installDate={installDate}
                 setIsReviewModalOpen={setIsReviewModalOpen}
-                setIsInstallModalOpen={setIsInstallModalOpen}
+                setIsAndroidModalOpen={setIsAndroidModalOpen}
                 icon={flags[location.cityCode]}
                 isPremium={location.isPremium}
                 key={location.cityCode}

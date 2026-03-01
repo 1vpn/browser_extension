@@ -99,6 +99,7 @@
   "toUnlockThisLocation": {
     "message": "Per sbloccare questa posizione fai installare 1VPN a un altro utente usando questo link:"
   },
+  "installAndroidToUnlock": { "message": "Installa l'app Android per sbloccare" },
   "upgradeToPremium": { "message": "Passa a Premium" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Più posizioni e maggiore velocità"

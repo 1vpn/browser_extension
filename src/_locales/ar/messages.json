@@ -99,6 +99,7 @@
   "toUnlockThisLocation": {
     "message": "لفتح هذا الموقع اطلب من مستخدم آخر تثبيت 1VPN عبر هذا الرابط:"
   },
+  "installAndroidToUnlock": { "message": "ثبّت تطبيق أندرويد للفتح" },
   "upgradeToPremium": { "message": "الترقية إلى بريميوم" },
   "moreLocationsAndFasterSpeeds": {
     "message": "مواقع أكثر وسرعات أعلى"

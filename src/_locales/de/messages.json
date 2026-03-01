@@ -107,6 +107,7 @@
   "toUnlockThisLocation": {
     "message": "Um diesen Standort freizuschalten bitte einen Nutzer bitten 1VPN über diesen Link zu installieren:"
   },
+  "installAndroidToUnlock": { "message": "Android-App installieren zum Freischalten" },
   "upgradeToPremium": { "message": "Auf Premium upgraden" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Mehr Standorte und schneller"

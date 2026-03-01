@@ -105,6 +105,9 @@
   "toUnlockThisLocation": {
     "message": "To unlock this location, get another user to install 1VPN using this link:"
   },
+  "installAndroidToUnlock": {
+    "message": "Install Android App to Unlock"
+  },
   "upgradeToPremium": { "message": "Upgrade to Premium" },
   "moreLocationsAndFasterSpeeds": {
     "message": "More locations & faster speeds"

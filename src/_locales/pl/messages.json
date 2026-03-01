@@ -101,6 +101,7 @@
   "toUnlockThisLocation": {
     "message": "Aby odblokować tę lokalizację poproś innego użytkownika o zainstalowanie 1VPN z tego linku:"
   },
+  "installAndroidToUnlock": { "message": "Zainstaluj aplikację Android, aby odblokować" },
   "upgradeToPremium": { "message": "Przejdź na Premium" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Więcej lokalizacji i wyższa prędkość"

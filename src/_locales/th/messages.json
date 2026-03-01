@@ -97,6 +97,7 @@
   "toUnlockThisLocation": {
     "message": "หากต้องการปลดล็อกตำแหน่งนี้ ให้ให้ผู้ใช้อีกคนติดตั้ง 1VPN ผ่านลิงก์นี้:"
   },
+  "installAndroidToUnlock": { "message": "ติดตั้งแอป Android เพื่อปลดล็อก" },
   "upgradeToPremium": { "message": "อัปเกรดเป็นพรีเมียม" },
   "moreLocationsAndFasterSpeeds": {
     "message": "ตำแหน่งมากขึ้นและเร็วขึ้น"

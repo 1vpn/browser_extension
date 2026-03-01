@@ -20,6 +20,7 @@ export const freeCredentials = {
 }
 
 export const TWELVE_HOURS = 12 * 60 * 60 * 1000
+export const TWO_MINUTES = 2 * 60 * 1000
 export const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000
 export const FIVE_DAYS = 5 * 24 * 60 * 60 * 1000
 export const SEVENTY_TWO_HOURS = 72 * 60 * 60 * 1000
@@ -109,6 +110,7 @@ export const localeMessageKeys = [
   'getAndroidApp',
   'referToUnlock',
   'toUnlockThisLocation',
+  'installAndroidToUnlock',
   'upgradeToPremium',
   'moreLocationsAndFasterSpeeds',
   'tryAndroidApp',

@@ -103,6 +103,7 @@
   "toUnlockThisLocation": {
     "message": "이 위치를 잠금 해제하려면 이 링크로 다른 사용자가 1VPN을 설치하도록 하세요:"
   },
+  "installAndroidToUnlock": { "message": "Android 앱 설치하여 잠금 해제" },
   "upgradeToPremium": { "message": "프리미엄으로 업그레이드" },
   "moreLocationsAndFasterSpeeds": {
     "message": "더 많은 위치와 더 빠른 속도"

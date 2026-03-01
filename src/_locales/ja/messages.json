@@ -103,6 +103,7 @@
   "toUnlockThisLocation": {
     "message": "このロケーションを解除するにはこのリンクから他のユーザーに1VPNをインストールしてもらってください:"
   },
+  "installAndroidToUnlock": { "message": "Androidアプリをインストールしてアンロック" },
   "upgradeToPremium": { "message": "プレミアムにアップグレード" },
   "moreLocationsAndFasterSpeeds": {
     "message": "ロケーション追加と高速通信"

@@ -101,6 +101,7 @@
   "toUnlockThisLocation": {
     "message": "Để mở khóa vị trí này hãy nhờ người dùng khác cài đặt 1VPN bằng liên kết này:"
   },
+  "installAndroidToUnlock": { "message": "Cài đặt ứng dụng Android để mở khóa" },
   "upgradeToPremium": { "message": "Nâng cấp lên Premium" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Nhiều vị trí hơn và tốc độ nhanh hơn"

@@ -99,6 +99,7 @@
   "toUnlockThisLocation": {
     "message": "要解锁此位置 请让其他用户通过此链接安装 1VPN："
   },
+  "installAndroidToUnlock": { "message": "安装 Android 应用以解锁" },
   "upgradeToPremium": { "message": "升级到高级版" },
   "moreLocationsAndFasterSpeeds": {
     "message": "更多节点 更快速度"

@@ -103,6 +103,7 @@
   "toUnlockThisLocation": {
     "message": "Bu konumu açmak için başka bir kullanıcıdan bu linkle 1VPN yüklemesini isteyin:"
   },
+  "installAndroidToUnlock": { "message": "Android uygulamasını yükleyerek açın" },
   "upgradeToPremium": { "message": "Premium’a yükselt" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Daha fazla konum ve daha yüksek hız"
