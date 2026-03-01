@@ -68,7 +68,7 @@
   "scanOrClickQRCode": { "message": "扫描或点击二维码" },
   "downloadApp": { "message": "下载应用" },
   "specialOffer": { "message": "特别优惠" },
-  "saveSixtyPercent": { "message": "立省60%" },
+  "save33Percent": { "message": "立省33%" },
   "deal": { "message": "优惠" },
   "january": { "message": "一月" },
   "february": { "message": "二月" },
@@ -87,6 +87,8 @@
   },
   "claimOffer": { "message": "领取优惠" },
   "until": { "message": "截止" },
+  "save33OnPremiumUntil": { "message": "立省33%购买高级版，截止" },
+  "save33OnPremium": { "message": "立省33%购买高级版" },
   "installModalText": {
     "message": "通过让其他用户使用此链接安装扩展来解锁此位置："
   },

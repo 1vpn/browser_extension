@@ -7,7 +7,7 @@
   "signUp": { "message": "Créer un compte" },
   "login": { "message": "Connexion" },
   "continueText": { "message": "Ou continuer sans compte" },
-  "username": { "message": "Nom d’utilisateur" },
+  "username": { "message": "Nom d'utilisateur" },
   "password": { "message": "Mot de passe" },
   "twoFaToken": { "message": "Jeton 2FA" },
   "loading": { "message": "Chargement..." },
@@ -18,7 +18,7 @@
   "goToLocationsPage": { "message": "Aller à la page des emplacements" },
   "upgradeText1": { "message": "Passer au Premium" },
   "upgradeText2": {
-    "message": "pour plus d’emplacements et des vitesses plus rapides"
+    "message": "pour plus d'emplacements et des vitesses plus rapides"
   },
   "menu": { "message": "Menu" },
   "account": { "message": "Compte" },
@@ -33,16 +33,16 @@
   "spoofGeolocation": { "message": "Falsifier la géolocalisation" },
   "disableWebRtc": { "message": "Désactiver WebRTC" },
   "disableAddressAutofill": {
-    "message": "Désactiver le remplissage automatique d’adresse"
+    "message": "Désactiver le remplissage automatique d'adresse"
   },
   "spoofGeolocationSubTitle": {
-    "message": "Faire correspondre la géolocalisation HTML5 à l’emplacement VPN"
+    "message": "Faire correspondre la géolocalisation HTML5 à l'emplacement VPN"
   },
   "disableAddressAutofillSubTitle": {
     "message": "Désactiver le remplissage automatique pour protéger votre localisation."
   },
   "disableWebRtcSubTitle": {
-    "message": "Empêcher les fuites d’IP via WebRTC"
+    "message": "Empêcher les fuites d'IP via WebRTC"
   },
   "locations": { "message": "Emplacements" },
   "reviewModalTitle": {
@@ -53,7 +53,7 @@
     "message": "Partager 1VPN pour débloquer cet emplacement"
   },
   "shareText": {
-    "message": "Je viens d’essayer 1VPN, un VPN gratuit, simple et sécurisé avec données illimitées et vitesses rapides. À découvrir sur https://1vpn.org?from=share"
+    "message": "Je viens d'essayer 1VPN, un VPN gratuit, simple et sécurisé avec données illimitées et vitesses rapides. À découvrir sur https://1vpn.org?from=share"
   },
   "x": {
     "message": "X (Twitter)"
@@ -68,20 +68,20 @@
   },
   "installSuccess": { "message": "1VPN a été installé avec succès" },
   "installInstructions": {
-    "message": "Cliquez sur l’icône puzzle près de la barre d’adresse puis cliquez sur l’épingle pour afficher l’extension."
+    "message": "Cliquez sur l'icône puzzle près de la barre d'adresse puis cliquez sur l'épingle pour afficher l'extension."
   },
   "tryOurAndroidApp": {
     "message": "Essayer notre application Android"
   },
   "scanQrCodeOrClickButton": {
-    "message": "Scannez le QR code ou cliquez sur le bouton ci-dessous pour télécharger l’application Android."
+    "message": "Scannez le QR code ou cliquez sur le bouton ci-dessous pour télécharger l'application Android."
   },
   "scanOrClickQRCode": {
     "message": "Scanner ou cliquer sur le QR code"
   },
-  "downloadApp": { "message": "Télécharger l’application" },
+  "downloadApp": { "message": "Télécharger l'application" },
   "specialOffer": { "message": "Offre spéciale" },
-  "saveSixtyPercent": { "message": "Économisez 60 %" },
+  "save33Percent": { "message": "Économisez 33 %" },
   "deal": { "message": "Offre" },
   "january": { "message": "Janvier" },
   "february": { "message": "Février" },
@@ -96,25 +96,27 @@
   "november": { "message": "Novembre" },
   "december": { "message": "Décembre" },
   "upgradeModalText": {
-    "message": "sur le forfait annuel. Débloquez plus d’emplacements et des vitesses plus rapides avec garantie de remboursement de 10 jours."
+    "message": "sur le forfait annuel. Débloquez plus d'emplacements et des vitesses plus rapides avec garantie de remboursement de 10 jours."
   },
-  "claimOffer": { "message": "Profiter de l’offre" },
-  "until": { "message": "jusqu’à" },
+  "claimOffer": { "message": "Profiter de l'offre" },
+  "until": { "message": "jusqu'à" },
+  "save33OnPremiumUntil": { "message": "Économisez 33 % sur le premium jusqu'au" },
+  "save33OnPremium": { "message": "Économisez 33 % sur le Premium" },
   "installModalText": {
-    "message": "Débloquez cet emplacement en faisant installer l’extension par un autre utilisateur via ce lien :"
+    "message": "Débloquez cet emplacement en faisant installer l'extension par un autre utilisateur via ce lien :"
   },
   "copyLink": { "message": "Copier le lien" },
   "linkCopied": { "message": "Lien copié !" },
-  "getAndroidApp": { "message": "Obtenir l’application Android" },
+  "getAndroidApp": { "message": "Obtenir l'application Android" },
   "referToUnlock": { "message": "Parrainer pour débloquer" },
   "toUnlockThisLocation": {
     "message": "Pour débloquer cet emplacement, faites installer 1VPN à un autre utilisateur via ce lien :"
   },
   "upgradeToPremium": { "message": "Passer au Premium" },
   "moreLocationsAndFasterSpeeds": {
-    "message": "Plus d’emplacements, plus rapide"
+    "message": "Plus d'emplacements, plus rapide"
   },
-  "tryAndroidApp": { "message": "Essayer l’application Android" },
+  "tryAndroidApp": { "message": "Essayer l'application Android" },
   "get1VPNForAndroid": { "message": "Obtenir 1VPN pour Android" },
   "reviewToUnlock": { "message": "Avis pour débloquer" },
   "leaveReviewToUnlock": {

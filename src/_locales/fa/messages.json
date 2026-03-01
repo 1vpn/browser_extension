@@ -68,7 +68,7 @@
   "scanOrClickQRCode": { "message": "کد QR را اسکن یا کلیک کنید" },
   "downloadApp": { "message": "دانلود برنامه" },
   "specialOffer": { "message": "پیشنهاد ویژه" },
-  "saveSixtyPercent": { "message": "۶۰٪ صرفه‌جویی" },
+  "save33Percent": { "message": "۳۳٪ صرفه‌جویی" },
   "deal": { "message": "پیشنهاد" },
   "january": { "message": "ژانویه" },
   "february": { "message": "فوریه" },
@@ -87,6 +87,8 @@
   },
   "claimOffer": { "message": "دریافت پیشنهاد" },
   "until": { "message": "تا" },
+  "save33OnPremiumUntil": { "message": "۳۳٪ صرفه‌جویی روی پریمیوم تا" },
+  "save33OnPremium": { "message": "۳۳٪ صرفه‌جویی روی پریمیوم" },
   "installModalText": {
     "message": "این موقعیت را با درخواست از کاربر دیگری برای نصب افزونه با این لینک باز کنید:"
   },

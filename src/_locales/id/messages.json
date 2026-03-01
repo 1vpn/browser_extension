@@ -73,7 +73,7 @@
   "downloadApp": { "message": "Unduh Aplikasi" },
 
   "specialOffer": { "message": "Penawaran Spesial" },
-  "saveSixtyPercent": { "message": "Hemat 60%" },
+  "save33Percent": { "message": "Hemat 33%" },
   "deal": { "message": "Penawaran" },
   "january": { "message": "Januari" },
   "february": { "message": "Februari" },
@@ -92,6 +92,8 @@
   },
   "claimOffer": { "message": "Klaim Penawaran" },
   "until": { "message": "hingga" },
+  "save33OnPremiumUntil": { "message": "Hemat 33% untuk premium hingga" },
+  "save33OnPremium": { "message": "Hemat 33% untuk Premium" },
   "installModalText": {
     "message": "Buka lokasi ini dengan meminta pengguna lain memasang ekstensi menggunakan tautan ini:"
   },

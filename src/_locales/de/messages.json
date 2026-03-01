@@ -76,7 +76,7 @@
   "scanOrClickQRCode": { "message": "QR-Code scannen oder anklicken" },
   "downloadApp": { "message": "App herunterladen" },
   "specialOffer": { "message": "Sonderangebot" },
-  "saveSixtyPercent": { "message": "60% sparen" },
+  "save33Percent": { "message": "33% sparen" },
   "deal": { "message": "Angebot" },
   "january": { "message": "Januar" },
   "february": { "message": "Februar" },
@@ -95,6 +95,8 @@
   },
   "claimOffer": { "message": "Angebot sichern" },
   "until": { "message": "bis" },
+  "save33OnPremiumUntil": { "message": "33% auf Premium sparen bis" },
+  "save33OnPremium": { "message": "33% auf Premium sparen" },
   "installModalText": {
     "message": "Schalte diesen Standort frei, indem du einen anderen Nutzer dazu bringst, die Erweiterung über diesen Link zu installieren:"
   },

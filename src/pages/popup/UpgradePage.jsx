@@ -72,6 +72,7 @@ const UpgradePage = ({ messages, installDate = 0 }) => {
             backgroundColor: 'white20',
             fontSize: '15px',
             fontWeight: 400,
+            textAlign: 'center',
           }}
         >
           {showCountdown

@@ -74,7 +74,7 @@
   "scanOrClickQRCode": { "message": "Сканируйте или нажмите на QR-код" },
   "downloadApp": { "message": "Скачать приложение" },
   "specialOffer": { "message": "Спецпредложение" },
-  "saveSixtyPercent": { "message": "Экономьте 60%" },
+  "save33Percent": { "message": "Экономьте 33%" },
   "deal": { "message": "Предложение" },
   "january": { "message": "Январь" },
   "february": { "message": "Февраль" },
@@ -93,6 +93,8 @@
   },
   "claimOffer": { "message": "Получить предложение" },
   "until": { "message": "До" },
+  "save33OnPremiumUntil": { "message": "Экономьте 33% на премиум до" },
+  "save33OnPremium": { "message": "Экономьте 33% на Премиум" },
   "installModalText": {
     "message": "Разблокируйте это местоположение, попросив другого пользователя установить расширение по этой ссылке:"
   },
@@ -103,7 +105,7 @@
   "toUnlockThisLocation": {
     "message": "Чтобы разблокировать этот регион, пригласите пользователя установить 1VPN по этой ссылке:"
   },
-  "upgradeToPremium": { "message": "Перейти на Premium" },
+  "upgradeToPremium": { "message": "Перейти на Премиум" },
   "moreLocationsAndFasterSpeeds": {
     "message": "Больше локаций и выше скорость"
   },
@@ -114,7 +116,7 @@
     "message": "Оставьте 5 звезд чтобы разблокировать этот регион"
   },
   "continueFree": { "message": "Продолжить бесплатно" },
-  "getPremium": { "message": "Купить Premium" },
+  "getPremium": { "message": "Купить Премиум" },
   "unlockAllServerLocations": { "message": "Разблокировать все серверы" },
   "accessServersWorldwide": { "message": "Доступ к серверам по всему миру" },
   "fastestSpeeds": { "message": "Максимальная скорость" },
@@ -129,7 +131,7 @@
   },
   "chooseYourPlan": { "message": "Выберите план" },
   "unlockAllFeaturesWithPremium": {
-    "message": "Разблокируйте все функции с Premium"
+    "message": "Разблокируйте все функции с Премиум"
   },
   "au": { "message": "Австралия" },
   "br": { "message": "Бразилия" },

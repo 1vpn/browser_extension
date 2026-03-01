@@ -68,7 +68,7 @@
   "scanOrClickQRCode": { "message": "امسح أو انقر على رمز الاستجابة السريعة" },
   "downloadApp": { "message": "تحميل التطبيق" },
   "specialOffer": { "message": "عرض خاص" },
-  "saveSixtyPercent": { "message": "وفر 60%" },
+  "save33Percent": { "message": "وفر 33%" },
   "deal": { "message": "عرض" },
   "january": { "message": "يناير" },
   "february": { "message": "فبراير" },
@@ -87,6 +87,8 @@
   },
   "claimOffer": { "message": "احصل على العرض" },
   "until": { "message": "حتى" },
+  "save33OnPremiumUntil": { "message": "وفر 33% على بريميوم حتى" },
+  "save33OnPremium": { "message": "وفر 33% على بريميوم" },
   "installModalText": {
     "message": "افتح هذا الموقع من خلال جعل مستخدم آخر يثبت الامتداد باستخدام هذا الرابط:"
   },

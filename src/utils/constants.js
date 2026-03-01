@@ -84,7 +84,7 @@ export const localeMessageKeys = [
   'scanQrCodeOrClickButton',
   'scanOrClickQRCode',
   'downloadApp',
-  'saveSixtyPercent',
+  'save33Percent',
   'deal',
   'january',
   'february',

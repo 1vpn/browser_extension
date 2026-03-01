@@ -72,7 +72,7 @@
   "scanOrClickQRCode": { "message": "QR 코드 스캔 또는 클릭" },
   "downloadApp": { "message": "앱 다운로드" },
   "specialOffer": { "message": "특별 할인" },
-  "saveSixtyPercent": { "message": "60% 절약" },
+  "save33Percent": { "message": "33% 절약" },
   "deal": { "message": "할인" },
   "january": { "message": "1월" },
   "february": { "message": "2월" },
@@ -91,6 +91,8 @@
   },
   "claimOffer": { "message": "혜택 받기" },
   "until": { "message": "까지" },
+  "save33OnPremiumUntil": { "message": "프리미엄 33% 절약, 기한" },
+  "save33OnPremium": { "message": "프리미엄 33% 절약" },
   "installModalText": {
     "message": "다른 사용자가 이 링크로 확장 프로그램을 설치하도록 하여 이 위치를 잠금 해제하세요:"
   },

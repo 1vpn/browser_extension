@@ -66,7 +66,7 @@
   "scanOrClickQRCode": { "message": "สแกนหรือคลิกที่รหัส QR" },
   "downloadApp": { "message": "ดาวน์โหลดแอป" },
   "specialOffer": { "message": "ข้อเสนอพิเศษ" },
-  "saveSixtyPercent": { "message": "ประหยัด 60%" },
+  "save33Percent": { "message": "ประหยัด 33%" },
   "deal": { "message": "ข้อเสนอ" },
   "january": { "message": "มกราคม" },
   "february": { "message": "กุมภาพันธ์" },
@@ -85,6 +85,8 @@
   },
   "claimOffer": { "message": "รับข้อเสนอ" },
   "until": { "message": "ถึง" },
+  "save33OnPremiumUntil": { "message": "ประหยัด 33% สำหรับพรีเมียมถึง" },
+  "save33OnPremium": { "message": "ประหยัด 33% สำหรับพรีเมียม" },
   "installModalText": {
     "message": "ปลดล็อกตำแหน่งนี้โดยให้ผู้ใช้อีกคนติดตั้งส่วนขยายผ่านลิงก์นี้:"
   },

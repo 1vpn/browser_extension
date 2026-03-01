@@ -232,7 +232,7 @@ const MainPage = ({
                 </Text>
                 <Text sx={{ fontSize: '13px', fontWeight: 300 }}>
                   {isSpecialOfferActive && timeRemaining
-                    ? `${messages.saveSixtyPercent} ${messages.until} ${timeRemaining}`
+                    ? `${messages.save33Percent} ${messages.until} ${timeRemaining}`
                     : messages.save33OnPremium}
                 </Text>
               </Flex>

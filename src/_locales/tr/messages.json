@@ -72,7 +72,7 @@
   "scanOrClickQRCode": { "message": "QR kodunu tarayın veya tıklayın" },
   "downloadApp": { "message": "Uygulamayı indir" },
   "specialOffer": { "message": "Özel teklif" },
-  "saveSixtyPercent": { "message": "%60 tasarruf" },
+  "save33Percent": { "message": "%33 tasarruf" },
   "deal": { "message": "Teklif" },
   "january": { "message": "Ocak" },
   "february": { "message": "Şubat" },
@@ -91,6 +91,8 @@
   },
   "claimOffer": { "message": "Teklifi al" },
   "until": { "message": "kadar" },
+  "save33OnPremiumUntil": { "message": "Premium'da %33 tasarruf, süre" },
+  "save33OnPremium": { "message": "Premium'da %33 tasarruf" },
   "installModalText": {
     "message": "Bu konumu açmak için başka bir kullanıcıdan bu bağlantıyla uzantıyı yüklemesini isteyin:"
   },

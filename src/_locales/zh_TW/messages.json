@@ -68,7 +68,7 @@
   "scanOrClickQRCode": { "message": "掃描或點擊 QR 碼" },
   "downloadApp": { "message": "下載應用程式" },
   "specialOffer": { "message": "特別優惠" },
-  "saveSixtyPercent": { "message": "省下60%" },
+  "save33Percent": { "message": "省下33%" },
   "deal": { "message": "優惠" },
   "january": { "message": "一月" },
   "february": { "message": "二月" },
@@ -87,6 +87,8 @@
   },
   "claimOffer": { "message": "領取優惠" },
   "until": { "message": "截止" },
+  "save33OnPremiumUntil": { "message": "省下33%購買高級版，截止" },
+  "save33OnPremium": { "message": "省下33%購買高級版" },
   "installModalText": {
     "message": "透過讓其他使用者使用此連結安裝擴充功能來解鎖此位置："
   },

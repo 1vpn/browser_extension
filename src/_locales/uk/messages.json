@@ -68,7 +68,7 @@
   "scanOrClickQRCode": { "message": "Скануйте або натисніть на QR-код" },
   "downloadApp": { "message": "Завантажити додаток" },
   "specialOffer": { "message": "Спеціальна пропозиція" },
-  "saveSixtyPercent": { "message": "Заощадь 60%" },
+  "save33Percent": { "message": "Заощадь 33%" },
   "deal": { "message": "Пропозиція" },
   "january": { "message": "Січень" },
   "february": { "message": "Лютий" },
@@ -87,6 +87,8 @@
   },
   "claimOffer": { "message": "Отримати пропозицію" },
   "until": { "message": "До" },
+  "save33OnPremiumUntil": { "message": "Заощадьте 33% на преміум до" },
+  "save33OnPremium": { "message": "Заощадьте 33% на Преміум" },
   "installModalText": {
     "message": "Розблокуйте цю локацію, попросивши іншого користувача встановити розширення за цим посиланням:"
   },

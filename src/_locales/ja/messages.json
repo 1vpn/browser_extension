@@ -72,7 +72,7 @@
   "scanOrClickQRCode": { "message": "QRコードをスキャンまたはクリック" },
   "downloadApp": { "message": "アプリをダウンロード" },
   "specialOffer": { "message": "特別オファー" },
-  "saveSixtyPercent": { "message": "60%お得" },
+  "save33Percent": { "message": "33%お得" },
   "deal": { "message": "お得" },
   "january": { "message": "1月" },
   "february": { "message": "2月" },
@@ -91,6 +91,8 @@
   },
   "claimOffer": { "message": "オファーを受け取る" },
   "until": { "message": "まで" },
+  "save33OnPremiumUntil": { "message": "プレミアムで33%お得、期限" },
+  "save33OnPremium": { "message": "プレミアムで33%お得" },
   "installModalText": {
     "message": "別のユーザーにこのリンクを使って拡張機能をインストールしてもらうことで、この場所をアンロックできます:"
   },

@@ -70,7 +70,7 @@
   "scanOrClickQRCode": { "message": "Quét hoặc nhấp vào mã QR" },
   "downloadApp": { "message": "Tải ứng dụng" },
   "specialOffer": { "message": "Ưu đãi đặc biệt" },
-  "saveSixtyPercent": { "message": "Tiết kiệm 60%" },
+  "save33Percent": { "message": "Tiết kiệm 33%" },
   "deal": { "message": "Ưu đãi" },
   "january": { "message": "Tháng Một" },
   "february": { "message": "Tháng Hai" },
@@ -89,6 +89,8 @@
   },
   "claimOffer": { "message": "Nhận ưu đãi" },
   "until": { "message": "Đến" },
+  "save33OnPremiumUntil": { "message": "Tiết kiệm 33% cho premium đến" },
+  "save33OnPremium": { "message": "Tiết kiệm 33% cho Premium" },
   "installModalText": {
     "message": "Mở khóa vị trí này bằng cách nhờ người dùng khác cài tiện ích bằng liên kết này:"
   },

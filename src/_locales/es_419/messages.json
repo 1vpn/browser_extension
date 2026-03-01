@@ -74,7 +74,7 @@
   "scanOrClickQRCode": { "message": "Escanea o haz clic en el código QR" },
   "downloadApp": { "message": "Descargar aplicación" },
   "specialOffer": { "message": "Oferta especial" },
-  "saveSixtyPercent": { "message": "Ahorra 60%" },
+  "save33Percent": { "message": "Ahorra 33%" },
   "deal": { "message": "Oferta" },
   "january": { "message": "Enero" },
   "february": { "message": "Febrero" },
@@ -93,6 +93,8 @@
   },
   "claimOffer": { "message": "Reclamar oferta" },
   "until": { "message": "hasta" },
+  "save33OnPremiumUntil": { "message": "Ahorra 33% en premium hasta" },
+  "save33OnPremium": { "message": "Ahorra 33% en Premium" },
   "installModalText": {
     "message": "Desbloquea esta ubicación haciendo que otro usuario instale la extensión con este enlace:"
   },
