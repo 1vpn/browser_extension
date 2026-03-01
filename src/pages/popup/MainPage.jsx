@@ -177,7 +177,7 @@ const MainPage = ({
           <>
             <Button
               id="upgradeLink"
-              onClick={() => setCurrentPage('upgrade')}
+              onClick={() => window.open(`${websiteUrl}/select_plan`, '_blank')}
               title={messages.upgradeToPremium}
               sx={{
                 display: 'flex',

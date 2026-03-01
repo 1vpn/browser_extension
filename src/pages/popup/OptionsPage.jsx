@@ -68,7 +68,7 @@ const OptionsPage = ({
               id="upgradeButton"
               href={
                 websiteUrl +
-                `/referral_redirect?from=options_page&url=https://1vpn.org/select_plan/`
+                `/referral_redirect?from=options_page&url=${websiteUrl}/select_plan/`
               }
               target="_blank"
               variant="styles.baseButton"
