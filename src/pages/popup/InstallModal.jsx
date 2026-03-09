@@ -8,7 +8,7 @@ const InstallModal = ({ messages, isOpen, onClose }) => {
   const [copied, setCopied] = useState(false)
 
   const handleModalClick = () => {
-    chrome.storage.local.set({ installModalCopiedTime: Date.now() })
+    chrome.storage.local.set({ installModalClickedTime: Date.now() })
   }
 
   const handleCopy = () => {

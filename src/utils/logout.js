@@ -10,7 +10,7 @@ const logout = () => {
     'locationUnlocked',
     'upgradeModalClicked',
     'upgradeModalLastShown',
-    'installModalCopiedTime',
+    'installModalClickedTime',
     'userModalType',
   ]
 

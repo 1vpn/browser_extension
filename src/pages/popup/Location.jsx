@@ -16,7 +16,7 @@ const Location = ({
   handleLocationToggle,
   installDate,
   setIsReviewModalOpen,
-  setIsAndroidModalOpen,
+  setIsInstallModalOpen,
 }) => {
   const handleClick = async () => {
     if (link) {
@@ -32,17 +32,17 @@ const Location = ({
       })
     } else if (location.ratingLocked) {
       chrome.storage.local.get(
-        ['locationUnlocked', 'AndroidModalOpenedAt'],
+        ['locationUnlocked', 'installModalClickedTime'],
         (result) => {
           if (result.locationUnlocked === true) {
             handleLocationToggle(location)
           } else {
             const now = Date.now()
-            const AndroidModalOpenedAt =
-              result.AndroidModalOpenedAt || 0
+            const installModalClickedAt =
+              result.installModalClickedTime || 0
             if (
-              AndroidModalOpenedAt &&
-              now - AndroidModalOpenedAt > TWO_MINUTES
+              installModalClickedAt &&
+              now - installModalClickedAt > TWO_MINUTES
             ) {
               handleLocationToggle(location)
               return
@@ -54,7 +54,7 @@ const Location = ({
               setIsReviewModalOpen(true)
               return
             }
-            setIsAndroidModalOpen(true)
+            setIsInstallModalOpen(true)
           }
         }
       )
