@@ -74,16 +74,16 @@ const freeLocations = {
     "latitude": 34.0609,
     "longitude": -118.2471
   },
-  "syd": {
-    "city": "Sydney",
-    "cityCode": "syd",
+  "mel": {
+    "city": "Melbourne",
+    "cityCode": "mel",
     "country": "Australia",
     "countryCode": "au",
     "isPremium": true
   },
-  "mel": {
-    "city": "Melbourne",
-    "cityCode": "mel",
+  "syd": {
+    "city": "Sydney",
+    "cityCode": "syd",
     "country": "Australia",
     "countryCode": "au",
     "isPremium": true
@@ -207,16 +207,16 @@ const freeLocations = {
     "countryCode": "se",
     "isPremium": true
   },
-  "man": {
-    "city": "Manchester",
-    "cityCode": "man",
+  "lhr": {
+    "city": "London",
+    "cityCode": "lhr",
     "country": "United Kingdom",
     "countryCode": "uk",
     "isPremium": true
   },
-  "lhr": {
-    "city": "London",
-    "cityCode": "lhr",
+  "man": {
+    "city": "Manchester",
+    "cityCode": "man",
     "country": "United Kingdom",
     "countryCode": "uk",
     "isPremium": true
