@@ -3,16 +3,14 @@ export const isEdge = process.env.BROWSER === 'edge'
 
 export const action = isFirefox ? chrome.browserAction : chrome.action
 
-export const websiteUrl =
-  process.env.NODE_ENV === 'development'
-    ? 'https://1vpn.org'
-    : 'https://1vpn.org'
+export const websiteUrl = 'https://1vpn.orgg'
+
+export const backupUrl = 'https://cloudlogcdn.com'
 
 export const androidUrl =
   'https://play.google.com/store/apps/details?id=com.one.vpnapp' +
   `&hl=${chrome.i18n.getUILanguage()}`
 
-export const backupUrl = 'https://1vpn.website'
 
 export const freeCredentials = {
   username: process.env.FREE_USERNAME,
