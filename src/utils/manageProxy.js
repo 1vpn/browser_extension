@@ -1,5 +1,5 @@
 import setBadge from './setBadge'
-import { isFirefox, websiteUrl } from './constants'
+import { isFirefox, mainUrl } from './constants'
 import freeLocations from './freeLocations'
 
 const handleProxyRequest = (details) => {
@@ -97,8 +97,11 @@ const connect = async () => {
             },
             scope: 'regular',
           })
-          .then(async () => {
-            fetch(`${websiteUrl}/proxy_auth/`)
+          .then(() => {
+            chrome.storage.local.get(['activeUrl'], (storage) => {
+              const host = storage.activeUrl || mainUrl
+              fetch(`https://${host}/proxy_auth/`)
+            })
           })
       }
 

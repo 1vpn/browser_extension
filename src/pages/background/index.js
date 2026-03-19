@@ -1,8 +1,4 @@
-import {
-  isFirefox,
-  freeCredentials,
-  websiteUrl,
-} from 'utils/constants'
+import { isFirefox, freeCredentials, mainUrl } from 'utils/constants'
 import setBadge from 'utils/setBadge'
 import apiFetch from 'utils/apiFetch'
 import { handleProxyRequest } from 'utils/manageProxy'
@@ -10,6 +6,12 @@ import logout from 'utils/logout'
 import spoofGeolocation from 'utils/spoofGeolocation'
 import freeLocations from 'utils/freeLocations'
 import { fetchUserData } from 'utils/userData'
+
+chrome.storage.local.get(['activeUrl'], (storage) => {
+  chrome.runtime.setUninstallURL(
+    `https://${storage.activeUrl || mainUrl}/referral_redirect?from=uninstall&url=https://${storage.activeUrl || mainUrl}/select_plan/`
+  )
+})
 
 chrome.runtime.onInstalled.addListener((details) => {
   setBadge()
@@ -26,17 +28,16 @@ chrome.runtime.onInstalled.addListener((details) => {
 
 chrome.runtime.onStartup.addListener(() => {
   setBadge()
-  chrome.storage.local.get(['isConnected'], (storage) => {
+  chrome.storage.local.get(['isConnected', 'activeUrl'], (storage) => {
     if (storage.isConnected) {
-      fetch(`${websiteUrl}/proxy_auth/`)
+      fetch(
+        `https://${storage.activeUrl || mainUrl}/proxy_auth/`
+      )
     }
   })
 
   fetchUserData()
 })
-
-chrome.runtime.setUninstallURL(websiteUrl +
-  `/referral_redirect?from=uninstall&url=${websiteUrl}/select_plan/`)
 
 chrome.webRequest.onAuthRequired.addListener(
   (details, callbackFn) => {

@@ -5,13 +5,14 @@ import useChromeStorage from 'hooks/useChromeStorage'
 import { Flex, Box } from 'theme-ui'
 import freeLocations from 'utils/freeLocations'
 import { connect, disconnect } from 'utils/manageProxy'
-import { localeMessageKeys, FORTY_EIGHT_HOURS } from 'utils/constants'
+import { localeMessageKeys, FORTY_EIGHT_HOURS, mainUrl } from 'utils/constants'
 import { formatTimeRemaining } from 'utils/formatTime'
 import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
 import UpgradePage from './UpgradePage'
 import AndroidPage from './AndroidPage'
+import LoginPage from './LoginPage'
 
 const Popup = () => {
   const { currentPage, setCurrentPage } = useContext(PageContext)
@@ -38,6 +39,11 @@ const Popup = () => {
     'disableWebRtc',
     false
   )
+  const [primaryApiUnreachable] = useChromeStorage(
+    'primaryApiUnreachable',
+    false
+  )
+  const [activeUrl] = useChromeStorage('activeUrl', mainUrl)
 
   useEffect(() => {
     chrome.runtime.sendMessage({ type: 'popupOpened' })
@@ -45,30 +51,32 @@ const Popup = () => {
     let intervalId
 
     chrome.storage.local.get(['currentLocation', 'installDate'], (storage) => {
-      if (!storage.currentLocation) {
-        const firstLocation = Object.values(locations)[0]
-        if (firstLocation) {
-          setCurrentCityCode(firstLocation.cityCode)
-        }
-      }
-      setIsLoaded(true)
-
-      const install = storage.installDate || 0
-      if (install) {
-        const expirationTime = install + FORTY_EIGHT_HOURS
-        const update = () => {
-          const now = Date.now()
-          if (now < expirationTime) {
-            setIsSpecialOfferActive(true)
-            setTimeRemaining(formatTimeRemaining(Math.max(0, expirationTime - now)))
-          } else {
-            setIsSpecialOfferActive(false)
-            setTimeRemaining(null)
+        if (!storage.currentLocation) {
+          const firstLocation = Object.values(locations)[0]
+          if (firstLocation) {
+            setCurrentCityCode(firstLocation.cityCode)
           }
         }
-        update()
-        intervalId = setInterval(update, 1000)
-      }
+        setIsLoaded(true)
+
+        const install = storage.installDate || 0
+        if (install) {
+          const expirationTime = install + FORTY_EIGHT_HOURS
+          const update = () => {
+            const now = Date.now()
+            if (now < expirationTime) {
+              setIsSpecialOfferActive(true)
+              setTimeRemaining(
+                formatTimeRemaining(Math.max(0, expirationTime - now))
+              )
+            } else {
+              setIsSpecialOfferActive(false)
+              setTimeRemaining(null)
+            }
+          }
+          update()
+          intervalId = setInterval(update, 1000)
+        }
     })
 
     return () => {
@@ -97,6 +105,7 @@ const Popup = () => {
       case 'locations':
         return (
           <LocationsPage
+            activeUrl={activeUrl}
             locations={isPremium ? locations : freeLocations}
             currentCityCode={currentCityCode}
             handleLocationToggle={handleLocationToggle}
@@ -108,6 +117,7 @@ const Popup = () => {
       case 'options':
         return (
           <OptionsPage
+            activeUrl={activeUrl}
             sessionAuthToken={sessionAuthToken}
             isPremium={isPremium}
             spoofGeolocation={spoofGeolocation}
@@ -118,13 +128,22 @@ const Popup = () => {
           />
         )
       case 'upgrade':
-        return <UpgradePage messages={messages} installDate={installDate} />
+        return (
+          <UpgradePage
+            activeUrl={activeUrl}
+            messages={messages}
+            installDate={installDate}
+          />
+        )
       case 'android':
         return <AndroidPage messages={messages} />
+      case 'login':
+        return <LoginPage activeUrl={activeUrl} messages={messages} />
       case 'main':
       default:
         return (
           <MainPage
+            activeUrl={activeUrl}
             isPremium={isPremium}
             isConnected={isConnected}
             currentCityCode={currentCityCode}
@@ -134,6 +153,7 @@ const Popup = () => {
             messages={messages}
             isSpecialOfferActive={isSpecialOfferActive}
             timeRemaining={timeRemaining}
+            primaryApiUnreachable={primaryApiUnreachable}
           />
         )
     }

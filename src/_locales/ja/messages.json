@@ -1,35 +1,97 @@
 {
-  "extName": { "message": "無料VPN - Free VPN - 1VPN" },
+  "extName": {
+    "message": "無料VPN - Free VPN - 1VPN"
+  },
   "extDesc": {
     "message": "無料VPN、無制限のデータ、高速、セキュアな暗号化、ログなしポリシー、簡単に使用可能。"
   },
-  "upgrade": { "message": "アップグレード" },
-  "signUp": { "message": "サインアップ" },
-  "login": { "message": "ログイン" },
-  "continueText": { "message": "またはアカウントなしで続行" },
-  "username": { "message": "ユーザー名" },
-  "password": { "message": "パスワード" },
-  "loading": { "message": "読み込み中..." },
-  "forgotPassword": { "message": "パスワードを忘れた場合" },
-  "connected": { "message": "接続中" },
-  "disconnected": { "message": "接続解除" },
-  "goToOptionsPage": { "message": "設定ページへ" },
-  "goToLocationsPage": { "message": "位置情報ページへ" },
-  "upgradeText1": { "message": "アップグレード" },
-  "upgradeText2": { "message": "位置情報の選択肢を増やし速度を向上" },
-  "menu": { "message": "メニュー" },
-  "account": { "message": "アカウント" },
-  "options": { "message": "設定" },
-  "contactUs": { "message": "お問い合わせ" },
-  "email": { "message": "メール" },
-  "plan": { "message": "プラン" },
-  "premium": { "message": "プレミアム" },
-  "free": { "message": "無料" },
-  "editInfo": { "message": "情報を編集" },
-  "logout": { "message": "ログアウト" },
-  "spoofGeolocation": { "message": "ジオロケーションを偽装" },
-  "disableWebRtc": { "message": "WebRTCを無効化" },
-  "disableAddressAutofill": { "message": "住所の自動入力を無効化" },
+  "upgrade": {
+    "message": "アップグレード"
+  },
+  "signUp": {
+    "message": "サインアップ"
+  },
+  "login": {
+    "message": "ログイン"
+  },
+  "continueText": {
+    "message": "またはアカウントなしで続行"
+  },
+  "username": {
+    "message": "ユーザー名"
+  },
+  "password": {
+    "message": "パスワード"
+  },
+  "loading": {
+    "message": "読み込み中..."
+  },
+  "resetPassword": {
+    "message": "パスワードをリセット"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "メインドメインがブロックされています。バックアップとして "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " を使用しています。"
+  },
+  "connected": {
+    "message": "接続中"
+  },
+  "disconnected": {
+    "message": "接続解除"
+  },
+  "goToOptionsPage": {
+    "message": "設定ページへ"
+  },
+  "goToLocationsPage": {
+    "message": "位置情報ページへ"
+  },
+  "upgradeText1": {
+    "message": "アップグレード"
+  },
+  "upgradeText2": {
+    "message": "位置情報の選択肢を増やし速度を向上"
+  },
+  "menu": {
+    "message": "メニュー"
+  },
+  "account": {
+    "message": "アカウント"
+  },
+  "options": {
+    "message": "設定"
+  },
+  "contactUs": {
+    "message": "お問い合わせ"
+  },
+  "email": {
+    "message": "メール"
+  },
+  "plan": {
+    "message": "プラン"
+  },
+  "premium": {
+    "message": "プレミアム"
+  },
+  "free": {
+    "message": "無料"
+  },
+  "editInfo": {
+    "message": "情報を編集"
+  },
+  "logout": {
+    "message": "ログアウト"
+  },
+  "spoofGeolocation": {
+    "message": "ジオロケーションを偽装"
+  },
+  "disableWebRtc": {
+    "message": "WebRTCを無効化"
+  },
+  "disableAddressAutofill": {
+    "message": "住所の自動入力を無効化"
+  },
   "spoofGeolocationSubTitle": {
     "message": "HTML5ジオロケーションAPIを偽装して、現在のVPN位置に一致させます。"
   },
@@ -39,23 +101,39 @@
   "disableWebRtcSubTitle": {
     "message": "実際のIPアドレスの漏洩を防ぐためにWebRTCを無効にします。"
   },
-  "locations": { "message": "位置情報" },
+  "locations": {
+    "message": "位置情報"
+  },
   "reviewModalTitle": {
     "message": "この場所をアンロックするには5つ星レビューを残してください"
   },
-  "reviewModalButton": { "message": "レビューを残す" },
+  "reviewModalButton": {
+    "message": "レビューを残す"
+  },
   "shareModalTitle": {
     "message": "この場所を解除するには1VPNを共有してください"
   },
   "shareText": {
     "message": "私は先ほど1VPNを試しました。無料でシンプル、安全なVPNで、無制限のデータと高速通信が特徴です。https://1vpn.org?from=share をチェックしてみてください"
   },
-  "x": { "message": "X（Twitter）" },
-  "facebook": { "message": "Facebook" },
-  "linkedin": { "message": "LinkedIn" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "Telegram" },
+  "x": {
+    "message": "X（Twitter）"
+  },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "linkedin": {
+    "message": "LinkedIn"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
   "upgradeLocation": {
     "message": "この位置情報の利用にはアップグレードが必要です"
   },
@@ -65,62 +143,132 @@
   "installInstructions": {
     "message": "アドレスバーの横にあるパズルアイコンをクリックしてください。次にピンアイコンをクリックして拡張機能を固定してください。"
   },
-  "tryOurAndroidApp": { "message": "Androidアプリを試す" },
+  "tryOurAndroidApp": {
+    "message": "Androidアプリを試す"
+  },
   "scanQrCodeOrClickButton": {
     "message": "QRコードをスキャンするか、ボタンを押してアプリをダウンロード。"
   },
-  "scanOrClickQRCode": { "message": "QRコードをスキャンまたはクリック" },
-  "downloadApp": { "message": "アプリをダウンロード" },
-  "specialOffer": { "message": "特別オファー" },
-  "save33Percent": { "message": "33%お得" },
-  "deal": { "message": "お得" },
-  "january": { "message": "1月" },
-  "february": { "message": "2月" },
-  "march": { "message": "3月" },
-  "april": { "message": "4月" },
-  "may": { "message": "5月" },
-  "june": { "message": "6月" },
-  "july": { "message": "7月" },
-  "august": { "message": "8月" },
-  "september": { "message": "9月" },
-  "october": { "message": "10月" },
-  "november": { "message": "11月" },
-  "december": { "message": "12月" },
+  "scanOrClickQRCode": {
+    "message": "QRコードをスキャンまたはクリック"
+  },
+  "downloadApp": {
+    "message": "アプリをダウンロード"
+  },
+  "specialOffer": {
+    "message": "特別オファー"
+  },
+  "save33Percent": {
+    "message": "33%お得"
+  },
+  "deal": {
+    "message": "お得"
+  },
+  "january": {
+    "message": "1月"
+  },
+  "february": {
+    "message": "2月"
+  },
+  "march": {
+    "message": "3月"
+  },
+  "april": {
+    "message": "4月"
+  },
+  "may": {
+    "message": "5月"
+  },
+  "june": {
+    "message": "6月"
+  },
+  "july": {
+    "message": "7月"
+  },
+  "august": {
+    "message": "8月"
+  },
+  "september": {
+    "message": "9月"
+  },
+  "october": {
+    "message": "10月"
+  },
+  "november": {
+    "message": "11月"
+  },
+  "december": {
+    "message": "12月"
+  },
   "upgradeModalText": {
     "message": "年間プランで。より多くのロケーションと高速通信を10日間返金保証付きで利用可能。"
   },
-  "claimOffer": { "message": "オファーを受け取る" },
-  "until": { "message": "まで" },
-  "save33OnPremiumUntil": { "message": "プレミアムで33%お得、期限" },
-  "save33OnPremium": { "message": "プレミアムで33%お得" },
+  "claimOffer": {
+    "message": "オファーを受け取る"
+  },
+  "until": {
+    "message": "まで"
+  },
+  "save33OnPremiumUntil": {
+    "message": "プレミアムで33%お得、期限"
+  },
+  "save33OnPremium": {
+    "message": "プレミアムで33%お得"
+  },
   "installModalText": {
     "message": "別のユーザーにこのリンクを使って拡張機能をインストールしてもらうことで、この場所をアンロックできます:"
   },
-  "copyLink": { "message": "リンクをコピー" },
-  "linkCopied": { "message": "リンクをコピーしました！" },
-  "getAndroidApp": { "message": "Androidアプリを入手" },
-  "referToUnlock": { "message": "招待して解除" },
+  "copyLink": {
+    "message": "リンクをコピー"
+  },
+  "linkCopied": {
+    "message": "リンクをコピーしました！"
+  },
+  "getAndroidApp": {
+    "message": "Androidアプリを入手"
+  },
+  "referToUnlock": {
+    "message": "招待して解除"
+  },
   "toUnlockThisLocation": {
     "message": "このロケーションを解除するにはこのリンクから他のユーザーに1VPNをインストールしてもらってください:"
   },
-  "installAndroidToUnlock": { "message": "Androidアプリをインストールしてアンロック" },
-  "upgradeToPremium": { "message": "プレミアムにアップグレード" },
+  "installAndroidToUnlock": {
+    "message": "Androidアプリをインストールしてアンロック"
+  },
+  "upgradeToPremium": {
+    "message": "プレミアムにアップグレード"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "ロケーション追加と高速通信"
   },
-  "tryAndroidApp": { "message": "Androidアプリを試す" },
-  "get1VPNForAndroid": { "message": "Android版1VPNを入手" },
-  "reviewToUnlock": { "message": "レビューで解除" },
+  "tryAndroidApp": {
+    "message": "Androidアプリを試す"
+  },
+  "get1VPNForAndroid": {
+    "message": "Android版1VPNを入手"
+  },
+  "reviewToUnlock": {
+    "message": "レビューで解除"
+  },
   "leaveReviewToUnlock": {
     "message": "星5のレビューを残してこのロケーションを解除してください"
   },
-  "continueFree": { "message": "無料のまま続行" },
-  "getPremium": { "message": "プレミアムを入手" },
+  "continueFree": {
+    "message": "無料のまま続行"
+  },
+  "getPremium": {
+    "message": "プレミアムを入手"
+  },
   "unlockAllServerLocations": {
     "message": "すべてのサーバーロケーションを解除"
   },
-  "accessServersWorldwide": { "message": "世界中のサーバーにアクセス" },
-  "fastestSpeeds": { "message": "最高速度" },
+  "accessServersWorldwide": {
+    "message": "世界中のサーバーにアクセス"
+  },
+  "fastestSpeeds": {
+    "message": "最高速度"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "安定した高速インターネット"
   },
@@ -130,63 +278,199 @@
   "fullRefundIfNotSatisfied": {
     "message": "ご満足いただけない場合は全額返金"
   },
-  "chooseYourPlan": { "message": "プランを選択" },
+  "chooseYourPlan": {
+    "message": "プランを選択"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "プレミアムですべての機能を解除"
   },
-  "au": { "message": "オーストラリア" },
-  "br": { "message": "ブラジル" },
-  "ca": { "message": "カナダ" },
-  "cl": { "message": "チリ" },
-  "de": { "message": "ドイツ" },
-  "es": { "message": "スペイン" },
-  "fr": { "message": "フランス" },
-  "in": { "message": "インド" },
-  "jp": { "message": "日本" },
-  "kr": { "message": "韓国" },
-  "mx": { "message": "メキシコ" },
-  "nl": { "message": "オランダ" },
-  "pl": { "message": "ポーランド" },
-  "ro": { "message": "ルーマニア" },
-  "se": { "message": "スウェーデン" },
-  "sg": { "message": "シンガポール" },
-  "uk": { "message": "イギリス" },
-  "us": { "message": "アメリカ合衆国" },
-  "use": { "message": "アメリカ合衆国" },
-  "uss": { "message": "アメリカ合衆国" },
-  "usw": { "message": "アメリカ合衆国" },
-  "il": { "message": "イスラエル" },
-  "za": { "message": "南アフリカ" },
-  "syd": { "message": "シドニー" },
-  "sao": { "message": "サンパウロ" },
-  "yto": { "message": "トロント" },
-  "cdg": { "message": "パリ" },
-  "fra": { "message": "フランクフルト" },
-  "bom": { "message": "ムンバイ" },
-  "nrt": { "message": "東京" },
-  "mex": { "message": "メキシコシティ" },
-  "ams": { "message": "アムステルダム" },
-  "sgp": { "message": "シンガポール" },
-  "mad": { "message": "マドリード" },
-  "sto": { "message": "ストックホルム" },
-  "lhr": { "message": "ロンドン" },
-  "ewr": { "message": "ニューヨーク" },
-  "lax": { "message": "ロサンゼルス" },
-  "scl": { "message": "サンティアゴ" },
-  "jnb": { "message": "ヨハネスブルグ" },
-  "icn": { "message": "ソウル" },
-  "waw": { "message": "ワルシャワ" },
-  "atl": { "message": "アトランタ" },
-  "blr": { "message": "バンガロール" },
-  "del": { "message": "デリー" },
-  "dfw": { "message": "ダラス" },
-  "hnl": { "message": "ホノルル" },
-  "itm": { "message": "大阪" },
-  "man": { "message": "マンチェスター" },
-  "mel": { "message": "メルボルン" },
-  "mia": { "message": "マイアミ" },
-  "ord": { "message": "シカゴ" },
-  "sea": { "message": "シアトル" },
-  "sjc": { "message": "サンフランシスコ" },
-  "tlv": { "message": "テルアビブ" }
+  "au": {
+    "message": "オーストラリア"
+  },
+  "br": {
+    "message": "ブラジル"
+  },
+  "ca": {
+    "message": "カナダ"
+  },
+  "cl": {
+    "message": "チリ"
+  },
+  "de": {
+    "message": "ドイツ"
+  },
+  "es": {
+    "message": "スペイン"
+  },
+  "fr": {
+    "message": "フランス"
+  },
+  "in": {
+    "message": "インド"
+  },
+  "jp": {
+    "message": "日本"
+  },
+  "kr": {
+    "message": "韓国"
+  },
+  "mx": {
+    "message": "メキシコ"
+  },
+  "nl": {
+    "message": "オランダ"
+  },
+  "pl": {
+    "message": "ポーランド"
+  },
+  "ro": {
+    "message": "ルーマニア"
+  },
+  "se": {
+    "message": "スウェーデン"
+  },
+  "sg": {
+    "message": "シンガポール"
+  },
+  "uk": {
+    "message": "イギリス"
+  },
+  "us": {
+    "message": "アメリカ合衆国"
+  },
+  "use": {
+    "message": "アメリカ合衆国"
+  },
+  "uss": {
+    "message": "アメリカ合衆国"
+  },
+  "usw": {
+    "message": "アメリカ合衆国"
+  },
+  "il": {
+    "message": "イスラエル"
+  },
+  "za": {
+    "message": "南アフリカ"
+  },
+  "syd": {
+    "message": "シドニー"
+  },
+  "sao": {
+    "message": "サンパウロ"
+  },
+  "yto": {
+    "message": "トロント"
+  },
+  "cdg": {
+    "message": "パリ"
+  },
+  "fra": {
+    "message": "フランクフルト"
+  },
+  "bom": {
+    "message": "ムンバイ"
+  },
+  "nrt": {
+    "message": "東京"
+  },
+  "mex": {
+    "message": "メキシコシティ"
+  },
+  "ams": {
+    "message": "アムステルダム"
+  },
+  "sgp": {
+    "message": "シンガポール"
+  },
+  "mad": {
+    "message": "マドリード"
+  },
+  "sto": {
+    "message": "ストックホルム"
+  },
+  "lhr": {
+    "message": "ロンドン"
+  },
+  "ewr": {
+    "message": "ニューヨーク"
+  },
+  "lax": {
+    "message": "ロサンゼルス"
+  },
+  "scl": {
+    "message": "サンティアゴ"
+  },
+  "jnb": {
+    "message": "ヨハネスブルグ"
+  },
+  "icn": {
+    "message": "ソウル"
+  },
+  "waw": {
+    "message": "ワルシャワ"
+  },
+  "atl": {
+    "message": "アトランタ"
+  },
+  "blr": {
+    "message": "バンガロール"
+  },
+  "del": {
+    "message": "デリー"
+  },
+  "dfw": {
+    "message": "ダラス"
+  },
+  "hnl": {
+    "message": "ホノルル"
+  },
+  "itm": {
+    "message": "大阪"
+  },
+  "man": {
+    "message": "マンチェスター"
+  },
+  "mel": {
+    "message": "メルボルン"
+  },
+  "mia": {
+    "message": "マイアミ"
+  },
+  "ord": {
+    "message": "シカゴ"
+  },
+  "sea": {
+    "message": "シアトル"
+  },
+  "sjc": {
+    "message": "サンフランシスコ"
+  },
+  "tlv": {
+    "message": "テルアビブ"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

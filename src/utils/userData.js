@@ -1,74 +1,120 @@
-import { backupUrl } from 'utils/constants'
 import apiFetch from 'utils/apiFetch'
 import { connect } from 'utils/manageProxy'
 import logout from 'utils/logout'
 
-export const handleUserData = (data, wasLoggedIn) => {
-  if (data.username) {
-    chrome.storage.local.get(['isPremium', 'isConnected'], (prevStorage) => {
-      const wasPremium = prevStorage.isPremium || false
-      const isConnected = prevStorage.isConnected || false
-
-      const processedData = { ...data }
-
-      if (Array.isArray(processedData.locations)) {
-        processedData.locations = processedData.locations.reduce(
-          (acc, location) => {
-            if (location && location.cityCode) {
-              acc[location.cityCode] = location
-            }
-            return acc
-          },
-          {}
-        )
-      }
-
-      chrome.storage.local.set(processedData, () => {
-        if (data.isPremium !== wasPremium && isConnected) {
-          connect()
+const locationsArrayToMap = (locationsArray) =>
+  Array.isArray(locationsArray)
+    ? locationsArray.reduce((locationsByCode, locationItem) => {
+        if (locationItem && locationItem.cityCode) {
+          locationsByCode[locationItem.cityCode] = locationItem
         }
-      })
-    })
-  } else if (wasLoggedIn) {
-    logout()
+        return locationsByCode
+      }, {})
+    : locationsArray
+
+const storeUserData = (userDataPayload, onStored) => {
+  const processedUserData = { ...userDataPayload }
+
+  if (Array.isArray(processedUserData.locations)) {
+    processedUserData.locations = locationsArrayToMap(
+      processedUserData.locations
+    )
   }
+
+  chrome.storage.local.set(processedUserData, () => {
+    if (typeof onStored === 'function') {
+      onStored()
+    }
+  })
 }
 
 export const fetchUserData = () => {
-  chrome.storage.local.get(['sessionAuthToken', 'username'], (storage) => {
-    const authToken = storage.sessionAuthToken
-      ? 'Token ' + storage.sessionAuthToken
+  chrome.storage.local.get(['sessionAuthToken', 'username'], (storageValues) => {
+    const sessionAuthTokenValue = storageValues.sessionAuthToken
+      ? 'Token ' + storageValues.sessionAuthToken
       : null
-    const wasLoggedIn = !!storage.username
+    const wasLoggedIn = !!storageValues.username
 
-    apiFetch('get_user_data_web', {
+    const headers = {
+      'Content-Type': 'application/json',
+      ...(sessionAuthTokenValue
+        ? { Authorization: sessionAuthTokenValue }
+        : {}),
+    }
+
+    apiFetch('get_user_data_api', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        ...(authToken && { Authorization: authToken }),
-      },
+      headers,
+      body: JSON.stringify({}),
     })
-      .then(async (response) => {
-        if (!response.ok) throw new Error('get_user_data_web failed')
-        return response.json()
+      .then(async (apiResponse) => {
+        if (!apiResponse.ok) throw new Error('get_user_data failed')
+        return apiResponse.json()
       })
-      .then((data) => handleUserData(data, wasLoggedIn))
-      .catch(() => {
-        fetch(`${backupUrl}/api/get_user_data_api/`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            ...(authToken && { Authorization: authToken }),
-          },
+      .then((userDataPayload) => {
+        if (userDataPayload && userDataPayload.username) {
+          chrome.storage.local.get(['isConnected'], (connectionStorage) => {
+            const isConnectedValue = connectionStorage.isConnected || false
+            storeUserData(userDataPayload, () => {
+              if (userDataPayload.isPremium && isConnectedValue) {
+                connect()
+              }
+            })
+          })
+          return
+        }
+
+        if (wasLoggedIn) logout()
+      })
+      .catch((apiError) => {
+        console.error('Error fetching user data from API:', apiError)
+      })
+  })
+}
+
+export const fetchLoginUserData = (onSuccess, onError) => {
+  chrome.storage.local.get(['sessionAuthToken'], (storageValues) => {
+    const sessionAuthTokenValue = storageValues.sessionAuthToken
+      ? 'Token ' + storageValues.sessionAuthToken
+      : null
+
+    const headers = {
+      'Content-Type': 'application/json',
+      ...(sessionAuthTokenValue
+        ? { Authorization: sessionAuthTokenValue }
+        : {}),
+    }
+
+    apiFetch('get_user_data_api', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({}),
+    })
+      .then(async (apiResponse) => {
+        if (!apiResponse.ok) throw new Error('get_user_data failed')
+        return apiResponse.json()
+      })
+      .then((userDataPayload) => {
+        if (!userDataPayload || !userDataPayload.username) {
+          throw new Error('Could not load account')
+        }
+
+        chrome.storage.local.get(['isConnected'], (connectionStorage) => {
+          const isConnectedValue = connectionStorage.isConnected || false
+          storeUserData(userDataPayload, () => {
+            if (userDataPayload.isPremium && isConnectedValue) {
+              connect()
+            }
+            if (typeof onSuccess === 'function') {
+              onSuccess()
+            }
+          })
         })
-          .then(async (response) => {
-            if (!response.ok) throw new Error('get_user_data_api failed')
-            return response.json()
-          })
-          .then((data) => handleUserData(data, wasLoggedIn))
-          .catch((apiError) => {
-            console.error('Error fetching user data from API:', apiError)
-          })
+      })
+      .catch((apiError) => {
+        if (typeof onError === 'function') {
+          onError(apiError)
+        }
       })
   })
 }

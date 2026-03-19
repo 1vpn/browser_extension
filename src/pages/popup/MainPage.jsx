@@ -1,7 +1,6 @@
 import { useContext } from 'react'
 import { PageContext } from 'context/PageContext'
 import { Box, Flex, Button, Link, Text } from 'theme-ui'
-import { websiteUrl } from 'utils/constants'
 import flags from 'utils/flags'
 import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
@@ -10,6 +9,7 @@ import ChevronRight from 'assets/chevronRight.svg'
 import PageHeader from './PageHeader'
 
 const MainPage = ({
+  activeUrl,
   isPremium,
   isConnected,
   currentCityCode,
@@ -18,6 +18,7 @@ const MainPage = ({
   messages,
   isSpecialOfferActive,
   timeRemaining,
+  primaryApiUnreachable,
 }) => {
   const { setCurrentPage } = useContext(PageContext)
 
@@ -32,7 +33,7 @@ const MainPage = ({
       <PageHeader
         left={
           <Link
-            href={websiteUrl}
+            href={`https://${activeUrl}`}
             target="_blank"
             sx={{
               all: 'unset',
@@ -177,7 +178,9 @@ const MainPage = ({
           <>
             <Button
               id="upgradeLink"
-              onClick={() => window.open(`${websiteUrl}/select_plan`, '_blank')}
+              onClick={() =>
+                window.open(`https://${activeUrl}/select_plan`, '_blank')
+              }
               title={messages.upgradeToPremium}
               sx={{
                 display: 'flex',
@@ -245,8 +248,7 @@ const MainPage = ({
             </Button>
           </>
         )}
-
-        {chrome.i18n.getUILanguage().startsWith('ru') && !isPremium && (
+        {primaryApiUnreachable && (
           <Box
             sx={{
               fontSize: '12px',
@@ -261,8 +263,24 @@ const MainPage = ({
               fontWeight: 300,
             }}
           >
-            Серверы могут блокироваться в России из-за ограничений со стороны
-            правительства. Мы работаем над их обходом. Спасибо.
+            <Text as="span" sx={{ display: 'inline' }}>
+              {messages.primaryApiBlockedPart1}
+            </Text>
+            <Link
+              href={`https://${activeUrl}`}
+              target="_blank"
+              sx={{
+                fontSize: 'inherit',
+                color: 'blue',
+                textDecoration: 'none',
+                ':hover': { textDecoration: 'underline' },
+              }}
+            >
+              {activeUrl}
+            </Link>
+            <Text as="span" sx={{ display: 'inline' }}>
+              {messages.primaryApiBlockedPart2}
+            </Text>
           </Box>
         )}
       </Flex>

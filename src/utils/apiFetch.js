@@ -1,17 +1,65 @@
-import { websiteUrl } from 'utils/constants'
+import {
+  mainUrl,
+  backupUrl1,
+  backupUrl2,
+  backupUrl3,
+} from 'utils/constants'
+
+const backupHosts = [backupUrl1, backupUrl2, backupUrl3]
+
+function setPrimaryReachable() {
+  chrome.storage.local.set({ primaryApiUnreachable: false })
+}
+
+function setUsingBackupOnly() {
+  chrome.storage.local.set({ primaryApiUnreachable: true })
+}
+
+function shouldUseResponse(response) {
+  return (
+    response.ok ||
+    (response.status >= 400 && response.status < 500)
+  )
+}
 
 const apiFetch = async (endpoint, options) => {
-  const fetchWithRetry = async (apiUrl) => {
+  const mainBase = 'https://' + mainUrl
+
+  for (let i = 0; i < 2; i++) {
     try {
-      const response = await fetch(`${apiUrl}/api/${endpoint}/`, options)
-      return response
-    } catch (error) {
-      console.log(error)
-      throw error
+      const response = await fetch(
+        mainBase + '/api/' + endpoint + '/',
+        options
+      )
+      if (shouldUseResponse(response)) {
+        chrome.storage.local.set({ activeUrl: mainUrl.trim() })
+        setPrimaryReachable()
+        return response
+      }
+    } catch (e) {
+      console.log(e)
     }
   }
 
-  return await fetchWithRetry(websiteUrl)
+  for (const host of backupHosts) {
+    const base = 'https://' + host
+    try {
+      const response = await fetch(
+        base + '/api/' + endpoint + '/',
+        options
+      )
+      if (shouldUseResponse(response)) {
+        chrome.storage.local.set({ activeUrl: host.trim() })
+        setUsingBackupOnly()
+        return response
+      }
+    } catch (e) {
+      console.log(e)
+    }
+  }
+
+  setPrimaryReachable()
+  throw new Error('All API hosts failed')
 }
 
 export default apiFetch

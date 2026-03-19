@@ -1,37 +1,97 @@
 {
-  "extName": { "message": "وی‌پی‌ان رایگان - 1VPN" },
+  "extName": {
+    "message": "وی‌پی‌ان رایگان - 1VPN"
+  },
   "extDesc": {
     "message": "وی‌پی‌ان رایگان، داده‌های نامحدود، سرعت‌های بالا، رمزگذاری امن، سیاست عدم نگهداری لاگ‌ها و استفاده آسان."
   },
-  "upgrade": { "message": "ارتقاء" },
-  "signUp": { "message": "ثبت نام" },
-  "login": { "message": "ورود" },
-  "continueText": { "message": "یا بدون حساب کاربری ادامه دهید" },
-  "username": { "message": "نام کاربری" },
-  "password": { "message": "کلمه عبور" },
-  "loading": { "message": "در حال بارگذاری..." },
-  "forgotPassword": { "message": "کلمه عبور را فراموش کرده‌اید؟" },
-  "connected": { "message": "متصل شده" },
-  "disconnected": { "message": "اتصال قطع شده" },
-  "goToOptionsPage": { "message": "رفتن به صفحه تنظیمات" },
-  "goToLocationsPage": { "message": "رفتن به صفحه موقعیت‌های مکانی" },
-  "upgradeText1": { "message": "ارتقا" },
+  "upgrade": {
+    "message": "ارتقاء"
+  },
+  "signUp": {
+    "message": "ثبت نام"
+  },
+  "login": {
+    "message": "ورود"
+  },
+  "continueText": {
+    "message": "یا بدون حساب کاربری ادامه دهید"
+  },
+  "username": {
+    "message": "نام کاربری"
+  },
+  "password": {
+    "message": "کلمه عبور"
+  },
+  "loading": {
+    "message": "در حال بارگذاری..."
+  },
+  "resetPassword": {
+    "message": "بازنشانی رمز عبور"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "دامنه اصلی مسدود است. از "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " به‌عنوان پشتیبان استفاده می‌شود."
+  },
+  "connected": {
+    "message": "متصل شده"
+  },
+  "disconnected": {
+    "message": "اتصال قطع شده"
+  },
+  "goToOptionsPage": {
+    "message": "رفتن به صفحه تنظیمات"
+  },
+  "goToLocationsPage": {
+    "message": "رفتن به صفحه موقعیت‌های مکانی"
+  },
+  "upgradeText1": {
+    "message": "ارتقا"
+  },
   "upgradeText2": {
     "message": "برای دسترسی به موقعیت‌های مکانی بیشتر و سرعت بالاتر"
   },
-  "menu": { "message": "منو" },
-  "account": { "message": "حساب کاربری" },
-  "options": { "message": "تنظیمات" },
-  "contactUs": { "message": "تماس با ما" },
-  "email": { "message": "ایمیل" },
-  "plan": { "message": "طرح" },
-  "premium": { "message": "عضویت ویژه" },
-  "free": { "message": "رایگان" },
-  "editInfo": { "message": "ویرایش اطلاعات" },
-  "logout": { "message": "خروج" },
-  "disableWebRtc": { "message": "غیرفعال‌سازی WebRTC" },
-  "spoofGeolocation": { "message": "جعل ژئولوکیشن" },
-  "disableAddressAutofill": { "message": "غیرفعال‌سازی تکمیل خودکار آدرس" },
+  "menu": {
+    "message": "منو"
+  },
+  "account": {
+    "message": "حساب کاربری"
+  },
+  "options": {
+    "message": "تنظیمات"
+  },
+  "contactUs": {
+    "message": "تماس با ما"
+  },
+  "email": {
+    "message": "ایمیل"
+  },
+  "plan": {
+    "message": "طرح"
+  },
+  "premium": {
+    "message": "عضویت ویژه"
+  },
+  "free": {
+    "message": "رایگان"
+  },
+  "editInfo": {
+    "message": "ویرایش اطلاعات"
+  },
+  "logout": {
+    "message": "خروج"
+  },
+  "disableWebRtc": {
+    "message": "غیرفعال‌سازی WebRTC"
+  },
+  "spoofGeolocation": {
+    "message": "جعل ژئولوکیشن"
+  },
+  "disableAddressAutofill": {
+    "message": "غیرفعال‌سازی تکمیل خودکار آدرس"
+  },
   "spoofGeolocationSubTitle": {
     "message": "API مکان‌یابی HTML5 را برای مطابقت با مکان فعلی VPN خود جعلی کنید."
   },
@@ -41,80 +101,168 @@
   "disableWebRtcSubTitle": {
     "message": "WebRTC را غیرفعال کنید تا از نشت آدرس IP واقعی خود جلوگیری کنید."
   },
-  "locations": { "message": "موقعیت‌های مکانی" },
+  "locations": {
+    "message": "موقعیت‌های مکانی"
+  },
   "reviewModalTitle": {
     "message": "برای باز کردن این مکان، یک نظر ۵ ستاره بگذارید"
   },
-  "reviewModalButton": { "message": "نوشتن بازبینی" },
+  "reviewModalButton": {
+    "message": "نوشتن بازبینی"
+  },
   "shareModalTitle": {
     "message": "برای باز کردن این مکان، 1VPN را به اشتراک بگذارید"
   },
   "shareText": {
     "message": "من به‌تازگی 1VPN را امتحان کردم، یک VPN رایگان، ساده و امن با اینترنت نامحدود و سرعت بالا. در https://1vpn.org?from=share بررسی‌اش کنید"
   },
-  "x": { "message": "X (توییتر)" },
-  "facebook": { "message": "فیس‌بوک" },
-  "linkedin": { "message": "لینکدین" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "تلگرام" },
+  "x": {
+    "message": "X (توییتر)"
+  },
+  "facebook": {
+    "message": "فیس‌بوک"
+  },
+  "linkedin": {
+    "message": "لینکدین"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "تلگرام"
+  },
   "upgradeLocation": {
     "message": "برای دسترسی به این موقعیت مکانی می‌بایست عضویت خود را ارتقا دهید"
   },
-  "tryOurAndroidApp": { "message": "برنامه اندروید ما را امتحان کنید" },
+  "tryOurAndroidApp": {
+    "message": "برنامه اندروید ما را امتحان کنید"
+  },
   "scanQrCodeOrClickButton": {
     "message": "کد QR را اسکن کنید یا روی دکمه زیر کلیک کنید تا برنامه اندروید ما را دانلود کنید."
   },
-  "scanOrClickQRCode": { "message": "کد QR را اسکن یا کلیک کنید" },
-  "downloadApp": { "message": "دانلود برنامه" },
-  "specialOffer": { "message": "پیشنهاد ویژه" },
-  "save33Percent": { "message": "۳۳٪ صرفه‌جویی" },
-  "deal": { "message": "پیشنهاد" },
-  "january": { "message": "ژانویه" },
-  "february": { "message": "فوریه" },
-  "march": { "message": "مارس" },
-  "april": { "message": "آوریل" },
-  "may": { "message": "مه" },
-  "june": { "message": "ژوئن" },
-  "july": { "message": "ژوئیه" },
-  "august": { "message": "اوت" },
-  "september": { "message": "سپتامبر" },
-  "october": { "message": "اکتبر" },
-  "november": { "message": "نوامبر" },
-  "december": { "message": "دسامبر" },
+  "scanOrClickQRCode": {
+    "message": "کد QR را اسکن یا کلیک کنید"
+  },
+  "downloadApp": {
+    "message": "دانلود برنامه"
+  },
+  "specialOffer": {
+    "message": "پیشنهاد ویژه"
+  },
+  "save33Percent": {
+    "message": "۳۳٪ صرفه‌جویی"
+  },
+  "deal": {
+    "message": "پیشنهاد"
+  },
+  "january": {
+    "message": "ژانویه"
+  },
+  "february": {
+    "message": "فوریه"
+  },
+  "march": {
+    "message": "مارس"
+  },
+  "april": {
+    "message": "آوریل"
+  },
+  "may": {
+    "message": "مه"
+  },
+  "june": {
+    "message": "ژوئن"
+  },
+  "july": {
+    "message": "ژوئیه"
+  },
+  "august": {
+    "message": "اوت"
+  },
+  "september": {
+    "message": "سپتامبر"
+  },
+  "october": {
+    "message": "اکتبر"
+  },
+  "november": {
+    "message": "نوامبر"
+  },
+  "december": {
+    "message": "دسامبر"
+  },
   "upgradeModalText": {
     "message": "روی طرح سالانه. مکان‌های بیشتر و سرعت بالاتر با ضمانت بازگشت ۱۰ روزه."
   },
-  "claimOffer": { "message": "دریافت پیشنهاد" },
-  "until": { "message": "تا" },
-  "save33OnPremiumUntil": { "message": "۳۳٪ صرفه‌جویی روی پریمیوم تا" },
-  "save33OnPremium": { "message": "۳۳٪ صرفه‌جویی روی پریمیوم" },
+  "claimOffer": {
+    "message": "دریافت پیشنهاد"
+  },
+  "until": {
+    "message": "تا"
+  },
+  "save33OnPremiumUntil": {
+    "message": "۳۳٪ صرفه‌جویی روی پریمیوم تا"
+  },
+  "save33OnPremium": {
+    "message": "۳۳٪ صرفه‌جویی روی پریمیوم"
+  },
   "installModalText": {
     "message": "این موقعیت را با درخواست از کاربر دیگری برای نصب افزونه با این لینک باز کنید:"
   },
-  "copyLink": { "message": "کپی لینک" },
-  "linkCopied": { "message": "لینک کپی شد!" },
-  "getAndroidApp": { "message": "دریافت اپ اندروید" },
-  "referToUnlock": { "message": "دعوت برای باز کردن" },
+  "copyLink": {
+    "message": "کپی لینک"
+  },
+  "linkCopied": {
+    "message": "لینک کپی شد!"
+  },
+  "getAndroidApp": {
+    "message": "دریافت اپ اندروید"
+  },
+  "referToUnlock": {
+    "message": "دعوت برای باز کردن"
+  },
   "toUnlockThisLocation": {
     "message": "برای باز کردن این موقعیت یک کاربر دیگر را دعوت کنید تا 1VPN را از این لینک نصب کند:"
   },
-  "installAndroidToUnlock": { "message": "نصب اپ اندروید برای باز کردن" },
-  "upgradeToPremium": { "message": "ارتقا به پرمیوم" },
+  "installAndroidToUnlock": {
+    "message": "نصب اپ اندروید برای باز کردن"
+  },
+  "upgradeToPremium": {
+    "message": "ارتقا به پرمیوم"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "موقعیت‌های بیشتر و سرعت‌های بالاتر"
   },
-  "tryAndroidApp": { "message": "امتحان اپ اندروید" },
-  "get1VPNForAndroid": { "message": "دریافت 1VPN برای اندروید" },
-  "reviewToUnlock": { "message": "نظر برای باز کردن" },
+  "tryAndroidApp": {
+    "message": "امتحان اپ اندروید"
+  },
+  "get1VPNForAndroid": {
+    "message": "دریافت 1VPN برای اندروید"
+  },
+  "reviewToUnlock": {
+    "message": "نظر برای باز کردن"
+  },
   "leaveReviewToUnlock": {
     "message": "برای باز کردن این موقعیت یک نظر ۵ ستاره ثبت کنید"
   },
-  "continueFree": { "message": "ادامه رایگان" },
-  "getPremium": { "message": "دریافت پرمیوم" },
-  "unlockAllServerLocations": { "message": "باز کردن همه موقعیت‌های سرور" },
-  "accessServersWorldwide": { "message": "دسترسی به سرورها در سراسر جهان" },
-  "fastestSpeeds": { "message": "بیشترین سرعت" },
+  "continueFree": {
+    "message": "ادامه رایگان"
+  },
+  "getPremium": {
+    "message": "دریافت پرمیوم"
+  },
+  "unlockAllServerLocations": {
+    "message": "باز کردن همه موقعیت‌های سرور"
+  },
+  "accessServersWorldwide": {
+    "message": "دسترسی به سرورها در سراسر جهان"
+  },
+  "fastestSpeeds": {
+    "message": "بیشترین سرعت"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "سرعت اینترنت پایدار و سریع"
   },
@@ -124,63 +272,199 @@
   "fullRefundIfNotSatisfied": {
     "message": "در صورت نارضایتی بازگشت کامل وجه"
   },
-  "chooseYourPlan": { "message": "طرح خود را انتخاب کنید" },
+  "chooseYourPlan": {
+    "message": "طرح خود را انتخاب کنید"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "باز کردن همه قابلیت‌ها با پرمیوم"
   },
-  "au": { "message": "استرالیا" },
-  "br": { "message": "برزیل" },
-  "ca": { "message": "کانادا" },
-  "cl": { "message": "شیلی" },
-  "de": { "message": "آلمان" },
-  "es": { "message": "اسپانیا" },
-  "fr": { "message": "فرانسه" },
-  "in": { "message": "هند" },
-  "jp": { "message": "ژاپن" },
-  "kr": { "message": "کره جنوبی" },
-  "mx": { "message": "مکزیک" },
-  "nl": { "message": "هلند" },
-  "pl": { "message": "لهستان" },
-  "ro": { "message": "رومانی" },
-  "se": { "message": "سوئد" },
-  "sg": { "message": "سنگاپور" },
-  "uk": { "message": "بریتانیا" },
-  "us": { "message": "ایالات متحده" },
-  "use": { "message": "ایالات متحده" },
-  "uss": { "message": "ایالات متحده" },
-  "usw": { "message": "ایالات متحده" },
-  "il": { "message": "اسرائیل" },
-  "za": { "message": "آفریقای جنوبی" },
-  "syd": { "message": "سیدنی" },
-  "sao": { "message": "سائو پائولو" },
-  "yto": { "message": "تورنتو" },
-  "cdg": { "message": "پاریس" },
-  "fra": { "message": "فرانکفورت" },
-  "bom": { "message": "بمبئی" },
-  "nrt": { "message": "توکیو" },
-  "mex": { "message": "مکزیکوسیتی" },
-  "ams": { "message": "آمستردام" },
-  "sgp": { "message": "سنگاپور" },
-  "mad": { "message": "مادرید" },
-  "sto": { "message": "استکهلم" },
-  "lhr": { "message": "لندن" },
-  "ewr": { "message": "نیویورک" },
-  "lax": { "message": "لس آنجلس" },
-  "scl": { "message": "سانتیاگو" },
-  "jnb": { "message": "ژوهانسبورگ" },
-  "icn": { "message": "سئول" },
-  "waw": { "message": "ورشو" },
-  "atl": { "message": "آتلانتا" },
-  "blr": { "message": "بنگلور" },
-  "del": { "message": "دهلی" },
-  "dfw": { "message": "دالاس" },
-  "hnl": { "message": "هونولولو" },
-  "itm": { "message": "اوزاکا" },
-  "man": { "message": "منچستر" },
-  "mel": { "message": "ملبورن" },
-  "mia": { "message": "میامی" },
-  "ord": { "message": "شیکاگو" },
-  "sea": { "message": "سیاتل" },
-  "sjc": { "message": "سان‌فرانسیسکو" },
-  "tlv": { "message": "تل‌آویو" }
+  "au": {
+    "message": "استرالیا"
+  },
+  "br": {
+    "message": "برزیل"
+  },
+  "ca": {
+    "message": "کانادا"
+  },
+  "cl": {
+    "message": "شیلی"
+  },
+  "de": {
+    "message": "آلمان"
+  },
+  "es": {
+    "message": "اسپانیا"
+  },
+  "fr": {
+    "message": "فرانسه"
+  },
+  "in": {
+    "message": "هند"
+  },
+  "jp": {
+    "message": "ژاپن"
+  },
+  "kr": {
+    "message": "کره جنوبی"
+  },
+  "mx": {
+    "message": "مکزیک"
+  },
+  "nl": {
+    "message": "هلند"
+  },
+  "pl": {
+    "message": "لهستان"
+  },
+  "ro": {
+    "message": "رومانی"
+  },
+  "se": {
+    "message": "سوئد"
+  },
+  "sg": {
+    "message": "سنگاپور"
+  },
+  "uk": {
+    "message": "بریتانیا"
+  },
+  "us": {
+    "message": "ایالات متحده"
+  },
+  "use": {
+    "message": "ایالات متحده"
+  },
+  "uss": {
+    "message": "ایالات متحده"
+  },
+  "usw": {
+    "message": "ایالات متحده"
+  },
+  "il": {
+    "message": "اسرائیل"
+  },
+  "za": {
+    "message": "آفریقای جنوبی"
+  },
+  "syd": {
+    "message": "سیدنی"
+  },
+  "sao": {
+    "message": "سائو پائولو"
+  },
+  "yto": {
+    "message": "تورنتو"
+  },
+  "cdg": {
+    "message": "پاریس"
+  },
+  "fra": {
+    "message": "فرانکفورت"
+  },
+  "bom": {
+    "message": "بمبئی"
+  },
+  "nrt": {
+    "message": "توکیو"
+  },
+  "mex": {
+    "message": "مکزیکوسیتی"
+  },
+  "ams": {
+    "message": "آمستردام"
+  },
+  "sgp": {
+    "message": "سنگاپور"
+  },
+  "mad": {
+    "message": "مادرید"
+  },
+  "sto": {
+    "message": "استکهلم"
+  },
+  "lhr": {
+    "message": "لندن"
+  },
+  "ewr": {
+    "message": "نیویورک"
+  },
+  "lax": {
+    "message": "لس آنجلس"
+  },
+  "scl": {
+    "message": "سانتیاگو"
+  },
+  "jnb": {
+    "message": "ژوهانسبورگ"
+  },
+  "icn": {
+    "message": "سئول"
+  },
+  "waw": {
+    "message": "ورشو"
+  },
+  "atl": {
+    "message": "آتلانتا"
+  },
+  "blr": {
+    "message": "بنگلور"
+  },
+  "del": {
+    "message": "دهلی"
+  },
+  "dfw": {
+    "message": "دالاس"
+  },
+  "hnl": {
+    "message": "هونولولو"
+  },
+  "itm": {
+    "message": "اوزاکا"
+  },
+  "man": {
+    "message": "منچستر"
+  },
+  "mel": {
+    "message": "ملبورن"
+  },
+  "mia": {
+    "message": "میامی"
+  },
+  "ord": {
+    "message": "شیکاگو"
+  },
+  "sea": {
+    "message": "سیاتل"
+  },
+  "sjc": {
+    "message": "سان‌فرانسیسکو"
+  },
+  "tlv": {
+    "message": "تل‌آویو"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

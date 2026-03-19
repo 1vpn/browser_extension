@@ -1,10 +1,9 @@
 import { Input, Button, Box } from 'theme-ui'
 import Modal from './Modal'
 import { useState } from 'react'
-import { websiteUrl } from 'utils/constants'
 
-const InstallModal = ({ messages, isOpen, onClose }) => {
-  const installUrl = `${websiteUrl}?from=zv45k6`
+const InstallModal = ({ activeUrl, messages, isOpen, onClose }) => {
+  const installUrl = `https://${activeUrl}?from=zv45k6`
   const [copied, setCopied] = useState(false)
 
   const handleModalClick = () => {

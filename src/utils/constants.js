@@ -3,14 +3,14 @@ export const isEdge = process.env.BROWSER === 'edge'
 
 export const action = isFirefox ? chrome.browserAction : chrome.action
 
-export const websiteUrl = 'https://1vpn.org'
-
-export const backupUrl = 'https://cloudlogcdn.com'
+export const mainUrl = '1vpn.orgg'
+export const backupUrl1 = '1vpn.co'
+export const backupUrl2 = 'onevpn.com'
+export const backupUrl3 = 'cloudlogcdn.com'
 
 export const androidUrl =
   'https://play.google.com/store/apps/details?id=com.one.vpnapp' +
   `&hl=${chrome.i18n.getUILanguage()}`
-
 
 export const freeCredentials = {
   username: process.env.FREE_USERNAME,
@@ -41,8 +41,18 @@ export const localeMessageKeys = [
   'username',
   'password',
   'twoFaToken',
+  'loginEnterEmailAndPassword',
+  'loginInvalidCredentials',
+  'loginTwoFaRequired',
+  'loginCouldNotReachServers',
+  'loginInvalidOrMissingTwoFaToken',
+  'loginInvalidResponseFromServer',
+  'loginCouldNotLoadAccount',
+  'loginNetworkError',
   'loading',
-  'forgotPassword',
+  'resetPassword',
+  'primaryApiBlockedPart1',
+  'primaryApiBlockedPart2',
   'connected',
   'disconnected',
   'goToOptionsPage',

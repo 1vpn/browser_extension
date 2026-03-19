@@ -1,6 +1,32 @@
 {
-  "extName": { "message": "VPN Gratuit - Free VPN - 1VPN" },
+  "extName": {
+    "message": "VPN Gratuit - Free VPN - 1VPN"
+  },
   "extDesc": {
     "message": "VPN gratuit, date nelimitate, viteze rapide, criptare sigură, politică fără loguri și ușor de utilizat."
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
   }
 }

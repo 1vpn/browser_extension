@@ -1,34 +1,94 @@
 {
-  "extName": { "message": "Ücretsiz VPN - Free VPN - 1VPN" },
+  "extName": {
+    "message": "Ücretsiz VPN - Free VPN - 1VPN"
+  },
   "extDesc": {
     "message": "Ücretsiz VPN, sınırsız veri, hızlı bağlantı, güvenli şifreleme, kayıt yok politikası ve kullanımı kolay."
   },
-  "upgrade": { "message": "Yükselt" },
-  "signUp": { "message": "Kaydol" },
-  "login": { "message": "Giriş Yap" },
-  "continueText": { "message": "Veya hesapsız devam et" },
-  "username": { "message": "Kullanıcı Adı" },
-  "password": { "message": "Şifre" },
-  "loading": { "message": "Yükleniyor..." },
-  "forgotPassword": { "message": "Şifreni mi unuttun?" },
-  "connected": { "message": "Bağlandı" },
-  "disconnected": { "message": "Bağlantı Kesildi" },
-  "goToOptionsPage": { "message": "Seçenekler Sayfasına Git" },
-  "goToLocationsPage": { "message": "Konumlar Sayfasına Git" },
-  "upgradeText1": { "message": "Yükselt" },
-  "upgradeText2": { "message": "daha fazla konum ve daha yüksek hızlar için" },
-  "menu": { "message": "Menü" },
-  "account": { "message": "Hesap" },
-  "options": { "message": "Seçenekler" },
-  "contactUs": { "message": "Bize Ulaş" },
-  "email": { "message": "E-posta" },
-  "plan": { "message": "Plan" },
-  "premium": { "message": "Premium" },
-  "free": { "message": "Ücretsiz" },
-  "editInfo": { "message": "Bilgileri Düzenle" },
-  "logout": { "message": "Oturumu Kapat" },
-  "spoofGeolocation": { "message": "Geolokasyon sahtekarlığı" },
-  "disableWebRtc": { "message": "WebRTC'yi devre dışı bırak" },
+  "upgrade": {
+    "message": "Yükselt"
+  },
+  "signUp": {
+    "message": "Kaydol"
+  },
+  "login": {
+    "message": "Giriş Yap"
+  },
+  "continueText": {
+    "message": "Veya hesapsız devam et"
+  },
+  "username": {
+    "message": "Kullanıcı Adı"
+  },
+  "password": {
+    "message": "Şifre"
+  },
+  "loading": {
+    "message": "Yükleniyor..."
+  },
+  "resetPassword": {
+    "message": "Şifreyi sıfırla"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "Ana alan adı engellendi. Yedek olarak "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " kullanılıyor."
+  },
+  "connected": {
+    "message": "Bağlandı"
+  },
+  "disconnected": {
+    "message": "Bağlantı Kesildi"
+  },
+  "goToOptionsPage": {
+    "message": "Seçenekler Sayfasına Git"
+  },
+  "goToLocationsPage": {
+    "message": "Konumlar Sayfasına Git"
+  },
+  "upgradeText1": {
+    "message": "Yükselt"
+  },
+  "upgradeText2": {
+    "message": "daha fazla konum ve daha yüksek hızlar için"
+  },
+  "menu": {
+    "message": "Menü"
+  },
+  "account": {
+    "message": "Hesap"
+  },
+  "options": {
+    "message": "Seçenekler"
+  },
+  "contactUs": {
+    "message": "Bize Ulaş"
+  },
+  "email": {
+    "message": "E-posta"
+  },
+  "plan": {
+    "message": "Plan"
+  },
+  "premium": {
+    "message": "Premium"
+  },
+  "free": {
+    "message": "Ücretsiz"
+  },
+  "editInfo": {
+    "message": "Bilgileri Düzenle"
+  },
+  "logout": {
+    "message": "Oturumu Kapat"
+  },
+  "spoofGeolocation": {
+    "message": "Geolokasyon sahtekarlığı"
+  },
+  "disableWebRtc": {
+    "message": "WebRTC'yi devre dışı bırak"
+  },
   "disableAddressAutofill": {
     "message": "Oto Adres Doldurmayı Devre Dışı Bırak"
   },
@@ -41,84 +101,174 @@
   "disableWebRtcSubTitle": {
     "message": "Gerçek IP adresinizin sızmasını önlemek için WebRTC'yi devre dışı bırakın."
   },
-  "locations": { "message": "Konumlar" },
+  "locations": {
+    "message": "Konumlar"
+  },
   "reviewModalTitle": {
     "message": "Bu konumun kilidini açmak için 5 yıldızlı yorum bırakın"
   },
-  "reviewModalButton": { "message": "İnceleme bırak" },
+  "reviewModalButton": {
+    "message": "İnceleme bırak"
+  },
   "shareModalTitle": {
     "message": "Bu konumun kilidini açmak için 1VPN’i paylaşın"
   },
   "shareText": {
     "message": "Az önce 1VPN’i denedim. Sınırsız veri ve yüksek hız sunan ücretsiz, basit ve güvenli bir VPN. https://1vpn.org?from=share adresine göz atın"
   },
-  "x": { "message": "X (Twitter)" },
-  "facebook": { "message": "Facebook" },
-  "linkedin": { "message": "LinkedIn" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "Telegram" },
-  "upgradeLocation": { "message": "Bu konuma erişmek için planını yükselt" },
+  "x": {
+    "message": "X (Twitter)"
+  },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "linkedin": {
+    "message": "LinkedIn"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "upgradeLocation": {
+    "message": "Bu konuma erişmek için planını yükselt"
+  },
   "installSuccess": {
     "message": "1VPN başarıyla kuruldu"
   },
   "installInstructions": {
     "message": "Adres çubuğunun yanındaki puzzle simgesine tıklayın. Ardından uzantıyı sabitlemek için raptiye simgesine tıklayın."
   },
-  "tryOurAndroidApp": { "message": "Android Uygulamamızı Deneyin" },
+  "tryOurAndroidApp": {
+    "message": "Android Uygulamamızı Deneyin"
+  },
   "scanQrCodeOrClickButton": {
     "message": "Android uygulamamızı indirmek için QR kodunu tarayın veya aşağıdaki butona tıklayın."
   },
-  "scanOrClickQRCode": { "message": "QR kodunu tarayın veya tıklayın" },
-  "downloadApp": { "message": "Uygulamayı indir" },
-  "specialOffer": { "message": "Özel teklif" },
-  "save33Percent": { "message": "%33 tasarruf" },
-  "deal": { "message": "Teklif" },
-  "january": { "message": "Ocak" },
-  "february": { "message": "Şubat" },
-  "march": { "message": "Mart" },
-  "april": { "message": "Nisan" },
-  "may": { "message": "Mayıs" },
-  "june": { "message": "Haziran" },
-  "july": { "message": "Temmuz" },
-  "august": { "message": "Ağustos" },
-  "september": { "message": "Eylül" },
-  "october": { "message": "Ekim" },
-  "november": { "message": "Kasım" },
-  "december": { "message": "Aralık" },
+  "scanOrClickQRCode": {
+    "message": "QR kodunu tarayın veya tıklayın"
+  },
+  "downloadApp": {
+    "message": "Uygulamayı indir"
+  },
+  "specialOffer": {
+    "message": "Özel teklif"
+  },
+  "save33Percent": {
+    "message": "%33 tasarruf"
+  },
+  "deal": {
+    "message": "Teklif"
+  },
+  "january": {
+    "message": "Ocak"
+  },
+  "february": {
+    "message": "Şubat"
+  },
+  "march": {
+    "message": "Mart"
+  },
+  "april": {
+    "message": "Nisan"
+  },
+  "may": {
+    "message": "Mayıs"
+  },
+  "june": {
+    "message": "Haziran"
+  },
+  "july": {
+    "message": "Temmuz"
+  },
+  "august": {
+    "message": "Ağustos"
+  },
+  "september": {
+    "message": "Eylül"
+  },
+  "october": {
+    "message": "Ekim"
+  },
+  "november": {
+    "message": "Kasım"
+  },
+  "december": {
+    "message": "Aralık"
+  },
   "upgradeModalText": {
     "message": "yıllık planda. Daha fazla konum ve daha yüksek hız 10 gün para iade garantisiyle."
   },
-  "claimOffer": { "message": "Teklifi al" },
-  "until": { "message": "kadar" },
-  "save33OnPremiumUntil": { "message": "Premium'da %33 tasarruf, süre" },
-  "save33OnPremium": { "message": "Premium'da %33 tasarruf" },
+  "claimOffer": {
+    "message": "Teklifi al"
+  },
+  "until": {
+    "message": "kadar"
+  },
+  "save33OnPremiumUntil": {
+    "message": "Premium'da %33 tasarruf, süre"
+  },
+  "save33OnPremium": {
+    "message": "Premium'da %33 tasarruf"
+  },
   "installModalText": {
     "message": "Bu konumu açmak için başka bir kullanıcıdan bu bağlantıyla uzantıyı yüklemesini isteyin:"
   },
-  "copyLink": { "message": "Bağlantıyı kopyala" },
-  "linkCopied": { "message": "Bağlantı kopyalandı!" },
-  "getAndroidApp": { "message": "Android uygulamasını indir" },
-  "referToUnlock": { "message": "Davet ederek aç" },
+  "copyLink": {
+    "message": "Bağlantıyı kopyala"
+  },
+  "linkCopied": {
+    "message": "Bağlantı kopyalandı!"
+  },
+  "getAndroidApp": {
+    "message": "Android uygulamasını indir"
+  },
+  "referToUnlock": {
+    "message": "Davet ederek aç"
+  },
   "toUnlockThisLocation": {
     "message": "Bu konumu açmak için başka bir kullanıcıdan bu linkle 1VPN yüklemesini isteyin:"
   },
-  "installAndroidToUnlock": { "message": "Android uygulamasını yükleyerek açın" },
-  "upgradeToPremium": { "message": "Premium’a yükselt" },
+  "installAndroidToUnlock": {
+    "message": "Android uygulamasını yükleyerek açın"
+  },
+  "upgradeToPremium": {
+    "message": "Premium’a yükselt"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "Daha fazla konum ve daha yüksek hız"
   },
-  "tryAndroidApp": { "message": "Android uygulamasını dene" },
-  "get1VPNForAndroid": { "message": "Android için 1VPN al" },
-  "reviewToUnlock": { "message": "Yorum yaparak aç" },
+  "tryAndroidApp": {
+    "message": "Android uygulamasını dene"
+  },
+  "get1VPNForAndroid": {
+    "message": "Android için 1VPN al"
+  },
+  "reviewToUnlock": {
+    "message": "Yorum yaparak aç"
+  },
   "leaveReviewToUnlock": {
     "message": "Bu konumu açmak için 5 yıldızlı yorum bırakın"
   },
-  "continueFree": { "message": "Ücretsiz devam et" },
-  "getPremium": { "message": "Premium al" },
-  "unlockAllServerLocations": { "message": "Tüm sunucu konumlarını aç" },
-  "accessServersWorldwide": { "message": "Dünya çapındaki sunuculara erişim" },
-  "fastestSpeeds": { "message": "En yüksek hızlar" },
+  "continueFree": {
+    "message": "Ücretsiz devam et"
+  },
+  "getPremium": {
+    "message": "Premium al"
+  },
+  "unlockAllServerLocations": {
+    "message": "Tüm sunucu konumlarını aç"
+  },
+  "accessServersWorldwide": {
+    "message": "Dünya çapındaki sunuculara erişim"
+  },
+  "fastestSpeeds": {
+    "message": "En yüksek hızlar"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "Kararlı ve hızlı internet"
   },
@@ -128,63 +278,199 @@
   "fullRefundIfNotSatisfied": {
     "message": "Memnun kalmazsanız tam geri ödeme"
   },
-  "chooseYourPlan": { "message": "Paketini seç" },
+  "chooseYourPlan": {
+    "message": "Paketini seç"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "Tüm özellikleri Premium ile aç"
   },
-  "au": { "message": "Avustralya" },
-  "br": { "message": "Brezilya" },
-  "ca": { "message": "Kanada" },
-  "cl": { "message": "Şili" },
-  "de": { "message": "Almanya" },
-  "es": { "message": "İspanya" },
-  "fr": { "message": "Fransa" },
-  "in": { "message": "Hindistan" },
-  "jp": { "message": "Japonya" },
-  "kr": { "message": "Güney Kore" },
-  "mx": { "message": "Meksika" },
-  "nl": { "message": "Hollanda" },
-  "pl": { "message": "Polonya" },
-  "ro": { "message": "Romanya" },
-  "se": { "message": "İsveç" },
-  "sg": { "message": "Singapur" },
-  "uk": { "message": "Birleşik Krallık" },
-  "us": { "message": "Amerika Birleşik Devletleri" },
-  "use": { "message": "Amerika Birleşik Devletleri" },
-  "uss": { "message": "Amerika Birleşik Devletleri" },
-  "usw": { "message": "Amerika Birleşik Devletleri" },
-  "il": { "message": "İsrail" },
-  "za": { "message": "Güney Afrika" },
-  "syd": { "message": "Sidney" },
-  "sao": { "message": "São Paulo" },
-  "yto": { "message": "Toronto" },
-  "cdg": { "message": "Paris" },
-  "fra": { "message": "Frankfurt" },
-  "bom": { "message": "Mumbai" },
-  "nrt": { "message": "Tokyo" },
-  "mex": { "message": "Meksiko" },
-  "ams": { "message": "Amsterdam" },
-  "sgp": { "message": "Singapur" },
-  "mad": { "message": "Madrid" },
-  "sto": { "message": "Stockholm" },
-  "lhr": { "message": "Londra" },
-  "ewr": { "message": "New York" },
-  "lax": { "message": "Los Angeles" },
-  "scl": { "message": "Santiago" },
-  "jnb": { "message": "Johannesburg" },
-  "icn": { "message": "Seul" },
-  "waw": { "message": "Varşova" },
-  "atl": { "message": "Atlanta" },
-  "blr": { "message": "Bengaluru" },
-  "del": { "message": "Delhi" },
-  "dfw": { "message": "Dallas" },
-  "hnl": { "message": "Honolulu" },
-  "itm": { "message": "Osaka" },
-  "man": { "message": "Manchester" },
-  "mel": { "message": "Melbourne" },
-  "mia": { "message": "Miami" },
-  "ord": { "message": "Chicago" },
-  "sea": { "message": "Seattle" },
-  "sjc": { "message": "San Francisco" },
-  "tlv": { "message": "Tel Aviv" }
+  "au": {
+    "message": "Avustralya"
+  },
+  "br": {
+    "message": "Brezilya"
+  },
+  "ca": {
+    "message": "Kanada"
+  },
+  "cl": {
+    "message": "Şili"
+  },
+  "de": {
+    "message": "Almanya"
+  },
+  "es": {
+    "message": "İspanya"
+  },
+  "fr": {
+    "message": "Fransa"
+  },
+  "in": {
+    "message": "Hindistan"
+  },
+  "jp": {
+    "message": "Japonya"
+  },
+  "kr": {
+    "message": "Güney Kore"
+  },
+  "mx": {
+    "message": "Meksika"
+  },
+  "nl": {
+    "message": "Hollanda"
+  },
+  "pl": {
+    "message": "Polonya"
+  },
+  "ro": {
+    "message": "Romanya"
+  },
+  "se": {
+    "message": "İsveç"
+  },
+  "sg": {
+    "message": "Singapur"
+  },
+  "uk": {
+    "message": "Birleşik Krallık"
+  },
+  "us": {
+    "message": "Amerika Birleşik Devletleri"
+  },
+  "use": {
+    "message": "Amerika Birleşik Devletleri"
+  },
+  "uss": {
+    "message": "Amerika Birleşik Devletleri"
+  },
+  "usw": {
+    "message": "Amerika Birleşik Devletleri"
+  },
+  "il": {
+    "message": "İsrail"
+  },
+  "za": {
+    "message": "Güney Afrika"
+  },
+  "syd": {
+    "message": "Sidney"
+  },
+  "sao": {
+    "message": "São Paulo"
+  },
+  "yto": {
+    "message": "Toronto"
+  },
+  "cdg": {
+    "message": "Paris"
+  },
+  "fra": {
+    "message": "Frankfurt"
+  },
+  "bom": {
+    "message": "Mumbai"
+  },
+  "nrt": {
+    "message": "Tokyo"
+  },
+  "mex": {
+    "message": "Meksiko"
+  },
+  "ams": {
+    "message": "Amsterdam"
+  },
+  "sgp": {
+    "message": "Singapur"
+  },
+  "mad": {
+    "message": "Madrid"
+  },
+  "sto": {
+    "message": "Stockholm"
+  },
+  "lhr": {
+    "message": "Londra"
+  },
+  "ewr": {
+    "message": "New York"
+  },
+  "lax": {
+    "message": "Los Angeles"
+  },
+  "scl": {
+    "message": "Santiago"
+  },
+  "jnb": {
+    "message": "Johannesburg"
+  },
+  "icn": {
+    "message": "Seul"
+  },
+  "waw": {
+    "message": "Varşova"
+  },
+  "atl": {
+    "message": "Atlanta"
+  },
+  "blr": {
+    "message": "Bengaluru"
+  },
+  "del": {
+    "message": "Delhi"
+  },
+  "dfw": {
+    "message": "Dallas"
+  },
+  "hnl": {
+    "message": "Honolulu"
+  },
+  "itm": {
+    "message": "Osaka"
+  },
+  "man": {
+    "message": "Manchester"
+  },
+  "mel": {
+    "message": "Melbourne"
+  },
+  "mia": {
+    "message": "Miami"
+  },
+  "ord": {
+    "message": "Chicago"
+  },
+  "sea": {
+    "message": "Seattle"
+  },
+  "sjc": {
+    "message": "San Francisco"
+  },
+  "tlv": {
+    "message": "Tel Aviv"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

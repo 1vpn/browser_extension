@@ -1,36 +1,94 @@
 {
-  "extName": { "message": "VPN ฟรี - Free VPN - 1VPN" },
+  "extName": {
+    "message": "VPN ฟรี - Free VPN - 1VPN"
+  },
   "extDesc": {
     "message": "VPN ฟรี, ข้อมูลไม่จำกัด, ความเร็วสูง, การเข้ารหัสที่ปลอดภัย, ไม่มีนโยบายบันทึกข้อมูล และใช้งานง่าย."
   },
-  "upgrade": { "message": "อัปเกรด" },
-  "signUp": { "message": "สมัครสมาชิก" },
-  "login": { "message": "เข้าสู่ระบบ" },
-  "continueText": { "message": "หรือดำเนินการต่อโดยไม่มีบัญชี" },
-  "username": { "message": "ชื่อผู้ใช้" },
-  "password": { "message": "รหัสผ่าน" },
-  "loading": { "message": "กำลังโหลด..." },
-  "forgotPassword": { "message": "ลืมรหัสผ่าน?" },
-  "connected": { "message": "เชื่อมต่อแล้ว" },
-  "disconnected": { "message": "ยังไม่ได้เชื่อมต่อ" },
-  "goToOptionsPage": { "message": "ไปที่หน้าตัวเลือก" },
-  "goToLocationsPage": { "message": "ไปที่หน้าสถานที่" },
-  "upgradeText1": { "message": "อัพเกรด" },
+  "upgrade": {
+    "message": "อัปเกรด"
+  },
+  "signUp": {
+    "message": "สมัครสมาชิก"
+  },
+  "login": {
+    "message": "เข้าสู่ระบบ"
+  },
+  "continueText": {
+    "message": "หรือดำเนินการต่อโดยไม่มีบัญชี"
+  },
+  "username": {
+    "message": "ชื่อผู้ใช้"
+  },
+  "password": {
+    "message": "รหัสผ่าน"
+  },
+  "loading": {
+    "message": "กำลังโหลด..."
+  },
+  "resetPassword": {
+    "message": "รีเซ็ตรหัสผ่าน"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "โดเมนหลักถูกบล็อก กำลังใช้ "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " เป็นสำรอง"
+  },
+  "connected": {
+    "message": "เชื่อมต่อแล้ว"
+  },
+  "disconnected": {
+    "message": "ยังไม่ได้เชื่อมต่อ"
+  },
+  "goToOptionsPage": {
+    "message": "ไปที่หน้าตัวเลือก"
+  },
+  "goToLocationsPage": {
+    "message": "ไปที่หน้าสถานที่"
+  },
+  "upgradeText1": {
+    "message": "อัพเกรด"
+  },
   "upgradeText2": {
     "message": "เพื่อตัวเลือกสถานที่ตั้งที่มากขึ้นและความเร็วที่เร็วที่มากขึ้น"
   },
-  "menu": { "message": "เมนู" },
-  "account": { "message": "บัญชี" },
-  "options": { "message": "ตัวเลือก" },
-  "contactUs": { "message": "ติดต่อเรา" },
-  "email": { "message": "อีเมล" },
-  "plan": { "message": "แผน" },
-  "premium": { "message": "พรีเมียม" },
-  "free": { "message": "ฟรี" },
-  "editInfo": { "message": "แก้ไขข้อมูล" },
-  "logout": { "message": "ออกจากระบบ" },
-  "spoofGeolocation": { "message": "ปลอมแปลง Geolocation" },
-  "disableWebRtc": { "message": "ปิดใช้งาน WebRTC" },
+  "menu": {
+    "message": "เมนู"
+  },
+  "account": {
+    "message": "บัญชี"
+  },
+  "options": {
+    "message": "ตัวเลือก"
+  },
+  "contactUs": {
+    "message": "ติดต่อเรา"
+  },
+  "email": {
+    "message": "อีเมล"
+  },
+  "plan": {
+    "message": "แผน"
+  },
+  "premium": {
+    "message": "พรีเมียม"
+  },
+  "free": {
+    "message": "ฟรี"
+  },
+  "editInfo": {
+    "message": "แก้ไขข้อมูล"
+  },
+  "logout": {
+    "message": "ออกจากระบบ"
+  },
+  "spoofGeolocation": {
+    "message": "ปลอมแปลง Geolocation"
+  },
+  "disableWebRtc": {
+    "message": "ปิดใช้งาน WebRTC"
+  },
   "disableAddressAutofill": {
     "message": "ปิดใช้งานการเติมช่องที่อยู่อัตโนมัติ"
   },
@@ -43,76 +101,168 @@
   "disableWebRtcSubTitle": {
     "message": "ปิดใช้งาน WebRTC เพื่อป้องกันไม่ให้ที่อยู่ IP จริงของคุณรั่วไหล"
   },
-  "locations": { "message": "สถานที่ตั้ง" },
+  "locations": {
+    "message": "สถานที่ตั้ง"
+  },
   "reviewModalTitle": {
     "message": "กรุณาให้รีวิว 5 ดาวเพื่อปลดล็อกตำแหน่งนี้"
   },
-  "reviewModalButton": { "message": "เขียนรีวิว" },
-  "shareModalTitle": { "message": "แชร์ 1VPN เพื่อปลดล็อกตำแหน่งนี้" },
+  "reviewModalButton": {
+    "message": "เขียนรีวิว"
+  },
+  "shareModalTitle": {
+    "message": "แชร์ 1VPN เพื่อปลดล็อกตำแหน่งนี้"
+  },
   "shareText": {
     "message": "ฉันเพิ่งลองใช้ 1VPN ซึ่งเป็น VPN ฟรี ใช้งานง่าย และปลอดภัย พร้อมข้อมูลไม่จำกัดและความเร็วสูง ลองดูได้ที่ https://1vpn.org?from=share"
   },
-  "x": { "message": "X (ทวิตเตอร์)" },
-  "facebook": { "message": "เฟซบุ๊ก" },
-  "linkedin": { "message": "ลิงก์อิน" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "โทรแกรม" },
-  "upgradeLocation": { "message": "อัพเกรดเพื่อเข้าถึงสถานที่ตั้งดังนี้" },
-  "tryOurAndroidApp": { "message": "ลองใช้แอป Android ของเรา" },
+  "x": {
+    "message": "X (ทวิตเตอร์)"
+  },
+  "facebook": {
+    "message": "เฟซบุ๊ก"
+  },
+  "linkedin": {
+    "message": "ลิงก์อิน"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "โทรแกรม"
+  },
+  "upgradeLocation": {
+    "message": "อัพเกรดเพื่อเข้าถึงสถานที่ตั้งดังนี้"
+  },
+  "tryOurAndroidApp": {
+    "message": "ลองใช้แอป Android ของเรา"
+  },
   "scanQrCodeOrClickButton": {
     "message": "สแกนรหัส QR หรือคลิกปุ่มด้านล่างเพื่อดาวน์โหลดแอป Android ของเรา"
   },
-  "scanOrClickQRCode": { "message": "สแกนหรือคลิกที่รหัส QR" },
-  "downloadApp": { "message": "ดาวน์โหลดแอป" },
-  "specialOffer": { "message": "ข้อเสนอพิเศษ" },
-  "save33Percent": { "message": "ประหยัด 33%" },
-  "deal": { "message": "ข้อเสนอ" },
-  "january": { "message": "มกราคม" },
-  "february": { "message": "กุมภาพันธ์" },
-  "march": { "message": "มีนาคม" },
-  "april": { "message": "เมษายน" },
-  "may": { "message": "พฤษภาคม" },
-  "june": { "message": "มิถุนายน" },
-  "july": { "message": "กรกฎาคม" },
-  "august": { "message": "สิงหาคม" },
-  "september": { "message": "กันยายน" },
-  "october": { "message": "ตุลาคม" },
-  "november": { "message": "พฤศจิกายน" },
-  "december": { "message": "ธันวาคม" },
+  "scanOrClickQRCode": {
+    "message": "สแกนหรือคลิกที่รหัส QR"
+  },
+  "downloadApp": {
+    "message": "ดาวน์โหลดแอป"
+  },
+  "specialOffer": {
+    "message": "ข้อเสนอพิเศษ"
+  },
+  "save33Percent": {
+    "message": "ประหยัด 33%"
+  },
+  "deal": {
+    "message": "ข้อเสนอ"
+  },
+  "january": {
+    "message": "มกราคม"
+  },
+  "february": {
+    "message": "กุมภาพันธ์"
+  },
+  "march": {
+    "message": "มีนาคม"
+  },
+  "april": {
+    "message": "เมษายน"
+  },
+  "may": {
+    "message": "พฤษภาคม"
+  },
+  "june": {
+    "message": "มิถุนายน"
+  },
+  "july": {
+    "message": "กรกฎาคม"
+  },
+  "august": {
+    "message": "สิงหาคม"
+  },
+  "september": {
+    "message": "กันยายน"
+  },
+  "october": {
+    "message": "ตุลาคม"
+  },
+  "november": {
+    "message": "พฤศจิกายน"
+  },
+  "december": {
+    "message": "ธันวาคม"
+  },
   "upgradeModalText": {
     "message": "ในแผนรายปี. ปลดล็อกตำแหน่งเซิร์ฟเวอร์เพิ่มและความเร็วสูงขึ้น พร้อมการรับประกันคืนเงิน 10 วัน."
   },
-  "claimOffer": { "message": "รับข้อเสนอ" },
-  "until": { "message": "ถึง" },
-  "save33OnPremiumUntil": { "message": "ประหยัด 33% สำหรับพรีเมียมถึง" },
-  "save33OnPremium": { "message": "ประหยัด 33% สำหรับพรีเมียม" },
+  "claimOffer": {
+    "message": "รับข้อเสนอ"
+  },
+  "until": {
+    "message": "ถึง"
+  },
+  "save33OnPremiumUntil": {
+    "message": "ประหยัด 33% สำหรับพรีเมียมถึง"
+  },
+  "save33OnPremium": {
+    "message": "ประหยัด 33% สำหรับพรีเมียม"
+  },
   "installModalText": {
     "message": "ปลดล็อกตำแหน่งนี้โดยให้ผู้ใช้อีกคนติดตั้งส่วนขยายผ่านลิงก์นี้:"
   },
-  "copyLink": { "message": "คัดลอกลิงก์" },
-  "linkCopied": { "message": "คัดลอกลิงก์แล้ว!" },
-  "getAndroidApp": { "message": "รับแอป Android" },
-  "referToUnlock": { "message": "ชวนเพื่อนเพื่อปลดล็อก" },
+  "copyLink": {
+    "message": "คัดลอกลิงก์"
+  },
+  "linkCopied": {
+    "message": "คัดลอกลิงก์แล้ว!"
+  },
+  "getAndroidApp": {
+    "message": "รับแอป Android"
+  },
+  "referToUnlock": {
+    "message": "ชวนเพื่อนเพื่อปลดล็อก"
+  },
   "toUnlockThisLocation": {
     "message": "หากต้องการปลดล็อกตำแหน่งนี้ ให้ให้ผู้ใช้อีกคนติดตั้ง 1VPN ผ่านลิงก์นี้:"
   },
-  "installAndroidToUnlock": { "message": "ติดตั้งแอป Android เพื่อปลดล็อก" },
-  "upgradeToPremium": { "message": "อัปเกรดเป็นพรีเมียม" },
+  "installAndroidToUnlock": {
+    "message": "ติดตั้งแอป Android เพื่อปลดล็อก"
+  },
+  "upgradeToPremium": {
+    "message": "อัปเกรดเป็นพรีเมียม"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "ตำแหน่งมากขึ้นและเร็วขึ้น"
   },
-  "tryAndroidApp": { "message": "ลองใช้แอป Android" },
-  "get1VPNForAndroid": { "message": "รับ 1VPN สำหรับ Android" },
-  "reviewToUnlock": { "message": "ให้รีวิวเพื่อปลดล็อก" },
+  "tryAndroidApp": {
+    "message": "ลองใช้แอป Android"
+  },
+  "get1VPNForAndroid": {
+    "message": "รับ 1VPN สำหรับ Android"
+  },
+  "reviewToUnlock": {
+    "message": "ให้รีวิวเพื่อปลดล็อก"
+  },
   "leaveReviewToUnlock": {
     "message": "ให้รีวิว 5 ดาวเพื่อปลดล็อกตำแหน่งนี้"
   },
-  "continueFree": { "message": "ใช้แบบฟรีต่อไป" },
-  "getPremium": { "message": "รับพรีเมียม" },
-  "unlockAllServerLocations": { "message": "ปลดล็อกตำแหน่งเซิร์ฟเวอร์ทั้งหมด" },
-  "accessServersWorldwide": { "message": "เข้าถึงเซิร์ฟเวอร์ทั่วโลก" },
-  "fastestSpeeds": { "message": "ความเร็วสูงสุด" },
+  "continueFree": {
+    "message": "ใช้แบบฟรีต่อไป"
+  },
+  "getPremium": {
+    "message": "รับพรีเมียม"
+  },
+  "unlockAllServerLocations": {
+    "message": "ปลดล็อกตำแหน่งเซิร์ฟเวอร์ทั้งหมด"
+  },
+  "accessServersWorldwide": {
+    "message": "เข้าถึงเซิร์ฟเวอร์ทั่วโลก"
+  },
+  "fastestSpeeds": {
+    "message": "ความเร็วสูงสุด"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "อินเทอร์เน็ตเร็วและเสถียร"
   },
@@ -122,63 +272,199 @@
   "fullRefundIfNotSatisfied": {
     "message": "คืนเงินเต็มจำนวนหากไม่พอใจ"
   },
-  "chooseYourPlan": { "message": "เลือกแพ็กเกจของคุณ" },
+  "chooseYourPlan": {
+    "message": "เลือกแพ็กเกจของคุณ"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "ปลดล็อกทุกฟีเจอร์ด้วยพรีเมียม"
   },
-  "au": { "message": "ออสเตรเลีย" },
-  "br": { "message": "บราซิล" },
-  "ca": { "message": "แคนาดา" },
-  "cl": { "message": "ชิลี" },
-  "de": { "message": "เยอรมนี" },
-  "es": { "message": "สเปน" },
-  "fr": { "message": "ฝรั่งเศส" },
-  "in": { "message": "อินเดีย" },
-  "jp": { "message": "ญี่ปุ่น" },
-  "kr": { "message": "เกาหลีใต้" },
-  "mx": { "message": "เม็กซิโก" },
-  "nl": { "message": "เนเธอร์แลนด์" },
-  "pl": { "message": "โปแลนด์" },
-  "ro": { "message": "โรมาเนีย" },
-  "se": { "message": "สวีเดน" },
-  "sg": { "message": "สิงคโปร์" },
-  "uk": { "message": "สหราชอาณาจักร" },
-  "us": { "message": "สหรัฐอเมริกา" },
-  "use": { "message": "สหรัฐอเมริกา" },
-  "uss": { "message": "สหรัฐอเมริกา" },
-  "usw": { "message": "สหรัฐอเมริกา" },
-  "il": { "message": "อิสราเอล" },
-  "za": { "message": "แอฟริกาใต้" },
-  "syd": { "message": "ซิดนีย์" },
-  "sao": { "message": "เซาเปาลู" },
-  "yto": { "message": "โตรอนโต" },
-  "cdg": { "message": "ปารีส" },
-  "fra": { "message": "แฟรงก์เฟิร์ต" },
-  "bom": { "message": "มุมไบ" },
-  "nrt": { "message": "โตเกียว" },
-  "mex": { "message": "เม็กซิโกซิตี" },
-  "ams": { "message": "อัมสเตอร์ดัม" },
-  "sgp": { "message": "สิงคโปร์" },
-  "mad": { "message": "มาดริด" },
-  "sto": { "message": "สตอกโฮล์ม" },
-  "lhr": { "message": "ลอนดอน" },
-  "ewr": { "message": "นิวยอร์ก" },
-  "lax": { "message": "ลอสแอนเจลิส" },
-  "scl": { "message": "ซานเตียโก" },
-  "jnb": { "message": "โยฮันเนสเบิร์ก" },
-  "icn": { "message": "โซล" },
-  "waw": { "message": "วอร์ซอ" },
-  "atl": { "message": "แอตแลนตา" },
-  "blr": { "message": "บังกะลอร์" },
-  "del": { "message": "เดลี" },
-  "dfw": { "message": "ดัลลัส" },
-  "hnl": { "message": "โฮโนลูลู" },
-  "itm": { "message": "โอซากะ" },
-  "man": { "message": "แมนเชสเตอร์" },
-  "mel": { "message": "เมลเบิร์น" },
-  "mia": { "message": "ไมอามี" },
-  "ord": { "message": "ชิคาโก" },
-  "sea": { "message": "ซีแอตเทิล" },
-  "sjc": { "message": "ซานฟรานซิสโก" },
-  "tlv": { "message": "เทลอาวีฟ" }
+  "au": {
+    "message": "ออสเตรเลีย"
+  },
+  "br": {
+    "message": "บราซิล"
+  },
+  "ca": {
+    "message": "แคนาดา"
+  },
+  "cl": {
+    "message": "ชิลี"
+  },
+  "de": {
+    "message": "เยอรมนี"
+  },
+  "es": {
+    "message": "สเปน"
+  },
+  "fr": {
+    "message": "ฝรั่งเศส"
+  },
+  "in": {
+    "message": "อินเดีย"
+  },
+  "jp": {
+    "message": "ญี่ปุ่น"
+  },
+  "kr": {
+    "message": "เกาหลีใต้"
+  },
+  "mx": {
+    "message": "เม็กซิโก"
+  },
+  "nl": {
+    "message": "เนเธอร์แลนด์"
+  },
+  "pl": {
+    "message": "โปแลนด์"
+  },
+  "ro": {
+    "message": "โรมาเนีย"
+  },
+  "se": {
+    "message": "สวีเดน"
+  },
+  "sg": {
+    "message": "สิงคโปร์"
+  },
+  "uk": {
+    "message": "สหราชอาณาจักร"
+  },
+  "us": {
+    "message": "สหรัฐอเมริกา"
+  },
+  "use": {
+    "message": "สหรัฐอเมริกา"
+  },
+  "uss": {
+    "message": "สหรัฐอเมริกา"
+  },
+  "usw": {
+    "message": "สหรัฐอเมริกา"
+  },
+  "il": {
+    "message": "อิสราเอล"
+  },
+  "za": {
+    "message": "แอฟริกาใต้"
+  },
+  "syd": {
+    "message": "ซิดนีย์"
+  },
+  "sao": {
+    "message": "เซาเปาลู"
+  },
+  "yto": {
+    "message": "โตรอนโต"
+  },
+  "cdg": {
+    "message": "ปารีส"
+  },
+  "fra": {
+    "message": "แฟรงก์เฟิร์ต"
+  },
+  "bom": {
+    "message": "มุมไบ"
+  },
+  "nrt": {
+    "message": "โตเกียว"
+  },
+  "mex": {
+    "message": "เม็กซิโกซิตี"
+  },
+  "ams": {
+    "message": "อัมสเตอร์ดัม"
+  },
+  "sgp": {
+    "message": "สิงคโปร์"
+  },
+  "mad": {
+    "message": "มาดริด"
+  },
+  "sto": {
+    "message": "สตอกโฮล์ม"
+  },
+  "lhr": {
+    "message": "ลอนดอน"
+  },
+  "ewr": {
+    "message": "นิวยอร์ก"
+  },
+  "lax": {
+    "message": "ลอสแอนเจลิส"
+  },
+  "scl": {
+    "message": "ซานเตียโก"
+  },
+  "jnb": {
+    "message": "โยฮันเนสเบิร์ก"
+  },
+  "icn": {
+    "message": "โซล"
+  },
+  "waw": {
+    "message": "วอร์ซอ"
+  },
+  "atl": {
+    "message": "แอตแลนตา"
+  },
+  "blr": {
+    "message": "บังกะลอร์"
+  },
+  "del": {
+    "message": "เดลี"
+  },
+  "dfw": {
+    "message": "ดัลลัส"
+  },
+  "hnl": {
+    "message": "โฮโนลูลู"
+  },
+  "itm": {
+    "message": "โอซากะ"
+  },
+  "man": {
+    "message": "แมนเชสเตอร์"
+  },
+  "mel": {
+    "message": "เมลเบิร์น"
+  },
+  "mia": {
+    "message": "ไมอามี"
+  },
+  "ord": {
+    "message": "ชิคาโก"
+  },
+  "sea": {
+    "message": "ซีแอตเทิล"
+  },
+  "sjc": {
+    "message": "ซานฟรานซิสโก"
+  },
+  "tlv": {
+    "message": "เทลอาวีฟ"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

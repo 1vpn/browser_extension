@@ -1,6 +1,32 @@
 {
-  "extName": { "message": "Tasuta VPN - Free VPN - 1VPN" },
+  "extName": {
+    "message": "Tasuta VPN - Free VPN - 1VPN"
+  },
   "extDesc": {
     "message": "Tasuta VPN, piiramatud andmed, kiired kiirused, turvaline krüpteerimine, logisid mittepidav poliitika ja lihtne kasutada."
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
   }
 }

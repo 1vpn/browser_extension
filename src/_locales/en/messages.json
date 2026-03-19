@@ -1,36 +1,100 @@
 {
-  "extName": { "message": "Free VPN Proxy - 1VPN" },
+  "extName": {
+    "message": "Free VPN Proxy - 1VPN"
+  },
   "extDesc": {
     "message": "Free VPN Proxy, Unlimited Data, Fast Speeds, Secure Encryption, No-Logs Policy, & Easy to Use."
   },
-  "upgrade": { "message": "Upgrade" },
-  "signUp": { "message": "Sign Up" },
-  "login": { "message": "Login" },
-  "continueText": { "message": "Or continue without account" },
-  "username": { "message": "Username" },
-  "password": { "message": "Password" },
-  "twoFaToken": { "message": "2FA token" },
-  "loading": { "message": "Loading..." },
-  "forgotPassword": { "message": "Forgot password?" },
-  "connected": { "message": "Connected" },
-  "disconnected": { "message": "Disconnected" },
-  "goToOptionsPage": { "message": "Go to Options Page" },
-  "goToLocationsPage": { "message": "Go to Locations Page" },
-  "upgradeText1": { "message": "Upgrade" },
-  "upgradeText2": { "message": "for More Locations and Faster Speeds" },
-  "menu": { "message": "Menu" },
-  "account": { "message": "Account" },
-  "options": { "message": "Options" },
-  "contactUs": { "message": "Contact Us" },
-  "email": { "message": "Email" },
-  "plan": { "message": "Plan" },
-  "premium": { "message": "Premium" },
-  "free": { "message": "Free" },
-  "editInfo": { "message": "Edit Info" },
-  "logout": { "message": "Logout" },
-  "spoofGeolocation": { "message": "Spoof Geolocation" },
-  "disableWebRtc": { "message": "Disable WebRTC" },
-  "disableAddressAutofill": { "message": "Disable Address Autofill" },
+  "upgrade": {
+    "message": "Upgrade"
+  },
+  "signUp": {
+    "message": "Create Account"
+  },
+  "login": {
+    "message": "Login"
+  },
+  "continueText": {
+    "message": "Or continue without account"
+  },
+  "username": {
+    "message": "Username"
+  },
+  "password": {
+    "message": "Password"
+  },
+  "twoFaToken": {
+    "message": "2FA token"
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "resetPassword": {
+    "message": "Reset Password"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "Main domain is blocked. Using "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " as backup."
+  },
+  "connected": {
+    "message": "Connected"
+  },
+  "disconnected": {
+    "message": "Disconnected"
+  },
+  "goToOptionsPage": {
+    "message": "Go to Options Page"
+  },
+  "goToLocationsPage": {
+    "message": "Go to Locations Page"
+  },
+  "upgradeText1": {
+    "message": "Upgrade"
+  },
+  "upgradeText2": {
+    "message": "for More Locations and Faster Speeds"
+  },
+  "menu": {
+    "message": "Menu"
+  },
+  "account": {
+    "message": "Account"
+  },
+  "options": {
+    "message": "Options"
+  },
+  "contactUs": {
+    "message": "Contact Us"
+  },
+  "email": {
+    "message": "Email"
+  },
+  "plan": {
+    "message": "Plan"
+  },
+  "premium": {
+    "message": "Premium"
+  },
+  "free": {
+    "message": "Free"
+  },
+  "editInfo": {
+    "message": "Edit Info"
+  },
+  "logout": {
+    "message": "Logout"
+  },
+  "spoofGeolocation": {
+    "message": "Spoof Geolocation"
+  },
+  "disableWebRtc": {
+    "message": "Disable WebRTC"
+  },
+  "disableAddressAutofill": {
+    "message": "Disable Address Autofill"
+  },
   "spoofGeolocationSubTitle": {
     "message": "Match HTML5 geolocation to VPN location"
   },
@@ -40,11 +104,15 @@
   "disableWebRtcSubTitle": {
     "message": "Prevent IP address leaks through WebRTC"
   },
-  "locations": { "message": "Locations" },
+  "locations": {
+    "message": "Locations"
+  },
   "reviewModalTitle": {
     "message": "Leave 5-Star Review To Unlock This Location"
   },
-  "reviewModalButton": { "message": "Leave Review" },
+  "reviewModalButton": {
+    "message": "Leave Review"
+  },
   "shareModalTitle": {
     "message": "Share 1VPN to Unlock This Location"
   },
@@ -54,13 +122,27 @@
   "x": {
     "message": "X (Twitter)"
   },
-  "facebook": { "message": "Facebook" },
-  "linkedin": { "message": "LinkedIn" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "Telegram" },
-  "upgradeLocation": { "message": "Upgrade to access this location" },
-  "installSuccess": { "message": "1VPN Has Been Successfully Installed" },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "linkedin": {
+    "message": "LinkedIn"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "upgradeLocation": {
+    "message": "Upgrade to access this location"
+  },
+  "installSuccess": {
+    "message": "1VPN Has Been Successfully Installed"
+  },
   "installInstructions": {
     "message": "Click on the puzzle icon next to the address bar. Then click on the pushpin icon to pin the Extension."
   },
@@ -73,56 +155,120 @@
   "scanOrClickQRCode": {
     "message": "Scan or click the QR code"
   },
-  "downloadApp": { "message": "Download App" },
-  "deal": { "message": "Deal" },
-  "january": { "message": "January" },
-  "february": { "message": "February" },
-  "march": { "message": "March" },
-  "april": { "message": "April" },
-  "may": { "message": "May" },
-  "june": { "message": "June" },
-  "july": { "message": "July" },
-  "august": { "message": "August" },
-  "september": { "message": "September" },
-  "october": { "message": "October" },
-  "november": { "message": "November" },
-  "december": { "message": "December" },
+  "downloadApp": {
+    "message": "Download App"
+  },
+  "deal": {
+    "message": "Deal"
+  },
+  "january": {
+    "message": "January"
+  },
+  "february": {
+    "message": "February"
+  },
+  "march": {
+    "message": "March"
+  },
+  "april": {
+    "message": "April"
+  },
+  "may": {
+    "message": "May"
+  },
+  "june": {
+    "message": "June"
+  },
+  "july": {
+    "message": "July"
+  },
+  "august": {
+    "message": "August"
+  },
+  "september": {
+    "message": "September"
+  },
+  "october": {
+    "message": "October"
+  },
+  "november": {
+    "message": "November"
+  },
+  "december": {
+    "message": "December"
+  },
   "upgradeModalText": {
     "message": "on the annual Plan. Unlock more locations and faster speeds with 10 day money-back guarantee."
   },
-  "claimOffer": { "message": "Claim Offer" },
-  "until": { "message": "until" },
-  "save33OnPremiumUntil": { "message": "Save 33% on premium until" },
-  "save33OnPremium": { "message": "Save 33% on Premium" },
-  "save33Percent": { "message": "Save 33%" },
+  "claimOffer": {
+    "message": "Claim Offer"
+  },
+  "until": {
+    "message": "until"
+  },
+  "save33OnPremiumUntil": {
+    "message": "Save 33% on premium until"
+  },
+  "save33OnPremium": {
+    "message": "Save 33% on Premium"
+  },
+  "save33Percent": {
+    "message": "Save 33%"
+  },
   "installModalText": {
     "message": "Unlock this location by getting another user to install the extension using this link:"
   },
-  "copyLink": { "message": "Copy Link" },
-  "linkCopied": { "message": "Link Copied!" },
-  "getAndroidApp": { "message": "Get Android App" },
-  "referToUnlock": { "message": "Refer To Unlock" },
+  "copyLink": {
+    "message": "Copy Link"
+  },
+  "linkCopied": {
+    "message": "Link Copied!"
+  },
+  "getAndroidApp": {
+    "message": "Get Android App"
+  },
+  "referToUnlock": {
+    "message": "Refer To Unlock"
+  },
   "toUnlockThisLocation": {
     "message": "To unlock this location, get another user to install 1VPN using this link:"
   },
   "installAndroidToUnlock": {
     "message": "Install Android App to Unlock"
   },
-  "upgradeToPremium": { "message": "Upgrade to Premium" },
+  "upgradeToPremium": {
+    "message": "Upgrade to Premium"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "More locations & faster speeds"
   },
-  "tryAndroidApp": { "message": "Try Android App" },
-  "get1VPNForAndroid": { "message": "Get 1VPN for Android" },
-  "reviewToUnlock": { "message": "Review To Unlock" },
+  "tryAndroidApp": {
+    "message": "Try Android App"
+  },
+  "get1VPNForAndroid": {
+    "message": "Get 1VPN for Android"
+  },
+  "reviewToUnlock": {
+    "message": "Review To Unlock"
+  },
   "leaveReviewToUnlock": {
     "message": "Leave a 5-star review to unlock this location"
   },
-  "continueFree": { "message": "Continue Free" },
-  "getPremium": { "message": "Get Premium" },
-  "unlockAllServerLocations": { "message": "Unlock All Server Locations" },
-  "accessServersWorldwide": { "message": "Access servers worldwide" },
-  "fastestSpeeds": { "message": "Fastest Speeds" },
+  "continueFree": {
+    "message": "Continue Free"
+  },
+  "getPremium": {
+    "message": "Get Premium"
+  },
+  "unlockAllServerLocations": {
+    "message": "Unlock All Server Locations"
+  },
+  "accessServersWorldwide": {
+    "message": "Access servers worldwide"
+  },
+  "fastestSpeeds": {
+    "message": "Fastest Speeds"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "Consistent and fast internet speeds"
   },
@@ -132,63 +278,199 @@
   "fullRefundIfNotSatisfied": {
     "message": "Full refund if not satisfied"
   },
-  "chooseYourPlan": { "message": "Choose Your Plan" },
+  "chooseYourPlan": {
+    "message": "Choose Your Plan"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "Unlock all features with premium"
   },
-  "au": { "message": "Australia" },
-  "br": { "message": "Brazil" },
-  "ca": { "message": "Canada" },
-  "cl": { "message": "Chile" },
-  "de": { "message": "Germany" },
-  "es": { "message": "Spain" },
-  "fr": { "message": "France" },
-  "in": { "message": "India" },
-  "jp": { "message": "Japan" },
-  "kr": { "message": "South Korea" },
-  "mx": { "message": "Mexico" },
-  "nl": { "message": "Netherlands" },
-  "pl": { "message": "Poland" },
-  "ro": { "message": "Romania" },
-  "se": { "message": "Sweden" },
-  "sg": { "message": "Singapore" },
-  "uk": { "message": "United Kingdom" },
-  "us": { "message": "United States" },
-  "use": { "message": "United States" },
-  "uss": { "message": "United States" },
-  "usw": { "message": "United States" },
-  "il": { "message": "Israel" },
-  "za": { "message": "South Africa" },
-  "syd": { "message": "Sydney" },
-  "sao": { "message": "São Paulo" },
-  "yto": { "message": "Toronto" },
-  "cdg": { "message": "Paris" },
-  "fra": { "message": "Frankfurt" },
-  "bom": { "message": "Mumbai" },
-  "nrt": { "message": "Tokyo" },
-  "mex": { "message": "Mexico City" },
-  "ams": { "message": "Amsterdam" },
-  "sgp": { "message": "Singapore" },
-  "mad": { "message": "Madrid" },
-  "sto": { "message": "Stockholm" },
-  "lhr": { "message": "London" },
-  "ewr": { "message": "New York" },
-  "lax": { "message": "Los Angeles" },
-  "scl": { "message": "Santiago" },
-  "jnb": { "message": "Johannesburg" },
-  "icn": { "message": "Seoul" },
-  "waw": { "message": "Warsaw" },
-  "atl": { "message": "Atlanta" },
-  "blr": { "message": "Bangalore" },
-  "del": { "message": "Delhi" },
-  "dfw": { "message": "Dallas" },
-  "hnl": { "message": "Honolulu" },
-  "itm": { "message": "Osaka" },
-  "man": { "message": "Manchester" },
-  "mel": { "message": "Melbourne" },
-  "mia": { "message": "Miami" },
-  "ord": { "message": "Chicago" },
-  "sea": { "message": "Seattle" },
-  "sjc": { "message": "San Francisco" },
-  "tlv": { "message": "Tel Aviv" }
+  "au": {
+    "message": "Australia"
+  },
+  "br": {
+    "message": "Brazil"
+  },
+  "ca": {
+    "message": "Canada"
+  },
+  "cl": {
+    "message": "Chile"
+  },
+  "de": {
+    "message": "Germany"
+  },
+  "es": {
+    "message": "Spain"
+  },
+  "fr": {
+    "message": "France"
+  },
+  "in": {
+    "message": "India"
+  },
+  "jp": {
+    "message": "Japan"
+  },
+  "kr": {
+    "message": "South Korea"
+  },
+  "mx": {
+    "message": "Mexico"
+  },
+  "nl": {
+    "message": "Netherlands"
+  },
+  "pl": {
+    "message": "Poland"
+  },
+  "ro": {
+    "message": "Romania"
+  },
+  "se": {
+    "message": "Sweden"
+  },
+  "sg": {
+    "message": "Singapore"
+  },
+  "uk": {
+    "message": "United Kingdom"
+  },
+  "us": {
+    "message": "United States"
+  },
+  "use": {
+    "message": "United States"
+  },
+  "uss": {
+    "message": "United States"
+  },
+  "usw": {
+    "message": "United States"
+  },
+  "il": {
+    "message": "Israel"
+  },
+  "za": {
+    "message": "South Africa"
+  },
+  "syd": {
+    "message": "Sydney"
+  },
+  "sao": {
+    "message": "São Paulo"
+  },
+  "yto": {
+    "message": "Toronto"
+  },
+  "cdg": {
+    "message": "Paris"
+  },
+  "fra": {
+    "message": "Frankfurt"
+  },
+  "bom": {
+    "message": "Mumbai"
+  },
+  "nrt": {
+    "message": "Tokyo"
+  },
+  "mex": {
+    "message": "Mexico City"
+  },
+  "ams": {
+    "message": "Amsterdam"
+  },
+  "sgp": {
+    "message": "Singapore"
+  },
+  "mad": {
+    "message": "Madrid"
+  },
+  "sto": {
+    "message": "Stockholm"
+  },
+  "lhr": {
+    "message": "London"
+  },
+  "ewr": {
+    "message": "New York"
+  },
+  "lax": {
+    "message": "Los Angeles"
+  },
+  "scl": {
+    "message": "Santiago"
+  },
+  "jnb": {
+    "message": "Johannesburg"
+  },
+  "icn": {
+    "message": "Seoul"
+  },
+  "waw": {
+    "message": "Warsaw"
+  },
+  "atl": {
+    "message": "Atlanta"
+  },
+  "blr": {
+    "message": "Bangalore"
+  },
+  "del": {
+    "message": "Delhi"
+  },
+  "dfw": {
+    "message": "Dallas"
+  },
+  "hnl": {
+    "message": "Honolulu"
+  },
+  "itm": {
+    "message": "Osaka"
+  },
+  "man": {
+    "message": "Manchester"
+  },
+  "mel": {
+    "message": "Melbourne"
+  },
+  "mia": {
+    "message": "Miami"
+  },
+  "ord": {
+    "message": "Chicago"
+  },
+  "sea": {
+    "message": "Seattle"
+  },
+  "sjc": {
+    "message": "San Francisco"
+  },
+  "tlv": {
+    "message": "Tel Aviv"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

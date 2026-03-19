@@ -9,6 +9,7 @@ import InstallModal from './InstallModal'
 import Arrow from 'assets/arrow.svg'
 
 const LocationsPage = ({
+  activeUrl,
   locations,
   currentCityCode,
   handleLocationToggle,
@@ -39,6 +40,7 @@ const LocationsPage = ({
         onRightClick={goBackPage}
       />
       <InstallModal
+        activeUrl={activeUrl}
         messages={messages}
         isOpen={isInstallModalOpen}
         onClose={() => setIsInstallModalOpen(false)}
@@ -62,6 +64,7 @@ const LocationsPage = ({
           {sortedLocations.map((location) => {
             return (
               <Location
+                activeUrl={activeUrl}
                 title={messages[location.cityCode]}
                 subTitle={messages[location.countryCode]}
                 id={location.cityCode}

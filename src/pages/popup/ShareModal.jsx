@@ -1,5 +1,4 @@
 import { Button, Box, Flex, Image } from 'theme-ui'
-import { websiteUrl } from 'utils/constants'
 import Modal from './Modal'
 import XIcon from 'assets/x.svg'
 import FacebookIcon from 'assets/facebook.svg'
@@ -8,9 +7,9 @@ import VKIcon from 'assets/vk.svg'
 import OKIcon from 'assets/ok.svg'
 import TelegramIcon from 'assets/telegram.svg'
 
-const ShareModal = ({ messages, isOpen, onClose }) => {
+const ShareModal = ({ activeUrl, messages, isOpen, onClose }) => {
   const shareText = encodeURIComponent(messages.shareText)
-  const shareUrl = encodeURIComponent(`${websiteUrl}?from=share`)
+  const shareUrl = encodeURIComponent(`https://${activeUrl}?from=share`)
 
   const sharePlatforms = [
     {

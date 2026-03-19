@@ -1,12 +1,14 @@
 import { useContext } from 'react'
-import { Flex, Link, Box, Text } from 'theme-ui'
-import { isFirefox, websiteUrl } from 'utils/constants'
+import { Flex, Link, Box, Text, Button } from 'theme-ui'
+import { isFirefox } from 'utils/constants'
+import logout from 'utils/logout'
 import { PageContext } from 'context/PageContext'
 import PageHeader from './PageHeader'
 import Option from './Option'
 import Arrow from 'assets/arrow.svg'
 
 const OptionsPage = ({
+  activeUrl,
   sessionAuthToken,
   isPremium,
   spoofGeolocation,
@@ -55,7 +57,7 @@ const OptionsPage = ({
           justifyContent: 'space-between',
         }}
       >
-        {!(sessionAuthToken && isPremium) && (
+        {sessionAuthToken && isPremium ? (
           <Flex
             sx={{
               gap: '16px',
@@ -65,34 +67,70 @@ const OptionsPage = ({
             }}
           >
             <Link
-              id="upgradeButton"
-              href={
-                websiteUrl +
-                `/referral_redirect?from=options_page&url=${websiteUrl}/select_plan/`
-              }
+              id="accountButton"
+              href={`https://${activeUrl}/account`}
               target="_blank"
               variant="styles.baseButton"
             >
-              {messages.upgrade}
+              {messages.account}
             </Link>
-            {!sessionAuthToken && (
+            <Button
+              id="logoutButton"
+              type="button"
+              onClick={() => logout()}
+              variant="styles.outlineButton"
+            >
+              {messages.logout}
+            </Button>
+          </Flex>
+        ) : (
+          <Flex
+            sx={{
+              gap: '16px',
+              p: '22px',
+              borderBottom: '1px solid',
+              borderColor: 'borderGrey',
+            }}
+          >
+            {isPremium ? (
               <Link
-                id="loginButton"
-                href={`${websiteUrl}/login`}
+                id="accountButton"
+                href={`https://${activeUrl}/account`}
                 target="_blank"
                 variant="styles.baseButton"
-                sx={{
-                  bg: 'white',
-                  color: 'black',
-                  border: '1px solid',
-                  borderColor: 'darkBorderGrey',
-                  ':hover': {
-                    bg: 'borderGrey50',
-                  },
-                }}
+              >
+                {messages.account}
+              </Link>
+            ) : (
+              <Link
+                id="upgradeButton"
+                href={
+                `https://${activeUrl}` +
+                `/referral_redirect?from=options_page&url=${encodeURIComponent(`https://${activeUrl}/select_plan/`)}`
+                }
+                target="_blank"
+                variant="styles.baseButton"
+              >
+                {messages.upgrade}
+              </Link>
+            )}
+            {!sessionAuthToken ? (
+              <Button
+                id="loginButton"
+                onClick={() => setCurrentPage('login')}
+                variant="styles.outlineButton"
               >
                 {messages.login}
-              </Link>
+              </Button>
+            ) : (
+              <Button
+                id="logoutButton"
+                type="button"
+                onClick={() => logout()}
+                variant="styles.outlineButton"
+              >
+                {messages.logout}
+              </Button>
             )}
           </Flex>
         )}

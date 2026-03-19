@@ -1,9 +1,9 @@
 import { useContext } from 'react'
 import { PageContext } from 'context/PageContext'
 import { Flex, Button, Link } from 'theme-ui'
-import { websiteUrl } from 'utils/constants'
 
 const UpgradeButtons = ({
+  activeUrl,
   primaryButtonText,
   from = 'upgrade_page',
   messages,
@@ -30,8 +30,8 @@ const UpgradeButtons = ({
       <Link
         id="upgradeButton"
         href={
-          websiteUrl +
-          `/referral_redirect?from=${from}&url=${websiteUrl}/select_plan/`
+          `https://${activeUrl}` +
+          `/referral_redirect?from=${from}&url=${encodeURIComponent(`https://${activeUrl}/select_plan/`)}`
         }
         target="_blank"
         variant="styles.baseButton"

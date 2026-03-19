@@ -1,36 +1,94 @@
 {
-  "extName": { "message": "VPN Gratis - Free VPN - 1VPN" },
+  "extName": {
+    "message": "VPN Gratis - Free VPN - 1VPN"
+  },
   "extDesc": {
     "message": "VPN gratis, datos ilimitados, velocidades rápidas, cifrado seguro, política de no registros y fácil de usar."
   },
-  "upgrade": { "message": "Actualizar" },
-  "signUp": { "message": "Registrarse" },
-  "login": { "message": "Iniciar sesión" },
-  "continueText": { "message": "O continuar sin cuenta" },
-  "username": { "message": "Nombre de usuario" },
-  "password": { "message": "Contraseña" },
-  "loading": { "message": "Cargando..." },
-  "forgotPassword": { "message": "¿Olvidó su contraseña?" },
-  "connected": { "message": "Conectado" },
-  "disconnected": { "message": "Desconectado" },
-  "goToOptionsPage": { "message": "Ir a la página de opciones" },
-  "goToLocationsPage": { "message": "Ir a la página de ubicaciones" },
-  "upgradeText1": { "message": "Actualizar" },
+  "upgrade": {
+    "message": "Actualizar"
+  },
+  "signUp": {
+    "message": "Registrarse"
+  },
+  "login": {
+    "message": "Iniciar sesión"
+  },
+  "continueText": {
+    "message": "O continuar sin cuenta"
+  },
+  "username": {
+    "message": "Nombre de usuario"
+  },
+  "password": {
+    "message": "Contraseña"
+  },
+  "loading": {
+    "message": "Cargando..."
+  },
+  "resetPassword": {
+    "message": "Restablecer contraseña"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "El dominio principal está bloqueado. Se utiliza "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " como respaldo."
+  },
+  "connected": {
+    "message": "Conectado"
+  },
+  "disconnected": {
+    "message": "Desconectado"
+  },
+  "goToOptionsPage": {
+    "message": "Ir a la página de opciones"
+  },
+  "goToLocationsPage": {
+    "message": "Ir a la página de ubicaciones"
+  },
+  "upgradeText1": {
+    "message": "Actualizar"
+  },
   "upgradeText2": {
     "message": "para más ubicaciones y velocidades más altas"
   },
-  "menu": { "message": "Menú" },
-  "account": { "message": "Cuenta" },
-  "options": { "message": "Opciones" },
-  "contactUs": { "message": "Contáctenos" },
-  "email": { "message": "Correo electrónico" },
-  "plan": { "message": "Plan" },
-  "premium": { "message": "Premium" },
-  "free": { "message": "Gratis" },
-  "editInfo": { "message": "Editar información" },
-  "logout": { "message": "Cerrar sesión" },
-  "spoofGeolocation": { "message": "Falsificar geolocalización" },
-  "disableWebRtc": { "message": "Desactivar WebRTC" },
+  "menu": {
+    "message": "Menú"
+  },
+  "account": {
+    "message": "Cuenta"
+  },
+  "options": {
+    "message": "Opciones"
+  },
+  "contactUs": {
+    "message": "Contáctenos"
+  },
+  "email": {
+    "message": "Correo electrónico"
+  },
+  "plan": {
+    "message": "Plan"
+  },
+  "premium": {
+    "message": "Premium"
+  },
+  "free": {
+    "message": "Gratis"
+  },
+  "editInfo": {
+    "message": "Editar información"
+  },
+  "logout": {
+    "message": "Cerrar sesión"
+  },
+  "spoofGeolocation": {
+    "message": "Falsificar geolocalización"
+  },
+  "disableWebRtc": {
+    "message": "Desactivar WebRTC"
+  },
   "disableAddressAutofill": {
     "message": "Desactivar función de autocompletar dirección"
   },
@@ -43,88 +101,174 @@
   "disableWebRtcSubTitle": {
     "message": "Desactiva WebRTC para evitar que se filtre tu dirección IP real."
   },
-  "locations": { "message": "Ubicaciones" },
+  "locations": {
+    "message": "Ubicaciones"
+  },
   "reviewModalTitle": {
     "message": "Deja una reseña de 5 estrellas para desbloquear esta ubicación"
   },
-  "reviewModalButton": { "message": "Dejar reseña" },
+  "reviewModalButton": {
+    "message": "Dejar reseña"
+  },
   "shareModalTitle": {
     "message": "Comparte 1VPN para desbloquear esta ubicación"
   },
   "shareText": {
     "message": "Acabo de probar 1VPN, una VPN gratuita, simple y segura con datos ilimitados y velocidades rápidas. Échale un vistazo en https://1vpn.org?from=share"
   },
-  "x": { "message": "X (Twitter)" },
-  "facebook": { "message": "Facebook" },
-  "linkedin": { "message": "LinkedIn" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "Telegram" },
-  "upgradeLocation": { "message": "Actualice para acceder a esta ubicación" },
+  "x": {
+    "message": "X (Twitter)"
+  },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "linkedin": {
+    "message": "LinkedIn"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "upgradeLocation": {
+    "message": "Actualice para acceder a esta ubicación"
+  },
   "installSuccess": {
     "message": "1VPN se ha instalado correctamente"
   },
   "installInstructions": {
     "message": "Haz clic en el ícono de rompecabezas junto a la barra de direcciones. Luego, haz clic en el ícono de chincheta para anclar la extensión."
   },
-  "tryOurAndroidApp": { "message": "Prueba la app de Android" },
+  "tryOurAndroidApp": {
+    "message": "Prueba la app de Android"
+  },
   "scanQrCodeOrClickButton": {
     "message": "Escanea el código QR o haz clic en el botón para descargar la app."
   },
-  "scanOrClickQRCode": { "message": "Escanea o haz clic en el código QR" },
-  "downloadApp": { "message": "Descargar aplicación" },
-  "specialOffer": { "message": "Oferta especial" },
-  "save33Percent": { "message": "Ahorra 33%" },
-  "deal": { "message": "Oferta" },
-  "january": { "message": "Enero" },
-  "february": { "message": "Febrero" },
-  "march": { "message": "Marzo" },
-  "april": { "message": "Abril" },
-  "may": { "message": "Mayo" },
-  "june": { "message": "Junio" },
-  "july": { "message": "Julio" },
-  "august": { "message": "Agosto" },
-  "september": { "message": "Septiembre" },
-  "october": { "message": "Octubre" },
-  "november": { "message": "Noviembre" },
-  "december": { "message": "Diciembre" },
+  "scanOrClickQRCode": {
+    "message": "Escanea o haz clic en el código QR"
+  },
+  "downloadApp": {
+    "message": "Descargar aplicación"
+  },
+  "specialOffer": {
+    "message": "Oferta especial"
+  },
+  "save33Percent": {
+    "message": "Ahorra 33%"
+  },
+  "deal": {
+    "message": "Oferta"
+  },
+  "january": {
+    "message": "Enero"
+  },
+  "february": {
+    "message": "Febrero"
+  },
+  "march": {
+    "message": "Marzo"
+  },
+  "april": {
+    "message": "Abril"
+  },
+  "may": {
+    "message": "Mayo"
+  },
+  "june": {
+    "message": "Junio"
+  },
+  "july": {
+    "message": "Julio"
+  },
+  "august": {
+    "message": "Agosto"
+  },
+  "september": {
+    "message": "Septiembre"
+  },
+  "october": {
+    "message": "Octubre"
+  },
+  "november": {
+    "message": "Noviembre"
+  },
+  "december": {
+    "message": "Diciembre"
+  },
   "upgradeModalText": {
     "message": "en el plan anual. Desbloquea más ubicaciones y mayor velocidad con garantía de reembolso de 10 días."
   },
-  "claimOffer": { "message": "Reclamar oferta" },
-  "until": { "message": "hasta" },
-  "save33OnPremiumUntil": { "message": "Ahorra 33% en premium hasta" },
-  "save33OnPremium": { "message": "Ahorra 33% en Premium" },
+  "claimOffer": {
+    "message": "Reclamar oferta"
+  },
+  "until": {
+    "message": "hasta"
+  },
+  "save33OnPremiumUntil": {
+    "message": "Ahorra 33% en premium hasta"
+  },
+  "save33OnPremium": {
+    "message": "Ahorra 33% en Premium"
+  },
   "installModalText": {
     "message": "Desbloquea esta ubicación haciendo que otro usuario instale la extensión con este enlace:"
   },
-  "copyLink": { "message": "Copiar enlace" },
-  "linkCopied": { "message": "¡Enlace copiado!" },
-  "getAndroidApp": { "message": "Obtener app para Android" },
-  "referToUnlock": { "message": "Invitar para desbloquear" },
+  "copyLink": {
+    "message": "Copiar enlace"
+  },
+  "linkCopied": {
+    "message": "¡Enlace copiado!"
+  },
+  "getAndroidApp": {
+    "message": "Obtener app para Android"
+  },
+  "referToUnlock": {
+    "message": "Invitar para desbloquear"
+  },
   "toUnlockThisLocation": {
     "message": "Para desbloquear esta ubicación haz que otro usuario instale 1VPN con este enlace:"
   },
-  "installAndroidToUnlock": { "message": "Instala la app Android para desbloquear" },
-  "upgradeToPremium": { "message": "Actualizar a Premium" },
+  "installAndroidToUnlock": {
+    "message": "Instala la app Android para desbloquear"
+  },
+  "upgradeToPremium": {
+    "message": "Actualizar a Premium"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "Más ubicaciones y mayor velocidad"
   },
-  "tryAndroidApp": { "message": "Probar app para Android" },
-  "get1VPNForAndroid": { "message": "Obtener 1VPN para Android" },
-  "reviewToUnlock": { "message": "Reseña para desbloquear" },
+  "tryAndroidApp": {
+    "message": "Probar app para Android"
+  },
+  "get1VPNForAndroid": {
+    "message": "Obtener 1VPN para Android"
+  },
+  "reviewToUnlock": {
+    "message": "Reseña para desbloquear"
+  },
   "leaveReviewToUnlock": {
     "message": "Deja una reseña de 5 estrellas para desbloquear esta ubicación"
   },
-  "continueFree": { "message": "Continuar gratis" },
-  "getPremium": { "message": "Obtener Premium" },
+  "continueFree": {
+    "message": "Continuar gratis"
+  },
+  "getPremium": {
+    "message": "Obtener Premium"
+  },
   "unlockAllServerLocations": {
     "message": "Desbloquear todas las ubicaciones"
   },
   "accessServersWorldwide": {
     "message": "Accede a servidores en todo el mundo"
   },
-  "fastestSpeeds": { "message": "Velocidades más rápidas" },
+  "fastestSpeeds": {
+    "message": "Velocidades más rápidas"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "Velocidades de internet rápidas y estables"
   },
@@ -134,63 +278,199 @@
   "fullRefundIfNotSatisfied": {
     "message": "Reembolso completo si no estás satisfecho"
   },
-  "chooseYourPlan": { "message": "Elige tu plan" },
+  "chooseYourPlan": {
+    "message": "Elige tu plan"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "Desbloquea todas las funciones con Premium"
   },
-  "au": { "message": "Australia" },
-  "br": { "message": "Brasil" },
-  "ca": { "message": "Canadá" },
-  "cl": { "message": "Chile" },
-  "de": { "message": "Alemania" },
-  "es": { "message": "España" },
-  "fr": { "message": "Francia" },
-  "in": { "message": "India" },
-  "jp": { "message": "Japón" },
-  "kr": { "message": "Corea del Sur" },
-  "mx": { "message": "México" },
-  "nl": { "message": "Países Bajos" },
-  "pl": { "message": "Polonia" },
-  "ro": { "message": "Rumanía" },
-  "se": { "message": "Suecia" },
-  "sg": { "message": "Singapur" },
-  "uk": { "message": "Reino Unido" },
-  "us": { "message": "Estados Unidos" },
-  "use": { "message": "Estados Unidos" },
-  "uss": { "message": "Estados Unidos" },
-  "usw": { "message": "Estados Unidos" },
-  "il": { "message": "Israel" },
-  "za": { "message": "Sudáfrica" },
-  "syd": { "message": "Sídney" },
-  "sao": { "message": "São Paulo" },
-  "yto": { "message": "Toronto" },
-  "cdg": { "message": "París" },
-  "fra": { "message": "Fráncfort" },
-  "bom": { "message": "Bombay" },
-  "nrt": { "message": "Tokio" },
-  "mex": { "message": "Ciudad de México" },
-  "ams": { "message": "Ámsterdam" },
-  "sgp": { "message": "Singapur" },
-  "mad": { "message": "Madrid" },
-  "sto": { "message": "Estocolmo" },
-  "lhr": { "message": "Londres" },
-  "ewr": { "message": "Nueva York" },
-  "lax": { "message": "Los Ángeles" },
-  "scl": { "message": "Santiago" },
-  "jnb": { "message": "Johannesburgo" },
-  "icn": { "message": "Seúl" },
-  "waw": { "message": "Varsovia" },
-  "atl": { "message": "Atlanta" },
-  "blr": { "message": "Bangalore" },
-  "del": { "message": "Delhi" },
-  "dfw": { "message": "Dallas" },
-  "hnl": { "message": "Honolulu" },
-  "itm": { "message": "Osaka" },
-  "man": { "message": "Mánchester" },
-  "mel": { "message": "Melbourne" },
-  "mia": { "message": "Miami" },
-  "ord": { "message": "Chicago" },
-  "sea": { "message": "Seattle" },
-  "sjc": { "message": "San Francisco" },
-  "tlv": { "message": "Tel Aviv" }
+  "au": {
+    "message": "Australia"
+  },
+  "br": {
+    "message": "Brasil"
+  },
+  "ca": {
+    "message": "Canadá"
+  },
+  "cl": {
+    "message": "Chile"
+  },
+  "de": {
+    "message": "Alemania"
+  },
+  "es": {
+    "message": "España"
+  },
+  "fr": {
+    "message": "Francia"
+  },
+  "in": {
+    "message": "India"
+  },
+  "jp": {
+    "message": "Japón"
+  },
+  "kr": {
+    "message": "Corea del Sur"
+  },
+  "mx": {
+    "message": "México"
+  },
+  "nl": {
+    "message": "Países Bajos"
+  },
+  "pl": {
+    "message": "Polonia"
+  },
+  "ro": {
+    "message": "Rumanía"
+  },
+  "se": {
+    "message": "Suecia"
+  },
+  "sg": {
+    "message": "Singapur"
+  },
+  "uk": {
+    "message": "Reino Unido"
+  },
+  "us": {
+    "message": "Estados Unidos"
+  },
+  "use": {
+    "message": "Estados Unidos"
+  },
+  "uss": {
+    "message": "Estados Unidos"
+  },
+  "usw": {
+    "message": "Estados Unidos"
+  },
+  "il": {
+    "message": "Israel"
+  },
+  "za": {
+    "message": "Sudáfrica"
+  },
+  "syd": {
+    "message": "Sídney"
+  },
+  "sao": {
+    "message": "São Paulo"
+  },
+  "yto": {
+    "message": "Toronto"
+  },
+  "cdg": {
+    "message": "París"
+  },
+  "fra": {
+    "message": "Fráncfort"
+  },
+  "bom": {
+    "message": "Bombay"
+  },
+  "nrt": {
+    "message": "Tokio"
+  },
+  "mex": {
+    "message": "Ciudad de México"
+  },
+  "ams": {
+    "message": "Ámsterdam"
+  },
+  "sgp": {
+    "message": "Singapur"
+  },
+  "mad": {
+    "message": "Madrid"
+  },
+  "sto": {
+    "message": "Estocolmo"
+  },
+  "lhr": {
+    "message": "Londres"
+  },
+  "ewr": {
+    "message": "Nueva York"
+  },
+  "lax": {
+    "message": "Los Ángeles"
+  },
+  "scl": {
+    "message": "Santiago"
+  },
+  "jnb": {
+    "message": "Johannesburgo"
+  },
+  "icn": {
+    "message": "Seúl"
+  },
+  "waw": {
+    "message": "Varsovia"
+  },
+  "atl": {
+    "message": "Atlanta"
+  },
+  "blr": {
+    "message": "Bangalore"
+  },
+  "del": {
+    "message": "Delhi"
+  },
+  "dfw": {
+    "message": "Dallas"
+  },
+  "hnl": {
+    "message": "Honolulu"
+  },
+  "itm": {
+    "message": "Osaka"
+  },
+  "man": {
+    "message": "Mánchester"
+  },
+  "mel": {
+    "message": "Melbourne"
+  },
+  "mia": {
+    "message": "Miami"
+  },
+  "ord": {
+    "message": "Chicago"
+  },
+  "sea": {
+    "message": "Seattle"
+  },
+  "sjc": {
+    "message": "San Francisco"
+  },
+  "tlv": {
+    "message": "Tel Aviv"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

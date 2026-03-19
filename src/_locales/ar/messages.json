@@ -1,35 +1,97 @@
 {
-  "extName": { "message": "VPN مجاني - 1VPN" },
+  "extName": {
+    "message": "VPN مجاني - 1VPN"
+  },
   "extDesc": {
     "message": "VPN مجاني، بيانات غير محدودة، سرعات عالية، تشفير آمن، سياسة عدم الاحتفاظ بالسجلات، وسهل الاستخدام."
   },
-  "upgrade": { "message": "ترقية" },
-  "signUp": { "message": "التسجيل" },
-  "login": { "message": "تسجيل الدخول" },
-  "continueText": { "message": "أو الاستمرار بدون حساب" },
-  "username": { "message": "اسم المستخدم" },
-  "password": { "message": "كلمة المرور" },
-  "loading": { "message": "جاري التحميل..." },
-  "forgotPassword": { "message": "هل نسيت كلمة المرور؟" },
-  "connected": { "message": "متصل" },
-  "disconnected": { "message": "غير متصل" },
-  "goToOptionsPage": { "message": "انتقل إلى صفحة الخيارات" },
-  "goToLocationsPage": { "message": "انتقل إلى صفحة المواقع" },
-  "upgradeText1": { "message": "تحديث" },
-  "upgradeText2": { "message": "لعرض المزيد من المواقع وسرعات أعلى" },
-  "menu": { "message": "القائمة" },
-  "account": { "message": "الحساب" },
-  "options": { "message": "الخيارات" },
-  "contactUs": { "message": "تواصل معنا" },
-  "email": { "message": "البريد الإلكتروني" },
-  "plan": { "message": "الخطة" },
-  "premium": { "message": "المميزة" },
-  "free": { "message": "المجانية" },
-  "editInfo": { "message": "تعديل المعلومات" },
-  "logout": { "message": "تسجيل الخروج" },
-  "spoofGeolocation": { "message": "انتحال الموقع الجغرافي" },
-  "disableWebRtc": { "message": "تعطيل WebRTC" },
-  "disableAddressAutofill": { "message": "تعطيل التعبئة التلقائية للعنوان" },
+  "upgrade": {
+    "message": "ترقية"
+  },
+  "signUp": {
+    "message": "التسجيل"
+  },
+  "login": {
+    "message": "تسجيل الدخول"
+  },
+  "continueText": {
+    "message": "أو الاستمرار بدون حساب"
+  },
+  "username": {
+    "message": "اسم المستخدم"
+  },
+  "password": {
+    "message": "كلمة المرور"
+  },
+  "loading": {
+    "message": "جاري التحميل..."
+  },
+  "resetPassword": {
+    "message": "إعادة تعيين كلمة المرور"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "النطاق الرئيسي محظور. يُستخدم "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " كنسخة احتياطية."
+  },
+  "connected": {
+    "message": "متصل"
+  },
+  "disconnected": {
+    "message": "غير متصل"
+  },
+  "goToOptionsPage": {
+    "message": "انتقل إلى صفحة الخيارات"
+  },
+  "goToLocationsPage": {
+    "message": "انتقل إلى صفحة المواقع"
+  },
+  "upgradeText1": {
+    "message": "تحديث"
+  },
+  "upgradeText2": {
+    "message": "لعرض المزيد من المواقع وسرعات أعلى"
+  },
+  "menu": {
+    "message": "القائمة"
+  },
+  "account": {
+    "message": "الحساب"
+  },
+  "options": {
+    "message": "الخيارات"
+  },
+  "contactUs": {
+    "message": "تواصل معنا"
+  },
+  "email": {
+    "message": "البريد الإلكتروني"
+  },
+  "plan": {
+    "message": "الخطة"
+  },
+  "premium": {
+    "message": "المميزة"
+  },
+  "free": {
+    "message": "المجانية"
+  },
+  "editInfo": {
+    "message": "تعديل المعلومات"
+  },
+  "logout": {
+    "message": "تسجيل الخروج"
+  },
+  "spoofGeolocation": {
+    "message": "انتحال الموقع الجغرافي"
+  },
+  "disableWebRtc": {
+    "message": "تعطيل WebRTC"
+  },
+  "disableAddressAutofill": {
+    "message": "تعطيل التعبئة التلقائية للعنوان"
+  },
   "spoofGeolocationSubTitle": {
     "message": "تزييف واجهة برمجة تطبيقات تحديد الموقع الجغرافي HTML5 لتطابق موقع VPN الخاص بك الحالي."
   },
@@ -39,82 +101,174 @@
   "disableWebRtcSubTitle": {
     "message": "تعطيل WebRTC لمنع تسرب عنوان IP الحقيقي الخاص بك."
   },
-  "locations": { "message": "المواقع" },
+  "locations": {
+    "message": "المواقع"
+  },
   "reviewModalTitle": {
     "message": "اترك مراجعة من 5 نجوم لفتح هذا الموقع"
   },
-  "reviewModalButton": { "message": "اترك مراجعة" },
-  "shareModalTitle": { "message": "شارك 1VPN لفتح هذا الموقع" },
+  "reviewModalButton": {
+    "message": "اترك مراجعة"
+  },
+  "shareModalTitle": {
+    "message": "شارك 1VPN لفتح هذا الموقع"
+  },
   "shareText": {
     "message": "لقد جربت للتو 1VPN، شبكة VPN مجانية وبسيطة وآمنة ببيانات غير محدودة وسرعات عالية. تحقق منه على https://1vpn.org?from=share"
   },
-  "x": { "message": "X (تويتر)" },
-  "facebook": { "message": "فيسبوك" },
-  "linkedin": { "message": "لينكدإن" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "تيليجرام" },
-  "upgradeLocation": { "message": "حدث البرنامج للوصول إلى هذا الموقع" },
+  "x": {
+    "message": "X (تويتر)"
+  },
+  "facebook": {
+    "message": "فيسبوك"
+  },
+  "linkedin": {
+    "message": "لينكدإن"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "تيليجرام"
+  },
+  "upgradeLocation": {
+    "message": "حدث البرنامج للوصول إلى هذا الموقع"
+  },
   "installSuccess": {
     "message": "تم تثبيت 1VPN بنجاح"
   },
   "installInstructions": {
     "message": "انقر على أيقونة اللغز بجانب شريط العنوان. ثم انقر على أيقونة الدبوس لتثبيت الإضافة."
   },
-  "tryOurAndroidApp": { "message": "جرّب تطبيق أندرويد الخاص بنا" },
+  "tryOurAndroidApp": {
+    "message": "جرّب تطبيق أندرويد الخاص بنا"
+  },
   "scanQrCodeOrClickButton": {
     "message": "امسح رمز الاستجابة السريعة أو انقر على الزر أدناه لتنزيل تطبيق أندرويد الخاص بنا."
   },
-  "scanOrClickQRCode": { "message": "امسح أو انقر على رمز الاستجابة السريعة" },
-  "downloadApp": { "message": "تحميل التطبيق" },
-  "specialOffer": { "message": "عرض خاص" },
-  "save33Percent": { "message": "وفر 33%" },
-  "deal": { "message": "عرض" },
-  "january": { "message": "يناير" },
-  "february": { "message": "فبراير" },
-  "march": { "message": "مارس" },
-  "april": { "message": "أبريل" },
-  "may": { "message": "مايو" },
-  "june": { "message": "يونيو" },
-  "july": { "message": "يوليو" },
-  "august": { "message": "أغسطس" },
-  "september": { "message": "سبتمبر" },
-  "october": { "message": "أكتوبر" },
-  "november": { "message": "نوفمبر" },
-  "december": { "message": "ديسمبر" },
+  "scanOrClickQRCode": {
+    "message": "امسح أو انقر على رمز الاستجابة السريعة"
+  },
+  "downloadApp": {
+    "message": "تحميل التطبيق"
+  },
+  "specialOffer": {
+    "message": "عرض خاص"
+  },
+  "save33Percent": {
+    "message": "وفر 33%"
+  },
+  "deal": {
+    "message": "عرض"
+  },
+  "january": {
+    "message": "يناير"
+  },
+  "february": {
+    "message": "فبراير"
+  },
+  "march": {
+    "message": "مارس"
+  },
+  "april": {
+    "message": "أبريل"
+  },
+  "may": {
+    "message": "مايو"
+  },
+  "june": {
+    "message": "يونيو"
+  },
+  "july": {
+    "message": "يوليو"
+  },
+  "august": {
+    "message": "أغسطس"
+  },
+  "september": {
+    "message": "سبتمبر"
+  },
+  "october": {
+    "message": "أكتوبر"
+  },
+  "november": {
+    "message": "نوفمبر"
+  },
+  "december": {
+    "message": "ديسمبر"
+  },
   "upgradeModalText": {
     "message": "على الخطة السنوية. افتح المزيد من المواقع وسرعات أسرع مع ضمان استرداد لمدة 10 أيام."
   },
-  "claimOffer": { "message": "احصل على العرض" },
-  "until": { "message": "حتى" },
-  "save33OnPremiumUntil": { "message": "وفر 33% على بريميوم حتى" },
-  "save33OnPremium": { "message": "وفر 33% على بريميوم" },
+  "claimOffer": {
+    "message": "احصل على العرض"
+  },
+  "until": {
+    "message": "حتى"
+  },
+  "save33OnPremiumUntil": {
+    "message": "وفر 33% على بريميوم حتى"
+  },
+  "save33OnPremium": {
+    "message": "وفر 33% على بريميوم"
+  },
   "installModalText": {
     "message": "افتح هذا الموقع من خلال جعل مستخدم آخر يثبت الامتداد باستخدام هذا الرابط:"
   },
-  "copyLink": { "message": "نسخ الرابط" },
-  "linkCopied": { "message": "تم نسخ الرابط!" },
-  "getAndroidApp": { "message": "احصل على تطبيق أندرويد" },
-  "referToUnlock": { "message": "ادعُ للفتح" },
+  "copyLink": {
+    "message": "نسخ الرابط"
+  },
+  "linkCopied": {
+    "message": "تم نسخ الرابط!"
+  },
+  "getAndroidApp": {
+    "message": "احصل على تطبيق أندرويد"
+  },
+  "referToUnlock": {
+    "message": "ادعُ للفتح"
+  },
   "toUnlockThisLocation": {
     "message": "لفتح هذا الموقع اطلب من مستخدم آخر تثبيت 1VPN عبر هذا الرابط:"
   },
-  "installAndroidToUnlock": { "message": "ثبّت تطبيق أندرويد للفتح" },
-  "upgradeToPremium": { "message": "الترقية إلى بريميوم" },
+  "installAndroidToUnlock": {
+    "message": "ثبّت تطبيق أندرويد للفتح"
+  },
+  "upgradeToPremium": {
+    "message": "الترقية إلى بريميوم"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "مواقع أكثر وسرعات أعلى"
   },
-  "tryAndroidApp": { "message": "جرّب تطبيق أندرويد" },
-  "get1VPNForAndroid": { "message": "احصل على 1VPN لأندرويد" },
-  "reviewToUnlock": { "message": "تقييم للفتح" },
+  "tryAndroidApp": {
+    "message": "جرّب تطبيق أندرويد"
+  },
+  "get1VPNForAndroid": {
+    "message": "احصل على 1VPN لأندرويد"
+  },
+  "reviewToUnlock": {
+    "message": "تقييم للفتح"
+  },
   "leaveReviewToUnlock": {
     "message": "اترك تقييم 5 نجوم لفتح هذا الموقع"
   },
-  "continueFree": { "message": "استمر مجانًا" },
-  "getPremium": { "message": "احصل على بريميوم" },
-  "unlockAllServerLocations": { "message": "افتح جميع مواقع الخوادم" },
-  "accessServersWorldwide": { "message": "وصول إلى الخوادم حول العالم" },
-  "fastestSpeeds": { "message": "أعلى السرعات" },
+  "continueFree": {
+    "message": "استمر مجانًا"
+  },
+  "getPremium": {
+    "message": "احصل على بريميوم"
+  },
+  "unlockAllServerLocations": {
+    "message": "افتح جميع مواقع الخوادم"
+  },
+  "accessServersWorldwide": {
+    "message": "وصول إلى الخوادم حول العالم"
+  },
+  "fastestSpeeds": {
+    "message": "أعلى السرعات"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "سرعات إنترنت ثابتة وسريعة"
   },
@@ -124,64 +278,202 @@
   "fullRefundIfNotSatisfied": {
     "message": "استرداد كامل إذا لم تكن راضيًا"
   },
-  "chooseYourPlan": { "message": "اختر خطتك" },
+  "chooseYourPlan": {
+    "message": "اختر خطتك"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "افتح جميع الميزات مع بريميوم"
   },
-  "au": { "message": "أستراليا" },
-  "br": { "message": "البرازيل" },
-  "ca": { "message": "كندا" },
-  "cl": { "message": "تشيلي" },
-  "de": { "message": "ألمانيا" },
-  "es": { "message": "إسبانيا" },
-  "fr": { "message": "فرنسا" },
-  "in": { "message": "الهند" },
-  "jp": { "message": "اليابان" },
-  "kr": { "message": "كوريا الجنوبية" },
-  "mx": { "message": "المكسيك" },
-  "nl": { "message": "هولندا" },
-  "pl": { "message": "بولندا" },
-  "ro": { "message": "رومانيا" },
-  "se": { "message": "السويد" },
-  "sg": { "message": "سنغافورا" },
-  "uk": { "message": "المملكة المتحدة" },
-  "ue": { "message": "شرق الولايات المتحدة" },
-  "us": { "message": "الولايات المتحدة" },
-  "use": { "message": "الولايات المتحدة" },
-  "uss": { "message": "الولايات المتحدة" },
-  "usw": { "message": "الولايات المتحدة" },
-  "il": { "message": "إسرائيل" },
-  "za": { "message": "جنوب أفريقيا" },
-  "syd": { "message": "سيدني" },
-  "sao": { "message": "ساو باولو" },
-  "yto": { "message": "تورونتو" },
-  "cdg": { "message": "باريس" },
-  "fra": { "message": "فرانكفورت" },
-  "bom": { "message": "مومباي" },
-  "nrt": { "message": "طوكيو" },
-  "mex": { "message": "مكسيكو سيتي" },
-  "ams": { "message": "أمستردام" },
-  "sgp": { "message": "سنغافورة" },
-  "mad": { "message": "مدريد" },
-  "sto": { "message": "ستوكهولم" },
-  "lhr": { "message": "لندن" },
-  "ewr": { "message": "نيويورك" },
-  "lax": { "message": "لوس أنجلوس" },
-  "scl": { "message": "سانتياغو" },
-  "jnb": { "message": "جوهانسبرغ" },
-  "icn": { "message": "سيول" },
-  "waw": { "message": "وارسو" },
-  "atl": { "message": "أتلانتا" },
-  "blr": { "message": "بنغالور" },
-  "del": { "message": "دلهي" },
-  "dfw": { "message": "دالاس" },
-  "hnl": { "message": "هونولولو" },
-  "itm": { "message": "أوساكا" },
-  "man": { "message": "مانشستر" },
-  "mel": { "message": "ملبورن" },
-  "mia": { "message": "ميامي" },
-  "ord": { "message": "شيكاغو" },
-  "sea": { "message": "سياتل" },
-  "sjc": { "message": "سان فرانسيسكو" },
-  "tlv": { "message": "تل أبيب" }
+  "au": {
+    "message": "أستراليا"
+  },
+  "br": {
+    "message": "البرازيل"
+  },
+  "ca": {
+    "message": "كندا"
+  },
+  "cl": {
+    "message": "تشيلي"
+  },
+  "de": {
+    "message": "ألمانيا"
+  },
+  "es": {
+    "message": "إسبانيا"
+  },
+  "fr": {
+    "message": "فرنسا"
+  },
+  "in": {
+    "message": "الهند"
+  },
+  "jp": {
+    "message": "اليابان"
+  },
+  "kr": {
+    "message": "كوريا الجنوبية"
+  },
+  "mx": {
+    "message": "المكسيك"
+  },
+  "nl": {
+    "message": "هولندا"
+  },
+  "pl": {
+    "message": "بولندا"
+  },
+  "ro": {
+    "message": "رومانيا"
+  },
+  "se": {
+    "message": "السويد"
+  },
+  "sg": {
+    "message": "سنغافورا"
+  },
+  "uk": {
+    "message": "المملكة المتحدة"
+  },
+  "ue": {
+    "message": "شرق الولايات المتحدة"
+  },
+  "us": {
+    "message": "الولايات المتحدة"
+  },
+  "use": {
+    "message": "الولايات المتحدة"
+  },
+  "uss": {
+    "message": "الولايات المتحدة"
+  },
+  "usw": {
+    "message": "الولايات المتحدة"
+  },
+  "il": {
+    "message": "إسرائيل"
+  },
+  "za": {
+    "message": "جنوب أفريقيا"
+  },
+  "syd": {
+    "message": "سيدني"
+  },
+  "sao": {
+    "message": "ساو باولو"
+  },
+  "yto": {
+    "message": "تورونتو"
+  },
+  "cdg": {
+    "message": "باريس"
+  },
+  "fra": {
+    "message": "فرانكفورت"
+  },
+  "bom": {
+    "message": "مومباي"
+  },
+  "nrt": {
+    "message": "طوكيو"
+  },
+  "mex": {
+    "message": "مكسيكو سيتي"
+  },
+  "ams": {
+    "message": "أمستردام"
+  },
+  "sgp": {
+    "message": "سنغافورة"
+  },
+  "mad": {
+    "message": "مدريد"
+  },
+  "sto": {
+    "message": "ستوكهولم"
+  },
+  "lhr": {
+    "message": "لندن"
+  },
+  "ewr": {
+    "message": "نيويورك"
+  },
+  "lax": {
+    "message": "لوس أنجلوس"
+  },
+  "scl": {
+    "message": "سانتياغو"
+  },
+  "jnb": {
+    "message": "جوهانسبرغ"
+  },
+  "icn": {
+    "message": "سيول"
+  },
+  "waw": {
+    "message": "وارسو"
+  },
+  "atl": {
+    "message": "أتلانتا"
+  },
+  "blr": {
+    "message": "بنغالور"
+  },
+  "del": {
+    "message": "دلهي"
+  },
+  "dfw": {
+    "message": "دالاس"
+  },
+  "hnl": {
+    "message": "هونولولو"
+  },
+  "itm": {
+    "message": "أوساكا"
+  },
+  "man": {
+    "message": "مانشستر"
+  },
+  "mel": {
+    "message": "ملبورن"
+  },
+  "mia": {
+    "message": "ميامي"
+  },
+  "ord": {
+    "message": "شيكاغو"
+  },
+  "sea": {
+    "message": "سياتل"
+  },
+  "sjc": {
+    "message": "سان فرانسيسكو"
+  },
+  "tlv": {
+    "message": "تل أبيب"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

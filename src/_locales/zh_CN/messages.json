@@ -1,35 +1,97 @@
 {
-  "extName": { "message": "免费VPN - Free VPN - 1VPN" },
+  "extName": {
+    "message": "免费VPN - Free VPN - 1VPN"
+  },
   "extDesc": {
     "message": "免费VPN，无限数据，快速速度，安全加密，无日志政策，且易于使用。"
   },
-  "upgrade": { "message": "升级" },
-  "signUp": { "message": "注册" },
-  "login": { "message": "登录" },
-  "continueText": { "message": "或继续无账号登录" },
-  "username": { "message": "用户名" },
-  "password": { "message": "密码" },
-  "loading": { "message": "加载中..." },
-  "forgotPassword": { "message": "忘记密码？" },
-  "connected": { "message": "已连接" },
-  "disconnected": { "message": "未连接" },
-  "goToOptionsPage": { "message": "前往选项页面" },
-  "goToLocationsPage": { "message": "前往位置页面" },
-  "upgradeText1": { "message": "升级" },
-  "upgradeText2": { "message": "以获得更多位置和更快速度。" },
-  "menu": { "message": "菜单" },
-  "account": { "message": "账号" },
-  "options": { "message": "选项" },
-  "contactUs": { "message": "联系我们" },
-  "email": { "message": "电子邮箱" },
-  "plan": { "message": "计划" },
-  "premium": { "message": "高级版" },
-  "free": { "message": "免费版" },
-  "editInfo": { "message": "编辑信息" },
-  "logout": { "message": "退出" },
-  "spoofGeolocation": { "message": "伪造地理定位" },
-  "disableWebRtc": { "message": "禁用WebRTC" },
-  "disableAddressAutofill": { "message": "禁用地址自动填充" },
+  "upgrade": {
+    "message": "升级"
+  },
+  "signUp": {
+    "message": "注册"
+  },
+  "login": {
+    "message": "登录"
+  },
+  "continueText": {
+    "message": "或继续无账号登录"
+  },
+  "username": {
+    "message": "用户名"
+  },
+  "password": {
+    "message": "密码"
+  },
+  "loading": {
+    "message": "加载中..."
+  },
+  "resetPassword": {
+    "message": "重置密码"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "主域名已被屏蔽，正在使用 "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " 作为备用。"
+  },
+  "connected": {
+    "message": "已连接"
+  },
+  "disconnected": {
+    "message": "未连接"
+  },
+  "goToOptionsPage": {
+    "message": "前往选项页面"
+  },
+  "goToLocationsPage": {
+    "message": "前往位置页面"
+  },
+  "upgradeText1": {
+    "message": "升级"
+  },
+  "upgradeText2": {
+    "message": "以获得更多位置和更快速度。"
+  },
+  "menu": {
+    "message": "菜单"
+  },
+  "account": {
+    "message": "账号"
+  },
+  "options": {
+    "message": "选项"
+  },
+  "contactUs": {
+    "message": "联系我们"
+  },
+  "email": {
+    "message": "电子邮箱"
+  },
+  "plan": {
+    "message": "计划"
+  },
+  "premium": {
+    "message": "高级版"
+  },
+  "free": {
+    "message": "免费版"
+  },
+  "editInfo": {
+    "message": "编辑信息"
+  },
+  "logout": {
+    "message": "退出"
+  },
+  "spoofGeolocation": {
+    "message": "伪造地理定位"
+  },
+  "disableWebRtc": {
+    "message": "禁用WebRTC"
+  },
+  "disableAddressAutofill": {
+    "message": "禁用地址自动填充"
+  },
   "spoofGeolocationSubTitle": {
     "message": "伪造HTML5地理位置API以匹配您当前的VPN位置。"
   },
@@ -39,82 +101,174 @@
   "disableWebRtcSubTitle": {
     "message": "禁用WebRTC以防止泄露您的真实IP地址。"
   },
-  "locations": { "message": "位置" },
+  "locations": {
+    "message": "位置"
+  },
   "reviewModalTitle": {
     "message": "留下五星好评以解锁此位置"
   },
-  "reviewModalButton": { "message": "留下评价" },
-  "shareModalTitle": { "message": "分享 1VPN 解锁此位置" },
+  "reviewModalButton": {
+    "message": "留下评价"
+  },
+  "shareModalTitle": {
+    "message": "分享 1VPN 解锁此位置"
+  },
   "shareText": {
     "message": "我刚刚试用了 1VPN，这是一个免费、简单且安全的 VPN，提供无限数据和高速。请访问 https://1vpn.org?from=share 了解更多"
   },
-  "x": { "message": "X（推特）" },
-  "facebook": { "message": "Facebook" },
-  "linkedin": { "message": "LinkedIn" },
-  "vk": { "message": "VK" },
-  "ok": { "message": "Odnoklassniki" },
-  "telegram": { "message": "Telegram" },
-  "upgradeLocation": { "message": "升级以访问此位置 " },
+  "x": {
+    "message": "X（推特）"
+  },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "linkedin": {
+    "message": "LinkedIn"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "upgradeLocation": {
+    "message": "升级以访问此位置 "
+  },
   "installSuccess": {
     "message": "1VPN已成功安装"
   },
   "installInstructions": {
     "message": "点击地址栏旁边的拼图图标。然后点击图钉图标以固定扩展程序。"
   },
-  "tryOurAndroidApp": { "message": "试用我们的安卓应用" },
+  "tryOurAndroidApp": {
+    "message": "试用我们的安卓应用"
+  },
   "scanQrCodeOrClickButton": {
     "message": "扫描二维码或点击下方按钮下载我们的安卓应用。"
   },
-  "scanOrClickQRCode": { "message": "扫描或点击二维码" },
-  "downloadApp": { "message": "下载应用" },
-  "specialOffer": { "message": "特别优惠" },
-  "save33Percent": { "message": "立省33%" },
-  "deal": { "message": "优惠" },
-  "january": { "message": "一月" },
-  "february": { "message": "二月" },
-  "march": { "message": "三月" },
-  "april": { "message": "四月" },
-  "may": { "message": "五月" },
-  "june": { "message": "六月" },
-  "july": { "message": "七月" },
-  "august": { "message": "八月" },
-  "september": { "message": "九月" },
-  "october": { "message": "十月" },
-  "november": { "message": "十一月" },
-  "december": { "message": "十二月" },
+  "scanOrClickQRCode": {
+    "message": "扫描或点击二维码"
+  },
+  "downloadApp": {
+    "message": "下载应用"
+  },
+  "specialOffer": {
+    "message": "特别优惠"
+  },
+  "save33Percent": {
+    "message": "立省33%"
+  },
+  "deal": {
+    "message": "优惠"
+  },
+  "january": {
+    "message": "一月"
+  },
+  "february": {
+    "message": "二月"
+  },
+  "march": {
+    "message": "三月"
+  },
+  "april": {
+    "message": "四月"
+  },
+  "may": {
+    "message": "五月"
+  },
+  "june": {
+    "message": "六月"
+  },
+  "july": {
+    "message": "七月"
+  },
+  "august": {
+    "message": "八月"
+  },
+  "september": {
+    "message": "九月"
+  },
+  "october": {
+    "message": "十月"
+  },
+  "november": {
+    "message": "十一月"
+  },
+  "december": {
+    "message": "十二月"
+  },
   "upgradeModalText": {
     "message": "在年计划中。解锁更多节点和更快速度，享受10天退款保证。"
   },
-  "claimOffer": { "message": "领取优惠" },
-  "until": { "message": "截止" },
-  "save33OnPremiumUntil": { "message": "立省33%购买高级版，截止" },
-  "save33OnPremium": { "message": "立省33%购买高级版" },
+  "claimOffer": {
+    "message": "领取优惠"
+  },
+  "until": {
+    "message": "截止"
+  },
+  "save33OnPremiumUntil": {
+    "message": "立省33%购买高级版，截止"
+  },
+  "save33OnPremium": {
+    "message": "立省33%购买高级版"
+  },
   "installModalText": {
     "message": "通过让其他用户使用此链接安装扩展来解锁此位置："
   },
-  "copyLink": { "message": "复制链接" },
-  "linkCopied": { "message": "链接已复制！" },
-  "getAndroidApp": { "message": "获取安卓应用" },
-  "referToUnlock": { "message": "邀请好友解锁" },
+  "copyLink": {
+    "message": "复制链接"
+  },
+  "linkCopied": {
+    "message": "链接已复制！"
+  },
+  "getAndroidApp": {
+    "message": "获取安卓应用"
+  },
+  "referToUnlock": {
+    "message": "邀请好友解锁"
+  },
   "toUnlockThisLocation": {
     "message": "要解锁此位置 请让其他用户通过此链接安装 1VPN："
   },
-  "installAndroidToUnlock": { "message": "安装 Android 应用以解锁" },
-  "upgradeToPremium": { "message": "升级到高级版" },
+  "installAndroidToUnlock": {
+    "message": "安装 Android 应用以解锁"
+  },
+  "upgradeToPremium": {
+    "message": "升级到高级版"
+  },
   "moreLocationsAndFasterSpeeds": {
     "message": "更多节点 更快速度"
   },
-  "tryAndroidApp": { "message": "试用安卓应用" },
-  "get1VPNForAndroid": { "message": "获取安卓版 1VPN" },
-  "reviewToUnlock": { "message": "评价即可解锁" },
+  "tryAndroidApp": {
+    "message": "试用安卓应用"
+  },
+  "get1VPNForAndroid": {
+    "message": "获取安卓版 1VPN"
+  },
+  "reviewToUnlock": {
+    "message": "评价即可解锁"
+  },
   "leaveReviewToUnlock": {
     "message": "留下五星好评即可解锁此位置"
   },
-  "continueFree": { "message": "继续免费使用" },
-  "getPremium": { "message": "获取高级版" },
-  "unlockAllServerLocations": { "message": "解锁所有服务器节点" },
-  "accessServersWorldwide": { "message": "访问全球服务器" },
-  "fastestSpeeds": { "message": "最快速度" },
+  "continueFree": {
+    "message": "继续免费使用"
+  },
+  "getPremium": {
+    "message": "获取高级版"
+  },
+  "unlockAllServerLocations": {
+    "message": "解锁所有服务器节点"
+  },
+  "accessServersWorldwide": {
+    "message": "访问全球服务器"
+  },
+  "fastestSpeeds": {
+    "message": "最快速度"
+  },
   "consistentAndFastInternetSpeeds": {
     "message": "稳定且快速的网络速度"
   },
@@ -124,63 +278,199 @@
   "fullRefundIfNotSatisfied": {
     "message": "不满意可全额退款"
   },
-  "chooseYourPlan": { "message": "选择你的套餐" },
+  "chooseYourPlan": {
+    "message": "选择你的套餐"
+  },
   "unlockAllFeaturesWithPremium": {
     "message": "使用高级版解锁全部功能"
   },
-  "au": { "message": "澳大利亚" },
-  "br": { "message": "巴西" },
-  "ca": { "message": "加拿大" },
-  "cl": { "message": "智利" },
-  "de": { "message": "德国" },
-  "es": { "message": "西班牙" },
-  "fr": { "message": "法国" },
-  "in": { "message": "印度" },
-  "jp": { "message": "日本" },
-  "kr": { "message": "韩国" },
-  "mx": { "message": "墨西哥" },
-  "nl": { "message": "荷兰" },
-  "pl": { "message": "波兰" },
-  "ro": { "message": "罗马尼亚" },
-  "se": { "message": "瑞典" },
-  "sg": { "message": "新加坡" },
-  "uk": { "message": "英国" },
-  "us": { "message": "美国" },
-  "use": { "message": "美国" },
-  "uss": { "message": "美国" },
-  "usw": { "message": "美国" },
-  "il": { "message": "以色列" },
-  "za": { "message": "南非" },
-  "syd": { "message": "悉尼" },
-  "sao": { "message": "圣保罗" },
-  "yto": { "message": "多伦多" },
-  "cdg": { "message": "巴黎" },
-  "fra": { "message": "法兰克福" },
-  "bom": { "message": "孟买" },
-  "nrt": { "message": "东京" },
-  "mex": { "message": "墨西哥城" },
-  "ams": { "message": "阿姆斯特丹" },
-  "sgp": { "message": "新加坡" },
-  "mad": { "message": "马德里" },
-  "sto": { "message": "斯德哥尔摩" },
-  "lhr": { "message": "伦敦" },
-  "ewr": { "message": "纽约" },
-  "lax": { "message": "洛杉矶" },
-  "scl": { "message": "圣地亚哥" },
-  "jnb": { "message": "约翰内斯堡" },
-  "icn": { "message": "首尔" },
-  "waw": { "message": "华沙" },
-  "atl": { "message": "亚特兰大" },
-  "blr": { "message": "班加罗尔" },
-  "del": { "message": "德里" },
-  "dfw": { "message": "达拉斯" },
-  "hnl": { "message": "檀香山" },
-  "itm": { "message": "大阪" },
-  "man": { "message": "曼彻斯特" },
-  "mel": { "message": "墨尔本" },
-  "mia": { "message": "迈阿密" },
-  "ord": { "message": "芝加哥" },
-  "sea": { "message": "西雅图" },
-  "sjc": { "message": "旧金山" },
-  "tlv": { "message": "特拉维夫" }
+  "au": {
+    "message": "澳大利亚"
+  },
+  "br": {
+    "message": "巴西"
+  },
+  "ca": {
+    "message": "加拿大"
+  },
+  "cl": {
+    "message": "智利"
+  },
+  "de": {
+    "message": "德国"
+  },
+  "es": {
+    "message": "西班牙"
+  },
+  "fr": {
+    "message": "法国"
+  },
+  "in": {
+    "message": "印度"
+  },
+  "jp": {
+    "message": "日本"
+  },
+  "kr": {
+    "message": "韩国"
+  },
+  "mx": {
+    "message": "墨西哥"
+  },
+  "nl": {
+    "message": "荷兰"
+  },
+  "pl": {
+    "message": "波兰"
+  },
+  "ro": {
+    "message": "罗马尼亚"
+  },
+  "se": {
+    "message": "瑞典"
+  },
+  "sg": {
+    "message": "新加坡"
+  },
+  "uk": {
+    "message": "英国"
+  },
+  "us": {
+    "message": "美国"
+  },
+  "use": {
+    "message": "美国"
+  },
+  "uss": {
+    "message": "美国"
+  },
+  "usw": {
+    "message": "美国"
+  },
+  "il": {
+    "message": "以色列"
+  },
+  "za": {
+    "message": "南非"
+  },
+  "syd": {
+    "message": "悉尼"
+  },
+  "sao": {
+    "message": "圣保罗"
+  },
+  "yto": {
+    "message": "多伦多"
+  },
+  "cdg": {
+    "message": "巴黎"
+  },
+  "fra": {
+    "message": "法兰克福"
+  },
+  "bom": {
+    "message": "孟买"
+  },
+  "nrt": {
+    "message": "东京"
+  },
+  "mex": {
+    "message": "墨西哥城"
+  },
+  "ams": {
+    "message": "阿姆斯特丹"
+  },
+  "sgp": {
+    "message": "新加坡"
+  },
+  "mad": {
+    "message": "马德里"
+  },
+  "sto": {
+    "message": "斯德哥尔摩"
+  },
+  "lhr": {
+    "message": "伦敦"
+  },
+  "ewr": {
+    "message": "纽约"
+  },
+  "lax": {
+    "message": "洛杉矶"
+  },
+  "scl": {
+    "message": "圣地亚哥"
+  },
+  "jnb": {
+    "message": "约翰内斯堡"
+  },
+  "icn": {
+    "message": "首尔"
+  },
+  "waw": {
+    "message": "华沙"
+  },
+  "atl": {
+    "message": "亚特兰大"
+  },
+  "blr": {
+    "message": "班加罗尔"
+  },
+  "del": {
+    "message": "德里"
+  },
+  "dfw": {
+    "message": "达拉斯"
+  },
+  "hnl": {
+    "message": "檀香山"
+  },
+  "itm": {
+    "message": "大阪"
+  },
+  "man": {
+    "message": "曼彻斯特"
+  },
+  "mel": {
+    "message": "墨尔本"
+  },
+  "mia": {
+    "message": "迈阿密"
+  },
+  "ord": {
+    "message": "芝加哥"
+  },
+  "sea": {
+    "message": "西雅图"
+  },
+  "sjc": {
+    "message": "旧金山"
+  },
+  "tlv": {
+    "message": "特拉维夫"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Please enter email and password"
+  },
+  "loginInvalidCredentials": {
+    "message": "Invalid credentials"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA code required"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Could not reach servers. Try again later."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "Invalid or missing 2FA token"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Invalid response from server"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Could not load your account. Try again."
+  },
+  "loginNetworkError": {
+    "message": "Network error"
+  }
 }

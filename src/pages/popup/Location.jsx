@@ -2,9 +2,10 @@ import { Flex, Box } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
 import Check from 'assets/check.svg'
 import Star from 'assets/star.svg'
-import { websiteUrl, SEVENTY_TWO_HOURS, TWO_MINUTES } from 'utils/constants'
+import { SEVENTY_TWO_HOURS, TWO_MINUTES } from 'utils/constants'
 
 const Location = ({
+  activeUrl,
   title,
   subTitle,
   id,
@@ -28,7 +29,7 @@ const Location = ({
 
     if (location.isPremium) {
       chrome.tabs.create({
-        url: `${websiteUrl}/select_plan`,
+        url: `https://${activeUrl}/select_plan`,
       })
     } else if (location.ratingLocked) {
       chrome.storage.local.get(

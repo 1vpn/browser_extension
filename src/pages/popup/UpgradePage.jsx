@@ -6,7 +6,7 @@ import { FORTY_EIGHT_HOURS } from 'utils/constants'
 import UpgradeFeatures from './UpgradeFeatures'
 import UpgradeButtons from './UpgradeButtons'
 
-const UpgradePage = ({ messages, installDate = 0 }) => {
+const UpgradePage = ({ activeUrl, messages, installDate = 0 }) => {
   const [tick, setTick] = useState(() => Date.now())
 
   const expirationTime = installDate
@@ -83,6 +83,7 @@ const UpgradePage = ({ messages, installDate = 0 }) => {
       <UpgradeFeatures messages={messages} />
       <Box sx={{ px: '24px', pb: '24px' }}>
         <UpgradeButtons
+          activeUrl={activeUrl}
           primaryButtonText={messages.getPremium}
           messages={messages}
         />
