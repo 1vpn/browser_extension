@@ -12,6 +12,7 @@ const logout = () => {
     'upgradeModalLastShown',
     'installModalClickedTime',
     'userModalType',
+    'activeUrl',
   ]
 
   chrome.storage.local.get(null, (items) => {
