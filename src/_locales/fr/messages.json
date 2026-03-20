@@ -158,9 +158,6 @@
   "downloadApp": {
     "message": "Télécharger l'application"
   },
-  "specialOffer": {
-    "message": "Offre spéciale"
-  },
   "save33Percent": {
     "message": "Économisez 33 %"
   },
@@ -453,27 +450,27 @@
     "message": "Tel-Aviv"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Veuillez entrer votre e-mail et votre mot de passe"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Informations d’identification invalides"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "Code 2FA requis"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Impossible d’atteindre les serveurs. Veuillez réessayer plus tard."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Jeton 2FA invalide ou manquant"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Réponse invalide du serveur"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Impossible de charger votre compte. Veuillez réessayer."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Erreur réseau"
   }
 }

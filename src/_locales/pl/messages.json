@@ -149,9 +149,6 @@
   "downloadApp": {
     "message": "Pobierz aplikację"
   },
-  "specialOffer": {
-    "message": "Oferta specjalna"
-  },
   "save33Percent": {
     "message": "Oszczędź 33%"
   },
@@ -444,27 +441,36 @@
     "message": "Tel Awiw"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Wprowadź adres e-mail i hasło"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Nieprawidłowe dane logowania"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "Wymagany kod 2FA"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Nie można połączyć się z serwerami. Spróbuj ponownie później."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Nieprawidłowy lub brakujący token 2FA"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Nieprawidłowa odpowiedź z serwera"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Nie można załadować Twojego konta. Spróbuj ponownie."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Błąd sieci"
+  },
+  "twoFaToken": {
+    "message": "Token 2FA"
+  },
+  "installSuccess": {
+    "message": "1VPN zostało pomyślnie zainstalowane"
+  },
+  "installInstructions": {
+    "message": "Kliknij ikonę puzzli obok paska adresu. Następnie kliknij ikonę pinezki, aby przypiąć rozszerzenie."
   }
 }

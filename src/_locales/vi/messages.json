@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "Tải ứng dụng"
   },
-  "specialOffer": {
-    "message": "Ưu đãi đặc biệt"
-  },
   "save33Percent": {
     "message": "Tiết kiệm 33%"
   },
@@ -450,27 +447,30 @@
     "message": "Tel Aviv"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Vui lòng nhập email và mật khẩu"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Thông tin đăng nhập không hợp lệ"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "Cần mã 2FA"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Không thể kết nối tới máy chủ. Vui lòng thử lại sau."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Mã thông báo 2FA không hợp lệ hoặc bị thiếu"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Phản hồi không hợp lệ từ máy chủ"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Không thể tải tài khoản của bạn. Vui lòng thử lại."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Lỗi mạng"
+  },
+  "twoFaToken": {
+    "message": "Mã thông báo 2FA"
   }
 }

@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "Unduh Aplikasi"
   },
-  "specialOffer": {
-    "message": "Penawaran Spesial"
-  },
   "save33Percent": {
     "message": "Hemat 33%"
   },
@@ -450,27 +447,30 @@
     "message": "Tel Aviv"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Masukkan email dan kata sandi"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Kredensial tidak valid"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "Kode 2FA diperlukan"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Tidak dapat menjangkau server. Coba lagi nanti."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Token 2FA tidak valid atau hilang"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Respons dari server tidak valid"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Tidak dapat memuat akun Anda. Coba lagi."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Kesalahan jaringan"
+  },
+  "twoFaToken": {
+    "message": "Token 2FA"
   }
 }

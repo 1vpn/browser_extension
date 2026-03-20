@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "تحميل التطبيق"
   },
-  "specialOffer": {
-    "message": "عرض خاص"
-  },
   "save33Percent": {
     "message": "وفر 33%"
   },
@@ -335,9 +332,6 @@
   "uk": {
     "message": "المملكة المتحدة"
   },
-  "ue": {
-    "message": "شرق الولايات المتحدة"
-  },
   "us": {
     "message": "الولايات المتحدة"
   },
@@ -453,27 +447,30 @@
     "message": "تل أبيب"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "يرجى إدخال البريد الإلكتروني وكلمة المرور"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "بيانات اعتماد غير صالحة"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "الرمز الخاص بـ 2FA مطلوب"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "تعذر الاتصال بالخوادم. حاول مرة أخرى لاحقًا."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "رمز 2FA غير صالح أو مفقود"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "استجابة غير صالحة من الخادم"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "تعذر تحميل حسابك. حاول مرة أخرى."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "خطأ في الشبكة"
+  },
+  "twoFaToken": {
+    "message": "رمز 2FA"
   }
 }

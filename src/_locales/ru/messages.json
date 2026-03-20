@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "Скачать приложение"
   },
-  "specialOffer": {
-    "message": "Спецпредложение"
-  },
   "save33Percent": {
     "message": "Экономьте 33%"
   },
@@ -450,27 +447,30 @@
     "message": "Тель-Авив"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Пожалуйста, введите адрес электронной почты и пароль"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Неверные учетные данные"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "Требуется код 2FA"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Не удалось подключиться к серверам. Повторите попытку позже."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Неверный или отсутствующий токен 2FA"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Неверный ответ от сервера"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Не удалось загрузить ваш аккаунт. Попробуйте еще раз."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Ошибка сети"
+  },
+  "twoFaToken": {
+    "message": "Токен 2FA"
   }
 }

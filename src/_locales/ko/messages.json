@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "앱 다운로드"
   },
-  "specialOffer": {
-    "message": "특별 할인"
-  },
   "save33Percent": {
     "message": "33% 절약"
   },
@@ -450,27 +447,30 @@
     "message": "텔아비브"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "이메일과 비밀번호를 입력하세요"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "잘못된 인증 정보"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "2FA 코드가 필요합니다"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "서버에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "2FA 토큰이 올바르지 않거나 누락되었습니다"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "서버 응답이 올바르지 않습니다"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "계정을 불러올 수 없습니다. 다시 시도해 주세요."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "네트워크 오류"
+  },
+  "twoFaToken": {
+    "message": "2FA 토큰"
   }
 }

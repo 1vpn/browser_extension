@@ -149,9 +149,6 @@
   "downloadApp": {
     "message": "دانلود برنامه"
   },
-  "specialOffer": {
-    "message": "پیشنهاد ویژه"
-  },
   "save33Percent": {
     "message": "۳۳٪ صرفه‌جویی"
   },
@@ -444,27 +441,36 @@
     "message": "تل‌آویو"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "لطفا ایمیل و رمز عبور را وارد کنید"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "اعتبارنامه نامعتبر"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "کد 2FA لازم است"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "امکان اتصال به سرورها وجود ندارد. لطفا بعدا دوباره تلاش کنید."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "توکن 2FA نامعتبر یا مفقود است"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "پاسخ نامعتبر از سرور"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "امکان بارگذاری حساب شما وجود ندارد. لطفا دوباره تلاش کنید."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "خطای شبکه"
+  },
+  "twoFaToken": {
+    "message": "توکن 2FA"
+  },
+  "installSuccess": {
+    "message": "1VPN با موفقیت نصب شد"
+  },
+  "installInstructions": {
+    "message": "روی آیکون پازل کنار نوار آدرس کلیک کنید. سپس روی آیکون سنجاق (میخ) کلیک کنید تا اکستنشن را پین کنید."
   }
 }

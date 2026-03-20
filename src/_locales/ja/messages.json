@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "アプリをダウンロード"
   },
-  "specialOffer": {
-    "message": "特別オファー"
-  },
   "save33Percent": {
     "message": "33%お得"
   },
@@ -450,27 +447,30 @@
     "message": "テルアビブ"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "メールアドレスとパスワードを入力してください"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "無効な認証情報"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "2FAコードが必要です"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "サーバーに接続できませんでした。しばらくしてからもう一度お試しください。"
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "2FAトークンが無効、または見つかりません"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "サーバーからの応答が無効です"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "アカウントを読み込めませんでした。もう一度お試しください。"
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "ネットワークエラー"
+  },
+  "twoFaToken": {
+    "message": "2FAトークン"
   }
 }

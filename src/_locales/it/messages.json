@@ -149,9 +149,6 @@
   "downloadApp": {
     "message": "Scarica l'app"
   },
-  "specialOffer": {
-    "message": "Offerta speciale"
-  },
   "save33Percent": {
     "message": "Risparmia 33%"
   },
@@ -444,27 +441,36 @@
     "message": "Tel Aviv"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Inserisci email e password"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Credenziali non valide"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "Codice 2FA richiesto"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Impossibile raggiungere i server. Riprova più tardi."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Token 2FA non valido o mancante"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Risposta non valida dal server"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Impossibile caricare il tuo account. Riprova."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Errore di rete"
+  },
+  "twoFaToken": {
+    "message": "Token 2FA"
+  },
+  "installSuccess": {
+    "message": "1VPN è stato installato con successo"
+  },
+  "installInstructions": {
+    "message": "Fai clic sull’icona del puzzle accanto alla barra degli indirizzi. Poi fai clic sull’icona della puntina per fissare l’estensione."
   }
 }

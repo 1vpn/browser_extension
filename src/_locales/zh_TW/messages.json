@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "下載應用程式"
   },
-  "specialOffer": {
-    "message": "特別優惠"
-  },
   "save33Percent": {
     "message": "省下33%"
   },
@@ -450,27 +447,30 @@
     "message": "特拉維夫"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "請輸入電子郵件和密碼"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "無效的憑證"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "需要 2FA 驗證碼"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "無法連線到伺服器。請稍後再試。"
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "2FA 驗證碼無效或遺失"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "伺服器回傳無效的回應"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "無法載入你的帳號。請再試一次。"
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "網路錯誤"
+  },
+  "twoFaToken": {
+    "message": "2FA 驗證碼"
   }
 }

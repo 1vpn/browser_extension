@@ -149,9 +149,6 @@
   "downloadApp": {
     "message": "ดาวน์โหลดแอป"
   },
-  "specialOffer": {
-    "message": "ข้อเสนอพิเศษ"
-  },
   "save33Percent": {
     "message": "ประหยัด 33%"
   },
@@ -444,27 +441,36 @@
     "message": "เทลอาวีฟ"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "กรุณาใส่อีเมลและรหัสผ่าน"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "ข้อมูลรับรองไม่ถูกต้อง"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "ต้องใช้รหัส 2FA"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ กรุณาลองใหม่อีกครั้งภายหลัง"
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "โทเค็น 2FA ไม่ถูกต้องหรือหายไป"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "การตอบกลับจากเซิร์ฟเวอร์ไม่ถูกต้อง"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "ไม่สามารถโหลดบัญชีของคุณได้ กรุณาลองใหม่อีกครั้ง"
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "ข้อผิดพลาดของเครือข่าย"
+  },
+  "twoFaToken": {
+    "message": "โทเค็น 2FA"
+  },
+  "installSuccess": {
+    "message": "ติดตั้ง 1VPN สำเร็จแล้ว"
+  },
+  "installInstructions": {
+    "message": "คลิกที่ไอคอนรูปปริศนาข้างแถบที่อยู่ จากนั้นคลิกไอคอนรูปหมุดเพื่อปักส่วนขยายไว้"
   }
 }

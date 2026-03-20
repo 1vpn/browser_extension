@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "Uygulamayı indir"
   },
-  "specialOffer": {
-    "message": "Özel teklif"
-  },
   "save33Percent": {
     "message": "%33 tasarruf"
   },
@@ -450,27 +447,30 @@
     "message": "Tel Aviv"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Lütfen e-posta adresinizi ve şifrenizi girin"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Geçersiz kimlik bilgileri"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "2FA kodu gerekli"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Sunuculara ulaşılamadı. Lütfen daha sonra tekrar deneyin."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Geçersiz veya eksik 2FA belirteci"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Sunucudan geçersiz yanıt"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Hesabınız yüklenemedi. Lütfen tekrar deneyin."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Ağ hatası"
+  },
+  "twoFaToken": {
+    "message": "2FA belirteci"
   }
 }

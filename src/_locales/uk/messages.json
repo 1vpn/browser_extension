@@ -149,9 +149,6 @@
   "downloadApp": {
     "message": "Завантажити додаток"
   },
-  "specialOffer": {
-    "message": "Спеціальна пропозиція"
-  },
   "save33Percent": {
     "message": "Заощадь 33%"
   },
@@ -444,27 +441,36 @@
     "message": "Тель-Авів"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "Введіть адресу електронної пошти та пароль"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "Невірні облікові дані"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "Потрібен код 2FA"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "Не вдалося підключитися до серверів. Спробуйте ще раз пізніше."
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "Невірний або відсутній токен 2FA"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "Невірна відповідь від сервера"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "Не вдалося завантажити ваш акаунт. Спробуйте ще раз."
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "Помилка мережі"
+  },
+  "twoFaToken": {
+    "message": "Токен 2FA"
+  },
+  "installSuccess": {
+    "message": "1VPN було успішно встановлено"
+  },
+  "installInstructions": {
+    "message": "Натисніть на значок головоломки поруч із адресним рядком. Потім натисніть на значок шпильки, щоб закріпити розширення."
   }
 }

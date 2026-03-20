@@ -155,9 +155,6 @@
   "downloadApp": {
     "message": "下载应用"
   },
-  "specialOffer": {
-    "message": "特别优惠"
-  },
   "save33Percent": {
     "message": "立省33%"
   },
@@ -450,27 +447,30 @@
     "message": "特拉维夫"
   },
   "loginEnterEmailAndPassword": {
-    "message": "Please enter email and password"
+    "message": "请输入邮箱和密码"
   },
   "loginInvalidCredentials": {
-    "message": "Invalid credentials"
+    "message": "无效的凭据"
   },
   "loginTwoFaRequired": {
-    "message": "2FA code required"
+    "message": "需要 2FA 代码"
   },
   "loginCouldNotReachServers": {
-    "message": "Could not reach servers. Try again later."
+    "message": "无法连接到服务器。请稍后重试。"
   },
   "loginInvalidOrMissingTwoFaToken": {
-    "message": "Invalid or missing 2FA token"
+    "message": "2FA 令牌无效或缺失"
   },
   "loginInvalidResponseFromServer": {
-    "message": "Invalid response from server"
+    "message": "服务器返回了无效的响应"
   },
   "loginCouldNotLoadAccount": {
-    "message": "Could not load your account. Try again."
+    "message": "无法加载你的账户。请再试一次。"
   },
   "loginNetworkError": {
-    "message": "Network error"
+    "message": "网络错误"
+  },
+  "twoFaToken": {
+    "message": "2FA 令牌"
   }
 }
