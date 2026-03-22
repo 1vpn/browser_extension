@@ -1,0 +1,52 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Prepare artifact directory
+        run: mkdir -p release-zips
+
+      - name: Build Chrome
+        run: |
+          rm -rf zip/
+          yarn build-chrome
+          cp zip/*.zip "release-zips/1vpn-${{ github.ref_name }}-chrome.zip"
+
+      - name: Build Edge
+        run: |
+          rm -rf zip/
+          yarn build-edge
+          cp zip/*.zip "release-zips/1vpn-${{ github.ref_name }}-edge.zip"
+
+      - name: Build Firefox
+        run: |
+          rm -rf zip/
+          yarn build-firefox
+          cp zip/*.zip "release-zips/1vpn-${{ github.ref_name }}-firefox.zip"
+
+      - name: Upload zips to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release-zips/*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
