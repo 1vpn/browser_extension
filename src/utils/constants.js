@@ -13,8 +13,8 @@ export const androidUrl =
   `&hl=${chrome.i18n.getUILanguage()}`
 
 export const freeCredentials = {
-  username: process.env.FREE_USERNAME,
-  password: process.env.FREE_PASSWORD,
+  username: 'a2epfq5ugq0u',
+  password: 'ptkx3fqg6v7n',
 }
 
 export const TWELVE_HOURS = 12 * 60 * 60 * 1000
