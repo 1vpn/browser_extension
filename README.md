@@ -10,6 +10,24 @@ Edge Download: https://microsoftedge.microsoft.com/addons/detail/dalhgafbhpdolib
 
 Firefox Download: https://addons.mozilla.org/en-US/firefox/addon/1vpn
 
+## Manual Installation (ZIP)
+
+### Chrome / Edge
+
+1. Download the zip for your browser from the [releases page](https://github.com/1vpn/browser_extension/releases).
+2. Unzip it.
+3. Go to `chrome://extensions` (or `edge://extensions`).
+4. Enable **Developer mode** (toggle in the top right).
+5. Click **Load unpacked** and select the unzipped folder.
+
+### Firefox
+
+1. Download the Firefox zip from the [releases page](https://github.com/1vpn/browser_extension/releases).
+2. Unzip it.
+3. Go to `about:debugging#/runtime/this-firefox`.
+4. Click **Load Temporary Add-on**.
+5. Select any file inside the unzipped folder.
+
 ## Development Commands
 
 Build extension:
