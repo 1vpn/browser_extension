@@ -5,7 +5,6 @@ import { handleProxyRequest } from 'utils/manageProxy'
 import logout from 'utils/logout'
 import spoofGeolocation from 'utils/spoofGeolocation'
 import freeLocations from 'utils/freeLocations'
-import { fetchUserData } from 'utils/userData'
 
 chrome.storage.local.get(['activeUrl'], (storage) => {
   chrome.runtime.setUninstallURL(
@@ -18,7 +17,6 @@ chrome.runtime.onInstalled.addListener((details) => {
 
   if (details.reason === 'install') {
     chrome.storage.local.set({ installDate: Date.now() })
-    fetchUserData()
 
     chrome.tabs.create({
       url: chrome.runtime.getURL('install.html'),
@@ -35,8 +33,6 @@ chrome.runtime.onStartup.addListener(() => {
       )
     }
   })
-
-  fetchUserData()
 })
 
 chrome.webRequest.onAuthRequired.addListener(
@@ -147,11 +143,4 @@ chrome.webNavigation.onCommitted.addListener((details) => {
       }
     }
   )
-})
-
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.type === 'popupOpened') {
-    fetchUserData()
-    return true
-  }
 })

@@ -7,6 +7,7 @@ import freeLocations from 'utils/freeLocations'
 import { connect, disconnect } from 'utils/manageProxy'
 import { localeMessageKeys, FORTY_EIGHT_HOURS, mainUrl } from 'utils/constants'
 import { formatTimeRemaining } from 'utils/formatTime'
+import { fetchUserData } from 'utils/userData'
 import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
@@ -46,11 +47,15 @@ const Popup = () => {
   const [activeUrl] = useChromeStorage('activeUrl', mainUrl)
 
   useEffect(() => {
-    chrome.runtime.sendMessage({ type: 'popupOpened' })
 
     let intervalId
 
-    chrome.storage.local.get(['currentLocation', 'installDate'], (storage) => {
+    chrome.storage.local.get(
+      ['currentLocation', 'installDate', 'sessionAuthToken'],
+      (storage) => {
+        if (storage.sessionAuthToken) {
+          fetchUserData()
+        }
         if (!storage.currentLocation) {
           const firstLocation = Object.values(locations)[0]
           if (firstLocation) {
@@ -77,7 +82,8 @@ const Popup = () => {
           update()
           intervalId = setInterval(update, 1000)
         }
-    })
+      }
+    )
 
     return () => {
       if (intervalId) clearInterval(intervalId)
