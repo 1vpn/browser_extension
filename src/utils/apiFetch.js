@@ -1,11 +1,4 @@
-import {
-  mainUrl,
-  backupUrl1,
-  backupUrl2,
-  backupUrl3,
-} from 'utils/constants'
-
-const backupHosts = [backupUrl1, backupUrl2, backupUrl3]
+import { mainUrl, backupUrls } from 'utils/constants'
 
 function setPrimaryReachable() {
   chrome.storage.local.set({ primaryApiUnreachable: false })
@@ -41,7 +34,7 @@ const apiFetch = async (endpoint, options) => {
     }
   }
 
-  for (const host of backupHosts) {
+  for (const host of backupUrls) {
     const base = 'https://' + host
     try {
       const response = await fetch(

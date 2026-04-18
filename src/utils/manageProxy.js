@@ -1,15 +1,15 @@
 import setBadge from './setBadge'
-import { isFirefox, mainUrl } from './constants'
+import { isFirefox, mainUrl, backupUrls } from './constants'
 import freeLocations from './freeLocations'
+
+const whitelistDomains = ['localhost', '127.0.0.1', mainUrl, ...backupUrls]
 
 const handleProxyRequest = (details) => {
   return new Promise((resolve, reject) => {
     const url = new URL(details.url)
     const hostname = url.hostname
 
-    const whitelistDomains = ['localhost', '127.0.0.1', '1vpn.website']
-
-    if (whitelistDomains.includes(hostname)) {
+    if (whitelistDomains.some(domain => hostname === domain || hostname.endsWith(`.${domain}`))) {
       resolve({ type: 'direct' })
       return
     }
@@ -45,12 +45,15 @@ const getPacScript = (hosts) => {
     ''
   )
 
+  const whitelistChecks = whitelistDomains
+    .map(domain => `dnsDomainIs(host, "${domain}")`)
+    .join(' || ')
+
   return `
     function FindProxyForURL(url, host) {
-      if (dnsDomainIs(host, "1vpn.website")) {
+      if (${whitelistChecks}) {
         return "DIRECT";
       }
-      // For all other cases use the specified proxy settings
       return "${hostNamesString}";
     }
   `
