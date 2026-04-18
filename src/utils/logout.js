@@ -1,8 +1,13 @@
 import { disconnect } from 'utils/manageProxy'
 import freeLocations from 'utils/freeLocations'
+import { mainUrl } from 'utils/constants'
 
 const logout = () => {
   disconnect()
+
+  chrome.storage.local.get(['activeUrl'], (storage) => {
+    fetch(`https://${storage.activeUrl || mainUrl}/logout/`, { method: 'GET' })
+  })
 
   const keysToKeep = [
     'messages',

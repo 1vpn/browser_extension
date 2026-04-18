@@ -115,13 +115,14 @@ const OptionsPage = ({
               </Link>
             )}
             {!sessionAuthToken ? (
-              <Button
+              <Link
                 id="loginButton"
-                onClick={() => setCurrentPage('login')}
+                href={`https://${activeUrl}/login/`}
+                target="_blank"
                 variant="styles.outlineButton"
               >
                 {messages.login}
-              </Button>
+              </Link>
             ) : (
               <Button
                 id="logoutButton"

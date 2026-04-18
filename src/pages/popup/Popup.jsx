@@ -13,7 +13,6 @@ import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
 import UpgradePage from './UpgradePage'
 import AndroidPage from './AndroidPage'
-import LoginPage from './LoginPage'
 
 const Popup = () => {
   const { currentPage, setCurrentPage } = useContext(PageContext)
@@ -50,12 +49,11 @@ const Popup = () => {
 
     let intervalId
 
+    fetchUserData()
+
     chrome.storage.local.get(
-      ['currentLocation', 'installDate', 'sessionAuthToken'],
+      ['currentLocation', 'installDate'],
       (storage) => {
-        if (storage.sessionAuthToken) {
-          fetchUserData()
-        }
         if (!storage.currentLocation) {
           const firstLocation = Object.values(locations)[0]
           if (firstLocation) {
@@ -143,8 +141,6 @@ const Popup = () => {
         )
       case 'android':
         return <AndroidPage messages={messages} />
-      case 'login':
-        return <LoginPage activeUrl={activeUrl} messages={messages} />
       case 'main':
       default:
         return (

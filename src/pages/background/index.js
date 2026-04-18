@@ -1,4 +1,5 @@
 import { isFirefox, freeCredentials, mainUrl } from 'utils/constants'
+import { fetchUserData } from 'utils/userData'
 import setBadge from 'utils/setBadge'
 import apiFetch from 'utils/apiFetch'
 import { handleProxyRequest } from 'utils/manageProxy'
@@ -83,6 +84,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
   chrome.storage.local.get(['sessionAuthToken'], (storage) => {
     if (!storage.sessionAuthToken) return
     if (alarm.name === 'fetchUserData') {
+      fetchUserData()
       apiFetch('refresh_token', {
         method: 'POST',
         headers: {
