@@ -7,10 +7,20 @@ import logout from 'utils/logout'
 import spoofGeolocation from 'utils/spoofGeolocation'
 import freeLocations from 'utils/freeLocations'
 
-chrome.storage.local.get(['activeUrl'], (storage) => {
+const setUninstallURL = (host) => {
   chrome.runtime.setUninstallURL(
-    `https://${storage.activeUrl || mainUrl}/referral_redirect?from=uninstall&url=https://${storage.activeUrl || mainUrl}/select_plan/`
+    `https://${host}/referral_redirect?from=uninstall&url=https://${host}/select_plan/`
   )
+}
+
+chrome.storage.local.get(['activeUrl'], (storage) => {
+  setUninstallURL(storage.activeUrl || mainUrl)
+})
+
+chrome.storage.onChanged.addListener((changes) => {
+  if (changes.activeUrl) {
+    setUninstallURL(changes.activeUrl.newValue || mainUrl)
+  }
 })
 
 chrome.runtime.onInstalled.addListener((details) => {
