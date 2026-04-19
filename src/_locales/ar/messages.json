@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "تعطيل WebRTC"
   },
-  "disableAddressAutofill": {
-    "message": "تعطيل التعبئة التلقائية للعنوان"
-  },
   "spoofGeolocationSubTitle": {
     "message": "تزييف واجهة برمجة تطبيقات تحديد الموقع الجغرافي HTML5 لتطابق موقع VPN الخاص بك الحالي."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "تعطيل تعبئة العنوان التلقائية في النماذج لحماية موقعك."
   },
   "disableWebRtcSubTitle": {
     "message": "تعطيل WebRTC لمنع تسرب عنوان IP الحقيقي الخاص بك."

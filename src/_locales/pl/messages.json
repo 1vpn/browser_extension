@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "Wyłącz WebRTC"
   },
-  "disableAddressAutofill": {
-    "message": "Wyłącz Automatyczne Wypełnianie Adresów"
-  },
   "spoofGeolocationSubTitle": {
     "message": "Fałszuj API geolokalizacji HTML5, aby dopasować do swojej bieżącej lokalizacji VPN."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "Wyłącz automatyczne wypełnianie adresów w formularzach, aby chronić swoją lokalizację."
   },
   "disableWebRtcSubTitle": {
     "message": "Wyłącz WebRTC, aby zapobiec wyciekowi Twojego prawdziwego adresu IP."

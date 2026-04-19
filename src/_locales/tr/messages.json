@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "WebRTC'yi devre dışı bırak"
   },
-  "disableAddressAutofill": {
-    "message": "Oto Adres Doldurmayı Devre Dışı Bırak"
-  },
   "spoofGeolocationSubTitle": {
     "message": "Mevcut VPN konumunuzu eşleştirmek için HTML5 Coğrafi Konum API'sini sahteleyin."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "Konumunuzu korumak için formlarda otomatik adres doldurmayı devre dışı bırakın."
   },
   "disableWebRtcSubTitle": {
     "message": "Gerçek IP adresinizin sızmasını önlemek için WebRTC'yi devre dışı bırakın."

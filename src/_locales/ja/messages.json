@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "WebRTCを無効化"
   },
-  "disableAddressAutofill": {
-    "message": "住所の自動入力を無効化"
-  },
   "spoofGeolocationSubTitle": {
     "message": "HTML5ジオロケーションAPIを偽装して、現在のVPN位置に一致させます。"
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "フォーム内の住所の自動入力を無効にして、位置情報を保護します。"
   },
   "disableWebRtcSubTitle": {
     "message": "実際のIPアドレスの漏洩を防ぐためにWebRTCを無効にします。"

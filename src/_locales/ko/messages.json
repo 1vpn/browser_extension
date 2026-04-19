@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "WebRTC 비활성화"
   },
-  "disableAddressAutofill": {
-    "message": "주소 자동 완성 비활성화"
-  },
   "spoofGeolocationSubTitle": {
     "message": "현재 VPN 위치에 맞추기 위해 HTML5 지리적 위치 API를 스푸핑합니다."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "위치를 보호하기 위해 양식에서 자동 주소 채우기를 비활성화합니다."
   },
   "disableWebRtcSubTitle": {
     "message": "실제 IP 주소가 누출되지 않도록 WebRTC를 비활성화합니다."

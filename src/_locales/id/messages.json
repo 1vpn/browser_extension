@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "Nonaktifkan WebRTC"
   },
-  "disableAddressAutofill": {
-    "message": "Nonaktifkan Pengisian Alamat Otomatis"
-  },
   "spoofGeolocationSubTitle": {
     "message": "Palsukan API Geolokasi HTML5 untuk menyesuaikan lokasi VPN Anda saat ini."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "Nonaktifkan pengisian otomatis alamat di formulir untuk melindungi lokasi Anda."
   },
   "disableWebRtcSubTitle": {
     "message": "Nonaktifkan WebRTC untuk mencegah alamat IP asli Anda bocor."

@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "Вимкнути WebRTC"
   },
-  "disableAddressAutofill": {
-    "message": "Вимкнути автозаповнення адрес"
-  },
   "spoofGeolocationSubTitle": {
     "message": "Підробіть API геолокації HTML5, щоб відповідати вашому поточному розташуванню VPN."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "Вимкніть автоматичне заповнення адрес у формах, щоб захистити своє місцезнаходження."
   },
   "disableWebRtcSubTitle": {
     "message": "Вимкніть WebRTC, щоб запобігти витоку вашої реальної IP-адреси."

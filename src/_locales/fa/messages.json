@@ -89,14 +89,8 @@
   "spoofGeolocation": {
     "message": "جعل ژئولوکیشن"
   },
-  "disableAddressAutofill": {
-    "message": "غیرفعال‌سازی تکمیل خودکار آدرس"
-  },
   "spoofGeolocationSubTitle": {
     "message": "API مکان‌یابی HTML5 را برای مطابقت با مکان فعلی VPN خود جعلی کنید."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "پر کردن خودکار آدرس در فرم‌ها را برای محافظت از مکان خود غیرفعال کنید."
   },
   "disableWebRtcSubTitle": {
     "message": "WebRTC را غیرفعال کنید تا از نشت آدرس IP واقعی خود جلوگیری کنید."

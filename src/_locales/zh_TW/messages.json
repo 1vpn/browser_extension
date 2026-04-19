@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "停用WebRTC"
   },
-  "disableAddressAutofill": {
-    "message": "停用地址自動填入"
-  },
   "spoofGeolocationSubTitle": {
     "message": "偽造HTML5地理位置API以匹配您當前的VPN位置。"
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "禁用表單中的自動地址填充以保護您的位置。"
   },
   "disableWebRtcSubTitle": {
     "message": "禁用WebRTC以防止洩露您的真實IP地址。"

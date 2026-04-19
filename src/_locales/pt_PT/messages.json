@@ -89,14 +89,8 @@
   "disableWebRtc": {
     "message": "Desativar WebRTC"
   },
-  "disableAddressAutofill": {
-    "message": "Desativar Preenchimento Automático de Endereço"
-  },
   "spoofGeolocationSubTitle": {
     "message": "Falsifique a API de Geolocalização HTML5 para coincidir com sua localização atual de VPN."
-  },
-  "disableAddressAutofillSubTitle": {
-    "message": "Desative o preenchimento automático de endereços em formulários para proteger sua localização."
   },
   "disableWebRtcSubTitle": {
     "message": "Desative o WebRTC para evitar que seu endereço IP real vaze."
