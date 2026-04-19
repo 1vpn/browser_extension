@@ -18,6 +18,8 @@ const logout = () => {
     'installModalClickedTime',
     'userModalType',
     'activeUrl',
+    'spoofGeolocation',
+    'disableWebRtc',
   ]
 
   chrome.storage.local.get(null, (items) => {
