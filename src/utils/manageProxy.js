@@ -21,12 +21,12 @@ const handleProxyRequest = (details) => {
           const locations = storage.locations || freeLocations
           const location = locations[storage.currentLocation]
           if (location && location.hosts) {
-            const host = location.hosts[0]
-            resolve({
+            const randomizedHosts = [...location.hosts].sort(() => Math.random() - 0.5)
+            resolve(randomizedHosts.map((host) => ({
               type: 'https',
               host: host.hostname,
               port: host.port,
-            })
+            })))
           } else {
             resolve({ type: 'direct' })
           }
