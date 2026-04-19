@@ -2,7 +2,7 @@ import { Flex, Box } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
 import Check from 'assets/check.svg'
 import Star from 'assets/star.svg'
-import { SEVENTY_TWO_HOURS, TWO_MINUTES } from 'utils/constants'
+import { isFirefox, ONE_HOUR, SEVENTY_TWO_HOURS, TWO_MINUTES } from 'utils/constants'
 
 const Location = ({
   activeUrl,
@@ -51,7 +51,7 @@ const Location = ({
             const installTime = installDate
               ? new Date(installDate).getTime()
               : 0
-            if (installDate && now - installTime > SEVENTY_TWO_HOURS) {
+            if (installDate && now - installTime > (isFirefox ? ONE_HOUR : SEVENTY_TWO_HOURS)) {
               setIsReviewModalOpen(true)
               return
             }

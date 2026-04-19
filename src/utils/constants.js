@@ -15,6 +15,7 @@ export const freeCredentials = {
   password: 'ptkx3fqg6v7n',
 }
 
+export const ONE_HOUR = 60 * 60 * 1000
 export const TWELVE_HOURS = 12 * 60 * 60 * 1000
 export const TWO_MINUTES = 2 * 60 * 1000
 export const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000
