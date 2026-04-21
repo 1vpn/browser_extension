@@ -24,6 +24,10 @@ const freeLocations = {
       {
         "hostname": "free-amsterdam-https-3.cloudflaracdn.com",
         "port": 443
+      },
+      {
+        "hostname": "free-amsterdam-https-4.cloudflaracdn.com",
+        "port": 443
       }
     ],
     "latitude": 52.3891,
@@ -72,6 +76,10 @@ const freeLocations = {
       },
       {
         "hostname": "free-los-angeles-https-2.cloudtimecdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-los-angeles-https-4.cloudflaracdn.com",
         "port": 443
       }
     ],
