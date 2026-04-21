@@ -20,6 +20,10 @@ const freeLocations = {
       {
         "hostname": "netherlands-free-https-2.cloudquickcdn.com",
         "port": 443
+      },
+      {
+        "hostname": "free-amsterdam-https-3.cloudflaracdn.com",
+        "port": 443
       }
     ],
     "latitude": 52.3891,
@@ -55,11 +59,11 @@ const freeLocations = {
     "countryCode": "usw",
     "hosts": [
       {
-        "hostname": "usa-west-free-https-1.weathercloudapp.com",
+        "hostname": "free-los-angeles-https-3.cloudflaracdn.com",
         "port": 443
       },
       {
-        "hostname": "usa-west-free-https-2.cloudquickcdn.com",
+        "hostname": "usa-west-free-https-1.weathercloudapp.com",
         "port": 443
       },
       {
