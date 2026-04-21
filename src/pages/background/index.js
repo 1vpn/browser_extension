@@ -1,4 +1,4 @@
-import { isFirefox, freeCredentials, mainUrl } from 'utils/constants'
+import { isFirefox, freeCredentials, mainUrl, proxyAuthUrl } from 'utils/constants'
 import { fetchUserData } from 'utils/userData'
 import setBadge from 'utils/setBadge'
 import apiFetch from 'utils/apiFetch'
@@ -37,11 +37,9 @@ chrome.runtime.onInstalled.addListener((details) => {
 
 chrome.runtime.onStartup.addListener(() => {
   setBadge()
-  chrome.storage.local.get(['isConnected', 'activeUrl'], (storage) => {
+  chrome.storage.local.get(['isConnected'], (storage) => {
     if (storage.isConnected) {
-      fetch(
-        `https://${storage.activeUrl || mainUrl}/proxy_auth/`
-      )
+      fetch(`https://${proxyAuthUrl}/proxy_auth/`)
     }
   })
 })

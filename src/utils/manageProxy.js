@@ -1,5 +1,5 @@
 import setBadge from './setBadge'
-import { isFirefox, mainUrl, backupUrls } from './constants'
+import { isFirefox, mainUrl, backupUrls, proxyAuthUrl } from './constants'
 import freeLocations from './freeLocations'
 
 const whitelistDomains = ['localhost', '127.0.0.1', mainUrl, ...backupUrls]
@@ -101,10 +101,7 @@ const connect = async () => {
             scope: 'regular',
           })
           .then(() => {
-            chrome.storage.local.get(['activeUrl'], (storage) => {
-              const host = storage.activeUrl || mainUrl
-              fetch(`https://${host}/proxy_auth/`)
-            })
+            fetch(`https://${proxyAuthUrl}/proxy_auth/`)
           })
       }
 
