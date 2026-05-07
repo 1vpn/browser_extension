@@ -28,7 +28,7 @@ Firefox Download: https://addons.mozilla.org/en-US/firefox/addon/1vpn
 4. Click **Load Temporary Add-on**.
 5. Select any file inside the unzipped folder.
 
-## Development Commands
+## Local Build
 
 Build extension:
 
