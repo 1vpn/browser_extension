@@ -48,10 +48,6 @@ const freeLocations = {
         "port": 443
       },
       {
-        "hostname": "singapore-free-https-1.weathercloudapp.com",
-        "port": 443
-      },
-      {
         "hostname": "free-singapore-https-1.cloudburstcdn.com",
         "port": 443
       }
