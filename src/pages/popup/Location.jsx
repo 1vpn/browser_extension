@@ -51,7 +51,7 @@ const Location = ({
             const installTime = installDate
               ? new Date(installDate).getTime()
               : 0
-            if (installDate && now - installTime > (isFirefox ? ONE_HOUR : SEVENTY_TWO_HOURS)) {
+            if (installDate && now - installTime > ONE_HOUR) {
               setIsReviewModalOpen(true)
               return
             }
