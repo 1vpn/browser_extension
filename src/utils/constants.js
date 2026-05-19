@@ -18,6 +18,7 @@ export const freeCredentials = {
 
 export const ONE_HOUR = 60 * 60 * 1000
 export const TWELVE_HOURS = 12 * 60 * 60 * 1000
+export const TWENTY_FOUR_HOURS = 24* 60 * 60 * 1000
 export const TWO_MINUTES = 2 * 60 * 1000
 export const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000
 export const FIVE_DAYS = 5 * 24 * 60 * 60 * 1000
@@ -133,6 +134,8 @@ export const localeMessageKeys = [
   'fullRefundIfNotSatisfied',
   'chooseYourPlan',
   'unlockAllFeaturesWithPremium',
+  'rateYourExperience',
+  'rateUsMessage',
   'au',
   'br',
   'ca',

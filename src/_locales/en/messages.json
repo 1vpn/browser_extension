@@ -466,5 +466,11 @@
   },
   "loginNetworkError": {
     "message": "Network error"
+  },
+  "rateYourExperience": {
+    "message": "Rate your Experience"
+  },
+  "rateUsMessage": {
+    "message": "If you're enjoying 1VPN, please take a moment to rate us."
   }
 }

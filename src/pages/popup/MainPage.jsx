@@ -7,6 +7,7 @@ import MenuIcon from 'assets/menu.svg'
 import Star from 'assets/star.svg'
 import ChevronRight from 'assets/chevronRight.svg'
 import PageHeader from './PageHeader'
+import RatingModal from './RatingModal'
 
 const MainPage = ({
   activeUrl,
@@ -19,6 +20,7 @@ const MainPage = ({
   isSpecialOfferActive,
   timeRemaining,
   primaryApiUnreachable,
+  installDate,
 }) => {
   const { setCurrentPage } = useContext(PageContext)
 
@@ -30,6 +32,7 @@ const MainPage = ({
         overflow: 'hidden',
       }}
     >
+      <RatingModal installDate={installDate} messages={messages} />
       <PageHeader
         left={
           <Link
