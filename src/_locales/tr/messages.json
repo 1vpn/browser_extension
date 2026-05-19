@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "Tüm özellikleri Premium ile aç"
   },
+  "rateYourExperience": {
+    "message": "Deneyiminizi değerlendirin"
+  },
+  "rateUsMessage": {
+    "message": "1VPN'den memnunsanız, lütfen bizi değerlendirmek için bir dakikanızı ayırın."
+  },
   "au": {
     "message": "Avustralya"
   },

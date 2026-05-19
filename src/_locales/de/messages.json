@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "Alle Funktionen mit Premium freischalten"
   },
+  "rateYourExperience": {
+    "message": "Bewerten Sie Ihre Erfahrung"
+  },
+  "rateUsMessage": {
+    "message": "Wenn Ihnen 1VPN gefällt, nehmen Sie sich bitte einen Moment Zeit, um uns zu bewerten."
+  },
   "au": {
     "message": "Australien"
   },

@@ -269,6 +269,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "Розблокуйте всі функції з Premium"
   },
+  "rateYourExperience": {
+    "message": "Оцініть свій досвід"
+  },
+  "rateUsMessage": {
+    "message": "Якщо вам подобається 1VPN, будь ласка, приділіть хвилину, щоб оцінити нас."
+  },
   "au": {
     "message": "Австралія"
   },

@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "使用進階版解鎖全部功能"
   },
+  "rateYourExperience": {
+    "message": "評價您的體驗"
+  },
+  "rateUsMessage": {
+    "message": "如果您喜歡使用 1VPN，請花一點時間為我們評分。"
+  },
   "au": {
     "message": "澳洲"
   },

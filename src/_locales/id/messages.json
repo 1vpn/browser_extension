@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "Buka semua fitur dengan Premium"
   },
+  "rateYourExperience": {
+    "message": "Nilai pengalaman Anda"
+  },
+  "rateUsMessage": {
+    "message": "Jika Anda menikmati 1VPN, mohon luangkan waktu sejenak untuk menilai kami."
+  },
   "au": {
     "message": "Australia"
   },

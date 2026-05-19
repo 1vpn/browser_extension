@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "افتح جميع الميزات مع بريميوم"
   },
+  "rateYourExperience": {
+    "message": "قيّم تجربتك"
+  },
+  "rateUsMessage": {
+    "message": "إذا كنت تستمتع بـ 1VPN، يرجى تخصيص لحظة لتقييمنا."
+  },
   "au": {
     "message": "أستراليا"
   },

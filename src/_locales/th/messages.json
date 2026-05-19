@@ -269,6 +269,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "ปลดล็อกทุกฟีเจอร์ด้วยพรีเมียม"
   },
+  "rateYourExperience": {
+    "message": "ให้คะแนนประสบการณ์ของคุณ"
+  },
+  "rateUsMessage": {
+    "message": "หากคุณชอบใช้ 1VPN กรุณาสละเวลาสักครู่เพื่อให้คะแนนเรา"
+  },
   "au": {
     "message": "ออสเตรเลีย"
   },

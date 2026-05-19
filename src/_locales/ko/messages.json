@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "프리미엄으로 모든 기능 잠금 해제"
   },
+  "rateYourExperience": {
+    "message": "경험을 평가해 주세요"
+  },
+  "rateUsMessage": {
+    "message": "1VPN을 즐겨 사용하고 계신다면, 잠시 시간을 내어 평가해 주세요."
+  },
   "au": {
     "message": "호주"
   },

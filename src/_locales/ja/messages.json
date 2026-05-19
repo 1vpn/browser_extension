@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "プレミアムですべての機能を解除"
   },
+  "rateYourExperience": {
+    "message": "体験を評価してください"
+  },
+  "rateUsMessage": {
+    "message": "1VPNをお楽しみいただいているなら、ぜひ少しお時間をとって評価してください。"
+  },
   "au": {
     "message": "オーストラリア"
   },

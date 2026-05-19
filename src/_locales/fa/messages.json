@@ -269,6 +269,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "باز کردن همه قابلیت‌ها با پرمیوم"
   },
+  "rateYourExperience": {
+    "message": "تجربه خود را ارزیابی کنید"
+  },
+  "rateUsMessage": {
+    "message": "اگر از 1VPN لذت می‌برید، لطفاً یک لحظه وقت بگذارید و به ما امتیاز دهید."
+  },
   "au": {
     "message": "استرالیا"
   },

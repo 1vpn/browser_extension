@@ -275,6 +275,12 @@
   "unlockAllFeaturesWithPremium": {
     "message": "Mở khóa mọi tính năng với Premium"
   },
+  "rateYourExperience": {
+    "message": "Đánh giá trải nghiệm của bạn"
+  },
+  "rateUsMessage": {
+    "message": "Nếu bạn đang thích 1VPN, vui lòng dành một chút thời gian để đánh giá chúng tôi."
+  },
   "au": {
     "message": "Úc"
   },
