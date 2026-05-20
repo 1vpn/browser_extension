@@ -472,5 +472,11 @@
   },
   "rateUsMessage": {
     "message": "If you're enjoying 1VPN, please take a moment to rate us."
+  },
+  "blockedServersModalTitle": {
+    "message": "Some servers may be blocked due to government restrictions. We are working on resolving this issue. Thank you for your understanding."
+  },
+  "blockedServersModalButton": {
+    "message": "Continue"
   }
 }

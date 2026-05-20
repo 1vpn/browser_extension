@@ -472,5 +472,11 @@
   },
   "twoFaToken": {
     "message": "2FA 令牌"
+  },
+  "blockedServersModalTitle": {
+    "message": "由于政府限制，部分服务器在中国可能无法访问。我们正在努力解决此问题。感谢您的理解。"
+  },
+  "blockedServersModalButton": {
+    "message": "继续"
   }
 }

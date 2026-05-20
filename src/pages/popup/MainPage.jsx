@@ -8,6 +8,7 @@ import Star from 'assets/star.svg'
 import ChevronRight from 'assets/chevronRight.svg'
 import PageHeader from './PageHeader'
 import RatingModal from './RatingModal'
+import BlockedServersWarningModal from './BlockedServersWarningModal'
 
 const MainPage = ({
   activeUrl,
@@ -33,6 +34,7 @@ const MainPage = ({
       }}
     >
       <RatingModal installDate={installDate} messages={messages} />
+      {!isPremium && <BlockedServersWarningModal isConnected={isConnected} messages={messages} />}
       <PageHeader
         left={
           <Link

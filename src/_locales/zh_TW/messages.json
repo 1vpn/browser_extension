@@ -472,5 +472,11 @@
   },
   "twoFaToken": {
     "message": "2FA 驗證碼"
+  },
+  "blockedServersModalTitle": {
+    "message": "由於政府限制，部分伺服器在中國可能無法存取。我們正在努力解決此問題。感謝您的理解。"
+  },
+  "blockedServersModalButton": {
+    "message": "繼續"
   }
 }

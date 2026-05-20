@@ -20,6 +20,8 @@ const logout = () => {
     'activeUrl',
     'spoofGeolocation',
     'disableWebRtc',
+    'rated',
+    'shownBlockedServersWarningModal',
   ]
 
   chrome.storage.local.get(null, (items) => {

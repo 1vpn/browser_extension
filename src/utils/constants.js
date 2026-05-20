@@ -136,6 +136,8 @@ export const localeMessageKeys = [
   'unlockAllFeaturesWithPremium',
   'rateYourExperience',
   'rateUsMessage',
+  'blockedServersModalTitle',
+  'blockedServersModalButton',
   'au',
   'br',
   'ca',
