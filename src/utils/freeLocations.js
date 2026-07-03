@@ -6,19 +6,11 @@ const freeLocations = {
     "countryCode": "nl",
     "hosts": [
       {
+        "hostname": "free-amsterdam-https-5.cloudflingcdn.com",
+        "port": 443
+      },
+      {
         "hostname": "free-amsterdam-https-1.cloudburstcdn.com",
-        "port": 443
-      },
-      {
-        "hostname": "free-amsterdam-https-2.cloudtimecdn.com",
-        "port": 443
-      },
-      {
-        "hostname": "netherlands-free-https-1.weathercloudapp.com",
-        "port": 443
-      },
-      {
-        "hostname": "netherlands-free-https-2.cloudquickcdn.com",
         "port": 443
       },
       {
@@ -27,6 +19,10 @@ const freeLocations = {
       },
       {
         "hostname": "free-amsterdam-https-4.cloudflaracdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-amsterdam-https-2.cloudflingcdn.com",
         "port": 443
       }
     ],
@@ -53,8 +49,7 @@ const freeLocations = {
       }
     ],
     "latitude": 1.314,
-    "longitude": 103.6831,
-    "ratingLocked": true
+    "longitude": 103.6831
   },
   "lax": {
     "city": "Los Angeles",
@@ -80,6 +75,10 @@ const freeLocations = {
       },
       {
         "hostname": "free-los-angeles-https-4.cloudflaracdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-los-angeles-https-5.cloudflingcdn.com",
         "port": 443
       }
     ],
