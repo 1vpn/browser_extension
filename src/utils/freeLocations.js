@@ -14,6 +14,10 @@ const freeLocations = {
         "port": 443
       },
       {
+        "hostname": "free-amsterdam-https-6.cloudflingcdn.com",
+        "port": 443
+      },
+      {
         "hostname": "free-amsterdam-https-3.cloudflaracdn.com",
         "port": 443
       },
@@ -46,6 +50,10 @@ const freeLocations = {
       {
         "hostname": "free-singapore-https-1.cloudburstcdn.com",
         "port": 443
+      },
+      {
+        "hostname": "free-singapore-https-4.cloudflingcdn.com",
+        "port": 443
       }
     ],
     "latitude": 1.314,
@@ -62,10 +70,6 @@ const freeLocations = {
         "port": 443
       },
       {
-        "hostname": "usa-west-free-https-1.weathercloudapp.com",
-        "port": 443
-      },
-      {
         "hostname": "free-los-angeles-https-1.cloudburstcdn.com",
         "port": 443
       },
@@ -79,6 +83,14 @@ const freeLocations = {
       },
       {
         "hostname": "free-los-angeles-https-5.cloudflingcdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-los-angeles-https-6.cloudflingcdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "usa-west-free-https-1.weathercloudapp.com",
         "port": 443
       }
     ],
@@ -134,16 +146,16 @@ const freeLocations = {
     "countryCode": "de",
     "isPremium": true
   },
-  "del": {
-    "city": "Delhi",
-    "cityCode": "del",
+  "bom": {
+    "city": "Mumbai",
+    "cityCode": "bom",
     "country": "India",
     "countryCode": "in",
     "isPremium": true
   },
-  "bom": {
-    "city": "Mumbai",
-    "cityCode": "bom",
+  "del": {
+    "city": "Delhi",
+    "cityCode": "del",
     "country": "India",
     "countryCode": "in",
     "isPremium": true
@@ -218,16 +230,16 @@ const freeLocations = {
     "countryCode": "se",
     "isPremium": true
   },
-  "man": {
-    "city": "Manchester",
-    "cityCode": "man",
+  "lhr": {
+    "city": "London",
+    "cityCode": "lhr",
     "country": "United Kingdom",
     "countryCode": "uk",
     "isPremium": true
   },
-  "lhr": {
-    "city": "London",
-    "cityCode": "lhr",
+  "man": {
+    "city": "Manchester",
+    "cityCode": "man",
     "country": "United Kingdom",
     "countryCode": "uk",
     "isPremium": true
@@ -239,9 +251,9 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
-  "dfw": {
-    "city": "Dallas",
-    "cityCode": "dfw",
+  "sjc": {
+    "city": "San Francisco",
+    "cityCode": "sjc",
     "country": "United States",
     "countryCode": "us",
     "isPremium": true
@@ -253,9 +265,9 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
-  "sjc": {
-    "city": "San Francisco",
-    "cityCode": "sjc",
+  "dfw": {
+    "city": "Dallas",
+    "cityCode": "dfw",
     "country": "United States",
     "countryCode": "us",
     "isPremium": true
